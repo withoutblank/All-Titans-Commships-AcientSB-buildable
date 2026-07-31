@@ -2237,7 +2237,7 @@
         }
     ],
     "passive_income": {},
-    "target_filter_unit_type": "titan",
+    "target_filter_unit_type": "cruiser",
     "tags": [
         "vasari_loyalist_titan",
         "titan"

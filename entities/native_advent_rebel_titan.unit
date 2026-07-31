@@ -2918,7 +2918,7 @@
             ]
         }
     ],
-    "target_filter_unit_type": "titan",
+    "target_filter_unit_type": "cruiser",
     "tags": [
         "advent_rebel_titan",
         "titan"
