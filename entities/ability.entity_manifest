@@ -11,9 +11,6 @@
         "titanpool_vl_vasari_beam_boost",
         "titanpool_vl_vasari_phase_missile_boost",
         "titanpool_vr_vasari_beam_boost",
-        "titanpool_vr_vasari_phase_missile_boost",
-        "trader_deploy_ancient_starbase",
-        "advent_deploy_ancient_starbase",
-        "vasari_deploy_ancient_starbase"
+        "titanpool_vr_vasari_phase_missile_boost"
     ]
 }

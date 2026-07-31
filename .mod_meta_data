@@ -1,9 +1,9 @@
 {
     "compatibility_version": 2,
-    "display_version": "18.1.0",
+    "display_version": "18.1.1",
     "display_name": "UNLOCK ALL Titans & Command Ships & Ancient Starbase",
-    "short_description": "All Titans and Command Ships remain player-buildable. Tier-4 Ancient Starbases deploy from capital-class ships, and AI receives managed foreign Titan reinforcements.",
-    "long_description": "Human players retain manual construction of all six Titans and Command Ships. AI players use the native planner for their own Titan, build every Command Ship class through supported ship-factory planning, and receive staged Lua-managed foreign Titan reinforcements with tracked loss replacement. After the Tier-4 unlock, Ancient Starbases deploy from a consumable component fitted to a Capital Ship, Command Ship, or Titan while normal Starbase construction remains available.",
+    "short_description": "All Titans and Command Ships remain player-buildable. Ancient Starbases are available in the planet-defense build list, and AI receives managed foreign Titan reinforcements.",
+    "long_description": "Human players retain manual construction of all six Titans and Command Ships. Each AI faction uses the native planner for its own canonical Titan and receives staged Lua-managed foreign Titan reinforcements with tracked loss replacement. Ancient Starbases are constructed directly from the planet-defense build list while normal Starbase construction remains available.",
     "logos": {
         "small_logo": "mod_small_logo.png",
         "large_logo": "mod_large_logo.png"

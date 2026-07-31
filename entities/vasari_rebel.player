@@ -394,12 +394,12 @@
         }
     ],
     "buildable_units": [
-        "native_vasari_rebel_titan",
-        "trader_loyalist_titan",
-        "trader_rebel_titan",
-        "advent_loyalist_titan",
-        "advent_rebel_titan",
-        "vasari_loyalist_titan",
+        "vasari_rebel_titan",
+        "native_trader_loyalist_titan",
+        "native_trader_rebel_titan",
+        "native_advent_loyalist_titan",
+        "native_advent_rebel_titan",
+        "native_vasari_loyalist_titan",
         "native_dlc2_vasari_rebel_super_capital_ship",
         "dlc2_trader_loyalist_super_capital_ship",
         "dlc2_trader_rebel_super_capital_ship",
@@ -426,7 +426,7 @@
         "vasari_antifighter_frigate"
     ],
     "faction_buildable_units": [
-        "native_vasari_rebel_titan",
+        "vasari_rebel_titan",
         "native_dlc2_vasari_rebel_super_capital_ship",
         "dlc2_trader_loyalist_super_capital_ship",
         "dlc2_trader_rebel_super_capital_ship",
@@ -480,11 +480,11 @@
         "vasari_repair_platform_structure",
         "vasari_missile_defense_structure",
         "vasari_phase_jump_inhibitor_structure",
-        "vasari_starbase"
+        "vasari_starbase",
+        "vasari_ancient_starbase"
     ],
     "ability_created_units": [
-        "vasari_siege_platform_frigate",
-        "vasari_ancient_starbase"
+        "vasari_siege_platform_frigate"
     ],
     "unit_limits": {
         "global": [
@@ -1101,7 +1101,6 @@
         "vasari_starbase_hyperspace_engines",
         "vasari_starbase_debris_vortex",
         "vasari_deploy_starbase",
-        "vasari_deploy_ancient_starbase",
         "vasari_starbase_unlock_extra_wave_weapons",
         "vasari_starbase_upgrade_wave_weapons",
         "vasari_starbase_unlock_extra_phase_missile_weapons",

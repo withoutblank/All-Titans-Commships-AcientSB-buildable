@@ -9706,7 +9706,5 @@
     "unit_tag_name.vasari_loyalist_command_ship": "瓦萨里忠诚派指挥舰",
     "unit_tag_name.vasari_rebel_command_ship": "瓦萨里反叛派指挥舰",
     "unlock_ancient_starbase_research_subject_name": "远古星际基地解锁",
-    "unlock_ancient_starbase_research_subject_name_uppercase": "远古星际基地解锁",
-    "deploy_ancient_starbase_unit_item_name": "部署远古星际基地",
-    "deploy_ancient_starbase_unit_item_description": "在目标位置部署一座自行建造的远古星际基地。使用后消耗该组件。"
+    "unlock_ancient_starbase_research_subject_name_uppercase": "远古星际基地解锁"
 }

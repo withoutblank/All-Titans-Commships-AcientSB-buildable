@@ -103,9 +103,6 @@
         "commandpool_al_dlc2_advent_faction_victory",
         "commandpool_ar_dlc2_advent_faction_victory",
         "commandpool_vl_dlc2_vasari_faction_victory",
-        "commandpool_vr_dlc2_vasari_faction_victory",
-        "trader_deploy_ancient_starbase",
-        "advent_deploy_ancient_starbase",
-        "vasari_deploy_ancient_starbase"
+        "commandpool_vr_dlc2_vasari_faction_victory"
     ]
 }

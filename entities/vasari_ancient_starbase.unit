@@ -2079,7 +2079,7 @@
         ],
         "requires_ship_component_shop_to_purchase_items": false
     },
-    "target_filter_unit_type": "starbase",
+    "target_filter_unit_type": "structure",
     "tags": [
         "dlc_ancient_starbase"
     ],

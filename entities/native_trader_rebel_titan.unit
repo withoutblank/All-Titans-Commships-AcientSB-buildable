@@ -2515,7 +2515,7 @@
                 "count": 3
             }
         ],
-        "build_kind": "titan",
+        "build_kind": "trader_rebel_titan",
         "supply_cost": 150,
         "build_group_id": "titan"
     },

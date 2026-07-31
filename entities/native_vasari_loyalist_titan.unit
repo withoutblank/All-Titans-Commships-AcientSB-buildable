@@ -2096,7 +2096,7 @@
                 "count": 3
             }
         ],
-        "build_kind": "titan",
+        "build_kind": "vasari_loyalist_titan",
         "supply_cost": 150,
         "build_group_id": "titan"
     },

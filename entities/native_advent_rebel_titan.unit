@@ -2785,7 +2785,7 @@
             }
         ],
         "prerequisites": [],
-        "build_kind": "titan",
+        "build_kind": "advent_rebel_titan",
         "supply_cost": 150,
         "build_group_id": "titan"
     },

@@ -1,5 +1,9 @@
 -- AI Foreign Titan Reinforcement Event
 --
+-- This file intentionally overrides the game's otherwise inert test_event
+-- script slot. The event manager enumerates built-in script basenames only,
+-- so a new standalone filename would never be loaded from a mod.
+--
 -- AI players receive one foreign Titan at 20 minutes, a second at 40
 -- minutes, and all six faction Titans by 60 minutes. The native Titan is
 -- left to the normal AI planner until the final stage; at that point this
@@ -890,8 +894,8 @@ local function spawn_definition_candidates(plan_id, titan_type)
         and NATIVE_TITAN_BY_FACTION[plan_id] == titan_type
     then
         return {
-            "native_" .. titan_type,
             titan_type,
+            "native_" .. titan_type,
         }
     end
 

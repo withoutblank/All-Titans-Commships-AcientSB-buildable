@@ -433,12 +433,12 @@
         }
     ],
     "buildable_units": [
-        "native_advent_loyalist_titan",
-        "trader_loyalist_titan",
-        "trader_rebel_titan",
-        "advent_rebel_titan",
-        "vasari_loyalist_titan",
-        "vasari_rebel_titan",
+        "advent_loyalist_titan",
+        "native_trader_loyalist_titan",
+        "native_trader_rebel_titan",
+        "native_advent_rebel_titan",
+        "native_vasari_loyalist_titan",
+        "native_vasari_rebel_titan",
         "native_dlc2_advent_loyalist_super_capital_ship",
         "dlc2_trader_loyalist_super_capital_ship",
         "dlc2_trader_rebel_super_capital_ship",
@@ -464,7 +464,7 @@
         "advent_planet_psionic_capital_ship"
     ],
     "faction_buildable_units": [
-        "native_advent_loyalist_titan",
+        "advent_loyalist_titan",
         "native_dlc2_advent_loyalist_super_capital_ship",
         "dlc2_trader_loyalist_super_capital_ship",
         "dlc2_trader_rebel_super_capital_ship",
@@ -512,7 +512,8 @@
         "advent_phase_jump_inhibitor_structure",
         "advent_hangar_defense_structure",
         "advent_starbase",
-        "advent_deliverance_engine_structure"
+        "advent_deliverance_engine_structure",
+        "advent_ancient_starbase"
     ],
     "allowed_traffic_ports": [
         "advent_crystal_extractor_structure",
@@ -523,8 +524,7 @@
         "vasari_population_structure"
     ],
     "ability_created_units": [
-        "advent_starbase",
-        "advent_ancient_starbase"
+        "advent_starbase"
     ],
     "unit_limits": {
         "global": [
@@ -1135,7 +1135,6 @@
         "advent_shield_boost",
         "advent_structural_forcefields",
         "advent_deploy_starbase",
-        "advent_deploy_ancient_starbase",
         "advent_loyalist_titan_hull_plating",
         "advent_loyalist_titan_shield_booster",
         "advent_starbase_hangar_0",

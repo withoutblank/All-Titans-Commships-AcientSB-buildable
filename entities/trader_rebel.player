@@ -415,12 +415,12 @@
         }
     ],
     "buildable_units": [
-        "native_trader_rebel_titan",
-        "trader_loyalist_titan",
-        "advent_loyalist_titan",
-        "advent_rebel_titan",
-        "vasari_loyalist_titan",
-        "vasari_rebel_titan",
+        "trader_rebel_titan",
+        "native_trader_loyalist_titan",
+        "native_advent_loyalist_titan",
+        "native_advent_rebel_titan",
+        "native_vasari_loyalist_titan",
+        "native_vasari_rebel_titan",
         "native_dlc2_trader_rebel_super_capital_ship",
         "dlc2_trader_loyalist_super_capital_ship",
         "dlc2_advent_loyalist_super_capital_ship",
@@ -447,7 +447,7 @@
         "trader_siege_capital_ship"
     ],
     "faction_buildable_units": [
-        "native_trader_rebel_titan",
+        "trader_rebel_titan",
         "native_dlc2_trader_rebel_super_capital_ship",
         "dlc2_trader_loyalist_super_capital_ship",
         "dlc2_advent_loyalist_super_capital_ship",
@@ -495,7 +495,8 @@
         "trader_phase_jump_inhibitor_structure",
         "trader_hangar_defense_structure",
         "trader_starbase",
-        "trader_orbital_cannon_structure"
+        "trader_orbital_cannon_structure",
+        "trader_ancient_starbase"
     ],
     "allowed_traffic_ports": [
         "advent_population_structure",
@@ -508,8 +509,7 @@
     "faction_structures": [],
     "ability_created_units": [
         "trader_missile_battery_frigate",
-        "trader_starbase",
-        "trader_ancient_starbase"
+        "trader_starbase"
     ],
     "unit_limits": {
         "global": [
@@ -1193,7 +1193,6 @@
         "trader_starbase_flak_field",
         "trader_starbase_stun_torpedo",
         "trader_deploy_starbase",
-        "trader_deploy_ancient_starbase",
         "trader_volatile_accelerants",
         "trader_war_reporter",
         "dlc_ancient_starbase_antimatter_pulse_wave",
