@@ -1,0 +1,15 @@
+{
+    "unit_built_notification_build_kinds": [
+        "capital_ship",
+        "starbase",
+        "titan",
+        "structure",
+        "super_capital_ship",
+        "trader_loyalist_titan",
+        "trader_rebel_titan",
+        "advent_loyalist_titan",
+        "advent_rebel_titan",
+        "vasari_loyalist_titan",
+        "vasari_rebel_titan"
+    ]
+}
