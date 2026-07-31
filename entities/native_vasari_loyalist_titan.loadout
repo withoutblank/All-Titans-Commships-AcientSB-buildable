@@ -1,0 +1,75 @@
+{
+    "loadouts": [
+        {
+            "name": "area_damage",
+            "ability_picking_order": [1, 0, 2, 1, 1, 3, 2, 2, 0, 0],
+            "required_items": [
+                {
+                    "slot_index": 0,
+                    "candidates": [
+                        { "item": "vasari_loyalist_titan_hull_plating_0", "priority": 10 }
+                    ]
+                },
+                {
+                    "slot_index": 1,
+                    "candidates": [
+                        { "item": "vasari_loyalist_titan_hull_plating_1", "priority": 2 },
+                        { "item": "titanpool_vl_vasari_self_repairing_armor", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 2,
+                    "candidates": [
+                        { "item": "resilient_metaloids_ship_artifact", "priority": 4 },
+                        { "item": "vasari_loyalist_titan_hull_plating_2", "priority": 3 },
+                        { "item": "titanpool_vl_vasari_phase_shield", "priority": 2 },
+                        { "item": "titanpool_vl_vasari_inertial_anchor", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 3,
+                    "candidates": [
+                        { "item": "weapon_symbiote_ship_artifact", "priority": 3 },
+                        { "item": "titanpool_vl_vasari_phase_missile_boost", "priority": 2 },
+                        { "item": "titanpool_vl_vasari_wave_boost", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 4,
+                    "candidates": [
+                        { "item": "vasari_loyalist_titan_improve_the_maw", "priority": 2 },
+                        { "item": "vasari_loyalist_titan_improve_micro_phase_jump", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 5,
+                    "candidates": [
+                        { "item": "titanpool_vl_vasari_mobile_ruler_ship", "priority": 2 },
+                        { "item": "vasari_loyalist_titan_mobile_research_complex", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 6,
+                    "candidates": [
+                        { "item": "vasari_loyalist_titan_unlock_phase_cannon_weapon", "priority": 2 },
+                        { "item": "vasari_loyalist_titan_unlock_wave_weapon", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 7,
+                    "candidates": [
+                        { "item": "mass_negation_core_ship_artifact", "priority": 3 },
+                        { "item": "titanpool_vl_vasari_engine_boost", "priority": 2 },
+                        { "item": "titanpool_vl_vasari_phase_resonance_amplifier", "priority": 1 }
+                    ]
+                }
+            ]
+        }
+    ],
+    "required_loadouts": [
+        { "loadout": "area_damage", "priority": 1, "target_count_in_empire": 1 }
+    ],
+    "weighted_random_loadouts": [
+        { "loadout": "area_damage", "weight": 1.0 }
+    ]
+}

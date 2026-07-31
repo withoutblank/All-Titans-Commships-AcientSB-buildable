@@ -1,0 +1,52 @@
+{
+    "version": 0,
+    "action_data_source": "advent_deploy_starbase",
+    "level_source": "unit_item",
+    "active_actions": {
+        "actions": {
+            "actions": [
+                {
+                    "action_type": "use_position_operators_on_single_position",
+                    "position": {
+                        "position_type": "target_position"
+                    },
+                    "position_operators": [
+                        {
+                            "operator_type": "create_unit",
+                            "unit_to_create": "advent_ancient_starbase",
+                            "unit_forward": {
+                                "direction_type": "unit_forward",
+                                "unit": {
+                                    "unit_type": "current_spawner"
+                                }
+                            },
+                            "is_self_building": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "targeting_type": "position_targeted",
+        "range": "range_value",
+        "spawned_unit": {
+            "unit": "advent_ancient_starbase"
+        },
+        "move_alignment": {
+            "type": "yaw",
+            "angle": 0.0,
+            "allow_opposite_angle": false
+        },
+        "firing_angle": 10.0
+    },
+    "gui": {
+        "hud_icon": "unlock_ancient_starbase_research_subject_hud_icon",
+        "name": "deploy_ancient_starbase_unit_item_name",
+        "description": "deploy_ancient_starbase_unit_item_description",
+        "targeting": {
+            "targeting_type": "range_and_radius",
+            "values": {
+                "range": "range_value"
+            }
+        }
+    }
+}

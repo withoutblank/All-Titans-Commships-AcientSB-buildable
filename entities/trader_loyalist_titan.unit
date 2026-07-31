@@ -3390,7 +3390,7 @@
         },
         {
             "build_group": [
-                "trader_loyalist_titan_shield_array"
+                "trader_loyalist_titan_planetary_shield_array"
             ],
             "weight": 3.0
         },

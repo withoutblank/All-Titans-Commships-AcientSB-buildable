@@ -420,12 +420,7 @@
         "vasari_carrier_capital_ship",
         "vasari_marauder_capital_ship",
         "vasari_siege_capital_ship",
-        "vasari_antifighter_frigate",
-        "ai_capital_proxy_dlc2_trader_loyalist_super_capital_ship",
-        "ai_capital_proxy_dlc2_trader_rebel_super_capital_ship",
-        "ai_capital_proxy_dlc2_advent_loyalist_super_capital_ship",
-        "ai_capital_proxy_dlc2_advent_rebel_super_capital_ship",
-        "ai_capital_proxy_dlc2_vasari_rebel_super_capital_ship"
+        "vasari_antifighter_frigate"
     ],
     "faction_buildable_units": [
         "native_vasari_loyalist_titan",
@@ -434,12 +429,7 @@
         "dlc2_trader_rebel_super_capital_ship",
         "dlc2_advent_loyalist_super_capital_ship",
         "dlc2_advent_rebel_super_capital_ship",
-        "dlc2_vasari_rebel_super_capital_ship",
-        "ai_capital_proxy_dlc2_trader_loyalist_super_capital_ship",
-        "ai_capital_proxy_dlc2_trader_rebel_super_capital_ship",
-        "ai_capital_proxy_dlc2_advent_loyalist_super_capital_ship",
-        "ai_capital_proxy_dlc2_advent_rebel_super_capital_ship",
-        "ai_capital_proxy_dlc2_vasari_rebel_super_capital_ship"
+        "dlc2_vasari_rebel_super_capital_ship"
     ],
     "buildable_strikecraft": [
         "vasari_interceptor_strikecraft",
@@ -479,8 +469,7 @@
         "vasari_repair_platform_structure",
         "vasari_missile_defense_structure",
         "vasari_phase_jump_inhibitor_structure",
-        "vasari_starbase",
-        "vasari_ancient_starbase"
+        "vasari_starbase"
     ],
     "allowed_traffic_ports": [
         "advent_population_structure",
@@ -491,7 +480,8 @@
         "vasari_population_structure"
     ],
     "ability_created_units": [
-        "vasari_siege_platform_frigate"
+        "vasari_siege_platform_frigate",
+        "vasari_ancient_starbase"
     ],
     "unit_limits": {
         "global": [
@@ -556,6 +546,10 @@
             {
                 "tag": "starbase",
                 "unit_limit": 6
+            },
+            {
+                "tag": "dlc_ancient_starbase",
+                "unit_limit": 1
             }
         ],
         "planet": [
@@ -1117,6 +1111,7 @@
         "vasari_starbase_hyperspace_engines",
         "vasari_starbase_debris_vortex",
         "vasari_deploy_starbase",
+        "vasari_deploy_ancient_starbase",
         "vasari_starbase_unlock_extra_wave_weapons",
         "vasari_starbase_upgrade_wave_weapons",
         "vasari_starbase_unlock_extra_phase_missile_weapons",
@@ -5608,7 +5603,7 @@
         "victory_countdown_in_seconds": 900,
         "objective_unit_item": "commandpool_vl_dlc2_vasari_faction_victory",
         "hyperspace_on_victory": true,
-        "objective_item_buildable_unit": "dlc2_vasari_loyalist_super_capital_ship",
+        "objective_item_buildable_unit": "native_dlc2_vasari_loyalist_super_capital_ship",
         "gui_definition": {
             "item_prefix": "tooltip.vasari_factional_victory_lead",
             "optional_tooltip_line": "tooltip.vasari_optional_tooltip_line",

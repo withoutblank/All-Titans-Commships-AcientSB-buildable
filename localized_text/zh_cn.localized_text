@@ -8919,7 +8919,7 @@
     "vasari_mobile_military_research_lab_unit_item_name": "舰载战争实验室",
     "vasari_mobile_resonance_collector_unit_item_description": "永久收集相位共振能量，并将其存储在此模块中",
     "vasari_mobile_resonance_collector_unit_item_name": "舰载相位共振器",
-    "vasari_mobile_ruler_ship_unit_item_description": "",
+    "vasari_mobile_ruler_ship_unit_item_description": "只要任意装备“移动王庭”的舰船仍然存活，即使失去所有行星，你的帝国也不会覆灭。",
     "vasari_mobile_ruler_ship_unit_item_name": "移动王庭",
     "vasari_mobile_speed_research_lab_unit_item_description": "瓦萨里流亡舰队上的数据中继站和支援实验室提高了所有研究工作的速度",
     "vasari_mobile_speed_research_lab_unit_item_name": "舰载辅助实验室",
@@ -9706,5 +9706,7 @@
     "unit_tag_name.vasari_loyalist_command_ship": "瓦萨里忠诚派指挥舰",
     "unit_tag_name.vasari_rebel_command_ship": "瓦萨里反叛派指挥舰",
     "unlock_ancient_starbase_research_subject_name": "远古星际基地解锁",
-    "unlock_ancient_starbase_research_subject_name_uppercase": "远古星际基地解锁"
+    "unlock_ancient_starbase_research_subject_name_uppercase": "远古星际基地解锁",
+    "deploy_ancient_starbase_unit_item_name": "部署远古星际基地",
+    "deploy_ancient_starbase_unit_item_description": "在目标位置部署一座自行建造的远古星际基地。使用后消耗该组件。"
 }

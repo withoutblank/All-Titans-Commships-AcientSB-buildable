@@ -1,0 +1,73 @@
+{
+    "loadouts": [
+        {
+            "name": "sniper",
+            "ability_picking_order": [0, 2, 0, 2, 0, 3, 2, 1, 1, 1],
+            "required_items": [
+                {
+                    "slot_index": 0,
+                    "candidates": [
+                        { "item": "trader_rebel_titan_hull_plating_0", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 1,
+                    "candidates": [
+                        { "item": "resilient_metaloids_ship_artifact", "priority": 4 },
+                        { "item": "trader_rebel_titan_hull_plating_1", "priority": 3 },
+                        { "item": "titanpool_tr_trader_beam_armor", "priority": 2 },
+                        { "item": "titanpool_tr_trader_missile_armor", "priority": 2 },
+                        { "item": "titanpool_tr_trader_heavy_armor", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 2,
+                    "candidates": [
+                        { "item": "titanpool_tr_trader_rapid_autoloader", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 3,
+                    "candidates": [
+                        { "item": "titanpool_tr_trader_heavy_gauss_slugs", "priority": 2 },
+                        { "item": "titanpool_tr_trader_radiation_bomb", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 4,
+                    "candidates": [
+                        { "item": "weapon_symbiote_ship_artifact", "priority": 5 },
+                        { "item": "exoforce_matrix_ship_artifact", "priority": 5 },
+                        { "item": "aluxian_admiral_scion", "priority": 4 },
+                        { "item": "aluxian_military_observers", "priority": 3 },
+                        { "item": "titanpool_tr_trader_targeting_array", "priority": 2 },
+                        { "item": "titanpool_tr_trader_war_reporter", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 5,
+                    "candidates": [
+                        { "item": "trader_rebel_titan_unlock_missile_weapon", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 6,
+                    "candidates": [
+                        { "item": "titanpool_tr_trader_missile_guidance_computer", "priority": 1 },
+                        { "item": "titanpool_tr_trader_antimatter_engine", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 7,
+                    "candidates": [
+                        { "item": "trader_rebel_titan_unlock_rail_gun_weapon", "priority": 2 },
+                        { "item": "trader_rebel_titan_hangar", "priority": 1 }
+                    ]
+                }
+            ]
+        }
+    ],
+    "weighted_random_loadouts": [
+        { "loadout": "sniper", "weight": 1.0 }
+    ]
+}

@@ -439,12 +439,7 @@
         "trader_colony_capital_ship",
         "trader_support_capital_ship",
         "trader_carrier_capital_ship",
-        "trader_siege_capital_ship",
-        "ai_capital_proxy_dlc2_trader_rebel_super_capital_ship",
-        "ai_capital_proxy_dlc2_advent_loyalist_super_capital_ship",
-        "ai_capital_proxy_dlc2_advent_rebel_super_capital_ship",
-        "ai_capital_proxy_dlc2_vasari_loyalist_super_capital_ship",
-        "ai_capital_proxy_dlc2_vasari_rebel_super_capital_ship"
+        "trader_siege_capital_ship"
     ],
     "faction_buildable_units": [
         "native_trader_loyalist_titan",
@@ -453,12 +448,7 @@
         "dlc2_advent_loyalist_super_capital_ship",
         "dlc2_advent_rebel_super_capital_ship",
         "dlc2_vasari_loyalist_super_capital_ship",
-        "dlc2_vasari_rebel_super_capital_ship",
-        "ai_capital_proxy_dlc2_trader_rebel_super_capital_ship",
-        "ai_capital_proxy_dlc2_advent_loyalist_super_capital_ship",
-        "ai_capital_proxy_dlc2_advent_rebel_super_capital_ship",
-        "ai_capital_proxy_dlc2_vasari_loyalist_super_capital_ship",
-        "ai_capital_proxy_dlc2_vasari_rebel_super_capital_ship"
+        "dlc2_vasari_rebel_super_capital_ship"
     ],
     "buildable_strikecraft": [
         "trader_interceptor_strikecraft",
@@ -500,8 +490,7 @@
         "trader_phase_jump_inhibitor_structure",
         "trader_hangar_defense_structure",
         "trader_starbase",
-        "trader_orbital_cannon_structure",
-        "trader_ancient_starbase"
+        "trader_orbital_cannon_structure"
     ],
     "allowed_traffic_ports": [
         "advent_population_structure",
@@ -513,7 +502,8 @@
     ],
     "ability_created_units": [
         "trader_missile_battery_frigate",
-        "trader_starbase"
+        "trader_starbase",
+        "trader_ancient_starbase"
     ],
     "unit_limits": {
         "global": [
@@ -578,6 +568,10 @@
             {
                 "tag": "starbase",
                 "unit_limit": 8
+            },
+            {
+                "tag": "dlc_ancient_starbase",
+                "unit_limit": 1
             }
         ],
         "planet": [
@@ -1194,6 +1188,7 @@
         "trader_loyalist_titan_unlock_beam_weapon",
         "trader_loyalist_titan_unlock_missile_weapon",
         "trader_deploy_starbase",
+        "trader_deploy_ancient_starbase",
         "trader_volatile_accelerants",
         "trader_war_reporter",
         "dlc_ancient_starbase_antimatter_pulse_wave",

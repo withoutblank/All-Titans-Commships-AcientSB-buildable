@@ -1,0 +1,76 @@
+{
+    "loadouts": [
+        {
+            "name": "disruptor",
+            "ability_picking_order": [0, 2, 0, 2, 0, 3, 2, 1, 1, 1],
+            "required_items": [
+                {
+                    "slot_index": 0,
+                    "candidates": [
+                        { "item": "vasari_rebel_titan_hull_plating_0", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 1,
+                    "candidates": [
+                        { "item": "resilient_metaloids_ship_artifact", "priority": 3 },
+                        { "item": "vasari_rebel_titan_hull_plating_1", "priority": 2 },
+                        { "item": "titanpool_vr_vasari_self_repairing_armor", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 2,
+                    "candidates": [
+                        { "item": "vasari_rebel_titan_improve_nano_emitters", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 3,
+                    "candidates": [
+                        { "item": "weapon_symbiote_ship_artifact", "priority": 4 },
+                        { "item": "vasari_rebel_titan_improve_gravity_pulse", "priority": 3 },
+                        { "item": "titanpool_vr_vasari_phase_missile_boost", "priority": 2 },
+                        { "item": "vasari_rebel_titan_hangar", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 4,
+                    "candidates": [
+                        { "item": "exoforce_matrix_ship_artifact", "priority": 3 },
+                        { "item": "power_core_relic_ship_artifact", "priority": 3 },
+                        { "item": "titanpool_vr_vasari_antimatter_recharger", "priority": 2 },
+                        { "item": "titanpool_vr_vasari_nano_antimatter_restore", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 5,
+                    "candidates": [
+                        { "item": "mass_negation_core_ship_artifact", "priority": 3 },
+                        { "item": "titanpool_vr_vasari_engine_boost", "priority": 2 },
+                        { "item": "titanpool_vr_vasari_phase_resonance_amplifier", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 6,
+                    "candidates": [
+                        { "item": "vasari_rebel_titan_unlock_extra_phase_missile_weapons", "priority": 2 },
+                        { "item": "titanpool_vr_vasari_beam_boost", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 7,
+                    "candidates": [
+                        { "item": "vasari_rebel_titan_unlock_phase_cannon_weapon", "priority": 2 },
+                        { "item": "titanpool_vr_vasari_wave_boost", "priority": 1 }
+                    ]
+                }
+            ]
+        }
+    ],
+    "required_loadouts": [
+        { "loadout": "disruptor", "priority": 1, "target_count_in_empire": 1 }
+    ],
+    "weighted_random_loadouts": [
+        { "loadout": "disruptor", "weight": 1.0 }
+    ]
+}

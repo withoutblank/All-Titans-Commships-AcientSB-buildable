@@ -467,12 +467,7 @@
         "advent_colony_capital_ship",
         "advent_carrier_capital_ship",
         "advent_battle_psionic_capital_ship",
-        "advent_planet_psionic_capital_ship",
-        "ai_capital_proxy_dlc2_trader_loyalist_super_capital_ship",
-        "ai_capital_proxy_dlc2_trader_rebel_super_capital_ship",
-        "ai_capital_proxy_dlc2_advent_loyalist_super_capital_ship",
-        "ai_capital_proxy_dlc2_vasari_loyalist_super_capital_ship",
-        "ai_capital_proxy_dlc2_vasari_rebel_super_capital_ship"
+        "advent_planet_psionic_capital_ship"
     ],
     "faction_buildable_units": [
         "native_advent_rebel_titan",
@@ -481,12 +476,7 @@
         "dlc2_trader_rebel_super_capital_ship",
         "dlc2_advent_loyalist_super_capital_ship",
         "dlc2_vasari_loyalist_super_capital_ship",
-        "dlc2_vasari_rebel_super_capital_ship",
-        "ai_capital_proxy_dlc2_trader_loyalist_super_capital_ship",
-        "ai_capital_proxy_dlc2_trader_rebel_super_capital_ship",
-        "ai_capital_proxy_dlc2_advent_loyalist_super_capital_ship",
-        "ai_capital_proxy_dlc2_vasari_loyalist_super_capital_ship",
-        "ai_capital_proxy_dlc2_vasari_rebel_super_capital_ship"
+        "dlc2_vasari_rebel_super_capital_ship"
     ],
     "buildable_strikecraft": [
         "advent_interceptor_strikecraft",
@@ -528,8 +518,7 @@
         "advent_phase_jump_inhibitor_structure",
         "advent_hangar_defense_structure",
         "advent_starbase",
-        "advent_deliverance_engine_structure",
-        "advent_ancient_starbase"
+        "advent_deliverance_engine_structure"
     ],
     "allowed_traffic_ports": [
         "advent_crystal_extractor_structure",
@@ -540,7 +529,8 @@
         "vasari_population_structure"
     ],
     "ability_created_units": [
-        "advent_starbase"
+        "advent_starbase",
+        "advent_ancient_starbase"
     ],
     "unit_limits": {
         "global": [
@@ -605,6 +595,10 @@
             {
                 "tag": "starbase",
                 "unit_limit": 6
+            },
+            {
+                "tag": "dlc_ancient_starbase",
+                "unit_limit": 1
             }
         ],
         "planet": [
@@ -1149,6 +1143,7 @@
         "advent_structural_forcefields",
         "advent_essence_reservoir",
         "advent_deploy_starbase",
+        "advent_deploy_ancient_starbase",
         "advent_rebel_titan_hull_plating",
         "advent_rebel_titan_shield_booster",
         "advent_rebel_titan_unlock_missile_weapon",
@@ -6377,7 +6372,7 @@
         "objectives_required": 3,
         "victory_countdown_in_seconds": 900,
         "objective_unit_item": "commandpool_ar_dlc2_advent_faction_victory",
-        "objective_item_buildable_unit": "dlc2_advent_rebel_super_capital_ship",
+        "objective_item_buildable_unit": "native_dlc2_advent_rebel_super_capital_ship",
         "gui_definition": {
             "item_prefix": "tooltip.advent_factional_victory_lead",
             "optional_tooltip_line": "tooltip.advent_optional_tooltip_line",
