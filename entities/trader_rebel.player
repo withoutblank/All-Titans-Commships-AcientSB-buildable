@@ -509,7 +509,8 @@
     "faction_structures": [],
     "ability_created_units": [
         "trader_missile_battery_frigate",
-        "trader_starbase"
+        "trader_starbase",
+        "trader_ancient_starbase"
     ],
     "unit_limits": {
         "global": [
@@ -1193,6 +1194,7 @@
         "trader_starbase_flak_field",
         "trader_starbase_stun_torpedo",
         "trader_deploy_starbase",
+        "trader_deploy_ancient_starbase",
         "trader_volatile_accelerants",
         "trader_war_reporter",
         "dlc_ancient_starbase_antimatter_pulse_wave",

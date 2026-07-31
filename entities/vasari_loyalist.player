@@ -481,7 +481,8 @@
         "vasari_population_structure"
     ],
     "ability_created_units": [
-        "vasari_siege_platform_frigate"
+        "vasari_siege_platform_frigate",
+        "vasari_ancient_starbase"
     ],
     "unit_limits": {
         "global": [
@@ -1111,6 +1112,7 @@
         "vasari_starbase_hyperspace_engines",
         "vasari_starbase_debris_vortex",
         "vasari_deploy_starbase",
+        "vasari_deploy_ancient_starbase",
         "vasari_starbase_unlock_extra_wave_weapons",
         "vasari_starbase_upgrade_wave_weapons",
         "vasari_starbase_unlock_extra_phase_missile_weapons",

@@ -524,7 +524,8 @@
         "vasari_population_structure"
     ],
     "ability_created_units": [
-        "advent_starbase"
+        "advent_starbase",
+        "advent_ancient_starbase"
     ],
     "unit_limits": {
         "global": [
@@ -1135,6 +1136,7 @@
         "advent_shield_boost",
         "advent_structural_forcefields",
         "advent_deploy_starbase",
+        "advent_deploy_ancient_starbase",
         "advent_loyalist_titan_hull_plating",
         "advent_loyalist_titan_shield_booster",
         "advent_starbase_hangar_0",
