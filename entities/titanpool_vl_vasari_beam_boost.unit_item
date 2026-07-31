@@ -1,0 +1,54 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_beam_boost_unit_item_hud_icon",
+    "tooltip_picture": "vasari_beam_boost_unit_item_tooltip_picture",
+    "name": "vasari_beam_boost_unit_item_name",
+    "description": "vasari_beam_boost_unit_item_description",
+    "item_level_count": 1,
+    "build_time": 30.0,
+    "price": {
+        "metal": 275.0,
+        "crystal": 375.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "vasari_loyalist_titan",
+        "vasari_loyalist_command_ship"
+    ],
+    "owner_constraint": {
+        "constraint_type": "has_weapon",
+        "weapon_tag": "beam"
+    },
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "ability": "titanpool_vl_vasari_beam_boost",
+    "weapon_modifiers": [
+        {
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "values": [
+                0.24
+            ],
+            "tags": [
+                "beam"
+            ]
+        },
+        {
+            "weapon_type": "planet_bombing",
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "values": [
+                0.24
+            ],
+            "tags": [
+                "beam"
+            ]
+        }
+    ]
+}

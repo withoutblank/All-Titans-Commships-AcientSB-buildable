@@ -1,0 +1,32 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "trader_missile_guidance_computer_unit_item_hud_icon",
+    "tooltip_icon": "trader_missile_guidance_computer_unit_item_hud_icon",
+    "tooltip_picture": "trader_missile_guidance_computer_unit_item_tooltip_picture",
+    "name": "trader_missile_guidance_computer_unit_item_name",
+    "description": "trader_missile_guidance_computer_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 750.0,
+        "metal": 0.0,
+        "crystal": 250.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "capital_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_prerequisites": [
+        [
+            "trader_unlock_missile_guidance_computer_unit_item"
+        ]
+    ],
+    "build_group_id": "offense",
+    "ability": "trader_missile_guidance_computer_unit_item"
+}

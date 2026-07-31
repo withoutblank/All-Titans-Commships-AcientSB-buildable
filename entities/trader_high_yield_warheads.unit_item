@@ -1,0 +1,42 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "trader_high_yield_warheads_unit_item_hud_icon",
+    "tooltip_icon": "trader_high_yield_warheads_unit_item_hud_icon",
+    "tooltip_picture": "trader_high_yield_warheads_unit_item_tooltip_picture",
+    "name": "trader_high_yield_warheads_unit_item_name",
+    "description": "trader_high_yield_warheads_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 500.0,
+        "metal": 50.0,
+        "crystal": 150.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "capital_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_prerequisites": [
+        [
+            "trader_unlock_high_yield_warheads_unit_item"
+        ]
+    ],
+    "build_group_id": "offense",
+    "weapon_modifiers": [
+        {
+            "weapon_type": "planet_bombing",
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "values": [
+                0.5
+            ]
+        }
+    ],
+    "ability": "trader_high_yield_warheads_unit_item"
+}

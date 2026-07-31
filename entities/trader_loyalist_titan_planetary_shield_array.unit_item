@@ -1,0 +1,31 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "trader_loyalist_titan_planetary_shield_array_unit_item_hud_icon",
+    "tooltip_icon": "trader_loyalist_titan_planetary_shield_array_unit_item_hud_icon",
+    "name": "trader_loyalist_titan_planetary_shield_array_unit_item_name",
+    "description": "trader_loyalist_titan_planetary_shield_array_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 1600.0,
+        "metal": 480.0,
+        "crystal": 320.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "defense",
+            "count": 1
+        },
+        {
+            "exotic_type": "ultimate",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "trader_loyalist_titan"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "defense",
+    "ability": "trader_loyalist_titan_planetary_shield_array",
+    "will_make_planet_invulnerable": true
+}

@@ -1,0 +1,34 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "rebel_beam_turrets_hud_icon",
+    "tooltip_picture": "rebel_beam_turrets_tooltip_picture",
+    "name": "dlc2_trader_rebel_super_capital_ship_turret_beam_unit_item_name",
+    "description": "dlc2_trader_rebel_super_capital_ship_turret_beam_unit_item_description",
+    "build_time": 60.0,
+    "price": {
+        "credits": 750.0,
+        "metal": 125.0,
+        "crystal": 75.0
+    },
+    "required_unit_tags": [
+        "trader_rebel_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "other_item_requirements": {
+        "mutually_exclusive_items": [
+            "dlc2_trader_rebel_super_capital_ship_turret_gauss",
+            "dlc2_trader_rebel_super_capital_ship_turret_missile"
+        ]
+    },
+    "build_group_id": "offense",
+    "weapon_modifiers": [
+        {
+            "modifier_type": "tracking_speed",
+            "value_behavior": "scalar",
+            "values": [
+                0.5
+            ]
+        }
+    ]
+}

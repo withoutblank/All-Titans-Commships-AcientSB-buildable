@@ -1,0 +1,26 @@
+{
+    "version": 0,
+    "domain": "military",
+    "tier": 3,
+    "field": "military_remnants",
+    "field_coord": [
+        6,
+        10
+    ],
+    "research_time": 360.0,
+    "price": {
+        "metal": 600.0,
+        "crystal": 660.0,
+        "credits": 0.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "ultimate",
+            "count": 1
+        }
+    ],
+    "name": "vasari_unlock_loyalist_titan_research_subject_name",
+    "name_uppercase": "vasari_unlock_loyalist_titan_research_subject_name_uppercase",
+    "hud_icon": "vasari_loyalist_titan_hud_icon",
+    "tooltip_picture": "vasari_loyalist_titan_tooltip_picture"
+}

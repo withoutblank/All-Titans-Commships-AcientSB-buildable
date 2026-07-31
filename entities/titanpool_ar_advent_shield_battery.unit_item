@@ -1,0 +1,33 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "advent_shield_battery_unit_item_hud_icon",
+    "tooltip_picture": "advent_shield_battery_unit_item_tooltip_picture",
+    "name": "advent_shield_battery_unit_item_name",
+    "description": "advent_shield_battery_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 250.0,
+        "metal": 50.0,
+        "crystal": 75.0
+    },
+    "required_unit_tags": [
+        "advent_rebel_titan",
+        "advent_rebel_command_ship"
+    ],
+    "consumable_stack_count": [
+        2
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "consumable",
+    "unit_modifiers": [
+        {
+            "modifier_type": "shield_point_restore_rate",
+            "value_behavior": "scalar",
+            "values": [
+                0.2
+            ]
+        }
+    ],
+    "ability": "advent_shield_battery_unit_item"
+}

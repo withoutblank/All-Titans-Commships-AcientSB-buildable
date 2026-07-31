@@ -1,0 +1,34 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_rebel_titan_improve_gravity_pulse_unit_item_hud_icon",
+    "tooltip_picture": "vasari_rebel_titan_improve_gravity_pulse_unit_item_tooltip_picture",
+    "name": "vasari_rebel_titan_improve_gravity_pulse_unit_item_name",
+    "description": "vasari_rebel_titan_improve_gravity_pulse_unit_item_description",
+    "build_time": 120.0,
+    "price": {
+        "metal": 520,
+        "crystal": 380
+    },
+    "required_unit_tags": [
+        "vasari_rebel_titan"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "unit_mutations": [
+        "improved_gravity_pulse"
+    ],
+    "owner_unit_ability_tooltips": [
+        {
+            "ability": "vasari_rebel_titan_gravity_pulse",
+            "tooltip_lines": [
+                {
+                    "rendering_type": "single_value",
+                    "label_text": "tooltip.ability.radius",
+                    "value_id": "gravity_pulse_improved_radius_value",
+                    "value_float_format": "no_decimal_place"
+                }
+            ]
+        }
+    ]
+}

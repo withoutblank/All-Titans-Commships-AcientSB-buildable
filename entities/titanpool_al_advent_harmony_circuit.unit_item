@@ -1,0 +1,36 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "advent_harmony_circuit_unit_item_hud_icon",
+    "tooltip_picture": "advent_harmony_circuit_unit_item_tooltip_picture",
+    "name": "advent_harmony_circuit_unit_item_name",
+    "description": "advent_harmony_circuit_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 600.0,
+        "metal": 125.0,
+        "crystal": 200.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "advent_loyalist_titan",
+        "advent_loyalist_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "unit_modifiers": [
+        {
+            "modifier_type": "spell_power",
+            "value_behavior": "additive",
+            "values": [
+                50.0
+            ]
+        }
+    ],
+    "ability": "advent_harmony_circuit_unit_item"
+}

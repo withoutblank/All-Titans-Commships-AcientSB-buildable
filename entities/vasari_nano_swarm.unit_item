@@ -1,0 +1,22 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_nano_swarm_unit_item_hud_icon",
+    "tooltip_picture": "vasari_nano_swarm_unit_item_tooltip_picture",
+    "name": "vasari_nano_swarm_unit_item_name",
+    "description": "vasari_nano_swarm_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "metal": 120.0,
+        "crystal": 180.0
+    },
+    "required_unit_tags": [
+        "capital_ship"
+    ],
+    "consumable_stack_count": [
+        3
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "consumable",
+    "ability": "vasari_nano_swarm_unit_item"
+}

@@ -1,0 +1,28 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "trader_volatile_accelerants_unit_item_hud_icon",
+    "tooltip_icon": "trader_volatile_accelerants_unit_item_hud_icon",
+    "tooltip_picture": "trader_volatile_accelerants_unit_item_tooltip_picture",
+    "name": "trader_volatile_accelerants_unit_item_name",
+    "description": "trader_volatile_accelerants_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 550.0,
+        "metal": 150.0,
+        "crystal": 125.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "trader_loyalist_titan",
+        "trader_loyalist_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "ability": "trader_volatile_accelerants_unit_item"
+}

@@ -1,0 +1,2055 @@
+{
+    "version": 0,
+    "spatial": {
+        "radius": 913.112305,
+        "box": {
+            "center": [
+                0.0,
+                8e-06,
+                3.1e-05
+            ],
+            "extents": [
+                394.124542,
+                192.930969,
+                900.904419
+            ]
+        },
+        "collision_rank": 2,
+        "missile_aim_zones": [
+            {
+                "center": [
+                    0.0,
+                    50.0,
+                    -700.0
+                ],
+                "radius": 225.0
+            },
+            {
+                "center": [
+                    0.0,
+                    0.0,
+                    -250.0
+                ],
+                "radius": 275.0
+            },
+            {
+                "center": [
+                    0.0,
+                    -25.0,
+                    200.0
+                ],
+                "radius": 200.0
+            },
+            {
+                "center": [
+                    0.0,
+                    -50.0,
+                    550.0
+                ],
+                "radius": 125.0
+            }
+        ]
+    },
+    "physics": {
+        "can_move_linear": true,
+        "max_linear_speed": 725.0,
+        "time_to_max_linear_speed": 7.25,
+        "arrival_tolerance_spatial_radius_scalar": 0.25,
+        "death_linear_speed_range": [
+            0.75,
+            1.25
+        ],
+        "can_move_angular": true,
+        "max_angular_speed": 16.5,
+        "time_to_max_angular_speed": 15.0,
+        "max_bank_angle": 15.0,
+        "death_angular_speed_range": [
+            2.0,
+            4.0
+        ],
+        "linear_acceleration_angle": 75.0,
+        "can_strafe_linear": true,
+        "strafe_max_linear_speed": 262.5,
+        "time_to_strafe_max_linear_speed": 15.0,
+        "strafe_max_linear_distance_spatial_radius_scalar": 3.0,
+        "strafe_start_angle": 0.0,
+        "strafe_stop_angle": 180.0,
+        "strafe_speed_start_angle": 10.0,
+        "strafe_max_start_turning_angle": 170.0
+    },
+    "hyperspace": {
+        "speed": 215000.0,
+        "speed_between_stars": 752500.0,
+        "charge_time": 8.0,
+        "charge_time_variance": 1.0,
+        "min_charge_angle": 10.0,
+        "max_charge_angle": 45.0
+    },
+    "move": {
+        "follow_distance": 2070.231445
+    },
+    "attack": {
+        "attack_pattern": {
+            "type": "stop_and_fire",
+            "rotate_only_on_plane": true
+        }
+    },
+    "ai": {
+        "attack_target_type_groups": [
+            "heavy_capital",
+            "defense"
+        ],
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft_corvette"
+        ],
+        "attack_target_type_groups_matching_weapon": "dlc2_trader_rebel_super_capital_ship_gauss",
+        "auto_follow_target_priority": 5.0,
+        "pursuit": {
+            "min_distance_to_target": 5000.0
+        },
+        "attack_target_type_range_scalar": 1.5
+    },
+    "ai_attack_target": {
+        "attack_priority": 50.0,
+        "is_always_a_threat": true,
+        "attack_target_type": "supercapital"
+    },
+    "user_interface": {
+        "pip_type": "super_capital_ship",
+        "can_ever_be_selected": true,
+        "selection_priority": 450,
+        "selection_group_unit_type": "combat_ship",
+        "can_move": true,
+        "can_rotate": true,
+        "can_attack": true,
+        "can_show_max_weapon_range_in_tactical_view": true,
+        "can_show_distance_to_plane_line": true,
+        "bar_size": "large"
+    },
+    "weapons": {
+        "weapons": [
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_beam",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_turret_beam",
+                "mesh_point": "child.advbeam_mount_0",
+                "weapon_position": [
+                    -0.258955,
+                    160.21521,
+                    -107.71991
+                ],
+                "forward": [
+                    -0.013623,
+                    -0.0,
+                    0.999907
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_beam",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_turret_beam",
+                "mesh_point": "child.advbeam_mount_1",
+                "weapon_position": [
+                    0.386302,
+                    91.765388,
+                    169.75235
+                ],
+                "forward": [
+                    -0.013623,
+                    -0.0,
+                    0.999907
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -100.0,
+                    "max_angle": 100.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_beam",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_turret_beam",
+                "mesh_point": "child.advbeam_mount_2",
+                "weapon_position": [
+                    -0.258955,
+                    -122.26638,
+                    172.640259
+                ],
+                "forward": [
+                    -0.013606,
+                    0.050824,
+                    0.998615
+                ],
+                "up": [
+                    -0.000692,
+                    -0.998708,
+                    0.050819
+                ],
+                "yaw_arc": {
+                    "min_angle": -145.0,
+                    "max_angle": 145.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_beam",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_turret_beam",
+                "mesh_point": "child.advbeam_mount_3",
+                "weapon_position": [
+                    -0.258955,
+                    -189.846741,
+                    -59.605953
+                ],
+                "forward": [
+                    -0.013623,
+                    -0.005062,
+                    0.999894
+                ],
+                "up": [
+                    6.9e-05,
+                    -0.999987,
+                    -0.005061
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_gauss",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_turret_gauss",
+                "mesh_point": "child.gaussturret_mount.0",
+                "weapon_position": [
+                    -0.301559,
+                    99.660339,
+                    171.733215
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -125.0,
+                    "max_angle": 125.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_gauss",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_turret_gauss",
+                "mesh_point": "child.gaussturret_mount.1",
+                "weapon_position": [
+                    -0.301559,
+                    166.55658,
+                    -104.498299
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_gauss",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_turret_gauss",
+                "mesh_point": "child.gaussturret_mount.2",
+                "weapon_position": [
+                    0.17872,
+                    -127.243469,
+                    175.220749
+                ],
+                "forward": [
+                    -0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -145.0,
+                    "max_angle": 145.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_gauss",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_turret_gauss",
+                "mesh_point": "child.gaussturret_mount.3",
+                "weapon_position": [
+                    0.271897,
+                    -195.965134,
+                    -57.851707
+                ],
+                "forward": [
+                    -0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_missile_turret",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_turret_missile",
+                "mesh_point": "child.misturret_mount.0",
+                "weapon_position": [
+                    0.148377,
+                    111.641319,
+                    169.924866
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -125.0,
+                    "max_angle": 125.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_missile_turret",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_turret_missile",
+                "mesh_point": "child.misturret_mount.1",
+                "weapon_position": [
+                    0.148377,
+                    178.457291,
+                    -105.195335
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_missile_turret",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_turret_missile",
+                "mesh_point": "child.misturret_mount.2",
+                "weapon_position": [
+                    0.148377,
+                    -139.315918,
+                    175.074646
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -145.0,
+                    "max_angle": 145.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_missile_turret",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_turret_missile",
+                "mesh_point": "child.misturret_mount.3",
+                "weapon_position": [
+                    0.148377,
+                    -207.487045,
+                    -58.025429
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_medium_autocannon",
+                "mesh_point": "child.medturret_mount_0",
+                "weapon_position": [
+                    -208.39859,
+                    104.637825,
+                    -477.987579
+                ],
+                "forward": [
+                    0.000115,
+                    -0.019042,
+                    0.999819
+                ],
+                "up": [
+                    -0.00396,
+                    0.999811,
+                    0.019042
+                ],
+                "yaw_arc": {
+                    "min_angle": -190.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_medium_autocannon",
+                "mesh_point": "child.medturret_mount_1",
+                "weapon_position": [
+                    206.910721,
+                    104.637825,
+                    -477.987579
+                ],
+                "forward": [
+                    0.000115,
+                    -0.019042,
+                    0.999819
+                ],
+                "up": [
+                    -0.00396,
+                    0.999811,
+                    0.019042
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 190.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_medium_autocannon",
+                "mesh_point": "child.medturret_mount_2",
+                "weapon_position": [
+                    110.741364,
+                    4.773156,
+                    377.848083
+                ],
+                "forward": [
+                    0.000646,
+                    -0.153317,
+                    0.988177
+                ],
+                "up": [
+                    -0.003909,
+                    0.988169,
+                    0.153318
+                ],
+                "yaw_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_medium_autocannon",
+                "mesh_point": "child.medturret_mount_3",
+                "weapon_position": [
+                    -112.148926,
+                    4.771908,
+                    377.848083
+                ],
+                "forward": [
+                    -0.001189,
+                    -0.153313,
+                    0.988177
+                ],
+                "up": [
+                    0.007919,
+                    0.988145,
+                    0.153318
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_medium_autocannon",
+                "mesh_point": "child.medturret_mount_4",
+                "weapon_position": [
+                    -206.678345,
+                    -126.045227,
+                    -313.015381
+                ],
+                "forward": [
+                    3.6e-05,
+                    0.019042,
+                    -0.999819
+                ],
+                "up": [
+                    -0.003961,
+                    -0.999811,
+                    -0.019042
+                ],
+                "yaw_arc": {
+                    "min_angle": -160.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_medium_autocannon",
+                "mesh_point": "child.medturret_mount_5",
+                "weapon_position": [
+                    203.475006,
+                    -126.045227,
+                    -313.015381
+                ],
+                "forward": [
+                    3.6e-05,
+                    0.019042,
+                    -0.999819
+                ],
+                "up": [
+                    -0.003961,
+                    -0.999811,
+                    -0.019042
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 160.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_medium_autocannon",
+                "mesh_point": "child.medturret_mount_6",
+                "weapon_position": [
+                    105.273674,
+                    127.423744,
+                    -680.497009
+                ],
+                "forward": [
+                    -0.020757,
+                    0.028127,
+                    -0.999389
+                ],
+                "up": [
+                    0.745176,
+                    0.666859,
+                    0.003291
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_medium_autocannon",
+                "mesh_point": "child.medturret_mount_7",
+                "weapon_position": [
+                    -105.296822,
+                    127.352501,
+                    -680.497009
+                ],
+                "forward": [
+                    -0.025344,
+                    -0.024076,
+                    -0.999389
+                ],
+                "up": [
+                    -0.753905,
+                    0.656975,
+                    0.003291
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_light_autocannon",
+                "mesh_point": "child.turret_mount_0",
+                "weapon_position": [
+                    -148.694977,
+                    43.821213,
+                    68.147697
+                ],
+                "forward": [
+                    0.004114,
+                    -0.148708,
+                    0.988873
+                ],
+                "up": [
+                    -0.044535,
+                    0.987873,
+                    0.148743
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 20.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_light_autocannon",
+                "mesh_point": "child.turret_mount_1",
+                "weapon_position": [
+                    143.772018,
+                    44.110424,
+                    68.147697
+                ],
+                "forward": [
+                    -0.009051,
+                    -0.148714,
+                    0.988839
+                ],
+                "up": [
+                    0.042918,
+                    0.98791,
+                    0.148967
+                ],
+                "yaw_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_light_autocannon",
+                "mesh_point": "child.turret_mount_2",
+                "weapon_position": [
+                    -0.526431,
+                    7.627972,
+                    524.411194
+                ],
+                "forward": [
+                    -0.002065,
+                    -0.238698,
+                    0.971092
+                ],
+                "up": [
+                    -0.002329,
+                    0.971092,
+                    0.238693
+                ],
+                "yaw_arc": {
+                    "min_angle": -160.0,
+                    "max_angle": 160.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_light_autocannon",
+                "mesh_point": "child.turret_mount_3",
+                "weapon_position": [
+                    -0.055216,
+                    -116.927292,
+                    496.905365
+                ],
+                "forward": [
+                    -0.002582,
+                    0.012016,
+                    0.999924
+                ],
+                "up": [
+                    0.001738,
+                    -0.999926,
+                    0.012021
+                ],
+                "yaw_arc": {
+                    "min_angle": -160.0,
+                    "max_angle": 160.0,
+                    "initial_angle": 0.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_light_autocannon",
+                "mesh_point": "child.turret_mount_4",
+                "weapon_position": [
+                    -208.610245,
+                    69.328598,
+                    -216.473785
+                ],
+                "forward": [
+                    0.008689,
+                    -0.118188,
+                    0.992953
+                ],
+                "up": [
+                    -0.082839,
+                    0.989492,
+                    0.118501
+                ],
+                "yaw_arc": {
+                    "min_angle": -160.0,
+                    "max_angle": 15.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_light_autocannon",
+                "mesh_point": "child.turret_mount_5",
+                "weapon_position": [
+                    206.684158,
+                    69.328598,
+                    -216.473785
+                ],
+                "forward": [
+                    -0.013125,
+                    -0.117998,
+                    0.992927
+                ],
+                "up": [
+                    0.099794,
+                    0.9879,
+                    0.11872
+                ],
+                "yaw_arc": {
+                    "min_angle": -15.0,
+                    "max_angle": 160.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_light_autocannon",
+                "mesh_point": "child.turret_mount_6",
+                "weapon_position": [
+                    0.325087,
+                    185.487534,
+                    -630.185181
+                ],
+                "forward": [
+                    0.002571,
+                    0.005506,
+                    -0.999982
+                ],
+                "up": [
+                    0.001754,
+                    0.999983,
+                    0.005511
+                ],
+                "yaw_arc": {
+                    "min_angle": -160.0,
+                    "max_angle": 160.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_light_autocannon",
+                "mesh_point": "child.turret_mount_7",
+                "weapon_position": [
+                    -0.29549,
+                    -112.152084,
+                    -537.402893
+                ],
+                "forward": [
+                    0.002852,
+                    0.1914,
+                    -0.981508
+                ],
+                "up": [
+                    -0.001246,
+                    -0.981511,
+                    -0.191404
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_missile",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_modular_missile",
+                "mesh_point": "weapon.0_right",
+                "weapon_position": [
+                    -363.582428,
+                    80.243515,
+                    -609.097168
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -357.124695,
+                        95.78981,
+                        -462.321472
+                    ],
+                    [
+                        -370.040161,
+                        64.697212,
+                        -462.321472
+                    ],
+                    [
+                        -357.124695,
+                        95.78981,
+                        -640.760986
+                    ],
+                    [
+                        -370.040161,
+                        64.697212,
+                        -640.760986
+                    ],
+                    [
+                        -357.124695,
+                        95.78981,
+                        -690.5979
+                    ],
+                    [
+                        -370.040161,
+                        64.697212,
+                        -690.5979
+                    ],
+                    [
+                        -357.124695,
+                        95.78981,
+                        -724.208862
+                    ],
+                    [
+                        -370.040161,
+                        64.697212,
+                        -724.208862
+                    ],
+                    [
+                        -357.124695,
+                        95.78981,
+                        -754.418457
+                    ],
+                    [
+                        -370.040161,
+                        64.697212,
+                        -754.418457
+                    ],
+                    [
+                        -357.124695,
+                        95.78981,
+                        -495.932465
+                    ],
+                    [
+                        -370.040161,
+                        64.697212,
+                        -495.932465
+                    ],
+                    [
+                        -357.124695,
+                        95.78981,
+                        -526.142029
+                    ],
+                    [
+                        -370.040161,
+                        64.697212,
+                        -526.142029
+                    ],
+                    [
+                        -357.124695,
+                        95.78981,
+                        -576.94043
+                    ],
+                    [
+                        -370.040161,
+                        64.697212,
+                        -576.94043
+                    ],
+                    [
+                        -357.124695,
+                        95.78981,
+                        -610.551392
+                    ],
+                    [
+                        -370.040161,
+                        64.697212,
+                        -610.551392
+                    ]
+                ],
+                "forward": [
+                    -0.882574,
+                    0.470061,
+                    -0.010305
+                ],
+                "up": [
+                    0.469906,
+                    0.882599,
+                    0.014419
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_missile",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_modular_missile",
+                "mesh_point": "weapon.0_left",
+                "weapon_position": [
+                    365.242249,
+                    80.243515,
+                    -609.097168
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        356.892242,
+                        95.78981,
+                        -462.321472
+                    ],
+                    [
+                        373.592285,
+                        64.697212,
+                        -462.321472
+                    ],
+                    [
+                        356.892242,
+                        95.78981,
+                        -640.760986
+                    ],
+                    [
+                        373.592285,
+                        64.697212,
+                        -640.760986
+                    ],
+                    [
+                        356.892242,
+                        95.78981,
+                        -690.5979
+                    ],
+                    [
+                        373.592285,
+                        64.697212,
+                        -690.5979
+                    ],
+                    [
+                        356.892242,
+                        95.78981,
+                        -724.208862
+                    ],
+                    [
+                        373.592285,
+                        64.697212,
+                        -724.208862
+                    ],
+                    [
+                        356.892242,
+                        95.78981,
+                        -754.418457
+                    ],
+                    [
+                        373.592285,
+                        64.697212,
+                        -754.418457
+                    ],
+                    [
+                        373.592285,
+                        64.697212,
+                        -495.932465
+                    ],
+                    [
+                        356.892242,
+                        95.78981,
+                        -495.932465
+                    ],
+                    [
+                        356.892242,
+                        95.78981,
+                        -526.142029
+                    ],
+                    [
+                        373.592285,
+                        64.697212,
+                        -526.142029
+                    ],
+                    [
+                        356.892242,
+                        95.78981,
+                        -576.94043
+                    ],
+                    [
+                        373.592285,
+                        64.697212,
+                        -576.94043
+                    ],
+                    [
+                        356.892242,
+                        95.78981,
+                        -610.551392
+                    ],
+                    [
+                        373.592285,
+                        64.697212,
+                        -610.551392
+                    ]
+                ],
+                "forward": [
+                    0.889613,
+                    0.456606,
+                    0.009999
+                ],
+                "up": [
+                    -0.456444,
+                    0.889626,
+                    -0.015004
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_rail_gun",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_modular_railgun",
+                "mesh_point": "weapon.1_right",
+                "weapon_position": [
+                    -283.102997,
+                    65.906296,
+                    -154.970825
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -283.102997,
+                        65.906296,
+                        -154.970825
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -3.0,
+                    "max_angle": 5.0
+                },
+                "pitch_arc": {
+                    "min_angle": -3.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_rail_gun",
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_modular_railgun",
+                "mesh_point": "weapon.1_left",
+                "weapon_position": [
+                    282.511627,
+                    65.906296,
+                    -154.970825
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        282.511627,
+                        65.906296,
+                        -154.970825
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 3.0
+                },
+                "pitch_arc": {
+                    "min_angle": -3.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "dlc2_trader_rebel_super_capital_ship_planet_bombing",
+                "mesh_point": "bomb",
+                "weapon_position": [
+                    0.0,
+                    -171.370438,
+                    0.0
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        0.0,
+                        -171.370438,
+                        -0.0
+                    ]
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                }
+            }
+        ],
+        "max_range_weapon_index": 31
+    },
+    "formation": {
+        "leader_priority": 3,
+        "offsets_per_formation_type": {
+            "ships_and_structures": {
+                "rank": 1,
+                "group": 2
+            }
+        }
+    },
+    "spawn_debris": {
+        "spawn_debris_time": 6.5,
+        "generic_group_name": "trader",
+        "generic_counts": {
+            "small_debris": [
+                25,
+                30
+            ],
+            "large_debris": [
+                25,
+                30
+            ]
+        },
+        "custom_debris": [
+            {
+                "unit": "dlc2_trader_rebel_super_capital_ship_debris_front",
+                "basis": {
+                    "position": [
+                        0.0,
+                        -50.0,
+                        600.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "dlc2_trader_rebel_super_capital_ship_debris_mid",
+                "basis": {
+                    "position": [
+                        75.0,
+                        100.0,
+                        -300.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "dlc2_trader_rebel_super_capital_ship_debris_back",
+                "basis": {
+                    "position": [
+                        5.0,
+                        50.0,
+                        -700.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            }
+        ],
+        "spawn_loot": {
+            "loot_unit": "ship_loot_trader",
+            "loot_name": "dlc2_trader_rebel_super_capital_ship_loot_name",
+            "loot_level": 1,
+            "experience_given": 600.0,
+            "exotics": [
+                {
+                    "bundles": [
+                        {
+                            "types": [
+                                "offense"
+                            ],
+                            "counts": [
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "types": [
+                                "utility"
+                            ],
+                            "counts": [
+                                1,
+                                2
+                            ]
+                        }
+                    ],
+                    "weight": 1.0
+                }
+            ],
+            "assets": {
+                "credits": [
+                    500,
+                    1500
+                ],
+                "metal": [
+                    175,
+                    525
+                ],
+                "crystal": [
+                    125,
+                    375
+                ]
+            }
+        }
+    },
+    "health": {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 6.0,
+        "durability": 600.0,
+        "can_ever_be_resurrected": true,
+        "levels": [
+            {
+                "max_hull_points": 7100.0,
+                "hull_point_restore_rate": 4.5,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.5,
+                "max_armor_points": 4100.0,
+                "armor_point_restore_rate": 6.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 105.0,
+                "max_shield_points": 4150.0,
+                "shield_point_restore_rate": 7.5,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 60.0,
+                    "restore_percentage": 0.25
+                },
+                "experience_given_on_death": 250.0
+            },
+            {
+                "max_hull_points": 7735.0,
+                "hull_point_restore_rate": 5.25,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.55,
+                "max_armor_points": 4285.0,
+                "armor_point_restore_rate": 6.9,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 110.0,
+                "max_shield_points": 4430.0,
+                "shield_point_restore_rate": 9.4,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 58.0,
+                    "restore_percentage": 0.27
+                },
+                "experience_given_on_death": 300.0
+            },
+            {
+                "max_hull_points": 8365.0,
+                "hull_point_restore_rate": 6.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.6,
+                "max_armor_points": 4470.0,
+                "armor_point_restore_rate": 7.8,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 115.0,
+                "max_shield_points": 4710.0,
+                "shield_point_restore_rate": 11.3,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 56.0,
+                    "restore_percentage": 0.29
+                },
+                "experience_given_on_death": 375.0
+            },
+            {
+                "max_hull_points": 9000.0,
+                "hull_point_restore_rate": 6.75,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.65,
+                "max_armor_points": 4655.0,
+                "armor_point_restore_rate": 8.7,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 120.0,
+                "max_shield_points": 4985.0,
+                "shield_point_restore_rate": 13.2,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 54.0,
+                    "restore_percentage": 0.32
+                },
+                "experience_given_on_death": 475.0
+            },
+            {
+                "max_hull_points": 9630.0,
+                "hull_point_restore_rate": 7.5,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.7,
+                "max_armor_points": 4840.0,
+                "armor_point_restore_rate": 9.6,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 125.0,
+                "max_shield_points": 5265.0,
+                "shield_point_restore_rate": 15.1,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 52.0,
+                    "restore_percentage": 0.35
+                },
+                "experience_given_on_death": 600.0
+            },
+            {
+                "max_hull_points": 10260.0,
+                "hull_point_restore_rate": 8.25,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.75,
+                "max_armor_points": 5025.0,
+                "armor_point_restore_rate": 10.5,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 130.0,
+                "max_shield_points": 5545.0,
+                "shield_point_restore_rate": 17.0,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 50.0,
+                    "restore_percentage": 0.38
+                },
+                "experience_given_on_death": 750.0
+            },
+            {
+                "max_hull_points": 10895.0,
+                "hull_point_restore_rate": 9.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.8,
+                "max_armor_points": 5210.0,
+                "armor_point_restore_rate": 11.4,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 135.0,
+                "max_shield_points": 5820.0,
+                "shield_point_restore_rate": 18.9,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 48.0,
+                    "restore_percentage": 0.41
+                },
+                "experience_given_on_death": 925.0
+            },
+            {
+                "max_hull_points": 11525.0,
+                "hull_point_restore_rate": 9.75,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.85,
+                "max_armor_points": 5395.0,
+                "armor_point_restore_rate": 12.3,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 140.0,
+                "max_shield_points": 6100.0,
+                "shield_point_restore_rate": 20.8,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 46.0,
+                    "restore_percentage": 0.44
+                },
+                "experience_given_on_death": 1125.0
+            },
+            {
+                "max_hull_points": 12160.0,
+                "hull_point_restore_rate": 10.5,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.92,
+                "max_armor_points": 5580.0,
+                "armor_point_restore_rate": 13.2,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 145.0,
+                "max_shield_points": 6375.0,
+                "shield_point_restore_rate": 22.7,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 43.0,
+                    "restore_percentage": 0.47
+                },
+                "experience_given_on_death": 1350.0
+            },
+            {
+                "max_hull_points": 12790.0,
+                "hull_point_restore_rate": 11.25,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 1.0,
+                "max_armor_points": 5765.0,
+                "armor_point_restore_rate": 14.1,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 150.0,
+                "max_shield_points": 6655.0,
+                "shield_point_restore_rate": 24.6,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 40.0,
+                    "restore_percentage": 0.5
+                },
+                "experience_given_on_death": 1600.0
+            }
+        ]
+    },
+    "antimatter": {
+        "max_antimatter": 0.0,
+        "antimatter_restore_rate": 0.0
+    },
+    "levels": {
+        "type": "experience",
+        "levels": [
+            {
+                "experience_to_next_level": 350.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 280.0,
+                        "antimatter_restore_rate": 0.95,
+                        "max_squadron_capacity": 3.0
+                    },
+                    "scalar_values": {}
+                }
+            },
+            {
+                "experience_to_next_level": 875.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 310.0,
+                        "antimatter_restore_rate": 1.04,
+                        "max_squadron_capacity": 4.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.05,
+                        "cooldown_duration": -0.01
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 1575.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 340.0,
+                        "antimatter_restore_rate": 1.13,
+                        "max_squadron_capacity": 4.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.1,
+                        "cooldown_duration": -0.02
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 2625.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 370.0,
+                        "antimatter_restore_rate": 1.22,
+                        "max_squadron_capacity": 5.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.15,
+                        "cooldown_duration": -0.03
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 4025.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 400.0,
+                        "antimatter_restore_rate": 1.31,
+                        "max_squadron_capacity": 5.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.2,
+                        "cooldown_duration": -0.04
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 5775.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 430.0,
+                        "antimatter_restore_rate": 1.4,
+                        "max_squadron_capacity": 6.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.25,
+                        "cooldown_duration": -0.05
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 7875.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 460.0,
+                        "antimatter_restore_rate": 1.49,
+                        "max_squadron_capacity": 6.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.3,
+                        "cooldown_duration": -0.06
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 10500.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 490.0,
+                        "antimatter_restore_rate": 1.49,
+                        "max_squadron_capacity": 7.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.35,
+                        "cooldown_duration": -0.07
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 13650.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 520.0,
+                        "antimatter_restore_rate": 1.67,
+                        "max_squadron_capacity": 7.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.4,
+                        "cooldown_duration": -0.08
+                    }
+                }
+            },
+            {
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 550.0,
+                        "antimatter_restore_rate": 1.76,
+                        "max_squadron_capacity": 8.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.45,
+                        "cooldown_duration": -0.09
+                    }
+                }
+            }
+        ]
+    },
+    "build": {
+        "build_time": 200.0,
+        "price": {
+            "credits": 5000.0,
+            "metal": 1750.0,
+            "crystal": 1250.0
+        },
+        "exotic_price": [
+            {
+                "exotic_type": "offense",
+                "count": 2
+            },
+            {
+                "exotic_type": "utility",
+                "count": 2
+            }
+        ],
+        "build_kind": "super_capital_ship",
+        "supply_cost": 100,
+        "build_group_id": "super_capital_ship"
+    },
+    "carrier": {
+        "base_max_squadron_capacity": 0,
+        "strikecraft_kinds": [
+            "interceptor",
+            "bomber"
+        ],
+        "launch_destination_formation": "titan_strikecraft",
+        "launch_destination_formation_offset": {
+            "rank": 3,
+            "group": 2
+        },
+        "hangar_data": [
+            {
+                "hangar_basis": {
+                    "position": [
+                        0.0,
+                        110.710297,
+                        -679.05249
+                    ],
+                    "rotation": [
+                        -1.0,
+                        0.0,
+                        -0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -1.0
+                    ]
+                }
+            },
+            {
+                "hangar_basis": {
+                    "position": [
+                        -324.640503,
+                        57.224796,
+                        -358.886139
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        1.0
+                    ]
+                },
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_modular_hangar"
+            },
+            {
+                "hangar_basis": {
+                    "position": [
+                        -324.640503,
+                        37.020744,
+                        -358.886139
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        1.0
+                    ]
+                },
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_modular_hangar"
+            },
+            {
+                "hangar_basis": {
+                    "position": [
+                        323.490448,
+                        57.224796,
+                        -358.886139
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        1.0
+                    ]
+                },
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_modular_hangar"
+            },
+            {
+                "hangar_basis": {
+                    "position": [
+                        323.490448,
+                        37.020744,
+                        -358.886139
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        1.0
+                    ]
+                },
+                "required_unit_item": "dlc2_trader_rebel_super_capital_ship_modular_hangar"
+            }
+        ]
+    },
+    "items": {
+        "levels": [
+            {
+                "max_ship_component_count": 6
+            }
+        ]
+    },
+    "item_builds": [
+        {
+            "build_group": [
+                "dlc2_trader_rebel_super_capital_ship_modular_railgun",
+                "dlc2_trader_rebel_super_capital_ship_turret_gauss",
+                "titanpool_tr_trader_heavy_gauss_slugs",
+                "titanpool_tr_trader_rapid_autoloader",
+                "titanpool_tr_trader_targeting_array",
+                "titanpool_tr_trader_flak_burst"
+            ],
+            "weight": 15.0
+        },
+        {
+            "build_group": [
+                "dlc2_trader_rebel_super_capital_ship_modular_railgun",
+                "dlc2_trader_rebel_super_capital_ship_turret_missile",
+                "titanpool_tr_trader_volatile_accelerants",
+                "titanpool_tr_trader_rapid_autoloader",
+                "titanpool_tr_trader_heavy_armor",
+                "titanpool_tr_trader_beam_armor"
+            ],
+            "weight": 10.0
+        },
+        {
+            "build_group": [
+                "dlc2_trader_rebel_super_capital_ship_modular_missile",
+                "dlc2_trader_rebel_super_capital_ship_turret_beam",
+                "titanpool_tr_trader_antimatter_engine",
+                "titanpool_tr_trader_rapid_autoloader",
+                "titanpool_tr_trader_heavy_armor",
+                "titanpool_tr_trader_beam_armor"
+            ],
+            "weight": 15.0
+        },
+        {
+            "build_group": [
+                "dlc2_trader_rebel_super_capital_ship_modular_missile",
+                "dlc2_trader_rebel_super_capital_ship_turret_missile",
+                "titanpool_tr_trader_missile_guidance_computer",
+                "titanpool_tr_trader_rapid_autoloader",
+                "titanpool_tr_trader_targeting_array",
+                "titanpool_tr_trader_missile_armor"
+            ],
+            "weight": 10.0
+        },
+        {
+            "build_group": [
+                "dlc2_trader_rebel_super_capital_ship_modular_hangar",
+                "dlc2_trader_rebel_super_capital_ship_turret_gauss",
+                "commandpool_tr_trader_reserve_squadron_hangar",
+                "titanpool_tr_trader_volatile_accelerants",
+                "titanpool_tr_trader_targeting_array",
+                "titanpool_tr_trader_flak_burst"
+            ],
+            "weight": 15.0
+        },
+        {
+            "build_group": [
+                "dlc2_trader_rebel_super_capital_ship_modular_hangar",
+                "dlc2_trader_rebel_super_capital_ship_turret_missile",
+                "commandpool_tr_trader_reserve_squadron_hangar",
+                "titanpool_tr_trader_volatile_accelerants",
+                "titanpool_tr_trader_rapid_autoloader",
+                "titanpool_tr_trader_flak_burst"
+            ],
+            "weight": 10.0
+        }
+    ],
+    "target_filter_unit_type": "super_capital_ship",
+    "tags": [
+        "super_capital_ship",
+        "trader_rebel_command_ship"
+    ],
+    "is_loot_collector": true,
+    "capture_points": 10,
+    "abilities": [
+        {
+            "abilities": [
+                "dlc2_trader_rebel_super_tactical_assault",
+                "dlc2_trader_rebel_super_modular_overdrive",
+                "dlc2_trader_rebel_super_nav_computer",
+                "dlc2_trader_rebel_super_ion_pulse_wave"
+            ]
+        }
+    ],
+    "ship_roles": [
+        "attack_ship",
+        "bomb_planet"
+    ],
+    "skin_groups": [
+        {
+            "skins": [
+                "dlc2_trader_rebel_super_capital_ship"
+            ]
+        }
+    ],
+    "child_meshes": [
+        {
+            "mesh_alias_name": "dlc2_trader_rebel_super_capital_ship_component_hangar",
+            "mesh_point": "child.dlc2_trader_rebel_super_capital_ship_component_hangar",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc2_trader_rebel_super_capital_ship_modular_hangar"
+        },
+        {
+            "mesh_alias_name": "dlc2_trader_rebel_super_capital_ship_component_missile_launcher",
+            "mesh_point": "child.dlc2_trader_rebel_super_capital_ship_component_missile_launcher",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc2_trader_rebel_super_capital_ship_modular_missile"
+        },
+        {
+            "mesh_alias_name": "dlc2_trader_rebel_super_capital_ship_component_railgun",
+            "mesh_point": "child.dlc2_trader_rebel_super_capital_ship_component_railgun",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc2_trader_rebel_super_capital_ship_modular_railgun"
+        },
+        {
+            "mesh_alias_name": "dlc2_component_turret_bases_large_missile",
+            "mesh_point": "child.turret_bases_large",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc2_trader_rebel_super_capital_ship_turret_missile"
+        },
+        {
+            "mesh_alias_name": "dlc2_component_turret_bases_large_gauss",
+            "mesh_point": "child.turret_bases_large",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc2_trader_rebel_super_capital_ship_turret_gauss"
+        }
+    ],
+    "action_effect_size": "large_unit",
+    "can_join_fleet": true
+}

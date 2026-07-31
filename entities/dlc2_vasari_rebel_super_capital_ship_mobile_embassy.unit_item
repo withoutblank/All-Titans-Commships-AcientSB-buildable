@@ -1,0 +1,30 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_rebel_culture_rate_1_research_subject_hud_icon",
+    "tooltip_picture": "vasari_rebel_culture_rate_1_research_subject_tooltip_picture",
+    "name": "dlc2_vasari_rebel_super_capital_ship_mobile_embassy_name",
+    "description": "dlc2_vasari_rebel_super_capital_ship_mobile_embassy_description",
+    "build_time": 40.0,
+    "price": {
+        "metal": 660.0,
+        "crystal": 800.0
+    },
+    "required_unit_tags": [
+        "vasari_rebel_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "player_modifiers": {
+        "empire_modifiers": [
+            {
+                "modifier_type": "max_influence_points",
+                "value_behavior": "additive",
+                "value": 3.0
+            }
+        ]
+    },
+    "npc_range_origin": {
+        "between_gravity_well_range": 18.0
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "version": 0,
+    "level_count": 1,
+    "action_values": [
+        {
+            "action_value_id": "buff_duration",
+            "action_value": {
+                "values": [
+                    60.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "cooldown_time",
+            "action_value": {
+                "values": [
+                    120.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "weapon_bypass_shields_chance_bonus",
+            "action_value": {
+                "values": [
+                    0.24
+                ]
+            }
+        }
+    ],
+    "buff_weapon_modifiers": [
+        {
+            "buff_weapon_modifier_id": "weapon_bypass_shields_chance_bonus",
+            "buff_weapon_modifier": {
+                "modifier_type": "bypass_shields_chance",
+                "value_behavior": "additive",
+                "value_id": "weapon_bypass_shields_chance_bonus",
+                "tags": [
+                    "phasemissile"
+                ]
+            }
+        }
+    ]
+}

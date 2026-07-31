@@ -1,0 +1,34 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "malefic_locus_hud_icon",
+    "tooltip_picture": "malefic_locus_tooltip_picture",
+    "name": "dlc2_advent_rebel_super_capital_ship_malefic_locus_unit_item_name",
+    "description": "dlc2_advent_rebel_super_capital_ship_malefic_locus_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 500.0,
+        "metal": 250.0,
+        "crystal": 450.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "advent_rebel_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "other_item_requirements": {
+        "mutually_exclusive_items": [
+            "dlc2_advent_rebel_super_capital_ship_mind_locus",
+            "dlc2_advent_rebel_super_capital_ship_savior_locus"
+        ]
+    },
+    "build_group_id": "offense",
+    "unit_mutations": [
+        "malefic_locus_equipped"
+    ]
+}

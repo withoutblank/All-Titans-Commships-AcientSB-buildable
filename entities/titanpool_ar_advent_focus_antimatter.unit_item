@@ -1,0 +1,31 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "advent_focus_antimatter_unit_item_hud_icon",
+    "tooltip_picture": "advent_focus_antimatter_unit_item_tooltip_picture",
+    "name": "advent_focus_antimatter_unit_item_name",
+    "description": "advent_focus_antimatter_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 900.0,
+        "metal": 175.0,
+        "crystal": 300.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 1
+        },
+        {
+            "exotic_type": "economic",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "advent_rebel_titan",
+        "advent_rebel_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "ability": "advent_focus_antimatter_unit_item"
+}

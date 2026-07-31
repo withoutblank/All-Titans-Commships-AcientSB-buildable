@@ -1,0 +1,2718 @@
+{
+    "version": 0,
+    "spatial": {
+        "radius": 1641.338989,
+        "box": {
+            "center": [
+                0.393204,
+                0.642395,
+                6.12323
+            ],
+            "extents": [
+                279.199219,
+                279.626862,
+                1625.919434
+            ]
+        },
+        "collision_rank": 3,
+        "missile_aim_zones": [
+            {
+                "center": [
+                    0.0,
+                    0.0,
+                    1400.0
+                ],
+                "radius": 225.0
+            },
+            {
+                "center": [
+                    0.0,
+                    0.0,
+                    850.0
+                ],
+                "radius": 225.0
+            },
+            {
+                "center": [
+                    0.0,
+                    0.0,
+                    200.0
+                ],
+                "radius": 350.0
+            },
+            {
+                "center": [
+                    0.0,
+                    0.0,
+                    -500.0
+                ],
+                "radius": 350.0
+            },
+            {
+                "center": [
+                    0.0,
+                    0.0,
+                    -1000.0
+                ],
+                "radius": 200.0
+            },
+            {
+                "center": [
+                    0.0,
+                    0.0,
+                    -1450.0
+                ],
+                "radius": 150.0
+            }
+        ]
+    },
+    "physics": {
+        "can_move_linear": true,
+        "max_linear_speed": 600.0,
+        "time_to_max_linear_speed": 6.0,
+        "arrival_tolerance_spatial_radius_scalar": 0.25,
+        "death_linear_speed_range": [
+            1.0,
+            2.0
+        ],
+        "can_move_angular": true,
+        "max_angular_speed": 15.0,
+        "time_to_max_angular_speed": 18.75,
+        "max_bank_angle": 15.0,
+        "death_angular_speed_range": [
+            1.0,
+            2.0
+        ],
+        "linear_acceleration_angle": 75.0,
+        "can_strafe_linear": true,
+        "strafe_max_linear_speed": 200.0,
+        "time_to_strafe_max_linear_speed": 20.0,
+        "strafe_max_linear_distance_spatial_radius_scalar": 3.0,
+        "strafe_start_angle": 0.0,
+        "strafe_stop_angle": 180.0,
+        "strafe_speed_start_angle": 10.0,
+        "strafe_max_start_turning_angle": 170.0
+    },
+    "hyperspace": {
+        "speed": 215000.0,
+        "speed_between_stars": 752500.0,
+        "charge_time": 8.0,
+        "charge_time_variance": 1.0,
+        "min_charge_angle": 10.0,
+        "max_charge_angle": 45.0
+    },
+    "move": {
+        "follow_distance": 8255.702148
+    },
+    "attack": {
+        "attack_pattern": {
+            "type": "stop_and_fire"
+        }
+    },
+    "ai": {
+        "attack_target_type_groups": [
+            "heavy_capital",
+            "defense"
+        ],
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft_corvette"
+        ],
+        "attack_target_type_groups_matching_weapon": "trader_rebel_titan_fixed_heavy_gauss",
+        "auto_follow_target_priority": 5.0,
+        "pursuit": {
+            "min_target_speed": 100.0,
+            "min_distance_to_target": 10000.0
+        },
+        "attack_target_type_range_scalar": 1.5
+    },
+    "ai_attack_target": {
+        "attack_priority": 50.0,
+        "is_always_a_threat": true,
+        "attack_target_type": "titan"
+    },
+    "user_interface": {
+        "pip_type": "titan",
+        "can_ever_be_selected": true,
+        "selection_priority": 500,
+        "selection_group_unit_type": "combat_ship",
+        "can_move": true,
+        "can_rotate": true,
+        "can_attack": true,
+        "can_show_max_weapon_range_in_tactical_view": true,
+        "can_show_distance_to_plane_line": true,
+        "bar_size": "large"
+    },
+    "weapons": {
+        "weapons": [
+            {
+                "weapon": "trader_rebel_titan_fixed_heavy_gauss",
+                "mesh_point": "weapon.gauss.0",
+                "weapon_position": [
+                    -194.479095,
+                    196.590439,
+                    410.208099
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -191.045319,
+                        199.956985,
+                        410.208099
+                    ],
+                    [
+                        -197.912857,
+                        193.223892,
+                        410.208099
+                    ]
+                ],
+                "forward": [
+                    -0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.707107,
+                    0.707107,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_fixed_heavy_gauss",
+                "mesh_point": "weapon.gauss.1",
+                "weapon_position": [
+                    -194.479095,
+                    -195.117096,
+                    410.208099
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -191.045319,
+                        -198.433884,
+                        410.208099
+                    ],
+                    [
+                        -197.912857,
+                        -191.800293,
+                        410.208099
+                    ]
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.707106,
+                    -0.707107,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_fixed_heavy_gauss",
+                "mesh_point": "weapon.gauss.2",
+                "weapon_position": [
+                    194.294403,
+                    196.590439,
+                    410.208099
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        190.883194,
+                        199.956985,
+                        410.208099
+                    ],
+                    [
+                        197.705612,
+                        193.223892,
+                        410.208099
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.707107,
+                    0.707107,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_fixed_heavy_gauss",
+                "mesh_point": "weapon.gauss.3",
+                "weapon_position": [
+                    194.294403,
+                    -195.048889,
+                    410.208099
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        190.883194,
+                        -198.423706,
+                        410.208099
+                    ],
+                    [
+                        197.705612,
+                        -191.674088,
+                        410.208099
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.707107,
+                    -0.707107,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_heavy_gauss",
+                "mesh_point": "child.gaussturret_mount.0",
+                "weapon_position": [
+                    -255.742599,
+                    256.383575,
+                    -72.429039
+                ],
+                "forward": [
+                    0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.707106,
+                    0.707107,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_heavy_gauss",
+                "mesh_point": "child.gaussturret_mount.1",
+                "weapon_position": [
+                    -238.732239,
+                    235.292175,
+                    138.604904
+                ],
+                "forward": [
+                    0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.707106,
+                    0.707107,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_heavy_gauss",
+                "mesh_point": "child.gaussturret_mount.2",
+                "weapon_position": [
+                    -238.707977,
+                    235.31546,
+                    -243.592484
+                ],
+                "forward": [
+                    0.0,
+                    -0.0,
+                    -1.0
+                ],
+                "up": [
+                    -0.707107,
+                    0.707107,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_heavy_gauss",
+                "mesh_point": "child.gaussturret_mount.3",
+                "weapon_position": [
+                    255.053421,
+                    256.408844,
+                    -72.429039
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.707106,
+                    0.707107,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_heavy_gauss",
+                "mesh_point": "child.gaussturret_mount.4",
+                "weapon_position": [
+                    238.328415,
+                    235.31546,
+                    138.604904
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.707106,
+                    0.707107,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_heavy_gauss",
+                "mesh_point": "child.gaussturret_mount.5",
+                "weapon_position": [
+                    238.35173,
+                    235.292175,
+                    -243.592484
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    -1.0
+                ],
+                "up": [
+                    0.707107,
+                    0.707107,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_heavy_gauss",
+                "mesh_point": "child.gaussturret_mount.6",
+                "weapon_position": [
+                    255.077698,
+                    -255.311371,
+                    -72.429039
+                ],
+                "forward": [
+                    -0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.707107,
+                    -0.707107,
+                    1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_heavy_gauss",
+                "mesh_point": "child.gaussturret_mount.7",
+                "weapon_position": [
+                    238.35173,
+                    -234.751953,
+                    138.604904
+                ],
+                "forward": [
+                    -0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.707107,
+                    -0.707107,
+                    1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_heavy_gauss",
+                "mesh_point": "child.gaussturret_mount.8",
+                "weapon_position": [
+                    238.328415,
+                    -234.775238,
+                    -243.592484
+                ],
+                "forward": [
+                    -1e-06,
+                    0.0,
+                    -1.0
+                ],
+                "up": [
+                    0.707107,
+                    -0.707107,
+                    -1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_heavy_gauss",
+                "mesh_point": "child.gaussturret_mount.9",
+                "weapon_position": [
+                    -255.251434,
+                    -255.335648,
+                    -72.429039
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.707107,
+                    -0.707107,
+                    1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_heavy_gauss",
+                "mesh_point": "child.gaussturret_mount.10",
+                "weapon_position": [
+                    -238.272125,
+                    -234.775238,
+                    138.604904
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.707107,
+                    -0.707107,
+                    1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_heavy_gauss",
+                "mesh_point": "child.gaussturret_mount.11",
+                "weapon_position": [
+                    -238.296371,
+                    -234.751953,
+                    -243.592484
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "up": [
+                    -0.707107,
+                    -0.707106,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_rail_gun",
+                "mesh_point": "weapon.railgun",
+                "weapon_position": [
+                    6.5e-05,
+                    6.5e-05,
+                    1488.890747
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        6.5e-05,
+                        6.5e-05,
+                        1488.890747
+                    ]
+                ],
+                "forward": [
+                    1e-06,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 5.0
+                },
+                "pitch_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_0",
+                "weapon_position": [
+                    -22.250647,
+                    166.290543,
+                    1401.383789
+                ],
+                "forward": [
+                    1e-06,
+                    1e-06,
+                    1.0
+                ],
+                "up": [
+                    -0.707107,
+                    0.707107,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_1",
+                "weapon_position": [
+                    22.09984,
+                    166.290543,
+                    1401.383789
+                ],
+                "forward": [
+                    3e-06,
+                    1e-06,
+                    1.0
+                ],
+                "up": [
+                    0.707107,
+                    0.707107,
+                    -3e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_2",
+                "weapon_position": [
+                    22.128174,
+                    -165.214462,
+                    1401.383789
+                ],
+                "forward": [
+                    -1e-06,
+                    -1e-06,
+                    1.0
+                ],
+                "up": [
+                    0.707107,
+                    -0.707107,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_3",
+                "weapon_position": [
+                    -22.244396,
+                    -165.220291,
+                    1401.383789
+                ],
+                "forward": [
+                    -1e-06,
+                    1e-06,
+                    1.0
+                ],
+                "up": [
+                    -0.707106,
+                    -0.707107,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_4",
+                "weapon_position": [
+                    -1.061211,
+                    194.971237,
+                    -462.031708
+                ],
+                "forward": [
+                    1e-06,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 50.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_5",
+                "weapon_position": [
+                    -1.061264,
+                    -193.616089,
+                    -462.598633
+                ],
+                "forward": [
+                    -2e-06,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    -1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 50.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_6",
+                "weapon_position": [
+                    -176.284149,
+                    144.955002,
+                    -294.742065
+                ],
+                "forward": [
+                    0.0,
+                    -1.0,
+                    1e-06
+                ],
+                "up": [
+                    -1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 60.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": -15.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_7",
+                "weapon_position": [
+                    -176.284149,
+                    -143.920181,
+                    -294.734314
+                ],
+                "forward": [
+                    0.0,
+                    1.0,
+                    -1e-06
+                ],
+                "up": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 60.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": -15.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_8",
+                "weapon_position": [
+                    176.306458,
+                    144.955002,
+                    -294.734314
+                ],
+                "forward": [
+                    -0.0,
+                    -1.0,
+                    -2e-06
+                ],
+                "up": [
+                    1.0,
+                    -0.0,
+                    1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 60.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": -15.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_9",
+                "weapon_position": [
+                    176.306458,
+                    -143.920181,
+                    -294.742065
+                ],
+                "forward": [
+                    0.0,
+                    1.0,
+                    2e-06
+                ],
+                "up": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 60.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": -15.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_10",
+                "weapon_position": [
+                    170.488907,
+                    -2.297881,
+                    -946.071106
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    -1.0
+                ],
+                "up": [
+                    1.0,
+                    -2e-06,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_11",
+                "weapon_position": [
+                    -170.624191,
+                    -2.297881,
+                    -946.071106
+                ],
+                "forward": [
+                    0.0,
+                    -1e-06,
+                    -1.0
+                ],
+                "up": [
+                    -1.0,
+                    -1e-06,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_12",
+                "weapon_position": [
+                    -1.061211,
+                    113.296524,
+                    -1522.659546
+                ],
+                "forward": [
+                    -1e-06,
+                    0.0,
+                    -1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_point_defense_autocannon",
+                "mesh_point": "child.pdturret_mount_13",
+                "weapon_position": [
+                    -1.070046,
+                    -111.327377,
+                    -1522.659546
+                ],
+                "forward": [
+                    2e-06,
+                    -0.0,
+                    -1.0
+                ],
+                "up": [
+                    -0.0,
+                    -1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_medium_autocannon",
+                "mesh_point": "child.rag_medturret_mount.0",
+                "weapon_position": [
+                    -153.87558,
+                    -0.887849,
+                    1252.409058
+                ],
+                "forward": [
+                    -1.0,
+                    0.0,
+                    -1e-06
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 50.0
+                },
+                "pitch_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 20.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_medium_autocannon",
+                "mesh_point": "child.rag_medturret_mount.1",
+                "weapon_position": [
+                    -153.87558,
+                    -0.887849,
+                    906.881836
+                ],
+                "forward": [
+                    -1.0,
+                    0.0,
+                    -1e-06
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 50.0
+                },
+                "pitch_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 20.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_medium_autocannon",
+                "mesh_point": "child.rag_medturret_mount.2",
+                "weapon_position": [
+                    -153.87558,
+                    -0.887849,
+                    592.481628
+                ],
+                "forward": [
+                    -1.0,
+                    0.0,
+                    -1e-06
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 50.0
+                },
+                "pitch_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 20.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_medium_autocannon",
+                "mesh_point": "child.rag_medturret_mount.3",
+                "weapon_position": [
+                    -153.87558,
+                    -0.887849,
+                    221.395264
+                ],
+                "forward": [
+                    -1.0,
+                    0.0,
+                    -1e-06
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 50.0
+                },
+                "pitch_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 20.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_medium_autocannon",
+                "mesh_point": "child.rag_medturret_mount.4",
+                "weapon_position": [
+                    -153.87558,
+                    -0.887849,
+                    8.041209
+                ],
+                "forward": [
+                    -1.0,
+                    0.0,
+                    -1e-06
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 50.0
+                },
+                "pitch_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 20.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_medium_autocannon",
+                "mesh_point": "child.rag_medturret_mount.5",
+                "weapon_position": [
+                    154.698135,
+                    -0.887849,
+                    1252.409058
+                ],
+                "forward": [
+                    1.0,
+                    0.0,
+                    -0.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 50.0
+                },
+                "pitch_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 20.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_medium_autocannon",
+                "mesh_point": "child.rag_medturret_mount.6",
+                "weapon_position": [
+                    154.698135,
+                    -0.887849,
+                    907.021423
+                ],
+                "forward": [
+                    1.0,
+                    0.0,
+                    1e-06
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 50.0
+                },
+                "pitch_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 20.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_medium_autocannon",
+                "mesh_point": "child.rag_medturret_mount.7",
+                "weapon_position": [
+                    154.698135,
+                    -0.887849,
+                    592.571472
+                ],
+                "forward": [
+                    1.0,
+                    0.0,
+                    1e-06
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 50.0
+                },
+                "pitch_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 20.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_medium_autocannon",
+                "mesh_point": "child.rag_medturret_mount.8",
+                "weapon_position": [
+                    154.698135,
+                    -0.887849,
+                    7.908257
+                ],
+                "forward": [
+                    1.0,
+                    0.0,
+                    1e-06
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 50.0
+                },
+                "pitch_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 20.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_medium_autocannon",
+                "mesh_point": "child.rag_medturret_mount.9",
+                "weapon_position": [
+                    154.698135,
+                    -0.887849,
+                    221.589294
+                ],
+                "forward": [
+                    1.0,
+                    0.0,
+                    1e-06
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 50.0
+                },
+                "pitch_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 20.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_medium_missile",
+                "required_unit_item": "trader_rebel_titan_unlock_missile_weapon",
+                "mesh_point": "weapon.0.left",
+                "weapon_position": [
+                    -220.419098,
+                    166.434052,
+                    -711.510132
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -220.419113,
+                        172.762024,
+                        -621.080811
+                    ],
+                    [
+                        -220.419113,
+                        160.082626,
+                        -621.080811
+                    ],
+                    [
+                        -220.419113,
+                        166.445862,
+                        -617.236633
+                    ],
+                    [
+                        -220.419113,
+                        166.445862,
+                        -624.781311
+                    ],
+                    [
+                        -220.419113,
+                        172.762024,
+                        -656.862549
+                    ],
+                    [
+                        -220.419113,
+                        166.445862,
+                        -653.018372
+                    ],
+                    [
+                        -220.419113,
+                        160.082626,
+                        -656.862549
+                    ],
+                    [
+                        -220.419113,
+                        166.445862,
+                        -660.562988
+                    ],
+                    [
+                        -220.419113,
+                        166.445862,
+                        -690.108643
+                    ],
+                    [
+                        -220.419113,
+                        172.762024,
+                        -693.95282
+                    ],
+                    [
+                        -220.419113,
+                        160.082626,
+                        -693.95282
+                    ],
+                    [
+                        -220.419113,
+                        166.445862,
+                        -697.653259
+                    ],
+                    [
+                        -220.419113,
+                        166.445862,
+                        -725.098206
+                    ],
+                    [
+                        -220.419113,
+                        172.762024,
+                        -728.942383
+                    ],
+                    [
+                        -220.419113,
+                        160.082626,
+                        -728.942383
+                    ],
+                    [
+                        -220.419113,
+                        166.445862,
+                        -732.642822
+                    ],
+                    [
+                        -220.419113,
+                        166.445862,
+                        -762.786438
+                    ],
+                    [
+                        -220.419113,
+                        172.762024,
+                        -766.630615
+                    ],
+                    [
+                        -220.419113,
+                        160.082626,
+                        -766.630615
+                    ],
+                    [
+                        -220.419113,
+                        166.445862,
+                        -770.331116
+                    ],
+                    [
+                        -220.419113,
+                        166.445862,
+                        -797.962402
+                    ],
+                    [
+                        -220.419113,
+                        172.762024,
+                        -801.80658
+                    ],
+                    [
+                        -220.419113,
+                        160.082626,
+                        -801.80658
+                    ],
+                    [
+                        -220.419113,
+                        166.445862,
+                        -805.507141
+                    ]
+                ],
+                "forward": [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_medium_missile",
+                "required_unit_item": "trader_rebel_titan_unlock_missile_weapon",
+                "mesh_point": "weapon.0.right",
+                "weapon_position": [
+                    220.400574,
+                    166.434052,
+                    -711.510132
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        220.400574,
+                        172.762024,
+                        -621.080811
+                    ],
+                    [
+                        220.400574,
+                        160.082626,
+                        -621.080811
+                    ],
+                    [
+                        220.400574,
+                        166.445862,
+                        -617.236633
+                    ],
+                    [
+                        220.400574,
+                        166.445862,
+                        -624.781311
+                    ],
+                    [
+                        220.400574,
+                        172.762024,
+                        -656.862549
+                    ],
+                    [
+                        220.400574,
+                        166.445862,
+                        -653.018372
+                    ],
+                    [
+                        220.400574,
+                        160.082626,
+                        -656.862549
+                    ],
+                    [
+                        220.400574,
+                        166.445862,
+                        -660.562988
+                    ],
+                    [
+                        220.400574,
+                        166.445862,
+                        -690.108643
+                    ],
+                    [
+                        220.400574,
+                        172.762024,
+                        -693.95282
+                    ],
+                    [
+                        220.400574,
+                        160.082626,
+                        -693.95282
+                    ],
+                    [
+                        220.400574,
+                        166.445862,
+                        -697.653259
+                    ],
+                    [
+                        220.400574,
+                        166.445862,
+                        -725.098206
+                    ],
+                    [
+                        220.400574,
+                        172.762024,
+                        -728.942383
+                    ],
+                    [
+                        220.400574,
+                        160.082626,
+                        -728.942383
+                    ],
+                    [
+                        220.400574,
+                        166.445862,
+                        -732.642822
+                    ],
+                    [
+                        220.400574,
+                        166.445862,
+                        -762.786438
+                    ],
+                    [
+                        220.400574,
+                        172.762024,
+                        -766.630615
+                    ],
+                    [
+                        220.400574,
+                        160.082626,
+                        -766.630615
+                    ],
+                    [
+                        220.400574,
+                        166.445862,
+                        -770.331116
+                    ],
+                    [
+                        220.400574,
+                        166.445862,
+                        -797.962402
+                    ],
+                    [
+                        220.400574,
+                        172.762024,
+                        -801.80658
+                    ],
+                    [
+                        220.400574,
+                        160.082626,
+                        -801.80658
+                    ],
+                    [
+                        220.400574,
+                        166.445862,
+                        -805.507141
+                    ]
+                ],
+                "forward": [
+                    1.0,
+                    0.0,
+                    -0.0
+                ],
+                "up": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_medium_missile",
+                "required_unit_item": "trader_rebel_titan_unlock_missile_weapon",
+                "mesh_point": "weapon.1.left",
+                "weapon_position": [
+                    -220.419098,
+                    -165.13089,
+                    -711.510132
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -220.419113,
+                        -158.804138,
+                        -621.080811
+                    ],
+                    [
+                        -220.419113,
+                        -171.481598,
+                        -621.080811
+                    ],
+                    [
+                        -220.419113,
+                        -165.118851,
+                        -617.236633
+                    ],
+                    [
+                        -220.419113,
+                        -165.118851,
+                        -624.781311
+                    ],
+                    [
+                        -220.419113,
+                        -158.804138,
+                        -656.862549
+                    ],
+                    [
+                        -220.419113,
+                        -165.118851,
+                        -653.018372
+                    ],
+                    [
+                        -220.419113,
+                        -171.481598,
+                        -656.862549
+                    ],
+                    [
+                        -220.419113,
+                        -165.118851,
+                        -660.562988
+                    ],
+                    [
+                        -220.419113,
+                        -165.118851,
+                        -690.108643
+                    ],
+                    [
+                        -220.419113,
+                        -158.804138,
+                        -693.95282
+                    ],
+                    [
+                        -220.419113,
+                        -171.481598,
+                        -693.95282
+                    ],
+                    [
+                        -220.419113,
+                        -165.118851,
+                        -697.653259
+                    ],
+                    [
+                        -220.419113,
+                        -165.118851,
+                        -725.098206
+                    ],
+                    [
+                        -220.419113,
+                        -158.804138,
+                        -728.942383
+                    ],
+                    [
+                        -220.419113,
+                        -171.481598,
+                        -728.942383
+                    ],
+                    [
+                        -220.419113,
+                        -165.118851,
+                        -732.642822
+                    ],
+                    [
+                        -220.419113,
+                        -165.118851,
+                        -762.786438
+                    ],
+                    [
+                        -220.419113,
+                        -158.804138,
+                        -766.630615
+                    ],
+                    [
+                        -220.419113,
+                        -171.481598,
+                        -766.630615
+                    ],
+                    [
+                        -220.419113,
+                        -165.118851,
+                        -770.331116
+                    ],
+                    [
+                        -220.419113,
+                        -165.118851,
+                        -797.962402
+                    ],
+                    [
+                        -220.419113,
+                        -158.804138,
+                        -801.80658
+                    ],
+                    [
+                        -220.419113,
+                        -171.481598,
+                        -801.80658
+                    ],
+                    [
+                        -220.419113,
+                        -165.118851,
+                        -805.507141
+                    ]
+                ],
+                "forward": [
+                    -1.0,
+                    -0.0,
+                    0.0
+                ],
+                "up": [
+                    0.0,
+                    -1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_medium_missile",
+                "required_unit_item": "trader_rebel_titan_unlock_missile_weapon",
+                "mesh_point": "weapon.1.right",
+                "weapon_position": [
+                    220.089539,
+                    -165.13089,
+                    -711.510132
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        220.089569,
+                        -158.804138,
+                        -621.080811
+                    ],
+                    [
+                        220.089569,
+                        -171.481598,
+                        -621.080811
+                    ],
+                    [
+                        220.089569,
+                        -165.118851,
+                        -617.236633
+                    ],
+                    [
+                        220.089569,
+                        -165.118851,
+                        -624.781311
+                    ],
+                    [
+                        220.089569,
+                        -158.804138,
+                        -656.862549
+                    ],
+                    [
+                        220.089569,
+                        -165.118851,
+                        -653.018372
+                    ],
+                    [
+                        220.089569,
+                        -171.481598,
+                        -656.862549
+                    ],
+                    [
+                        220.089569,
+                        -165.118851,
+                        -660.562988
+                    ],
+                    [
+                        220.089569,
+                        -165.118851,
+                        -690.108643
+                    ],
+                    [
+                        220.089569,
+                        -158.804138,
+                        -693.95282
+                    ],
+                    [
+                        220.089569,
+                        -171.481598,
+                        -693.95282
+                    ],
+                    [
+                        220.089569,
+                        -165.118851,
+                        -697.653259
+                    ],
+                    [
+                        220.089569,
+                        -165.118851,
+                        -725.098206
+                    ],
+                    [
+                        220.089569,
+                        -158.804138,
+                        -728.942383
+                    ],
+                    [
+                        220.089569,
+                        -171.481598,
+                        -728.942383
+                    ],
+                    [
+                        220.089569,
+                        -165.118851,
+                        -732.642822
+                    ],
+                    [
+                        220.089569,
+                        -165.118851,
+                        -762.786438
+                    ],
+                    [
+                        220.089569,
+                        -158.804138,
+                        -766.630615
+                    ],
+                    [
+                        220.089569,
+                        -171.481598,
+                        -766.630615
+                    ],
+                    [
+                        220.089569,
+                        -165.118851,
+                        -770.331116
+                    ],
+                    [
+                        220.089569,
+                        -165.118851,
+                        -797.962402
+                    ],
+                    [
+                        220.089569,
+                        -158.804138,
+                        -801.80658
+                    ],
+                    [
+                        220.089569,
+                        -171.481598,
+                        -801.80658
+                    ],
+                    [
+                        220.089569,
+                        -165.118851,
+                        -805.507141
+                    ]
+                ],
+                "forward": [
+                    1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "up": [
+                    -0.0,
+                    -1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                }
+            },
+            {
+                "weapon": "trader_rebel_titan_planet_bombing",
+                "mesh_point": "bomb",
+                "weapon_position": [
+                    6.5e-05,
+                    6.5e-05,
+                    1488.879028
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        6.5e-05,
+                        6.5e-05,
+                        1488.879028
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                }
+            }
+        ],
+        "max_range_weapon_index": 16
+    },
+    "formation": {
+        "leader_priority": 4,
+        "offsets_per_formation_type": {
+            "ships_and_structures": {
+                "rank": 0,
+                "group": 3
+            }
+        }
+    },
+    "spawn_debris": {
+        "spawn_debris_time": 6.0,
+        "generic_group_name": "trader",
+        "generic_counts": {
+            "small_debris": [
+                50,
+                60
+            ],
+            "large_debris": [
+                50,
+                60
+            ]
+        },
+        "custom_debris": [
+            {
+                "unit": "trader_rebel_titan_debris_front",
+                "basis": {
+                    "position": [
+                        0.170231,
+                        -35.0,
+                        1600.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "trader_rebel_titan_debris_mid_0",
+                "basis": {
+                    "position": [
+                        60.0,
+                        0.0,
+                        30.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "trader_rebel_titan_debris_mid_1",
+                "basis": {
+                    "position": [
+                        120.0,
+                        0.0,
+                        -350.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "trader_rebel_titan_debris_back",
+                "basis": {
+                    "position": [
+                        -100.0,
+                        0.0,
+                        -1200.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            }
+        ],
+        "spawn_loot": {
+            "loot_unit": "ship_loot_trader",
+            "loot_name": "trader_rebel_titan_loot_name",
+            "loot_level": 1,
+            "experience_given": 1000.0,
+            "exotics": [
+                {
+                    "bundles": [
+                        {
+                            "types": [
+                                "offense"
+                            ],
+                            "counts": [
+                                2,
+                                4
+                            ]
+                        },
+                        {
+                            "types": [
+                                "ultimate"
+                            ],
+                            "counts": [
+                                1,
+                                3
+                            ]
+                        }
+                    ],
+                    "weight": 1.0
+                }
+            ],
+            "assets": {
+                "credits": [
+                    960,
+                    2880
+                ],
+                "metal": [
+                    290,
+                    870
+                ],
+                "crystal": [
+                    190,
+                    570
+                ]
+            }
+        }
+    },
+    "health": {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 6.5,
+        "durability": 750.0,
+        "levels": [
+            {
+                "max_hull_points": 12800.0,
+                "hull_point_restore_rate": 6.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.5,
+                "max_armor_points": 4425.0,
+                "armor_point_restore_rate": 8.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 105.0,
+                "max_shield_points": 6575.0,
+                "shield_point_restore_rate": 10.0,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 70.0,
+                    "restore_percentage": 0.25
+                },
+                "experience_given_on_death": 400.0
+            },
+            {
+                "max_hull_points": 13940.0,
+                "hull_point_restore_rate": 7.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.52,
+                "max_armor_points": 4625.0,
+                "armor_point_restore_rate": 9.2,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 110.0,
+                "max_shield_points": 7020.0,
+                "shield_point_restore_rate": 12.4,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 68.0,
+                    "restore_percentage": 0.27
+                },
+                "experience_given_on_death": 480.0
+            },
+            {
+                "max_hull_points": 15080.0,
+                "hull_point_restore_rate": 8.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.54,
+                "max_armor_points": 4825.0,
+                "armor_point_restore_rate": 10.4,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 115.0,
+                "max_shield_points": 7460.0,
+                "shield_point_restore_rate": 14.8,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 66.0,
+                    "restore_percentage": 0.29
+                },
+                "experience_given_on_death": 600.0
+            },
+            {
+                "max_hull_points": 16220.0,
+                "hull_point_restore_rate": 9.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.56,
+                "max_armor_points": 5025.0,
+                "armor_point_restore_rate": 11.6,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 120.0,
+                "max_shield_points": 7900.0,
+                "shield_point_restore_rate": 17.2,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 64.0,
+                    "restore_percentage": 0.32
+                },
+                "experience_given_on_death": 760.0
+            },
+            {
+                "max_hull_points": 17360.0,
+                "hull_point_restore_rate": 10.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.58,
+                "max_armor_points": 5225.0,
+                "armor_point_restore_rate": 12.8,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 125.0,
+                "max_shield_points": 8340.0,
+                "shield_point_restore_rate": 19.6,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 62.0,
+                    "restore_percentage": 0.35
+                },
+                "experience_given_on_death": 960.0
+            },
+            {
+                "max_hull_points": 18500.0,
+                "hull_point_restore_rate": 11.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.61,
+                "max_armor_points": 5425.0,
+                "armor_point_restore_rate": 14.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 130.0,
+                "max_shield_points": 8780.0,
+                "shield_point_restore_rate": 22.0,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 60.0,
+                    "restore_percentage": 0.38
+                },
+                "experience_given_on_death": 1200.0
+            },
+            {
+                "max_hull_points": 19640.0,
+                "hull_point_restore_rate": 12.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.64,
+                "max_armor_points": 5620.0,
+                "armor_point_restore_rate": 15.2,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 135.0,
+                "max_shield_points": 9220.0,
+                "shield_point_restore_rate": 24.4,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 58.0,
+                    "restore_percentage": 0.41
+                },
+                "experience_given_on_death": 1480.0
+            },
+            {
+                "max_hull_points": 20775.0,
+                "hull_point_restore_rate": 13.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.67,
+                "max_armor_points": 5820.0,
+                "armor_point_restore_rate": 16.4,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 140.0,
+                "max_shield_points": 9660.0,
+                "shield_point_restore_rate": 26.8,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 56.0,
+                    "restore_percentage": 0.44
+                },
+                "experience_given_on_death": 1800.0
+            },
+            {
+                "max_hull_points": 21915.0,
+                "hull_point_restore_rate": 14.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.71,
+                "max_armor_points": 6020.0,
+                "armor_point_restore_rate": 17.6,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 145.0,
+                "max_shield_points": 10100.0,
+                "shield_point_restore_rate": 29.2,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 53.0,
+                    "restore_percentage": 0.47
+                },
+                "experience_given_on_death": 2160.0
+            },
+            {
+                "max_hull_points": 23055.0,
+                "hull_point_restore_rate": 15.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.75,
+                "max_armor_points": 6220.0,
+                "armor_point_restore_rate": 18.8,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 150.0,
+                "max_shield_points": 10540.0,
+                "shield_point_restore_rate": 31.6,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 50.0,
+                    "restore_percentage": 0.5
+                },
+                "experience_given_on_death": 2560.0
+            }
+        ]
+    },
+    "antimatter": {
+        "max_antimatter": 0.0,
+        "antimatter_restore_rate": 0.0
+    },
+    "levels": {
+        "type": "experience",
+        "levels": [
+            {
+                "experience_to_next_level": 500.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 455.0,
+                        "antimatter_restore_rate": 1.33
+                    },
+                    "scalar_values": {}
+                }
+            },
+            {
+                "experience_to_next_level": 1250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 480.0,
+                        "antimatter_restore_rate": 1.4
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.05,
+                        "cooldown_duration": -0.005
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 2250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 505.0,
+                        "antimatter_restore_rate": 1.46
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.1,
+                        "cooldown_duration": -0.01
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 3750.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 530.0,
+                        "antimatter_restore_rate": 1.53
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.15,
+                        "cooldown_duration": -0.015
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 5750.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 555.0,
+                        "antimatter_restore_rate": 1.6
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.2,
+                        "cooldown_duration": -0.02
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 8250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 580.0,
+                        "antimatter_restore_rate": 1.66
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.25,
+                        "cooldown_duration": -0.025
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 11250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 605.0,
+                        "antimatter_restore_rate": 1.73
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.3,
+                        "cooldown_duration": -0.03
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 15000.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 630.0,
+                        "antimatter_restore_rate": 1.8
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.35,
+                        "cooldown_duration": -0.035
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 19500.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 635.0,
+                        "antimatter_restore_rate": 1.81
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.4,
+                        "cooldown_duration": -0.04
+                    }
+                }
+            },
+            {
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 680.0,
+                        "antimatter_restore_rate": 1.93
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.45,
+                        "cooldown_duration": -0.045
+                    }
+                }
+            }
+        ]
+    },
+    "unit_factory": {
+        "build_kinds": [
+            "corvette",
+            "frigate",
+            "cruiser",
+            "capital_ship",
+            "super_capital_ship",
+            "trader_rebel_command_ship"
+        ],
+        "required_mutation": "mobile_unit_factory_enabled",
+        "will_spawn_units_in_hyperspace": true,
+        "spawn_units_in_hyperspace_delay_duration": 10.0
+    },
+    "build": {
+        "build_time": 300.0,
+        "price": {
+            "credits": 9600.0,
+            "metal": 2900.0,
+            "crystal": 1900.0
+        },
+        "exotic_price": [
+            {
+                "exotic_type": "offense",
+                "count": 4
+            },
+            {
+                "exotic_type": "ultimate",
+                "count": 3
+            }
+        ],
+        "build_kind": "trader_rebel_titan",
+        "supply_cost": 150,
+        "build_group_id": "titan"
+    },
+    "carrier": {
+        "base_max_squadron_capacity": 0,
+        "strikecraft_kinds": [
+            "interceptor",
+            "bomber"
+        ],
+        "launch_destination_formation": "titan_strikecraft",
+        "launch_destination_formation_offset": {
+            "rank": 2,
+            "group": 0
+        },
+        "hangar_data": [
+            {
+                "hangar_basis": {
+                    "position": [
+                        -139.003098,
+                        -0.964841,
+                        -594.037781
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        1.0,
+                        -0.0,
+                        -1.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            {
+                "hangar_basis": {
+                    "position": [
+                        136.04039,
+                        -0.964841,
+                        -594.037781
+                    ],
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        -1.0,
+                        -0.0,
+                        1.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            }
+        ]
+    },
+    "items": {
+        "levels": [
+            {
+                "max_ship_component_count": 8
+            }
+        ]
+    },
+    "item_builds": [
+        {
+            "weight": 10.0,
+            "build_group": [
+                "trader_rebel_titan_unlock_rail_gun_weapon"
+            ]
+        },
+        {
+            "weight": 8.0,
+            "build_group": [
+                "titanpool_tr_trader_rapid_autoloader",
+                "titanpool_tr_trader_heavy_gauss_slugs",
+                "titanpool_tr_trader_targeting_array"
+            ]
+        },
+        {
+            "weight": 8.0,
+            "build_group": [
+                "trader_rebel_titan_unlock_missile_weapon",
+                "titanpool_tr_trader_missile_guidance_computer"
+            ]
+        },
+        {
+            "weight": 8.0,
+            "build_group": [
+                "trader_rebel_titan_hull_plating_0",
+                "trader_rebel_titan_hull_plating_1",
+                "titanpool_tr_trader_heavy_armor"
+            ]
+        },
+        {
+            "weight": 8.0,
+            "build_group": [
+                "trader_rebel_titan_hangar"
+            ]
+        },
+        {
+            "weight": 5.0,
+            "build_group": [
+                "titanpool_tr_trader_flak_burst"
+            ]
+        },
+        {
+            "weight": 5.0,
+            "build_group": [
+                "titanpool_tr_trader_missile_armor"
+            ]
+        },
+        {
+            "weight": 5.0,
+            "build_group": [
+                "titanpool_tr_trader_beam_armor"
+            ]
+        },
+        {
+            "weight": 5.0,
+            "build_group": [
+                "titanpool_tr_trader_combat_repair_system"
+            ]
+        },
+        {
+            "weight": 3.0,
+            "build_group": [
+                "titanpool_tr_trader_antimatter_engine"
+            ]
+        },
+        {
+            "weight": 1.0,
+            "build_group": [
+                "pranast_armored_citadel"
+            ]
+        }
+    ],
+    "target_filter_unit_type": "titan",
+    "tags": [
+        "trader_rebel_titan",
+        "titan"
+    ],
+    "is_loot_collector": true,
+    "capture_points": 15,
+    "abilities": [
+        {
+            "abilities": [
+                "trader_rebel_titan_piercing_shot",
+                "trader_rebel_titan_explosive_shot",
+                "trader_rebel_titan_warpath",
+                "trader_rebel_titan_orbital_cannon"
+            ]
+        }
+    ],
+    "ship_roles": [
+        "attack_ship",
+        "bomb_planet"
+    ],
+    "skin_groups": [
+        {
+            "skins": [
+                "trader_rebel_titan"
+            ]
+        }
+    ],
+    "child_meshes": [
+        {
+            "mesh_alias_name": "trader_rebel_titan_component_hangar",
+            "mesh_point": "child.component_hangar",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "trader_rebel_titan_hangar"
+        },
+        {
+            "mesh_alias_name": "trader_rebel_titan_component_armor_0",
+            "mesh_point": "child.component_armor_0",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "trader_rebel_titan_hull_plating_0"
+        },
+        {
+            "mesh_alias_name": "trader_rebel_titan_component_armor_1",
+            "mesh_point": "child.component_armor_1",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "trader_rebel_titan_hull_plating_1"
+        },
+        {
+            "mesh_alias_name": "trader_rebel_titan_component_missile_launchers",
+            "mesh_point": "child.component_missile_launchers",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "trader_rebel_titan_unlock_missile_weapon"
+        },
+        {
+            "mesh_alias_name": "trader_rebel_titan_component_rail_gun",
+            "mesh_point": "child.component_rail_gun",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "trader_rebel_titan_unlock_rail_gun_weapon"
+        }
+    ],
+    "action_effect_size": "large_unit",
+    "can_join_fleet": true
+}

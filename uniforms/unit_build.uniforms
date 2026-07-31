@@ -1,0 +1,32 @@
+{
+    "build_kinds": [
+        {
+            "name": "trader_loyalist_titan",
+            "localized_name": "unit_tag_name.trader_loyalist_titan"
+        },
+        {
+            "name": "trader_rebel_titan",
+            "localized_name": "unit_tag_name.trader_rebel_titan"
+        },
+        {
+            "name": "advent_loyalist_titan",
+            "localized_name": "unit_tag_name.advent_loyalist_titan"
+        },
+        {
+            "name": "advent_rebel_titan",
+            "localized_name": "unit_tag_name.advent_rebel_titan"
+        },
+        {
+            "name": "vasari_loyalist_titan",
+            "localized_name": "unit_tag_name.vasari_loyalist_titan"
+        },
+        {
+            "name": "vasari_rebel_titan",
+            "localized_name": "unit_tag_name.vasari_rebel_titan"
+        },
+        {
+            "name": "trader_rebel_command_ship",
+            "localized_name": "unit_tag_name.trader_rebel_command_ship"
+        }
+    ]
+}

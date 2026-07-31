@@ -1,0 +1,38 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "trader_reserve_squadron_hangar_unit_item_hud_icon",
+    "tooltip_icon": "trader_reserve_squadron_hangar_unit_item_hud_icon",
+    "tooltip_picture": "trader_reserve_squadron_hangar_unit_item_tooltip_picture",
+    "name": "trader_reserve_squadron_hangar_unit_item_name",
+    "description": "trader_reserve_squadron_hangar_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 500.0,
+        "metal": 100.0,
+        "crystal": 100.0
+    },
+    "required_unit_tags": [
+        "capital_ship"
+    ],
+    "build_prerequisites": [
+        [
+            "trader_unlock_reserve_squadron_hangar_unit_item"
+        ]
+    ],
+    "owner_constraint": {
+        "constraint_type": "is_carrier"
+    },
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "unit_modifiers": [
+        {
+            "modifier_type": "max_squadron_capacity",
+            "value_behavior": "additive",
+            "values": [
+                2.0
+            ]
+        }
+    ],
+    "ability": "trader_reserve_squadron_hangar_unit_item"
+}

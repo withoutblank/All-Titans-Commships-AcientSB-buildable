@@ -1,0 +1,47 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "aluxian_exotic_vault_hud_icon",
+    "tooltip_picture": "aluxian_exotic_vault_tooltip_picture",
+    "name": "dlc2_vasari_faction_victory_unit_item_name",
+    "description": "dlc2_vasari_faction_victory_unit_item_description",
+    "build_time": 120.0,
+    "price": {
+        "metal": 60000,
+        "crystal": 48000
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 6
+        },
+        {
+            "exotic_type": "defense",
+            "count": 6
+        },
+        {
+            "exotic_type": "utility",
+            "count": 6
+        },
+        {
+            "exotic_type": "economic",
+            "count": 6
+        },
+        {
+            "exotic_type": "ultimate",
+            "count": 3
+        }
+    ],
+    "required_unit_tags": [
+        "vasari_rebel_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_prerequisites": [
+        [
+            "dlc2_vasari_unlock_faction_victory_item"
+        ]
+    ],
+    "build_group_id": "utility",
+    "ability": "dlc2_vasari_faction_victory",
+    "is_factional_victory_item": true
+}

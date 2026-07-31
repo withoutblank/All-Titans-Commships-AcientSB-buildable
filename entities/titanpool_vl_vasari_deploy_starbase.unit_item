@@ -1,0 +1,32 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_deploy_starbase_unit_item_hud_icon",
+    "name": "vasari_deploy_starbase_unit_item_name",
+    "description": "vasari_deploy_starbase_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "metal": 1080.0,
+        "crystal": 920.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 1
+        },
+        {
+            "exotic_type": "defense",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "vasari_loyalist_titan",
+        "vasari_loyalist_command_ship"
+    ],
+    "consumable_stack_count": [
+        1
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "consumable",
+    "ability": "vasari_deploy_starbase"
+}

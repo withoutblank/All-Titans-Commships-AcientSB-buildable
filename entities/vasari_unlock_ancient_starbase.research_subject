@@ -1,0 +1,25 @@
+{
+    "version": 0,
+    "domain": "military",
+    "tier": 4,
+    "field": "military_remnants",
+    "field_coord": [9, 2],
+    "research_time": 180.0,
+    "price":
+    {
+        "credits": 0.0,
+        "metal": 4000,
+        "crystal": 2500.0
+    },
+    "exotic_price": [
+    {
+        "exotic_type": "defense",
+        "count": 3
+    },{
+        "exotic_type": "ultimate",
+        "count": 1
+    }],
+    "name": "unlock_ancient_starbase_research_subject_name",
+    "name_uppercase": "unlock_ancient_starbase_research_subject_name_uppercase",
+    "hud_icon": "unlock_ancient_starbase_research_subject_hud_icon",
+    "tooltip_picture": "unlock_ancient_starbase_research_subject_tooltip_picture"}

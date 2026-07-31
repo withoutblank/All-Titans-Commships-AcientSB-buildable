@@ -1,0 +1,19 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_max_supply_5_research_subject_hud_icon",
+    "tooltip_picture": "vasari_max_supply_5_research_subject_tooltip_picture",
+    "name": "dlc2_vasari_rebel_super_capital_ship_phasic_comms_net_name",
+    "description": "dlc2_vasari_rebel_super_capital_ship_phasic_comms_net_description",
+    "build_time": 40.0,
+    "price": {
+        "metal": 660.0,
+        "crystal": 800.0
+    },
+    "required_unit_tags": [
+        "vasari_rebel_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "ability": "dlc2_vasari_rebel_super_capital_ship_phasic_comms_net"
+}

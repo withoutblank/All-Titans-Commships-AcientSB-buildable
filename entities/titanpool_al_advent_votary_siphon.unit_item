@@ -1,0 +1,33 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "advent_votary_siphon_unit_item_hud_icon",
+    "tooltip_picture": "advent_votary_siphon_unit_item_tooltip_picture",
+    "name": "advent_votary_siphon_unit_item_name",
+    "description": "advent_votary_siphon_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 250.0,
+        "metal": 50.0,
+        "crystal": 75.0
+    },
+    "required_unit_tags": [
+        "advent_loyalist_titan",
+        "advent_loyalist_command_ship"
+    ],
+    "consumable_stack_count": [
+        2
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "consumable",
+    "unit_modifiers": [
+        {
+            "modifier_type": "spell_power",
+            "value_behavior": "additive",
+            "values": [
+                25.0
+            ]
+        }
+    ],
+    "ability": "advent_votary_siphon_unit_item"
+}

@@ -1,0 +1,40 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "advent_mobile_fleet_beacon_unit_item_hud_icon",
+    "tooltip_picture": "advent_mobile_fleet_beacon_unit_item_tooltip_picture",
+    "name": "dlc2_advent_faction_victory_unit_item_name",
+    "description": "dlc2_advent_faction_victory_unit_item_description",
+    "build_time": 120.0,
+    "price": {
+        "credits": 30000,
+        "metal": 50000,
+        "crystal": 75000
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 10
+        },
+        {
+            "exotic_type": "economic",
+            "count": 10
+        },
+        {
+            "exotic_type": "ultimate",
+            "count": 5
+        }
+    ],
+    "required_unit_tags": [
+        "advent_rebel_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_prerequisites": [
+        [
+            "dlc2_advent_unlock_faction_victory_item"
+        ]
+    ],
+    "build_group_id": "utility",
+    "ability": "dlc2_advent_faction_victory",
+    "is_factional_victory_item": true
+}

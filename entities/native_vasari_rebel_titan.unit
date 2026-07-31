@@ -1,0 +1,2717 @@
+{
+    "version": 0,
+    "spatial": {
+        "radius": 2407.535156,
+        "box": {
+            "center": [
+                0.125427,
+                -3.720459,
+                -934.602051
+            ],
+            "extents": [
+                1361.392334,
+                1349.117065,
+                1472.93042
+            ]
+        },
+        "collision_rank": 3,
+        "missile_aim_zones": [
+            {
+                "center": [
+                    0.0,
+                    0.0,
+                    200.0
+                ],
+                "radius": 300.0
+            },
+            {
+                "center": [
+                    400.0,
+                    400.0,
+                    100.0
+                ],
+                "radius": 400.0
+            },
+            {
+                "center": [
+                    400.0,
+                    -400.0,
+                    100.0
+                ],
+                "radius": 400.0
+            },
+            {
+                "center": [
+                    -400.0,
+                    400.0,
+                    100.0
+                ],
+                "radius": 400.0
+            },
+            {
+                "center": [
+                    -400.0,
+                    -400.0,
+                    100.0
+                ],
+                "radius": 400.0
+            },
+            {
+                "center": [
+                    0.0,
+                    0.0,
+                    -1000.0
+                ],
+                "radius": 50.0
+            },
+            {
+                "center": [
+                    0.0,
+                    0.0,
+                    -1400.0
+                ],
+                "radius": 50.0
+            },
+            {
+                "center": [
+                    0.0,
+                    0.0,
+                    -1800.0
+                ],
+                "radius": 50.0
+            },
+            {
+                "center": [
+                    0.0,
+                    0.0,
+                    -2200.0
+                ],
+                "radius": 75.0
+            }
+        ]
+    },
+    "physics": {
+        "can_move_linear": true,
+        "max_linear_speed": 600.0,
+        "time_to_max_linear_speed": 8.0,
+        "arrival_tolerance_spatial_radius_scalar": 0.25,
+        "death_linear_speed_range": [
+            0.75,
+            1.25
+        ],
+        "can_move_angular": true,
+        "max_angular_speed": 6.0,
+        "time_to_max_angular_speed": 12.0,
+        "max_bank_angle": 15.0,
+        "death_angular_speed_range": [
+            1.0,
+            2.0
+        ],
+        "linear_acceleration_angle": 75.0,
+        "can_strafe_linear": true,
+        "strafe_max_linear_speed": 180.0,
+        "time_to_strafe_max_linear_speed": 20.0,
+        "strafe_max_linear_distance_spatial_radius_scalar": 3.0,
+        "strafe_start_angle": 0.0,
+        "strafe_stop_angle": 180.0,
+        "strafe_speed_start_angle": 10.0,
+        "strafe_max_start_turning_angle": 170.0
+    },
+    "hyperspace": {
+        "speed": 215000.0,
+        "speed_between_stars": 752500.0,
+        "charge_time": 8.0,
+        "charge_time_variance": 1.0,
+        "min_charge_angle": 10.0,
+        "max_charge_angle": 45.0
+    },
+    "move": {
+        "follow_distance": 8594.526367
+    },
+    "attack": {
+        "attack_pattern": {
+            "type": "stop_and_fire"
+        }
+    },
+    "ai": {
+        "attack_target_type_groups": [
+            "heavy_capital",
+            "defense"
+        ],
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft_corvette"
+        ],
+        "attack_target_type_groups_matching_weapon": "vasari_rebel_titan_missile_front",
+        "auto_follow_target_priority": 5.0,
+        "pursuit": {
+            "min_target_speed": 100.0,
+            "min_distance_to_target": 5000.0
+        },
+        "attack_target_type_range_scalar": 1.5
+    },
+    "ai_attack_target": {
+        "attack_priority": 50.0,
+        "is_always_a_threat": true,
+        "attack_target_type": "titan"
+    },
+    "user_interface": {
+        "pip_type": "titan",
+        "can_ever_be_selected": true,
+        "selection_priority": 500,
+        "selection_group_unit_type": "combat_ship",
+        "can_move": true,
+        "can_rotate": true,
+        "can_attack": true,
+        "can_show_max_weapon_range_in_tactical_view": true,
+        "can_show_distance_to_plane_line": true
+    },
+    "weapons": {
+        "weapons": [
+            {
+                "weapon": "vasari_rebel_titan_missile_front",
+                "mesh_point": "weapon.torpedo",
+                "weapon_position": [
+                    -0.341482,
+                    -3.350287,
+                    368.835114
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -18.471439,
+                        162.557877,
+                        350.872131
+                    ],
+                    [
+                        17.228386,
+                        162.557877,
+                        350.872131
+                    ],
+                    [
+                        -136.75589,
+                        20.223883,
+                        379.95166
+                    ],
+                    [
+                        -136.75589,
+                        -25.891344,
+                        379.95166
+                    ],
+                    [
+                        -18.471439,
+                        -171.05629,
+                        350.872131
+                    ],
+                    [
+                        17.228386,
+                        -171.05629,
+                        350.872131
+                    ],
+                    [
+                        -17.237068,
+                        -139.695526,
+                        378.787048
+                    ],
+                    [
+                        17.231861,
+                        -139.695526,
+                        378.787048
+                    ],
+                    [
+                        -17.237068,
+                        133.973175,
+                        378.787048
+                    ],
+                    [
+                        17.231861,
+                        133.973175,
+                        378.787048
+                    ],
+                    [
+                        165.525833,
+                        22.186384,
+                        365.729645
+                    ],
+                    [
+                        165.525833,
+                        -29.100443,
+                        365.729645
+                    ],
+                    [
+                        135.618881,
+                        20.223883,
+                        379.951691
+                    ],
+                    [
+                        135.618881,
+                        -25.891344,
+                        379.951691
+                    ],
+                    [
+                        -165.872452,
+                        22.186384,
+                        365.729614
+                    ],
+                    [
+                        -165.872452,
+                        -29.100443,
+                        365.729614
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.0,
+                    1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_missile_rear",
+                "mesh_point": "weapon.torpedo_rear_right",
+                "weapon_position": [
+                    146.588226,
+                    -3.131083,
+                    -183.166687
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        125.381699,
+                        68.173561,
+                        -209.307526
+                    ],
+                    [
+                        161.00769,
+                        56.705948,
+                        -153.424103
+                    ],
+                    [
+                        131.975204,
+                        31.410635,
+                        -215.97966
+                    ],
+                    [
+                        167.988281,
+                        16.528383,
+                        -153.955475
+                    ],
+                    [
+                        131.975204,
+                        -38.79953,
+                        -215.97966
+                    ],
+                    [
+                        167.988281,
+                        -23.254625,
+                        -153.955475
+                    ],
+                    [
+                        161.00769,
+                        -61.824219,
+                        -153.424103
+                    ],
+                    [
+                        125.381699,
+                        -73.988823,
+                        -209.307526
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "up": [
+                    0.906308,
+                    0.422618,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 0.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_missile_rear",
+                "mesh_point": "weapon.torpedo_rear_left",
+                "weapon_position": [
+                    -147.333221,
+                    -3.131083,
+                    -183.166748
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -161.879807,
+                        56.705948,
+                        -153.424133
+                    ],
+                    [
+                        -125.975891,
+                        68.173561,
+                        -209.307556
+                    ],
+                    [
+                        -168.085663,
+                        16.528383,
+                        -153.955536
+                    ],
+                    [
+                        -133.391541,
+                        31.410635,
+                        -215.979706
+                    ],
+                    [
+                        -168.085663,
+                        -23.254625,
+                        -153.955536
+                    ],
+                    [
+                        -133.391541,
+                        -38.79953,
+                        -215.979706
+                    ],
+                    [
+                        -161.879807,
+                        -61.824219,
+                        -153.424133
+                    ],
+                    [
+                        -125.975891,
+                        -73.988823,
+                        -209.307556
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "up": [
+                    -0.819152,
+                    0.573576,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": 0.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_missile_upgrade",
+                "required_unit_item": "vasari_rebel_titan_unlock_extra_phase_missile_weapons",
+                "mesh_point": "weapon.missile_component",
+                "weapon_position": [
+                    0.29101,
+                    -3.334059,
+                    497.967896
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -201.709305,
+                        245.589935,
+                        468.103821
+                    ],
+                    [
+                        -171.727997,
+                        248.34317,
+                        504.041443
+                    ],
+                    [
+                        -269.914917,
+                        115.609642,
+                        535.149231
+                    ],
+                    [
+                        -281.17453,
+                        68.150635,
+                        481.185425
+                    ],
+                    [
+                        -253.639725,
+                        153.538452,
+                        536.491089
+                    ],
+                    [
+                        -248.579346,
+                        178.02536,
+                        507.761047
+                    ],
+                    [
+                        -220.495544,
+                        192.225723,
+                        487.493042
+                    ],
+                    [
+                        -246.321426,
+                        208.210709,
+                        467.549683
+                    ],
+                    [
+                        61.682316,
+                        283.51828,
+                        482.032013
+                    ],
+                    [
+                        71.28727,
+                        312.992859,
+                        468.103851
+                    ],
+                    [
+                        94.242287,
+                        288.874512,
+                        504.041473
+                    ],
+                    [
+                        111.746933,
+                        271.74762,
+                        535.141602
+                    ],
+                    [
+                        -147.282669,
+                        252.30719,
+                        535.141602
+                    ],
+                    [
+                        150.615341,
+                        252.30719,
+                        535.141602
+                    ],
+                    [
+                        173.275024,
+                        248.34317,
+                        504.041473
+                    ],
+                    [
+                        185.35495,
+                        221.563843,
+                        482.031982
+                    ],
+                    [
+                        202.869522,
+                        245.589935,
+                        468.103882
+                    ],
+                    [
+                        220.574188,
+                        192.225723,
+                        482.682678
+                    ],
+                    [
+                        245.694565,
+                        208.210709,
+                        467.549744
+                    ],
+                    [
+                        248.30957,
+                        178.02536,
+                        507.761108
+                    ],
+                    [
+                        253.010162,
+                        153.538452,
+                        536.49115
+                    ],
+                    [
+                        271.144745,
+                        115.609642,
+                        535.149353
+                    ],
+                    [
+                        288.683929,
+                        97.618309,
+                        506.708191
+                    ],
+                    [
+                        -184.33255,
+                        221.563843,
+                        482.031982
+                    ],
+                    [
+                        281.922546,
+                        68.150635,
+                        481.185486
+                    ],
+                    [
+                        310.379669,
+                        77.208755,
+                        467.58667
+                    ],
+                    [
+                        281.922546,
+                        -74.616135,
+                        481.185486
+                    ],
+                    [
+                        310.379669,
+                        -83.347351,
+                        467.58667
+                    ],
+                    [
+                        288.683929,
+                        -103.106209,
+                        506.708191
+                    ],
+                    [
+                        271.144745,
+                        -121.804787,
+                        535.149353
+                    ],
+                    [
+                        253.010162,
+                        -160.265961,
+                        536.49115
+                    ],
+                    [
+                        249.036377,
+                        -184.55159,
+                        507.761108
+                    ],
+                    [
+                        245.694565,
+                        -215.318207,
+                        467.549744
+                    ],
+                    [
+                        220.574158,
+                        -197.929031,
+                        482.490906
+                    ],
+                    [
+                        -111.195053,
+                        271.74762,
+                        535.141602
+                    ],
+                    [
+                        203.623154,
+                        -251.815094,
+                        467.549744
+                    ],
+                    [
+                        185.63739,
+                        -228.325638,
+                        482.490906
+                    ],
+                    [
+                        172.807037,
+                        -255.832184,
+                        506.735077
+                    ],
+                    [
+                        148.549118,
+                        -260.318054,
+                        536.491211
+                    ],
+                    [
+                        112.41301,
+                        -279.452942,
+                        535.149292
+                    ],
+                    [
+                        94.033272,
+                        -295.878326,
+                        506.70816
+                    ],
+                    [
+                        72.89637,
+                        -319.544189,
+                        467.586639
+                    ],
+                    [
+                        63.084812,
+                        -290.109009,
+                        481.185455
+                    ],
+                    [
+                        -63.051651,
+                        -290.109009,
+                        481.185486
+                    ],
+                    [
+                        -72.076675,
+                        -319.544189,
+                        467.586609
+                    ],
+                    [
+                        -92.647713,
+                        288.874512,
+                        504.041382
+                    ],
+                    [
+                        -93.018959,
+                        -295.878326,
+                        506.70813
+                    ],
+                    [
+                        -111.736008,
+                        -279.452942,
+                        535.149231
+                    ],
+                    [
+                        -148.480026,
+                        -260.318054,
+                        536.491089
+                    ],
+                    [
+                        -172.86145,
+                        -255.832184,
+                        506.734985
+                    ],
+                    [
+                        -184.634125,
+                        -228.325638,
+                        482.490845
+                    ],
+                    [
+                        -202.853195,
+                        -251.815094,
+                        467.549683
+                    ],
+                    [
+                        -220.628265,
+                        -197.929031,
+                        482.490845
+                    ],
+                    [
+                        -245.610275,
+                        -215.318207,
+                        467.549683
+                    ],
+                    [
+                        -248.719513,
+                        -184.55159,
+                        507.761047
+                    ],
+                    [
+                        -252.646225,
+                        -160.265961,
+                        536.491211
+                    ],
+                    [
+                        -62.217361,
+                        283.51828,
+                        482.031982
+                    ],
+                    [
+                        -270.593811,
+                        -121.804787,
+                        535.149292
+                    ],
+                    [
+                        -287.672882,
+                        -103.106209,
+                        506.70813
+                    ],
+                    [
+                        -281.277618,
+                        -74.616135,
+                        481.185425
+                    ],
+                    [
+                        -309.884399,
+                        -83.347351,
+                        467.586609
+                    ],
+                    [
+                        -71.559647,
+                        312.992859,
+                        468.103882
+                    ],
+                    [
+                        -309.649994,
+                        77.208755,
+                        467.58667
+                    ],
+                    [
+                        -287.465637,
+                        97.618309,
+                        506.70813
+                    ]
+                ],
+                "forward": [
+                    -0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.819152,
+                    0.573577,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_0",
+                "weapon_position": [
+                    85.441231,
+                    173.65184,
+                    475.430939
+                ],
+                "forward": [
+                    1e-06,
+                    1e-06,
+                    1.0
+                ],
+                "up": [
+                    -0.573574,
+                    -0.819154,
+                    1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 40.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_1",
+                "weapon_position": [
+                    171.446075,
+                    91.980316,
+                    475.430939
+                ],
+                "forward": [
+                    1e-06,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.866024,
+                    -0.500002,
+                    1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_2",
+                "weapon_position": [
+                    -83.092018,
+                    173.65184,
+                    475.430908
+                ],
+                "forward": [
+                    0.0,
+                    1e-06,
+                    1.0
+                ],
+                "up": [
+                    0.42262,
+                    -0.906307,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_3",
+                "weapon_position": [
+                    -169.602646,
+                    91.980316,
+                    475.430908
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.819154,
+                    -0.573574,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_4",
+                "weapon_position": [
+                    171.781693,
+                    -100.461517,
+                    475.430817
+                ],
+                "forward": [
+                    1e-06,
+                    -1e-06,
+                    1.0
+                ],
+                "up": [
+                    -0.866026,
+                    0.499999,
+                    1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_5",
+                "weapon_position": [
+                    83.885353,
+                    -182.133102,
+                    475.430878
+                ],
+                "forward": [
+                    0.0,
+                    -1e-06,
+                    1.0
+                ],
+                "up": [
+                    -0.422619,
+                    0.906307,
+                    1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_6",
+                "weapon_position": [
+                    -85.540993,
+                    -182.133102,
+                    475.430847
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.573576,
+                    0.819152,
+                    1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_7",
+                "weapon_position": [
+                    -171.545837,
+                    -100.461517,
+                    475.430786
+                ],
+                "forward": [
+                    -0.0,
+                    -1e-06,
+                    1.0
+                ],
+                "up": [
+                    0.866025,
+                    0.500001,
+                    1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_8",
+                "weapon_position": [
+                    173.214111,
+                    346.317474,
+                    -545.279602
+                ],
+                "forward": [
+                    0.0,
+                    -0.0,
+                    -1.0
+                ],
+                "up": [
+                    0.500001,
+                    0.866025,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_9",
+                "weapon_position": [
+                    346.204254,
+                    175.184082,
+                    -545.279419
+                ],
+                "forward": [
+                    0.0,
+                    -0.0,
+                    -1.0
+                ],
+                "up": [
+                    0.906308,
+                    0.422618,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_10",
+                "weapon_position": [
+                    347.183441,
+                    -183.018433,
+                    -545.279419
+                ],
+                "forward": [
+                    -1e-06,
+                    1e-06,
+                    -1.0
+                ],
+                "up": [
+                    0.906307,
+                    -0.42262,
+                    -2e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_11",
+                "weapon_position": [
+                    173.846756,
+                    -354.151825,
+                    -545.279541
+                ],
+                "forward": [
+                    -0.0,
+                    1e-06,
+                    -1.0
+                ],
+                "up": [
+                    0.499997,
+                    -0.866027,
+                    -1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_12",
+                "weapon_position": [
+                    -173.162674,
+                    346.317474,
+                    -545.279663
+                ],
+                "forward": [
+                    1e-06,
+                    -0.0,
+                    -1.0
+                ],
+                "up": [
+                    -0.499999,
+                    0.866026,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_13",
+                "weapon_position": [
+                    -347.506439,
+                    175.184082,
+                    -545.27948
+                ],
+                "forward": [
+                    1e-06,
+                    -0.0,
+                    -1.0
+                ],
+                "up": [
+                    -0.866025,
+                    0.5,
+                    -1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_14",
+                "weapon_position": [
+                    -173.088318,
+                    -354.151825,
+                    -545.279541
+                ],
+                "forward": [
+                    0.0,
+                    1e-06,
+                    -1.0
+                ],
+                "up": [
+                    -0.500002,
+                    -0.866024,
+                    -1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_wave",
+                "mesh_point": "child.vasari_asset_hvywave_titan_barrel_15",
+                "weapon_position": [
+                    -346.078613,
+                    -183.018433,
+                    -545.279541
+                ],
+                "forward": [
+                    1e-06,
+                    1e-06,
+                    -1.0
+                ],
+                "up": [
+                    -0.906308,
+                    -0.422617,
+                    -2e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_0",
+                "weapon_position": [
+                    492.913055,
+                    -254.185547,
+                    440.039368
+                ],
+                "forward": [
+                    0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.866026,
+                    0.5,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_1",
+                "weapon_position": [
+                    249.093552,
+                    -496.720184,
+                    440.039551
+                ],
+                "forward": [
+                    0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.642788,
+                    0.766044,
+                    1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_2",
+                "weapon_position": [
+                    -492.485535,
+                    -254.185547,
+                    440.039368
+                ],
+                "forward": [
+                    -1e-06,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.906308,
+                    0.422618,
+                    1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_3",
+                "weapon_position": [
+                    -247.531067,
+                    -496.720184,
+                    440.03949
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.422618,
+                    0.906308,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_4",
+                "weapon_position": [
+                    492.243286,
+                    246.339172,
+                    440.03949
+                ],
+                "forward": [
+                    -1e-06,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.819152,
+                    -0.573576,
+                    -1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_5",
+                "weapon_position": [
+                    -492.545044,
+                    246.339172,
+                    440.03949
+                ],
+                "forward": [
+                    0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.866026,
+                    -0.5,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_6",
+                "weapon_position": [
+                    -248.725647,
+                    488.873779,
+                    440.039429
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.642788,
+                    -0.766044,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_7",
+                "weapon_position": [
+                    248.544662,
+                    488.873779,
+                    440.03949
+                ],
+                "forward": [
+                    -1e-06,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.5,
+                    -0.866025,
+                    -1e-06
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_8",
+                "weapon_position": [
+                    498.394012,
+                    247.631378,
+                    -266.859253
+                ],
+                "forward": [
+                    0.107193,
+                    -0.013325,
+                    -0.994149
+                ],
+                "up": [
+                    0.897039,
+                    0.432498,
+                    0.090925
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_9",
+                "weapon_position": [
+                    252.348633,
+                    497.454803,
+                    -266.859253
+                ],
+                "forward": [
+                    0.09545,
+                    0.050568,
+                    -0.994149
+                ],
+                "up": [
+                    0.48674,
+                    0.868802,
+                    0.090925
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_10",
+                "weapon_position": [
+                    499.37851,
+                    -255.568756,
+                    -266.859253
+                ],
+                "forward": [
+                    0.058694,
+                    -0.090678,
+                    -0.994149
+                ],
+                "up": [
+                    0.907918,
+                    -0.409167,
+                    0.090924
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_11",
+                "weapon_position": [
+                    252.232178,
+                    -504.112518,
+                    -266.859253
+                ],
+                "forward": [
+                    0.005491,
+                    -0.107878,
+                    -0.994149
+                ],
+                "up": [
+                    0.581697,
+                    -0.808308,
+                    0.090925
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_12",
+                "weapon_position": [
+                    -498.628693,
+                    247.631378,
+                    -266.859314
+                ],
+                "forward": [
+                    -0.050568,
+                    0.09545,
+                    -0.994149
+                ],
+                "up": [
+                    -0.868802,
+                    0.48674,
+                    0.090925
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_13",
+                "weapon_position": [
+                    -250.986877,
+                    497.454803,
+                    -266.859314
+                ],
+                "forward": [
+                    0.003932,
+                    0.107946,
+                    -0.994149
+                ],
+                "up": [
+                    -0.509035,
+                    0.85593,
+                    0.090925
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_14",
+                "weapon_position": [
+                    -498.628693,
+                    -255.568756,
+                    -266.859314
+                ],
+                "forward": [
+                    -0.107192,
+                    0.013325,
+                    -0.994149
+                ],
+                "up": [
+                    -0.897038,
+                    -0.432499,
+                    0.090924
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_titan_barrel_15",
+                "weapon_position": [
+                    -251.055206,
+                    -504.112518,
+                    -266.859314
+                ],
+                "forward": [
+                    -0.09545,
+                    -0.050568,
+                    -0.994149
+                ],
+                "up": [
+                    -0.48674,
+                    -0.868802,
+                    0.090925
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_beam",
+                "mesh_point": "child.vasari_asset_titan_heavybeam_0",
+                "weapon_position": [
+                    593.094971,
+                    294.317047,
+                    400.37149
+                ],
+                "forward": [
+                    -0.159903,
+                    -0.078074,
+                    0.98404
+                ],
+                "up": [
+                    0.882433,
+                    0.435485,
+                    0.177944
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 40.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_beam",
+                "mesh_point": "child.vasari_asset_titan_heavybeam_1",
+                "weapon_position": [
+                    300.579987,
+                    589.599976,
+                    398.35321
+                ],
+                "forward": [
+                    -0.082213,
+                    -0.157003,
+                    0.98417
+                ],
+                "up": [
+                    0.44909,
+                    0.875735,
+                    0.177219
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 40.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_beam",
+                "mesh_point": "child.vasari_asset_titan_heavybeam_2",
+                "weapon_position": [
+                    -300.843903,
+                    589.599976,
+                    398.353088
+                ],
+                "forward": [
+                    0.090678,
+                    -0.150389,
+                    0.98446
+                ],
+                "up": [
+                    -0.515267,
+                    0.838846,
+                    0.175605
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 40.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_beam",
+                "mesh_point": "child.vasari_asset_titan_heavybeam_3",
+                "weapon_position": [
+                    -592.759888,
+                    294.317047,
+                    400.371521
+                ],
+                "forward": [
+                    0.167666,
+                    -0.049737,
+                    0.984589
+                ],
+                "up": [
+                    -0.944695,
+                    0.277426,
+                    0.174887
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 40.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_beam",
+                "mesh_point": "child.vasari_asset_titan_heavybeam_4",
+                "weapon_position": [
+                    593.094971,
+                    -303.519257,
+                    400.37149
+                ],
+                "forward": [
+                    -0.156373,
+                    0.084855,
+                    0.984046
+                ],
+                "up": [
+                    0.862745,
+                    -0.473306,
+                    0.177911
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 40.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_beam",
+                "mesh_point": "child.vasari_asset_titan_heavybeam_5",
+                "weapon_position": [
+                    300.579987,
+                    -597.983093,
+                    398.35321
+                ],
+                "forward": [
+                    -0.070131,
+                    0.162637,
+                    0.984191
+                ],
+                "up": [
+                    0.381696,
+                    -0.907161,
+                    0.177106
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 40.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_beam",
+                "mesh_point": "child.vasari_asset_titan_heavybeam_6",
+                "weapon_position": [
+                    -300.843903,
+                    -600.232056,
+                    398.353088
+                ],
+                "forward": [
+                    0.108095,
+                    0.138193,
+                    0.984489
+                ],
+                "up": [
+                    -0.61242,
+                    -0.770819,
+                    0.175443
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 40.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_beam",
+                "mesh_point": "child.vasari_asset_titan_heavybeam_7",
+                "weapon_position": [
+                    -592.759888,
+                    -304.098175,
+                    400.371521
+                ],
+                "forward": [
+                    0.165574,
+                    0.056372,
+                    0.984585
+                ],
+                "up": [
+                    -0.933028,
+                    -0.314432,
+                    0.174906
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 40.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_phase_cannon",
+                "required_unit_item": "vasari_rebel_titan_unlock_phase_cannon_weapon",
+                "mesh_point": "weapon.cannon.0",
+                "weapon_position": [
+                    -3.3e-05,
+                    -8e-06,
+                    398.442017
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -3.3e-05,
+                        -8e-06,
+                        398.442017
+                    ]
+                ],
+                "forward": [
+                    -0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.0,
+                    1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_rebel_titan_planet_bombing",
+                "mesh_point": "bomb",
+                "weapon_position": [
+                    -3.3e-05,
+                    -8e-06,
+                    398.442017
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -3.3e-05,
+                        -8e-06,
+                        398.442017
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 5.0
+                },
+                "pitch_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 5.0
+                }
+            }
+        ],
+        "max_range_weapon_index": 0
+    },
+    "formation": {
+        "leader_priority": 4,
+        "offsets_per_formation_type": {
+            "ships_and_structures": {
+                "rank": 0,
+                "group": 3
+            }
+        }
+    },
+    "spawn_debris": {
+        "spawn_debris_time": 5.8,
+        "generic_group_name": "vasari",
+        "generic_counts": {
+            "small_debris": [
+                50,
+                60
+            ],
+            "large_debris": [
+                50,
+                60
+            ]
+        },
+        "custom_debris": [
+            {
+                "unit": "vasari_rebel_titan_debris_back",
+                "basis": {
+                    "position": [
+                        0.0,
+                        0.0,
+                        -2000.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "vasari_rebel_titan_debris_front_0",
+                "basis": {
+                    "position": [
+                        -300.0,
+                        600.0,
+                        110.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "vasari_rebel_titan_debris_front_1",
+                "basis": {
+                    "position": [
+                        250.0,
+                        -500.0,
+                        300.0
+                    ],
+                    "rotation": [
+                        0.5,
+                        0.866025,
+                        0.0,
+                        -0.866025,
+                        0.5,
+                        -0.0,
+                        -0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "vasari_rebel_titan_debris_mid",
+                "basis": {
+                    "position": [
+                        -0.0,
+                        0.0,
+                        -1000.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            }
+        ],
+        "spawn_loot": {
+            "loot_unit": "ship_loot_vasari",
+            "loot_name": "vasari_rebel_titan_loot_name",
+            "loot_level": 1,
+            "experience_given": 1000.0,
+            "exotics": [
+                {
+                    "bundles": [
+                        {
+                            "types": [
+                                "offense"
+                            ],
+                            "counts": [
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "types": [
+                                "utility"
+                            ],
+                            "counts": [
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "types": [
+                                "economic"
+                            ],
+                            "counts": [
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "types": [
+                                "ultimate"
+                            ],
+                            "counts": [
+                                1,
+                                3
+                            ]
+                        }
+                    ],
+                    "weight": 1.0
+                }
+            ],
+            "assets": {
+                "metal": [
+                    530,
+                    1590
+                ],
+                "crystal": [
+                    430,
+                    1290
+                ]
+            }
+        }
+    },
+    "health": {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 6.5,
+        "durability": 750.0,
+        "levels": [
+            {
+                "max_hull_points": 11360.0,
+                "hull_point_restore_rate": 6.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.5,
+                "max_armor_points": 3360.0,
+                "armor_point_restore_rate": 8.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 90.0,
+                "max_shield_points": 7140.0,
+                "shield_point_restore_rate": 10.0,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 70.0,
+                    "restore_percentage": 0.25
+                },
+                "experience_given_on_death": 400.0
+            },
+            {
+                "max_hull_points": 12375.0,
+                "hull_point_restore_rate": 7.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.52,
+                "max_armor_points": 3475.0,
+                "armor_point_restore_rate": 9.2,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 96.0,
+                "max_shield_points": 7620.0,
+                "shield_point_restore_rate": 12.4,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 68.0,
+                    "restore_percentage": 0.27
+                },
+                "experience_given_on_death": 480.0
+            },
+            {
+                "max_hull_points": 13385.0,
+                "hull_point_restore_rate": 8.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.54,
+                "max_armor_points": 3590.0,
+                "armor_point_restore_rate": 10.4,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 102.0,
+                "max_shield_points": 8100.0,
+                "shield_point_restore_rate": 14.8,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 66.0,
+                    "restore_percentage": 0.29
+                },
+                "experience_given_on_death": 600.0
+            },
+            {
+                "max_hull_points": 14395.0,
+                "hull_point_restore_rate": 9.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.56,
+                "max_armor_points": 3705.0,
+                "armor_point_restore_rate": 11.6,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 108.0,
+                "max_shield_points": 8580.0,
+                "shield_point_restore_rate": 17.2,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 64.0,
+                    "restore_percentage": 0.32
+                },
+                "experience_given_on_death": 760.0
+            },
+            {
+                "max_hull_points": 15405.0,
+                "hull_point_restore_rate": 10.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.58,
+                "max_armor_points": 3820.0,
+                "armor_point_restore_rate": 12.8,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 114.0,
+                "max_shield_points": 9055.0,
+                "shield_point_restore_rate": 19.6,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 62.0,
+                    "restore_percentage": 0.35
+                },
+                "experience_given_on_death": 960.0
+            },
+            {
+                "max_hull_points": 16420.0,
+                "hull_point_restore_rate": 11.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.61,
+                "max_armor_points": 3935.0,
+                "armor_point_restore_rate": 14.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 120.0,
+                "max_shield_points": 9535.0,
+                "shield_point_restore_rate": 22.0,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 60.0,
+                    "restore_percentage": 0.38
+                },
+                "experience_given_on_death": 1200.0
+            },
+            {
+                "max_hull_points": 17430.0,
+                "hull_point_restore_rate": 12.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.64,
+                "max_armor_points": 4050.0,
+                "armor_point_restore_rate": 15.2,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 126.0,
+                "max_shield_points": 10015.0,
+                "shield_point_restore_rate": 24.4,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 58.0,
+                    "restore_percentage": 0.41
+                },
+                "experience_given_on_death": 1480.0
+            },
+            {
+                "max_hull_points": 18440.0,
+                "hull_point_restore_rate": 13.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.67,
+                "max_armor_points": 4160.0,
+                "armor_point_restore_rate": 16.4,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 132.0,
+                "max_shield_points": 10490.0,
+                "shield_point_restore_rate": 26.8,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 56.0,
+                    "restore_percentage": 0.44
+                },
+                "experience_given_on_death": 1800.0
+            },
+            {
+                "max_hull_points": 19450.0,
+                "hull_point_restore_rate": 14.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.71,
+                "max_armor_points": 4275.0,
+                "armor_point_restore_rate": 17.6,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 138.0,
+                "max_shield_points": 10970.0,
+                "shield_point_restore_rate": 29.2,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 53.0,
+                    "restore_percentage": 0.47
+                },
+                "experience_given_on_death": 2160.0
+            },
+            {
+                "max_hull_points": 20460.0,
+                "hull_point_restore_rate": 15.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.75,
+                "max_armor_points": 4390.0,
+                "armor_point_restore_rate": 18.8,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 144.0,
+                "max_shield_points": 11450.0,
+                "shield_point_restore_rate": 31.6,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 50.0,
+                    "restore_percentage": 0.5
+                },
+                "experience_given_on_death": 2560.0
+            }
+        ]
+    },
+    "antimatter": {
+        "max_antimatter": 0.0,
+        "antimatter_restore_rate": 0.0
+    },
+    "levels": {
+        "type": "experience",
+        "levels": [
+            {
+                "experience_to_next_level": 500.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 445.0,
+                        "antimatter_restore_rate": 1.15,
+                        "max_squadron_capacity": 2.0
+                    },
+                    "scalar_values": {}
+                }
+            },
+            {
+                "experience_to_next_level": 1250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 467.220001,
+                        "antimatter_restore_rate": 1.21,
+                        "max_squadron_capacity": 2.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.024,
+                        "cooldown_duration": -0.012
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 2250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 489.440002,
+                        "antimatter_restore_rate": 1.26,
+                        "max_squadron_capacity": 3.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.048,
+                        "cooldown_duration": -0.024
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 3750.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 511.670013,
+                        "antimatter_restore_rate": 1.32,
+                        "max_squadron_capacity": 3.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.072,
+                        "cooldown_duration": -0.036
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 5750.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 533.890015,
+                        "antimatter_restore_rate": 1.37,
+                        "max_squadron_capacity": 4.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.096,
+                        "cooldown_duration": -0.048
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 8250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 556.109985,
+                        "antimatter_restore_rate": 1.43,
+                        "max_squadron_capacity": 4.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.12,
+                        "cooldown_duration": -0.06
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 11250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 578.330017,
+                        "antimatter_restore_rate": 1.48,
+                        "max_squadron_capacity": 5.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.144,
+                        "cooldown_duration": -0.072
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 15000.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 600.559998,
+                        "antimatter_restore_rate": 1.54,
+                        "max_squadron_capacity": 5.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.168,
+                        "cooldown_duration": -0.084
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 19500.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 605.0,
+                        "antimatter_restore_rate": 1.55,
+                        "max_squadron_capacity": 6.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.192,
+                        "cooldown_duration": -0.096
+                    }
+                }
+            },
+            {
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 645.0,
+                        "antimatter_restore_rate": 1.65,
+                        "max_squadron_capacity": 6.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.216,
+                        "cooldown_duration": -0.108
+                    }
+                }
+            }
+        ]
+    },
+    "unit_factory": {
+        "build_kinds": [
+            "corvette",
+            "frigate",
+            "cruiser",
+            "capital_ship",
+            "super_capital_ship",
+            "titan",
+            "vasari_rebel_titan",
+            "vasari_loyalist_titan",
+            "advent_rebel_titan",
+            "advent_loyalist_titan",
+            "trader_rebel_titan",
+            "trader_loyalist_titan",
+            "trader_rebel_command_ship"
+        ],
+        "required_mutation": "mobile_unit_factory_enabled",
+        "will_spawn_units_in_hyperspace": true,
+        "spawn_units_in_hyperspace_delay_duration": 10.0
+    },
+    "exotic_factory": {
+        "required_mutation": "mobile_exotic_factory_enabled"
+    },
+    "build": {
+        "build_time": 300.0,
+        "price": {
+            "metal": 5300.0,
+            "crystal": 4300.0
+        },
+        "exotic_price": [
+            {
+                "exotic_type": "offense",
+                "count": 2
+            },
+            {
+                "exotic_type": "defense",
+                "count": 1
+            },
+            {
+                "exotic_type": "utility",
+                "count": 1
+            },
+            {
+                "exotic_type": "ultimate",
+                "count": 3
+            }
+        ],
+        "build_kind": "titan",
+        "supply_cost": 150,
+        "build_group_id": "titan"
+    },
+    "carrier": {
+        "base_max_squadron_capacity": 0,
+        "strikecraft_kinds": [
+            "interceptor",
+            "bomber"
+        ],
+        "launch_destination_formation": "titan_strikecraft",
+        "launch_destination_formation_offset": {
+            "rank": 3,
+            "group": 2
+        },
+        "hangar_data": [
+            {
+                "hangar_basis": {
+                    "position": [
+                        -0.531334,
+                        -124.028633,
+                        -140.790527
+                    ],
+                    "rotation": [
+                        1.0,
+                        -0.0,
+                        0.0,
+                        -0.0,
+                        -1.0,
+                        1e-06,
+                        -0.0,
+                        -1e-06,
+                        -1.0
+                    ]
+                }
+            },
+            {
+                "hangar_basis": {
+                    "position": [
+                        -0.531349,
+                        119.640083,
+                        -140.790527
+                    ],
+                    "rotation": [
+                        -1.0,
+                        -0.0,
+                        0.0,
+                        -0.0,
+                        1.0,
+                        1e-06,
+                        -0.0,
+                        1e-06,
+                        -1.0
+                    ]
+                }
+            }
+        ]
+    },
+    "items": {
+        "levels": [
+            {
+                "max_ship_component_count": 8
+            }
+        ]
+    },
+    "item_builds": [
+        {
+            "weight": 10.0,
+            "build_group": [
+                "vasari_rebel_titan_hull_plating_0",
+                "vasari_rebel_titan_hull_plating_1",
+                "titanpool_vr_vasari_self_repairing_armor"
+            ]
+        },
+        {
+            "weight": 8.0,
+            "build_group": [
+                "vasari_rebel_titan_unlock_phase_cannon_weapon",
+                "titanpool_vr_vasari_beam_boost",
+                "titanpool_vr_vasari_wave_boost",
+                "vasari_rebel_titan_unlock_extra_phase_missile_weapons",
+                "titanpool_vr_vasari_phase_missile_boost"
+            ]
+        },
+        {
+            "weight": 8.0,
+            "build_group": [
+                "vasari_rebel_titan_improve_gravity_pulse",
+                "vasari_rebel_titan_improve_nano_emitters",
+                "titanpool_vr_vasari_antimatter_recharger"
+            ]
+        },
+        {
+            "weight": 5.0,
+            "build_group": [
+                "vasari_rebel_titan_hangar",
+                "titanpool_vr_vasari_strikecraft_armor",
+                "titanpool_vr_vasari_engine_boost"
+            ]
+        },
+        {
+            "weight": 3.0,
+            "build_group": [
+                "vasari_rebel_titan_unlock_extra_phase_missile_weapons",
+                "titanpool_vr_vasari_phase_missile_boost"
+            ]
+        },
+        {
+            "weight": 3.0,
+            "build_group": [
+                "vasari_rebel_titan_hull_plating_0",
+                "titanpool_vr_vasari_self_repairing_armor"
+            ]
+        },
+        {
+            "weight": 1.0,
+            "build_group": [
+                "vasari_rebel_titan_hull_plating_0",
+                "pranast_armored_citadel"
+            ]
+        }
+    ],
+    "passive_income": {},
+    "target_filter_unit_type": "titan",
+    "tags": [
+        "vasari_rebel_titan",
+        "titan"
+    ],
+    "is_loot_collector": true,
+    "capture_points": 15,
+    "abilities": [
+        {
+            "abilities": [
+                "vasari_rebel_titan_nano_leech",
+                "vasari_rebel_titan_nano_remit",
+                "vasari_rebel_titan_gravity_pulse",
+                "vasari_rebel_titan_dissever"
+            ]
+        }
+    ],
+    "ship_roles": [
+        "attack_ship",
+        "bomb_planet"
+    ],
+    "skin_groups": [
+        {
+            "skins": [
+                "vasari_rebel_titan"
+            ]
+        }
+    ],
+    "child_meshes": [
+        {
+            "mesh_alias_name": "vasari_rebel_titan_component_armor_0",
+            "mesh_point": "child.vasari_rebel_titan_component_armor_0",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "vasari_rebel_titan_hull_plating_0"
+        },
+        {
+            "mesh_alias_name": "vasari_rebel_titan_component_armor_1",
+            "mesh_point": "child.vasari_rebel_titan_component_armor_1",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "vasari_rebel_titan_hull_plating_1"
+        },
+        {
+            "mesh_alias_name": "vasari_rebel_titan_component_nano",
+            "mesh_point": "child.vasari_rebel_titan_component_nano",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "vasari_rebel_titan_improve_nano_emitters"
+        },
+        {
+            "mesh_alias_name": "vasari_rebel_titan_component_missile_launcher",
+            "mesh_point": "child.vasari_rebel_titan_component_missile_launcher",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "vasari_rebel_titan_unlock_extra_phase_missile_weapons"
+        },
+        {
+            "mesh_alias_name": "vasari_rebel_titan_component_cannon",
+            "mesh_point": "child.vasari_rebel_titan_component_cannon",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "vasari_rebel_titan_unlock_phase_cannon_weapon"
+        }
+    ],
+    "action_effect_size": "large_unit",
+    "can_join_fleet": true
+}

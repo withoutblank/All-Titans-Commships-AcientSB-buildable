@@ -1,0 +1,27 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_inertial_anchor_unit_item_hud_icon",
+    "tooltip_picture": "vasari_inertial_anchor_unit_item_tooltip_picture",
+    "name": "vasari_inertial_anchor_unit_item_name",
+    "description": "vasari_inertial_anchor_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 0.0,
+        "metal": 350.0,
+        "crystal": 425.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "vasari_rebel_titan",
+        "vasari_rebel_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "defense",
+    "ability": "vasari_inertial_anchor_unit_item"
+}

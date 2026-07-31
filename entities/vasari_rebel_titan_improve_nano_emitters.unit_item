@@ -1,0 +1,45 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_rebel_titan_improve_nano_emitters_unit_item_hud_icon",
+    "tooltip_picture": "vasari_rebel_titan_improve_nano_emitters_unit_item_tooltip_picture",
+    "name": "vasari_rebel_titan_improve_nano_emitters_unit_item_name",
+    "description": "vasari_rebel_titan_improve_nano_emitters_unit_item_description",
+    "build_time": 120.0,
+    "price": {
+        "metal": 520,
+        "crystal": 380
+    },
+    "required_unit_tags": [
+        "vasari_rebel_titan"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "unit_mutations": [
+        "improved_titan_nano_emitters"
+    ],
+    "owner_unit_ability_tooltips": [
+        {
+            "ability": "vasari_rebel_titan_nano_leech",
+            "tooltip_lines": [
+                {
+                    "rendering_type": "single_value",
+                    "label_text": "tooltip.ability.radius",
+                    "value_id": "nano_leech_improved_radius_value",
+                    "value_float_format": "no_decimal_place"
+                }
+            ]
+        },
+        {
+            "ability": "vasari_rebel_titan_nano_remit",
+            "tooltip_lines": [
+                {
+                    "rendering_type": "single_value",
+                    "label_text": "tooltip.ability.radius",
+                    "value_id": "nano_remit_improved_radius_value",
+                    "value_float_format": "no_decimal_place"
+                }
+            ]
+        }
+    ]
+}

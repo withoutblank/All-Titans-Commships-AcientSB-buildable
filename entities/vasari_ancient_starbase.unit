@@ -1,0 +1,2201 @@
+{
+    "version": 0,
+    "spatial": {
+        "radius": 2451.541992,
+        "box": {
+            "center": [
+                0.0,
+                0.0,
+                -0.000122
+            ],
+            "extents": [
+                2345.210449,
+                2055.444824,
+                1731.369507
+            ]
+        },
+        "collision_rank": 3,
+        "can_be_displaced_on_collision": false,
+        "missile_aim_zones": [
+            {
+                "center": [
+                    0.0,
+                    -500,
+                    0.0
+                ],
+                "radius": 750.0
+            },
+            {
+                "center": [
+                    0.0,
+                    1200.0,
+                    0.0
+                ],
+                "radius": 800.0
+            },
+            {
+                "center": [
+                    1000.0,
+                    450.0,
+                    1000.0
+                ],
+                "radius": 500.0
+            },
+            {
+                "center": [
+                    1000.0,
+                    450.0,
+                    -1000.0
+                ],
+                "radius": 500.0
+            },
+            {
+                "center": [
+                    -1000.0,
+                    450.0,
+                    1000.0
+                ],
+                "radius": 500.0
+            },
+            {
+                "center": [
+                    -1000.0,
+                    450.0,
+                    -1000.0
+                ],
+                "radius": 500.0
+            },
+            {
+                "center": [
+                    750.0,
+                    500.0,
+                    0.0
+                ],
+                "radius": 600.0
+            },
+            {
+                "center": [
+                    -750.0,
+                    500.0,
+                    0.0
+                ],
+                "radius": 600.0
+            },
+            {
+                "center": [
+                    0.0,
+                    500.0,
+                    750.0
+                ],
+                "radius": 600.0
+            },
+            {
+                "center": [
+                    0.0,
+                    500.0,
+                    -750.0
+                ],
+                "radius": 600.0
+            },
+            {
+                "center": [
+                    1350.0,
+                    -550.0,
+                    0.0
+                ],
+                "radius": 450.0
+            },
+            {
+                "center": [
+                    -1350.0,
+                    -550.0,
+                    0.0
+                ],
+                "radius": 450.0
+            }
+        ]
+    },
+    "physics": {
+        "can_move_angular": true,
+        "max_angular_speed": 0.5,
+        "death_angular_speed_range": [
+            1.5,
+            1.5
+        ]
+    },
+    "attack": {
+        "attack_pattern": {
+            "type": "immobile",
+            "rotate_only_on_plane": true
+        }
+    },
+    "ai": {
+        "attack_target_type_groups": [
+            "heavy_capital"
+        ],
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft"
+        ],
+        "attack_target_type_groups_matching_weapon": "dlc_ancient_starbase_tachyon_lance",
+        "auto_follow_target_priority": 2.0
+    },
+    "ai_attack_target": {
+        "attack_priority": 50.0,
+        "is_always_a_threat": true,
+        "attack_target_type": "starbase"
+    },
+    "user_interface": {
+        "pip_type": "starbase",
+        "can_ever_be_selected": true,
+        "selection_priority": 600,
+        "selection_group_unit_type": "combat_ship",
+        "can_rotate": true,
+        "can_attack": true,
+        "can_show_max_weapon_range_in_tactical_view": true,
+        "can_show_distance_to_plane_line": true
+    },
+    "structure": {
+        "virtual_slot_type": "military",
+        "build_group_id": "military"
+    },
+    "weapons": {
+        "weapons": [
+            {
+                "weapon": "dlc_ancient_starbase_tachyon_lance",
+                "mesh_point": "child.ancient_starbase_large_base_0",
+                "weapon_position": [
+                    1706.293701,
+                    -357.268036,
+                    0.044659
+                ],
+                "forward": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -35.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_tachyon_lance",
+                "required_unit_item": "dlc_ancient_starbase_unlock_heavy_weapon",
+                "mesh_point": "child.ancient_starbase_large_base_1",
+                "weapon_position": [
+                    1531.243652,
+                    -751.586731,
+                    0.044674
+                ],
+                "forward": [
+                    0.996195,
+                    0.087156,
+                    -0.0
+                ],
+                "up": [
+                    0.087156,
+                    -0.996195,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_tachyon_lance",
+                "required_unit_item": "dlc_ancient_starbase_unlock_heavy_weapon",
+                "mesh_point": "child.ancient_starbase_large_base_2",
+                "weapon_position": [
+                    -1695.312378,
+                    -357.268036,
+                    0.044956
+                ],
+                "forward": [
+                    -1.0,
+                    -0.0,
+                    0.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -35.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_tachyon_lance",
+                "required_unit_item": "dlc_ancient_starbase_unlock_heavy_weapon",
+                "mesh_point": "child.ancient_starbase_large_base_3",
+                "weapon_position": [
+                    -1527.979492,
+                    -751.586731,
+                    0.044942
+                ],
+                "forward": [
+                    -0.996195,
+                    0.087156,
+                    1e-06
+                ],
+                "up": [
+                    -0.087156,
+                    -0.996195,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_phase_cannon",
+                "mesh_point": "child.ancient_starbase_medium_base_0",
+                "weapon_position": [
+                    -1075.049927,
+                    724.309021,
+                    1074.800171
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -150.0,
+                    "max_angle": 65.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_phase_cannon",
+                "required_unit_item": "dlc_ancient_starbase_unlock_heavy_weapon",
+                "mesh_point": "child.ancient_starbase_medium_base_1",
+                "weapon_position": [
+                    1081.231812,
+                    724.309021,
+                    1068.070312
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 150.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_phase_cannon",
+                "mesh_point": "child.ancient_starbase_medium_base_2",
+                "weapon_position": [
+                    1081.231567,
+                    724.309021,
+                    -1068.008301
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -150.0,
+                    "max_angle": 65.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_phase_cannon",
+                "required_unit_item": "dlc_ancient_starbase_unlock_heavy_weapon",
+                "mesh_point": "child.ancient_starbase_medium_base_3",
+                "weapon_position": [
+                    -1072.190552,
+                    724.309021,
+                    -1078.26062
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 150.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_phase_cannon",
+                "mesh_point": "child.ancient_starbase_medium_base_4",
+                "weapon_position": [
+                    1084.169678,
+                    147.724075,
+                    1071.779419
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    -1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -150.0,
+                    "max_angle": 65.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_phase_cannon",
+                "required_unit_item": "dlc_ancient_starbase_unlock_heavy_weapon",
+                "mesh_point": "child.ancient_starbase_medium_base_5",
+                "weapon_position": [
+                    -1078.524048,
+                    144.640244,
+                    1076.218018
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    -1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 150.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_phase_cannon",
+                "required_unit_item": "dlc_ancient_starbase_unlock_heavy_weapon",
+                "mesh_point": "child.ancient_starbase_medium_base_6",
+                "weapon_position": [
+                    -1075.318848,
+                    144.514633,
+                    -1079.991943
+                ],
+                "forward": [
+                    1e-06,
+                    0.0,
+                    -1.0
+                ],
+                "up": [
+                    -0.0,
+                    -1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -150.0,
+                    "max_angle": 65.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_phase_cannon",
+                "required_unit_item": "dlc_ancient_starbase_unlock_heavy_weapon",
+                "mesh_point": "child.ancient_starbase_medium_base_7",
+                "weapon_position": [
+                    1084.009888,
+                    144.795975,
+                    -1071.811523
+                ],
+                "forward": [
+                    1e-06,
+                    0.0,
+                    -1.0
+                ],
+                "up": [
+                    -0.0,
+                    -1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 150.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_light_base_0",
+                "weapon_position": [
+                    -1122.233032,
+                    474.306488,
+                    402.911957
+                ],
+                "forward": [
+                    -0.56174,
+                    -0.827314,
+                    0.0
+                ],
+                "up": [
+                    -0.827314,
+                    0.56174,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 35.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "mesh_point": "child.ancient_starbase_light_base_1",
+                "weapon_position": [
+                    -1122.233154,
+                    474.306488,
+                    -401.686127
+                ],
+                "forward": [
+                    -0.56174,
+                    -0.827314,
+                    0.0
+                ],
+                "up": [
+                    -0.827314,
+                    0.56174,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -35.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "mesh_point": "child.ancient_starbase_light_base_2",
+                "weapon_position": [
+                    -1051.281372,
+                    230.81044,
+                    402.911957
+                ],
+                "forward": [
+                    -0.999897,
+                    0.014377,
+                    -0.0
+                ],
+                "up": [
+                    -0.014377,
+                    -0.999897,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -35.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_light_base_3",
+                "weapon_position": [
+                    -1051.281372,
+                    230.81044,
+                    -422.125305
+                ],
+                "forward": [
+                    -0.999897,
+                    0.014377,
+                    -0.0
+                ],
+                "up": [
+                    -0.014377,
+                    -0.999897,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 35.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_light_base_4",
+                "weapon_position": [
+                    1122.467163,
+                    474.306488,
+                    402.911804
+                ],
+                "forward": [
+                    0.56174,
+                    -0.827314,
+                    0.0
+                ],
+                "up": [
+                    0.827314,
+                    0.56174,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -35.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "mesh_point": "child.ancient_starbase_light_base_5",
+                "weapon_position": [
+                    1122.467041,
+                    474.306488,
+                    -390.01062
+                ],
+                "forward": [
+                    0.56174,
+                    -0.827314,
+                    0.0
+                ],
+                "up": [
+                    0.827314,
+                    0.56174,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 35.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_light_base_6",
+                "weapon_position": [
+                    1054.225098,
+                    230.81044,
+                    -422.125488
+                ],
+                "forward": [
+                    0.999897,
+                    0.014377,
+                    0.0
+                ],
+                "up": [
+                    0.014377,
+                    -0.999897,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -35.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "mesh_point": "child.ancient_starbase_light_base_7",
+                "weapon_position": [
+                    1054.225098,
+                    230.81044,
+                    478.44931
+                ],
+                "forward": [
+                    0.999897,
+                    0.014377,
+                    0.0
+                ],
+                "up": [
+                    0.014377,
+                    -0.999897,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 35.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "mesh_point": "child.ancient_starbase_light_base_8",
+                "weapon_position": [
+                    462.111786,
+                    444.444763,
+                    -1109.8302
+                ],
+                "forward": [
+                    0.406631,
+                    -0.75832,
+                    -0.509512
+                ],
+                "up": [
+                    -0.514693,
+                    0.270625,
+                    -0.813544
+                ],
+                "yaw_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_light_base_9",
+                "weapon_position": [
+                    -462.827698,
+                    444.444763,
+                    -1109.8302
+                ],
+                "forward": [
+                    -0.345598,
+                    -0.803859,
+                    -0.48412
+                ],
+                "up": [
+                    0.502116,
+                    0.277423,
+                    -0.819094
+                ],
+                "yaw_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 5.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "mesh_point": "child.ancient_starbase_light_base_10",
+                "weapon_position": [
+                    -508.68576,
+                    228.163925,
+                    -1026.407227
+                ],
+                "forward": [
+                    1e-06,
+                    0.014377,
+                    -0.999897
+                ],
+                "up": [
+                    -0.0,
+                    -0.999897,
+                    -0.014377
+                ],
+                "yaw_arc": {
+                    "min_angle": -35.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "mesh_point": "child.ancient_starbase_light_base_11",
+                "weapon_position": [
+                    514.846619,
+                    228.163925,
+                    -1026.407104
+                ],
+                "forward": [
+                    1e-06,
+                    0.014377,
+                    -0.999897
+                ],
+                "up": [
+                    -0.0,
+                    -0.999897,
+                    -0.014377
+                ],
+                "yaw_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 35.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "mesh_point": "child.ancient_starbase_light_base_12",
+                "weapon_position": [
+                    505.006836,
+                    230.81044,
+                    1041.857178
+                ],
+                "forward": [
+                    0.0,
+                    0.014377,
+                    0.999897
+                ],
+                "up": [
+                    0.0,
+                    -0.999897,
+                    0.014377
+                ],
+                "yaw_arc": {
+                    "min_angle": -25.0,
+                    "max_angle": 65.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_light_base_13",
+                "weapon_position": [
+                    -502.766724,
+                    230.81044,
+                    1041.857056
+                ],
+                "forward": [
+                    0.0,
+                    0.014377,
+                    0.999897
+                ],
+                "up": [
+                    0.0,
+                    -0.999897,
+                    0.014377
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 25.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "mesh_point": "child.ancient_starbase_light_base_14",
+                "weapon_position": [
+                    415.395508,
+                    344.353455,
+                    1082.164185
+                ],
+                "forward": [
+                    0.385852,
+                    0.217421,
+                    0.896575
+                ],
+                "up": [
+                    -0.740536,
+                    -0.506597,
+                    0.44155
+                ],
+                "yaw_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_particle_cannon",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_light_base_15",
+                "weapon_position": [
+                    -416.028961,
+                    344.353455,
+                    1082.164185
+                ],
+                "forward": [
+                    -0.336278,
+                    0.28822,
+                    0.896575
+                ],
+                "up": [
+                    0.729324,
+                    -0.52261,
+                    0.44155
+                ],
+                "yaw_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "mesh_point": "child.ancient_starbase_pd_base_0",
+                "weapon_position": [
+                    -738.903015,
+                    -57.327461,
+                    686.589294
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    -1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -85.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "mesh_point": "child.ancient_starbase_pd_base_1",
+                "weapon_position": [
+                    738.928223,
+                    -57.327461,
+                    686.589233
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    -1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 70.0
+                },
+                "pitch_arc": {
+                    "min_angle": -85.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "mesh_point": "child.ancient_starbase_pd_base_2",
+                "weapon_position": [
+                    738.928101,
+                    -57.327461,
+                    -685.507568
+                ],
+                "forward": [
+                    1e-06,
+                    -0.0,
+                    -1.0
+                ],
+                "up": [
+                    -0.0,
+                    -1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -85.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "mesh_point": "child.ancient_starbase_pd_base_3",
+                "weapon_position": [
+                    -739.751038,
+                    -57.327461,
+                    -685.507446
+                ],
+                "forward": [
+                    1e-06,
+                    -0.0,
+                    -1.0
+                ],
+                "up": [
+                    -0.0,
+                    -1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 65.0
+                },
+                "pitch_arc": {
+                    "min_angle": -85.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "mesh_point": "child.ancient_starbase_pd_base_4",
+                "weapon_position": [
+                    -727.819214,
+                    542.032959,
+                    -1264.026245
+                ],
+                "forward": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ],
+                "up": [
+                    0.866026,
+                    0.0,
+                    -0.5
+                ],
+                "yaw_arc": {
+                    "min_angle": -100.0,
+                    "max_angle": 20.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_pd_base_5",
+                "weapon_position": [
+                    -890.613525,
+                    542.032959,
+                    -1425.719727
+                ],
+                "forward": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "up": [
+                    0.467351,
+                    0.0,
+                    -0.884072
+                ],
+                "yaw_arc": {
+                    "min_angle": -100.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "mesh_point": "child.ancient_starbase_pd_base_6",
+                "weapon_position": [
+                    -1419.08728,
+                    542.032959,
+                    -889.388062
+                ],
+                "forward": [
+                    0.0,
+                    1.0,
+                    -0.0
+                ],
+                "up": [
+                    -0.889075,
+                    0.0,
+                    0.457761
+                ],
+                "yaw_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 100.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_pd_base_7",
+                "weapon_position": [
+                    -1253.602661,
+                    542.510986,
+                    -727.704163
+                ],
+                "forward": [
+                    -0.0,
+                    1.0,
+                    -0.0
+                ],
+                "up": [
+                    -0.461921,
+                    0.0,
+                    0.886921
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 100.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_pd_base_8",
+                "weapon_position": [
+                    -1255.433594,
+                    542.510986,
+                    723.127502
+                ],
+                "forward": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "up": [
+                    -0.465092,
+                    0.0,
+                    -0.885262
+                ],
+                "yaw_arc": {
+                    "min_angle": -100.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_pd_base_9",
+                "weapon_position": [
+                    -1420.498901,
+                    542.032959,
+                    882.742188
+                ],
+                "forward": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "up": [
+                    -0.880813,
+                    0.0,
+                    -0.473465
+                ],
+                "yaw_arc": {
+                    "min_angle": -100.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "mesh_point": "child.ancient_starbase_pd_base_10",
+                "weapon_position": [
+                    -886.264038,
+                    542.032959,
+                    1417.78186
+                ],
+                "forward": [
+                    -0.0,
+                    1.0,
+                    -0.0
+                ],
+                "up": [
+                    0.467969,
+                    0.0,
+                    0.883745
+                ],
+                "yaw_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 100.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_pd_base_11",
+                "weapon_position": [
+                    -727.300293,
+                    542.032959,
+                    1254.686768
+                ],
+                "forward": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ],
+                "up": [
+                    0.876823,
+                    0.0,
+                    0.480813
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 100.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "mesh_point": "child.ancient_starbase_pd_base_12",
+                "weapon_position": [
+                    733.91748,
+                    542.032959,
+                    1254.686279
+                ],
+                "forward": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "up": [
+                    -0.876001,
+                    0.0,
+                    0.48231
+                ],
+                "yaw_arc": {
+                    "min_angle": -100.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "mesh_point": "child.ancient_starbase_pd_base_13",
+                "weapon_position": [
+                    893.012817,
+                    542.032959,
+                    1414.547241
+                ],
+                "forward": [
+                    0.0,
+                    1.0,
+                    -0.0
+                ],
+                "up": [
+                    -0.472662,
+                    0.0,
+                    0.881244
+                ],
+                "yaw_arc": {
+                    "min_angle": -100.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_pd_base_14",
+                "weapon_position": [
+                    1263.645508,
+                    542.032959,
+                    721.053284
+                ],
+                "forward": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "up": [
+                    0.468941,
+                    0.0,
+                    -0.883229
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 100.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_pd_base_15",
+                "weapon_position": [
+                    1426.495117,
+                    542.032959,
+                    881.090881
+                ],
+                "forward": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ],
+                "up": [
+                    0.885394,
+                    0.0,
+                    -0.464841
+                ],
+                "yaw_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 100.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "mesh_point": "child.ancient_starbase_pd_base_16",
+                "weapon_position": [
+                    734.781616,
+                    542.586548,
+                    -1256.293579
+                ],
+                "forward": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "up": [
+                    -0.886172,
+                    0.0,
+                    -0.463356
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 100.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "required_unit_item": "dlc_ancient_starbase_unlock_light_weapon",
+                "mesh_point": "child.ancient_starbase_pd_base_17",
+                "weapon_position": [
+                    895.324524,
+                    542.032959,
+                    -1416.351074
+                ],
+                "forward": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "up": [
+                    -0.474166,
+                    0.0,
+                    -0.880435
+                ],
+                "yaw_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 100.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "mesh_point": "child.ancient_starbase_pd_base_18",
+                "weapon_position": [
+                    1263.932007,
+                    542.032959,
+                    -721.069092
+                ],
+                "forward": [
+                    -0.0,
+                    1.0,
+                    -0.0
+                ],
+                "up": [
+                    0.467566,
+                    0.0,
+                    0.883958
+                ],
+                "yaw_arc": {
+                    "min_angle": -100.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_point_defense_beam",
+                "mesh_point": "child.ancient_starbase_pd_base_19",
+                "weapon_position": [
+                    1425.89917,
+                    542.032959,
+                    -880.132446
+                ],
+                "forward": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ],
+                "up": [
+                    0.879391,
+                    0.0,
+                    0.476101
+                ],
+                "yaw_arc": {
+                    "min_angle": -100.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 10.0,
+                    "initial_angle": -90.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_missile",
+                "required_unit_item": "dlc_ancient_starbase_unlock_missile_weapon",
+                "mesh_point": "weapon.0_frontright",
+                "weapon_position": [
+                    806.672363,
+                    801.8078,
+                    88.188797
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        983.384766,
+                        553.549622,
+                        88.343819
+                    ],
+                    [
+                        949.232361,
+                        600.541748,
+                        88.343811
+                    ],
+                    [
+                        663.671875,
+                        997.36499,
+                        88.318565
+                    ],
+                    [
+                        631.312012,
+                        1040.004517,
+                        87.201767
+                    ],
+                    [
+                        920.19928,
+                        650.156311,
+                        88.343811
+                    ],
+                    [
+                        886.151672,
+                        695.314941,
+                        88.343826
+                    ],
+                    [
+                        855.156311,
+                        738.168213,
+                        88.343819
+                    ],
+                    [
+                        820.925659,
+                        783.892822,
+                        88.343834
+                    ],
+                    [
+                        792.308838,
+                        826.078003,
+                        88.343834
+                    ],
+                    [
+                        757.28009,
+                        868.950195,
+                        88.343811
+                    ],
+                    [
+                        726.392151,
+                        913.635254,
+                        88.343826
+                    ],
+                    [
+                        694.052795,
+                        954.037598,
+                        87.650833
+                    ]
+                ],
+                "forward": [
+                    0.819152,
+                    0.573577,
+                    0.0
+                ],
+                "up": [
+                    -0.573577,
+                    0.819152,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 120.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_missile",
+                "required_unit_item": "dlc_ancient_starbase_unlock_missile_weapon",
+                "mesh_point": "weapon.0_backright",
+                "weapon_position": [
+                    802.264771,
+                    807.593323,
+                    -88.600189
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        983.384766,
+                        553.549622,
+                        -88.431068
+                    ],
+                    [
+                        949.232361,
+                        600.541748,
+                        -88.431076
+                    ],
+                    [
+                        663.671875,
+                        997.36499,
+                        -88.456322
+                    ],
+                    [
+                        631.312012,
+                        1040.004517,
+                        -89.57312
+                    ],
+                    [
+                        920.19928,
+                        650.156311,
+                        -88.431076
+                    ],
+                    [
+                        886.151672,
+                        695.314941,
+                        -88.431061
+                    ],
+                    [
+                        820.925659,
+                        783.892822,
+                        -88.431053
+                    ],
+                    [
+                        792.308838,
+                        826.078003,
+                        -88.431053
+                    ],
+                    [
+                        757.28009,
+                        868.950195,
+                        -88.431076
+                    ],
+                    [
+                        726.392151,
+                        913.635254,
+                        -88.431061
+                    ],
+                    [
+                        694.052795,
+                        954.037598,
+                        -89.124054
+                    ]
+                ],
+                "forward": [
+                    0.819152,
+                    0.573577,
+                    0.0
+                ],
+                "up": [
+                    -0.573577,
+                    0.819152,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 120.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_missile",
+                "required_unit_item": "dlc_ancient_starbase_unlock_missile_weapon",
+                "mesh_point": "weapon.0_backleft",
+                "weapon_position": [
+                    -805.395142,
+                    801.8078,
+                    -88.586105
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -983.53302,
+                        553.549622,
+                        -88.431068
+                    ],
+                    [
+                        -950.032043,
+                        600.541748,
+                        -88.431061
+                    ],
+                    [
+                        -663.960449,
+                        997.36499,
+                        -88.456291
+                    ],
+                    [
+                        -629.427979,
+                        1040.004517,
+                        -89.573151
+                    ],
+                    [
+                        -919.338196,
+                        650.156311,
+                        -88.431061
+                    ],
+                    [
+                        -883.774231,
+                        695.314941,
+                        -88.431076
+                    ],
+                    [
+                        -852.395874,
+                        738.168213,
+                        -88.431068
+                    ],
+                    [
+                        -818.963074,
+                        783.892822,
+                        -88.431084
+                    ],
+                    [
+                        -789.46759,
+                        826.078003,
+                        -88.431084
+                    ],
+                    [
+                        -755.326782,
+                        868.950195,
+                        -88.431061
+                    ],
+                    [
+                        -726.210632,
+                        913.635254,
+                        -88.431076
+                    ],
+                    [
+                        -692.310486,
+                        954.037598,
+                        -89.124069
+                    ]
+                ],
+                "forward": [
+                    -0.819152,
+                    0.573577,
+                    -1e-06
+                ],
+                "up": [
+                    0.573577,
+                    0.819152,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 120.0
+                }
+            },
+            {
+                "weapon": "dlc_ancient_starbase_missile",
+                "required_unit_item": "dlc_ancient_starbase_unlock_missile_weapon",
+                "mesh_point": "weapon.0_frontleft",
+                "weapon_position": [
+                    -805.395142,
+                    801.8078,
+                    88.188797
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -983.53302,
+                        553.549622,
+                        88.343819
+                    ],
+                    [
+                        -950.032043,
+                        600.541748,
+                        88.343826
+                    ],
+                    [
+                        -663.960449,
+                        997.36499,
+                        88.318596
+                    ],
+                    [
+                        -629.427979,
+                        1040.004517,
+                        87.201736
+                    ],
+                    [
+                        -919.338196,
+                        650.156311,
+                        88.343826
+                    ],
+                    [
+                        -883.774231,
+                        695.314941,
+                        88.343811
+                    ],
+                    [
+                        -852.395874,
+                        738.168213,
+                        88.343819
+                    ],
+                    [
+                        -818.963074,
+                        783.892822,
+                        88.343803
+                    ],
+                    [
+                        -789.46759,
+                        826.078003,
+                        88.343803
+                    ],
+                    [
+                        -755.326782,
+                        868.950195,
+                        88.343826
+                    ],
+                    [
+                        -726.210632,
+                        913.635254,
+                        88.343811
+                    ],
+                    [
+                        -692.310486,
+                        954.037598,
+                        87.650818
+                    ]
+                ],
+                "forward": [
+                    -0.819152,
+                    0.573577,
+                    -1e-06
+                ],
+                "up": [
+                    0.573577,
+                    0.819152,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 120.0
+                }
+            }
+        ],
+        "max_range_weapon_index": 0
+    },
+    "formation": {
+        "leader_priority": 3,
+        "offsets_per_formation_type": {
+            "ships_and_structures": {
+                "rank": 5,
+                "group": 5
+            }
+        }
+    },
+    "spawn_debris": {
+        "spawn_debris_time": 6.5,
+        "generic_group_name": "trader",
+        "generic_counts": {
+            "small_debris": [
+                20,
+                24
+            ],
+            "large_debris": [
+                10,
+                12
+            ]
+        },
+        "custom_debris": [
+            {
+                "unit": "ancient_starbase_debris_0",
+                "basis": {
+                    "position": [
+                        260.0,
+                        -1200.0,
+                        500.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "ancient_starbase_debris_1",
+                "basis": {
+                    "position": [
+                        -150.0,
+                        350.0,
+                        -1450.0
+                    ],
+                    "rotation": [
+                        -1.0,
+                        -0.0,
+                        -0.0,
+                        -0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -1.0
+                    ]
+                }
+            },
+            {
+                "unit": "ancient_starbase_debris_2",
+                "basis": {
+                    "position": [
+                        -1750.0,
+                        -530.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        -1.0,
+                        0.0,
+                        -0.0
+                    ]
+                }
+            },
+            {
+                "unit": "ancient_starbase_debris_3",
+                "basis": {
+                    "position": [
+                        200.0,
+                        450.171997,
+                        1460.829956
+                    ],
+                    "rotation": [
+                        -1.0,
+                        0.0,
+                        -0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -1.0
+                    ]
+                }
+            },
+            {
+                "unit": "ancient_starbase_debris_4",
+                "basis": {
+                    "position": [
+                        100.0,
+                        1500.0,
+                        950.0
+                    ],
+                    "rotation": [
+                        -1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        -0.0,
+                        0.0,
+                        -1.0
+                    ]
+                }
+            },
+            {
+                "unit": "ancient_starbase_debris_5",
+                "basis": {
+                    "position": [
+                        75.0,
+                        1570.0,
+                        -200.0
+                    ],
+                    "rotation": [
+                        -1.0,
+                        0.0,
+                        -0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -1.0
+                    ]
+                }
+            },
+            {
+                "unit": "ancient_starbase_debris_6",
+                "basis": {
+                    "position": [
+                        1500.0,
+                        700.0,
+                        -180.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "ancient_starbase_debris_7",
+                "basis": {
+                    "position": [
+                        930.0,
+                        700.0,
+                        -1500.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            }
+        ]
+    },
+    "health": {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 6.0,
+        "durability": 1000.0,
+        "levels": [
+            {
+                "max_hull_points": 25000.0,
+                "hull_point_restore_rate": 12.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_crippled_percentage": 1.0,
+                "max_armor_points": 8000.0,
+                "armor_point_restore_rate": 16.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_strength": 150.0,
+                "max_shield_points": 15000.0,
+                "shield_point_restore_rate": 20.0,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 120.0,
+                    "restore_percentage": 0.5
+                },
+                "experience_given_on_death": 2000.0
+            }
+        ]
+    },
+    "items": {
+        "levels": [
+            {
+                "max_ship_component_count": 8
+            }
+        ],
+        "requires_ship_component_shop_to_purchase_items": false
+    },
+    "target_filter_unit_type": "starbase",
+    "tags": [
+        "dlc_ancient_starbase"
+    ],
+    "virtual_supply_cost": 200,
+    "skin_groups": [
+        {
+            "skins": [
+                "dlc_ancient_starbase"
+            ]
+        }
+    ],
+    "child_meshes": [
+        {
+            "mesh_alias_name": "ancient_starbase_component_phase_inhibitor",
+            "mesh_point": "child.ancient_starbase_component_phase_inhibitor",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc_ancient_starbase_phase_jump_inhibitor"
+        },
+        {
+            "mesh_alias_name": "ancient_starbase_component_phase_inhibitor_broken",
+            "mesh_point": "child.ancient_starbase_component_phase_inhibitor_broken",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "dlc_ancient_starbase_phase_jump_inhibitor"
+        },
+        {
+            "mesh_alias_name": "ancient_stabase_component_pulse_wave",
+            "mesh_point": "child.ancient_stabase_component_pulse_wave",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc_ancient_starbase_antimatter_pulse_wave"
+        },
+        {
+            "mesh_alias_name": "ancient_starbase_component_pulse_wave_broken",
+            "mesh_point": "child.ancient_starbase_component_pulse_wave_broken",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "dlc_ancient_starbase_antimatter_pulse_wave"
+        },
+        {
+            "mesh_alias_name": "ancient_starbase_component_shield_leech",
+            "mesh_point": "child.ancient_starbase_component_shield_leech",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc_ancient_starbase_shield_leech"
+        },
+        {
+            "mesh_alias_name": "ancient_starbase_component_shield_leech_broken",
+            "mesh_point": "child.ancient_starbase_component_shield_leech_broken",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "dlc_ancient_starbase_shield_leech"
+        },
+        {
+            "mesh_alias_name": "ancient_starbase_component_singularity_portal",
+            "mesh_point": "child.ancient_starbase_component_singularity_portal",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "dlc_ancient_starbase_singularity_portal"
+        },
+        {
+            "mesh_alias_name": "ancient_starbase_component_phase_cannon_broken",
+            "mesh_point": "child.ancient_starbase_component_phase_cannon_broken",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "dlc_ancient_starbase_unlock_heavy_weapon"
+        },
+        {
+            "mesh_alias_name": "ancient_starbase_component_tachyon_lance_broken",
+            "mesh_point": "child.ancient_starbase_component_tachyon_lance_broken",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "dlc_ancient_starbase_unlock_heavy_weapon"
+        }
+    ],
+    "action_effect_size": "large_unit",
+    "force_count_as_attackable_enemy_unit": true,
+    "capturable_unit": {
+        "type": "change_owner_on_capture",
+        "allow_surrender": true,
+        "capture_points_total": 2000,
+        "has_surrender_cooldown": true,
+        "surrender_cooldown_duration": 300
+    },
+    "build": {
+        "build_time": 180.0,
+        "price": {
+            "metal": 3000.0,
+            "crystal": 3000.0
+        },
+        "exotic_price": [
+            {
+                "exotic_type": "defense",
+                "count": 2
+            },
+            {
+                "exotic_type": "utility",
+                "count": 1
+            },
+            {
+                "exotic_type": "ultimate",
+                "count": 2
+            }
+        ],
+        "prerequisites": [
+            [
+                "vasari_unlock_ancient_starbase"
+            ]
+        ],
+        "build_kind": "starbase",
+        "build_radius": 2920,
+        "self_build_time_gravity_well_scalars": {
+            "enemy": [
+                {
+                    "value": 2.5
+                }
+            ],
+            "neutral": [
+                {
+                    "value": 1.0
+                }
+            ]
+        },
+        "can_update_build_progress_by_default": true,
+        "build_group_id": "starbase"
+    }
+}

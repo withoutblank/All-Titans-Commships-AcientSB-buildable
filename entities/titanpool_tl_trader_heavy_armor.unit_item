@@ -1,0 +1,37 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "trader_heavy_armor_unit_item_hud_icon",
+    "tooltip_icon": "trader_heavy_armor_unit_item_hud_icon",
+    "tooltip_picture": "trader_heavy_armor_unit_item_tooltip_picture",
+    "name": "trader_heavy_armor_unit_item_name",
+    "description": "trader_heavy_armor_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 750.0,
+        "metal": 250.0,
+        "crystal": 0.0
+    },
+    "required_unit_tags": [
+        "trader_loyalist_titan",
+        "trader_loyalist_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "defense",
+    "unit_modifiers": [
+        {
+            "modifier_type": "max_armor_points",
+            "value_behavior": "scalar",
+            "values": [
+                0.25
+            ]
+        },
+        {
+            "modifier_type": "max_hull_points",
+            "value_behavior": "scalar",
+            "values": [
+                0.25
+            ]
+        }
+    ]
+}

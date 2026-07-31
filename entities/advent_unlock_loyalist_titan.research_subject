@@ -1,0 +1,26 @@
+{
+    "version": 0,
+    "domain": "military",
+    "tier": 3,
+    "field": "military_ascension",
+    "field_coord": [
+        6,
+        10
+    ],
+    "research_time": 360.0,
+    "price": {
+        "credits": 1100.0,
+        "metal": 425.0,
+        "crystal": 900.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "ultimate",
+            "count": 1
+        }
+    ],
+    "name": "advent_unlock_loyalist_titan_research_subject_name",
+    "name_uppercase": "advent_unlock_loyalist_titan_research_subject_name_uppercase",
+    "hud_icon": "advent_loyalist_titan_hud_icon",
+    "tooltip_picture": "advent_loyalist_titan_tooltip_picture"
+}

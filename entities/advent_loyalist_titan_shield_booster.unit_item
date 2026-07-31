@@ -1,0 +1,42 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "advent_loyalist_titan_shield_booster_unit_item_hud_icon",
+    "tooltip_picture": "advent_loyalist_titan_shield_booster_unit_item_tooltip_picture",
+    "name": "advent_loyalist_titan_shield_booster_unit_item_name",
+    "description": "advent_loyalist_titan_shield_booster_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 900.0,
+        "metal": 300.0,
+        "crystal": 150.0
+    },
+    "required_unit_tags": [
+        "advent_loyalist_titan"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "defense",
+    "unit_modifiers": [
+        {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "scalar",
+            "values": [
+                0.15
+            ]
+        },
+        {
+            "modifier_type": "shield_point_restore_rate",
+            "value_behavior": "scalar",
+            "values": [
+                0.15
+            ]
+        },
+        {
+            "modifier_type": "shield_burst_restore_points",
+            "value_behavior": "scalar",
+            "values": [
+                0.15
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "trader_rebel_titan_hull_plating_0_unit_item_hud_icon",
+    "tooltip_picture": "trader_rebel_titan_hull_plating_0_unit_item_tooltip_picture",
+    "name": "trader_rebel_titan_hull_plating_0_unit_item_name",
+    "description": "trader_rebel_titan_hull_plating_0_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 900.0,
+        "metal": 300.0,
+        "crystal": 150.0
+    },
+    "required_unit_tags": [
+        "trader_rebel_titan"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "defense",
+    "unit_modifiers": [
+        {
+            "modifier_type": "max_hull_points",
+            "value_behavior": "scalar",
+            "values": [
+                0.1
+            ]
+        },
+        {
+            "modifier_type": "max_armor_points",
+            "value_behavior": "scalar",
+            "values": [
+                0.1
+            ]
+        },
+        {
+            "modifier_type": "armor_strength",
+            "value_behavior": "additive",
+            "values": [
+                10.0
+            ]
+        }
+    ]
+}

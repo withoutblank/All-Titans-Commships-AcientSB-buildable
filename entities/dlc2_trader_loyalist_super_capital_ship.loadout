@@ -1,0 +1,140 @@
+{
+    "loadouts": [
+        {
+            "name": "offensive",
+            "ability_picking_order": [
+                0,
+                2,
+                0,
+                1,
+                0,
+                3,
+                0,
+                2,
+                0,
+                3
+            ],
+            "required_items": [
+                {
+                    "slot_index": 0,
+                    "candidates": [
+                        {
+                            "item": "dlc2_trader_loyalist_super_capital_ship_unlock_missile_weapon",
+                            "priority": 1
+                        }
+                    ]
+                },
+                {
+                    "slot_index": 1,
+                    "candidates": [
+                        {
+                            "item": "titanpool_tl_trader_missile_guidance_computer",
+                            "priority": 2
+                        },
+                        {
+                            "item": "commandpool_tl_trader_reserve_squadron_hangar",
+                            "priority": 1
+                        }
+                    ]
+                },
+                {
+                    "slot_index": 2,
+                    "candidates": [
+                        {
+                            "item": "titanpool_tl_trader_targeting_array",
+                            "priority": 2
+                        },
+                        {
+                            "item": "titanpool_tl_trader_radiation_bomb",
+                            "priority": 1
+                        }
+                    ]
+                },
+                {
+                    "slot_index": 3,
+                    "candidates": [
+                        {
+                            "item": "kinetic_intensifier_ship_artifact",
+                            "priority": 2
+                        },
+                        {
+                            "item": "weapon_symbiote_ship_artifact",
+                            "priority": 2
+                        },
+                        {
+                            "item": "titanpool_tl_trader_rapid_autoloader",
+                            "priority": 1
+                        }
+                    ]
+                },
+                {
+                    "slot_index": 4,
+                    "candidates": [
+                        {
+                            "item": "power_core_relic_ship_artifact",
+                            "priority": 5
+                        },
+                        {
+                            "item": "exoforce_matrix_ship_artifact",
+                            "priority": 5
+                        },
+                        {
+                            "item": "aluxian_admiral_scion",
+                            "priority": 4
+                        },
+                        {
+                            "item": "aluxian_military_observers",
+                            "priority": 3
+                        },
+                        {
+                            "item": "titanpool_tl_trader_antimatter_engine",
+                            "priority": 3
+                        },
+                        {
+                            "item": "titanpool_tl_trader_combat_repair_system",
+                            "priority": 2
+                        },
+                        {
+                            "item": "titanpool_tl_trader_flak_burst",
+                            "priority": 1
+                        }
+                    ]
+                },
+                {
+                    "slot_index": 5,
+                    "candidates": [
+                        {
+                            "item": "resilient_metaloids_ship_artifact",
+                            "priority": 3
+                        },
+                        {
+                            "item": "titanpool_tl_trader_beam_armor",
+                            "priority": 2
+                        },
+                        {
+                            "item": "titanpool_tl_trader_missile_armor",
+                            "priority": 2
+                        },
+                        {
+                            "item": "titanpool_tl_trader_heavy_armor",
+                            "priority": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "required_loadouts": [
+        {
+            "loadout": "offensive",
+            "priority": 3,
+            "target_count_in_empire": 1
+        }
+    ],
+    "weighted_random_loadouts": [
+        {
+            "loadout": "offensive",
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "trader_rapid_autoloader_unit_item_hud_icon",
+    "tooltip_picture": "trader_rapid_autoloader_unit_item_tooltip_picture",
+    "name": "trader_rapid_autoloader_unit_item_name",
+    "description": "trader_rapid_autoloader_unit_item_description",
+    "item_level_count": 2,
+    "item_level_source": "research_prerequisites_per_level",
+    "item_level_prerequisites": [
+        [
+            [
+                "trader_upgrade_rapid_autoloader_unit_item"
+            ]
+        ]
+    ],
+    "build_time": 30.0,
+    "price": {
+        "credits": 500.0,
+        "metal": 150.0,
+        "crystal": 0.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "capital_ship"
+    ],
+    "build_prerequisites": [
+        [
+            "trader_unlock_rapid_autoloader_unit_item"
+        ]
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "weapon_modifiers": [
+        {
+            "modifier_type": "cooldown_duration",
+            "value_behavior": "scalar",
+            "values": [
+                -0.1,
+                -0.2
+            ],
+            "tags": [
+                "physical"
+            ]
+        }
+    ],
+    "ability": "trader_rapid_autoloader_unit_item"
+}

@@ -1,0 +1,101 @@
+{
+    "version": 0,
+    "level_count": 1,
+    "action_values": [
+        {
+            "action_value_id": "buff_duration",
+            "action_value": {
+                "values": [
+                    60.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "cooldown_time",
+            "action_value": {
+                "values": [
+                    180.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "weapon_damage_bonus",
+            "action_value": {
+                "values": [
+                    0.48
+                ]
+            }
+        },
+        {
+            "action_value_id": "bombing_damage_bonus",
+            "action_value": {
+                "values": [
+                    0.48
+                ]
+            }
+        }
+    ],
+    "buff_weapon_modifiers": [
+        {
+            "buff_weapon_modifier_id": "weapon_damage_bonus",
+            "buff_weapon_modifier": {
+                "modifier_type": "damage",
+                "value_behavior": "scalar",
+                "value_id": "weapon_damage_bonus",
+                "tags": [
+                    "beam"
+                ]
+            }
+        },
+        {
+            "buff_weapon_modifier_id": "bombing_damage_bonus",
+            "buff_weapon_modifier": {
+                "weapon_type": "planet_bombing",
+                "modifier_type": "damage",
+                "value_behavior": "scalar",
+                "value_id": "bombing_damage_bonus",
+                "tags": [
+                    "beam"
+                ]
+            }
+        }
+    ],
+    "effect_alias_bindings": [
+        {
+            "alias_name": "vasari_beam_boost_unit_item_buff_large",
+            "alias_binding": {
+                "particle_effect": "beam_modulator_large"
+            }
+        },
+        {
+            "alias_name": "vasari_beam_boost_unit_item_buff_medium",
+            "alias_binding": {
+                "particle_effect": "beam_modulator_medium"
+            }
+        },
+        {
+            "alias_name": "vasari_beam_boost_unit_item_buff_small",
+            "alias_binding": {
+                "particle_effect": "beam_modulator_small"
+            }
+        },
+        {
+            "alias_name": "vasari_beam_boost_unit_item_activate_large",
+            "alias_binding": {
+                "particle_effect": "beam_modulator_large_activated"
+            }
+        },
+        {
+            "alias_name": "vasari_beam_boost_unit_item_activate_medium",
+            "alias_binding": {
+                "particle_effect": "beam_modulator_medium_activated"
+            }
+        },
+        {
+            "alias_name": "vasari_beam_boost_unit_item_activate_small",
+            "alias_binding": {
+                "particle_effect": "beam_modulator_small_activated"
+            }
+        }
+    ]
+}

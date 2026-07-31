@@ -1,0 +1,35 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_mobile_resonance_collector_unit_item_hud_icon",
+    "tooltip_picture": "vasari_mobile_resonance_collector_unit_item_tooltip_picture",
+    "name": "vasari_mobile_resonance_collector_unit_item_name",
+    "description": "vasari_mobile_resonance_collector_unit_item_description",
+    "build_time": 40.0,
+    "price": {
+        "metal": 450.0,
+        "crystal": 600.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 2
+        }
+    ],
+    "required_unit_tags": [
+        "capital_ship",
+        "starbase"
+    ],
+    "max_count_on_unit": 1,
+    "build_prerequisites": [
+        [
+            "vasari_unlock_mobile_resonance_collector_unit_item"
+        ]
+    ],
+    "build_group_id": "infrastructure",
+    "phase_resonance_capacitor": {
+        "time_to_store_point": [
+            10
+        ]
+    }
+}

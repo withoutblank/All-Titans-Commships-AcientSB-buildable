@@ -1,0 +1,49 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_loyalist_titan_mobile_research_complex_unit_item_hud_icon",
+    "tooltip_picture": "vasari_loyalist_titan_mobile_research_complex_unit_item_tooltip_picture",
+    "name": "vasari_loyalist_titan_mobile_research_complex_unit_item_name",
+    "description": "vasari_loyalist_titan_mobile_research_complex_unit_item_description",
+    "build_time": 40.0,
+    "price": {
+        "metal": 660.0,
+        "crystal": 800.0
+    },
+    "required_unit_tags": [
+        "vasari_loyalist_titan",
+        "vasari_loyalist_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "infrastructure",
+    "player_modifiers": {
+        "empire_modifiers": [
+            {
+                "modifier_type": "military_research_rate",
+                "value_behavior": "scalar",
+                "value": 0.6
+            },
+            {
+                "modifier_type": "civilian_research_rate",
+                "value_behavior": "scalar",
+                "value": 0.6
+            }
+        ]
+    },
+    "unit_modifiers": [
+        {
+            "modifier_type": "civilian_research_points",
+            "value_behavior": "additive",
+            "values": [
+                6.0
+            ]
+        },
+        {
+            "modifier_type": "military_research_points",
+            "value_behavior": "additive",
+            "values": [
+                6.0
+            ]
+        }
+    ]
+}

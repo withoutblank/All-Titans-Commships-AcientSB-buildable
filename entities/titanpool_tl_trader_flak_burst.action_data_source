@@ -1,0 +1,107 @@
+{
+    "version": 0,
+    "level_count": 1,
+    "target_filters": [
+        {
+            "target_filter_id": "flak_burst_target",
+            "target_filter": {
+                "unit_types": [
+                    "strikecraft",
+                    "torpedo"
+                ],
+                "ownerships": [
+                    "enemy"
+                ]
+            }
+        },
+        {
+            "target_filter_id": "flak_burst_auto_cast_target",
+            "target_filter": {
+                "unit_types": [
+                    "strikecraft",
+                    "torpedo"
+                ],
+                "ownerships": [
+                    "enemy"
+                ],
+                "constraints": [
+                    {
+                        "constraint_type": "composite_not",
+                        "constraint": {
+                            "constraint_type": "is_dead_soon"
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "action_values": [
+        {
+            "action_value_id": "auto_cast_target_count",
+            "action_value": {
+                "values": [
+                    20.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "auto_cast_radius",
+            "action_value": {
+                "values": [
+                    2250.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "burst_radius",
+            "action_value": {
+                "values": [
+                    2000.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "cooldown_time",
+            "action_value": {
+                "values": [
+                    90.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "flak_burst_execution_count_value",
+            "action_value": {
+                "values": [
+                    15.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "flak_burst_damage",
+            "action_value": {
+                "values": [
+                    10.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "flak_travel_speed",
+            "action_value": {
+                "values": [
+                    4000.0
+                ]
+            }
+        }
+    ],
+    "effect_alias_bindings": [
+        {
+            "alias_name": "flak_burst_buff",
+            "alias_binding": {
+                "particle_effect": "flak_burst",
+                "sounds": [
+                    "effect_flakburst"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,422 @@
+{
+    "version": 0,
+    "name": "basic",
+    "display_name": "start_mode.basic.name",
+    "description": "start_mode.basic.description",
+    "faction_configurations": [
+        {
+            "player_definition_id": "trader_loyalist",
+            "starting_assets": {
+                "credits": 45000,
+                "metal": 10500,
+                "crystal": 7500
+            },
+            "home_planet": {
+                "starting_units_in_gravity_well": {
+                    "required_units": [
+                        {
+                            "unit": "trader_frigate_factory_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                },
+                "home_planet_track_levels": {
+                    "logistics": 1,
+                    "defense": 0,
+                    "commerce": 1,
+                    "mining": 1,
+                    "research": 0,
+                    "focus": 0,
+                    "surveying": 0
+                },
+                "starting_units_in_hyperspace": {},
+                "home_planet_starting_population": [
+                    400,
+                    400
+                ]
+            },
+            "starting_research": {
+                "starting_research_subjects": []
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 0,
+                "allowed_planet_types": [],
+                "max_jumps": 0,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false
+            },
+            "free_starting_capital_ship": false,
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "player_definition_id": "trader_rebel",
+            "starting_assets": {
+                "credits": 45000,
+                "metal": 10500,
+                "crystal": 7500
+            },
+            "home_planet": {
+                "starting_units_in_gravity_well": {
+                    "required_units": [
+                        {
+                            "unit": "trader_frigate_factory_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                },
+                "home_planet_track_levels": {
+                    "logistics": 1,
+                    "defense": 0,
+                    "commerce": 1,
+                    "mining": 1,
+                    "research": 0,
+                    "focus": 0,
+                    "surveying": 0
+                },
+                "starting_units_in_hyperspace": {},
+                "home_planet_starting_population": [
+                    400,
+                    400
+                ]
+            },
+            "starting_research": {
+                "starting_research_subjects": []
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 0,
+                "allowed_planet_types": [],
+                "max_jumps": 0,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false
+            },
+            "free_starting_capital_ship": false,
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "player_definition_id": "advent_loyalist",
+            "starting_assets": {
+                "credits": 45000,
+                "metal": 10500,
+                "crystal": 7500
+            },
+            "home_planet": {
+                "starting_units_in_gravity_well": {
+                    "required_units": [
+                        {
+                            "unit": "advent_ship_factory_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                },
+                "home_planet_track_levels": {
+                    "logistics": 1,
+                    "defense": 0,
+                    "commerce": 1,
+                    "mining": 1,
+                    "research": 0,
+                    "focus": 0,
+                    "surveying": 0
+                },
+                "starting_units_in_hyperspace": {},
+                "home_planet_starting_population": [
+                    300,
+                    300
+                ]
+            },
+            "starting_research": {
+                "starting_research_subjects": []
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 0,
+                "allowed_planet_types": [],
+                "max_jumps": 0,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false
+            },
+            "free_starting_capital_ship": false,
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "player_definition_id": "advent_rebel",
+            "starting_assets": {
+                "credits": 45000,
+                "metal": 10500,
+                "crystal": 7500
+            },
+            "home_planet": {
+                "starting_units_in_gravity_well": {
+                    "required_units": [
+                        {
+                            "unit": "advent_ship_factory_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                },
+                "home_planet_track_levels": {
+                    "logistics": 1,
+                    "defense": 0,
+                    "commerce": 1,
+                    "mining": 1,
+                    "research": 0,
+                    "focus": 0,
+                    "surveying": 0
+                },
+                "starting_units_in_hyperspace": {},
+                "home_planet_starting_population": [
+                    300,
+                    300
+                ]
+            },
+            "starting_research": {
+                "starting_research_subjects": []
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 0,
+                "allowed_planet_types": [],
+                "max_jumps": 0,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false
+            },
+            "free_starting_capital_ship": false,
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "player_definition_id": "vasari_loyalist",
+            "starting_assets": {
+                "metal": 48000,
+                "crystal": 60000
+            },
+            "home_planet": {
+                "starting_units_in_gravity_well": {},
+                "starting_units_in_hyperspace": {
+                    "required_units": [
+                        {
+                            "unit": "vasari_colony_cruiser",
+                            "options": {
+                                "is_temporary_ruler_ship": true,
+                                "items": [
+                                    "vasari_loyalist_exodus_package"
+                                ]
+                            }
+                        },
+                        {
+                            "unit": "vasari_light_frigate",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        }
+                    ]
+                },
+                "starting_units_in_hyperspace_duration": 6.0,
+                "home_planet_starting_population": [
+                    180,
+                    180
+                ]
+            },
+            "starting_research": {
+                "starting_research_subjects": []
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 0,
+                "allowed_planet_types": [],
+                "max_jumps": 0,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false
+            },
+            "free_starting_capital_ship": false,
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "player_definition_id": "vasari_rebel",
+            "starting_assets": {
+                "metal": 48000,
+                "crystal": 60000
+            },
+            "home_planet": {
+                "starting_units_in_gravity_well": {},
+                "starting_units_in_hyperspace": {
+                    "required_units": [
+                        {
+                            "unit": "vasari_colony_cruiser",
+                            "options": {
+                                "is_temporary_ruler_ship": true,
+                                "items": [
+                                    "vasari_rebel_exodus_package"
+                                ]
+                            }
+                        },
+                        {
+                            "unit": "vasari_light_frigate",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        }
+                    ]
+                },
+                "starting_units_in_hyperspace_duration": 6.0,
+                "home_planet_starting_population": [
+                    180,
+                    180
+                ]
+            },
+            "starting_research": {
+                "starting_research_subjects": []
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 0,
+                "allowed_planet_types": [],
+                "max_jumps": 0,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false
+            },
+            "free_starting_capital_ship": false,
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 5
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "advent_plasma_pulse_unit_item_hud_icon",
+    "tooltip_picture": "advent_plasma_pulse_unit_item_tooltip_picture",
+    "name": "advent_plasma_pulse_unit_item_name",
+    "description": "advent_plasma_pulse_unit_item_description",
+    "build_time": 20.0,
+    "price": {
+        "credits": 350.0,
+        "metal": 75.0,
+        "crystal": 25.0
+    },
+    "required_unit_tags": [
+        "capital_ship"
+    ],
+    "consumable_stack_count": [
+        2
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "consumable",
+    "weapon_modifiers": [
+        {
+            "modifier_type": "cooldown_duration",
+            "value_behavior": "scalar",
+            "values": [
+                -0.1
+            ],
+            "tags": [
+                "plasma"
+            ]
+        },
+        {
+            "weapon_type": "planet_bombing",
+            "modifier_type": "cooldown_duration",
+            "value_behavior": "scalar",
+            "values": [
+                -0.1
+            ],
+            "tags": [
+                "plasma"
+            ]
+        }
+    ],
+    "ability": "advent_plasma_pulse_unit_item"
+}

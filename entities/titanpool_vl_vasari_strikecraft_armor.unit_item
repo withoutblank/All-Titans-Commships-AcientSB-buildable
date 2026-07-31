@@ -1,0 +1,29 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_strikecraft_armor_unit_item_hud_icon",
+    "tooltip_picture": "vasari_strikecraft_armor_unit_item_tooltip_picture",
+    "name": "vasari_strikecraft_armor_unit_item_name",
+    "description": "vasari_strikecraft_armor_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "metal": 275.0,
+        "crystal": 375.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "defense",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "vasari_loyalist_titan",
+        "vasari_loyalist_command_ship"
+    ],
+    "owner_constraint": {
+        "constraint_type": "is_carrier"
+    },
+    "max_count_on_unit": 1,
+    "build_group_id": "defense",
+    "ability": "vasari_strikecraft_armor_unit_item"
+}

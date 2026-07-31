@@ -1,0 +1,22 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_mobile_exotic_factory_unit_item_hud_icon",
+    "tooltip_picture": "vasari_mobile_exotic_factory_unit_item_tooltip_picture",
+    "name": "vasari_mobile_exotic_factory_unit_item_name",
+    "description": "vasari_mobile_exotic_factory_unit_item_description",
+    "build_time": 40.0,
+    "price": {
+        "metal": 575.0,
+        "crystal": 450.0
+    },
+    "required_unit_tags": [
+        "vasari_loyalist_titan",
+        "vasari_loyalist_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "infrastructure",
+    "unit_mutations": [
+        "mobile_exotic_factory_enabled"
+    ]
+}

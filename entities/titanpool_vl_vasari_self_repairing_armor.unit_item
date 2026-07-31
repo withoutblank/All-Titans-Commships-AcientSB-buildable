@@ -1,0 +1,35 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_self_repairing_armor_unit_item_hud_icon",
+    "tooltip_picture": "vasari_self_repairing_armor_unit_item_tooltip_picture",
+    "name": "vasari_self_repairing_armor_unit_item_name",
+    "description": "vasari_self_repairing_armor_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "metal": 350.0,
+        "crystal": 425.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "defense",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "vasari_loyalist_titan",
+        "vasari_loyalist_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "defense",
+    "ability": "vasari_self_repairing_armor",
+    "unit_modifiers": [
+        {
+            "modifier_type": "armor_point_restore_scalar_after_damage_taken",
+            "value_behavior": "additive",
+            "values": [
+                0.6
+            ]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "advent_energy_booster_unit_item_hud_icon",
+    "tooltip_picture": "advent_energy_booster_unit_item_tooltip_picture",
+    "name": "advent_energy_booster_unit_item_name",
+    "description": "advent_energy_booster_unit_item_description",
+    "item_level_count": 2,
+    "item_level_source": "research_prerequisites_per_level",
+    "item_level_prerequisites": [
+        [
+            [
+                "advent_upgrade_energy_booster_unit_item"
+            ]
+        ]
+    ],
+    "build_time": 30.0,
+    "price": {
+        "credits": 600.0,
+        "metal": 125.0,
+        "crystal": 200.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "capital_ship"
+    ],
+    "build_prerequisites": [
+        [
+            "advent_unlock_energy_booster_unit_item"
+        ]
+    ],
+    "owner_constraint": {
+        "constraint_type": "has_weapon",
+        "weapon_tag": "energy"
+    },
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "weapon_modifiers": [
+        {
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "values": [
+                0.3,
+                0.45
+            ],
+            "tags": [
+                "energy"
+            ]
+        },
+        {
+            "modifier_type": "range",
+            "value_behavior": "scalar",
+            "values": [
+                0.4,
+                0.45
+            ],
+            "tags": [
+                "energy"
+            ]
+        }
+    ]
+}

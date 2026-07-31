@@ -1,0 +1,38 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_loyalist_titan_improve_micro_phase_jump_unit_item_hud_icon",
+    "tooltip_picture": "vasari_loyalist_titan_improve_micro_phase_jump_unit_item_tooltip_picture",
+    "name": "vasari_loyalist_titan_improve_micro_phase_jump_unit_item_name",
+    "description": "vasari_loyalist_titan_improve_micro_phase_jump_unit_item_description",
+    "build_time": 120.0,
+    "price": {
+        "metal": 520,
+        "crystal": 380
+    },
+    "required_unit_tags": [
+        "vasari_loyalist_titan"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "unit_mutations": [
+        "improved_micro_phase_jump"
+    ],
+    "owner_unit_ability_tooltips": [
+        {
+            "ability": "vasari_loyalist_titan_micro_phase_jump",
+            "tooltip_lines": [
+                {
+                    "rendering_type": "buff_weapon_modifier",
+                    "weapon_modifier_id": "micro_phase_jump_weapon_cooldown_modifier"
+                },
+                {
+                    "rendering_type": "single_value",
+                    "label_text": "tooltip.ability.duration",
+                    "value_id": "micro_phase_jump_duration_value",
+                    "value_suffix": "seconds"
+                }
+            ]
+        }
+    ]
+}

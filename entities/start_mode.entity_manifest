@@ -1,0 +1,8 @@
+{
+    "ids": [
+        "unfair_basic_start_mode",
+        "unfair_normal_start_mode",
+        "unfair_quick_start_mode",
+        "unfair_advanced_start_mode"
+    ]
+}

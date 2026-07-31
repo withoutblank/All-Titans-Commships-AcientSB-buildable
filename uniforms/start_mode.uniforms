@@ -1,0 +1,22 @@
+{
+    "version": 0,
+    "overwrite_start_modes": true,
+    "start_modes": [
+        {
+            "name": "basic",
+            "entity": "unfair_basic_start_mode"
+        },
+        {
+            "name": "normal",
+            "entity": "unfair_normal_start_mode"
+        },
+        {
+            "name": "quick",
+            "entity": "unfair_quick_start_mode"
+        },
+        {
+            "name": "advanced",
+            "entity": "unfair_advanced_start_mode"
+        }
+    ]
+}

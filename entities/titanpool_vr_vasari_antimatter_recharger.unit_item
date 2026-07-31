@@ -1,0 +1,35 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_antimatter_recharger_unit_item_hud_icon",
+    "tooltip_icon": "vasari_antimatter_recharger_unit_item_hud_icon",
+    "tooltip_picture": "vasari_antimatter_recharger_unit_item_tooltip_picture",
+    "name": "vasari_antimatter_recharger_unit_item_name",
+    "description": "vasari_antimatter_recharger_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "metal": 400.0,
+        "crystal": 525.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "vasari_rebel_titan",
+        "vasari_rebel_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "unit_modifiers": [
+        {
+            "modifier_type": "antimatter_restore_rate",
+            "value_behavior": "scalar",
+            "values": [
+                0.96
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1760 @@
+{
+    "version": 0,
+    "name": "advanced",
+    "display_name": "start_mode.advanced.name",
+    "description": "start_mode.advanced.description",
+    "faction_configurations": [
+        {
+            "player_definition_id": "trader_loyalist",
+            "starting_assets": {
+                "credits": 45000,
+                "metal": 10500,
+                "crystal": 7500
+            },
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 3
+                }
+            ],
+            "home_planet": {
+                "starting_units_in_gravity_well": {
+                    "required_units": [
+                        {
+                            "unit": "trader_civilian_research_lab_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "trader_military_research_lab_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "trader_starbase",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                },
+                "starting_units_in_formations": [
+                    {
+                        "required_units": [
+                            {
+                                "unit": "trader_frigate_factory_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "trader_capital_ship_factory_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "trader_retrofit_bay_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "trader_light_frigate",
+                                "count": [
+                                    15,
+                                    15
+                                ]
+                            },
+                            {
+                                "unit": "trader_antiarmor_frigate",
+                                "count": [
+                                    10,
+                                    10
+                                ]
+                            },
+                            {
+                                "unit": "trader_carrier_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            },
+                            {
+                                "unit": "trader_robotics_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            },
+                            {
+                                "unit": "trader_heavy_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "home_planet_track_levels": {
+                    "logistics": 4,
+                    "defense": 4,
+                    "commerce": 5,
+                    "mining": 3,
+                    "research": 2,
+                    "focus": 0,
+                    "surveying": 0
+                },
+                "starting_units_in_hyperspace": {},
+                "home_planet_starting_population": [
+                    500,
+                    500
+                ],
+                "home_planet_starting_items": []
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 3,
+                "allowed_planet_types": [
+                    {
+                        "planet_type": "terran",
+                        "priority": 100
+                    },
+                    {
+                        "planet_type": "oceanic",
+                        "priority": 90
+                    },
+                    {
+                        "planet_type": "desert",
+                        "priority": 85
+                    },
+                    {
+                        "planet_type": "crystalline",
+                        "priority": 80
+                    },
+                    {
+                        "planet_type": "ferrous",
+                        "priority": 75
+                    },
+                    {
+                        "planet_type": "magnetic",
+                        "priority": 75
+                    },
+                    {
+                        "planet_type": "swamp",
+                        "priority": 70
+                    },
+                    {
+                        "planet_type": "hive_asteroid",
+                        "priority": 65
+                    },
+                    {
+                        "planet_type": "ice",
+                        "priority": 65
+                    },
+                    {
+                        "planet_type": "volcanic",
+                        "priority": 60
+                    },
+                    {
+                        "planet_type": "ice_asteroid",
+                        "priority": 55
+                    },
+                    {
+                        "planet_type": "asteroid",
+                        "priority": 50
+                    }
+                ],
+                "max_jumps": 2,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false,
+                "starting_planet_track_levels": {
+                    "logistics": 1,
+                    "defense": 1,
+                    "commerce": 1,
+                    "mining": 1,
+                    "research": 0,
+                    "focus": 0,
+                    "surveying": 0
+                },
+                "granted_planets_units_in_gravity_wells": {
+                    "required_units": [
+                        {
+                            "unit": "trader_civilian_research_lab_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "trader_military_research_lab_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "trader_autocannon_defense_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        }
+                    ]
+                },
+                "granted_planets_units_in_formations": [
+                    {
+                        "required_units": [
+                            {
+                                "unit": "trader_light_frigate",
+                                "count": [
+                                    4,
+                                    4
+                                ]
+                            },
+                            {
+                                "unit": "trader_scout_corvette",
+                                "count": [
+                                    2,
+                                    2
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "granted_planet_starting_items": []
+            },
+            "starting_research": {
+                "starting_civilian_tier": 3,
+                "starting_military_tier": 3,
+                "starting_research_subjects": [
+                    "trader_autocannon_weapon_damage_0",
+                    "trader_autocannon_weapon_damage_1",
+                    "trader_capital_ship_starting_level_0",
+                    "trader_hull_damage_reduction_0",
+                    "trader_hull_damage_reduction_1",
+                    "trader_max_hull_points_0",
+                    "trader_max_hull_points_1",
+                    "trader_max_supply_0",
+                    "trader_max_supply_1",
+                    "trader_max_supply_2",
+                    "trader_mining_track_crystal_rate_0",
+                    "trader_mining_track_metal_rate_0",
+                    "trader_missile_weapon_damage_0",
+                    "trader_unlock_antiarmor_frigate",
+                    "trader_unlock_antifighter_frigate",
+                    "trader_unlock_antifighter_frigate_light_autocannon_weapon",
+                    "trader_unlock_carrier_cruiser",
+                    "trader_unlock_crystalline_biosphere",
+                    "trader_unlock_culture_center",
+                    "trader_unlock_desert_biosphere",
+                    "trader_unlock_exotic_factory_structure",
+                    "trader_unlock_ferrous_biosphere",
+                    "trader_unlock_flak_burst_unit_item",
+                    "trader_unlock_hangar_defense_structure",
+                    "trader_unlock_heavy_cruiser",
+                    "trader_unlock_ice_biosphere",
+                    "trader_unlock_irradiated_biosphere",
+                    "trader_unlock_long_range_cruiser",
+                    "trader_unlock_magnetic_biosphere",
+                    "trader_unlock_missile_corvette",
+                    "trader_unlock_oceanic_biosphere",
+                    "trader_unlock_phase_lane_detector",
+                    "trader_unlock_phase_lane_detector_extended_range",
+                    "trader_unlock_population_structure",
+                    "trader_unlock_resource_extractor_structures",
+                    "trader_unlock_retrofit_bay_repair_ability",
+                    "trader_unlock_robotics_cruiser",
+                    "trader_unlock_siege_frigate",
+                    "trader_unlock_skirmisher_corvette_frigate",
+                    "trader_unlock_starbase",
+                    "trader_unlock_swamp_biosphere",
+                    "trader_unlock_trade_port",
+                    "trader_unlock_volcanic_biosphere",
+                    "trader_upgrade_consumables_0",
+                    "trader_upgrade_influence_0",
+                    "trader_upgrade_influence_1",
+                    "trader_upgrade_loot_experience_gain"
+                ]
+            }
+        },
+        {
+            "player_definition_id": "trader_rebel",
+            "starting_assets": {
+                "credits": 45000,
+                "metal": 10500,
+                "crystal": 7500
+            },
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 3
+                }
+            ],
+            "home_planet": {
+                "starting_units_in_gravity_well": {
+                    "required_units": [
+                        {
+                            "unit": "trader_civilian_research_lab_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "trader_military_research_lab_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "trader_starbase",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                },
+                "starting_units_in_formations": [
+                    {
+                        "required_units": [
+                            {
+                                "unit": "trader_frigate_factory_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "trader_capital_ship_factory_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "trader_retrofit_bay_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "trader_light_frigate",
+                                "count": [
+                                    15,
+                                    15
+                                ]
+                            },
+                            {
+                                "unit": "trader_antiarmor_frigate",
+                                "count": [
+                                    10,
+                                    10
+                                ]
+                            },
+                            {
+                                "unit": "trader_carrier_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            },
+                            {
+                                "unit": "trader_robotics_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            },
+                            {
+                                "unit": "trader_heavy_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "home_planet_track_levels": {
+                    "logistics": 4,
+                    "defense": 4,
+                    "commerce": 5,
+                    "mining": 3,
+                    "research": 2,
+                    "focus": 0,
+                    "surveying": 0
+                },
+                "starting_units_in_hyperspace": {},
+                "home_planet_starting_population": [
+                    500,
+                    500
+                ],
+                "home_planet_starting_items": []
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 3,
+                "allowed_planet_types": [
+                    {
+                        "planet_type": "terran",
+                        "priority": 100
+                    },
+                    {
+                        "planet_type": "oceanic",
+                        "priority": 90
+                    },
+                    {
+                        "planet_type": "desert",
+                        "priority": 85
+                    },
+                    {
+                        "planet_type": "crystalline",
+                        "priority": 80
+                    },
+                    {
+                        "planet_type": "ferrous",
+                        "priority": 75
+                    },
+                    {
+                        "planet_type": "magnetic",
+                        "priority": 75
+                    },
+                    {
+                        "planet_type": "swamp",
+                        "priority": 70
+                    },
+                    {
+                        "planet_type": "hive_asteroid",
+                        "priority": 65
+                    },
+                    {
+                        "planet_type": "ice",
+                        "priority": 65
+                    },
+                    {
+                        "planet_type": "volcanic",
+                        "priority": 60
+                    },
+                    {
+                        "planet_type": "ice_asteroid",
+                        "priority": 55
+                    },
+                    {
+                        "planet_type": "asteroid",
+                        "priority": 50
+                    }
+                ],
+                "max_jumps": 2,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false,
+                "starting_planet_track_levels": {
+                    "logistics": 1,
+                    "defense": 1,
+                    "commerce": 1,
+                    "mining": 1,
+                    "research": 0,
+                    "focus": 0,
+                    "surveying": 0
+                },
+                "granted_planets_units_in_gravity_wells": {
+                    "required_units": [
+                        {
+                            "unit": "trader_civilian_research_lab_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "trader_military_research_lab_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "trader_autocannon_defense_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        }
+                    ]
+                },
+                "granted_planets_units_in_formations": [
+                    {
+                        "required_units": [
+                            {
+                                "unit": "trader_light_frigate",
+                                "count": [
+                                    4,
+                                    4
+                                ]
+                            },
+                            {
+                                "unit": "trader_scout_corvette",
+                                "count": [
+                                    2,
+                                    2
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "granted_planet_starting_items": []
+            },
+            "starting_research": {
+                "starting_civilian_tier": 3,
+                "starting_military_tier": 3,
+                "starting_research_subjects": [
+                    "trader_autocannon_weapon_damage_0",
+                    "trader_autocannon_weapon_damage_1",
+                    "trader_capital_ship_starting_level_0",
+                    "trader_hull_damage_reduction_0",
+                    "trader_hull_damage_reduction_1",
+                    "trader_max_hull_points_0",
+                    "trader_max_hull_points_1",
+                    "trader_max_supply_0",
+                    "trader_max_supply_1",
+                    "trader_max_supply_2",
+                    "trader_mining_track_crystal_rate_0",
+                    "trader_mining_track_metal_rate_0",
+                    "trader_missile_weapon_damage_0",
+                    "trader_unlock_antiarmor_frigate",
+                    "trader_unlock_antifighter_frigate",
+                    "trader_unlock_antifighter_frigate_light_autocannon_weapon",
+                    "trader_unlock_carrier_cruiser",
+                    "trader_unlock_crystalline_biosphere",
+                    "trader_unlock_culture_center",
+                    "trader_unlock_desert_biosphere",
+                    "trader_unlock_exotic_factory_structure",
+                    "trader_unlock_ferrous_biosphere",
+                    "trader_unlock_flak_burst_unit_item",
+                    "trader_unlock_hangar_defense_structure",
+                    "trader_unlock_heavy_cruiser",
+                    "trader_unlock_ice_biosphere",
+                    "trader_unlock_irradiated_biosphere",
+                    "trader_unlock_long_range_cruiser",
+                    "trader_unlock_magnetic_biosphere",
+                    "trader_unlock_missile_corvette",
+                    "trader_unlock_oceanic_biosphere",
+                    "trader_unlock_phase_lane_detector",
+                    "trader_unlock_phase_lane_detector_extended_range",
+                    "trader_unlock_population_structure",
+                    "trader_unlock_resource_extractor_structures",
+                    "trader_unlock_retrofit_bay_repair_ability",
+                    "trader_unlock_robotics_cruiser",
+                    "trader_unlock_siege_frigate",
+                    "trader_unlock_skirmisher_corvette_frigate",
+                    "trader_unlock_starbase",
+                    "trader_unlock_swamp_biosphere",
+                    "trader_unlock_trade_port",
+                    "trader_unlock_volcanic_biosphere",
+                    "trader_upgrade_consumables_0",
+                    "trader_upgrade_influence_0",
+                    "trader_upgrade_influence_1",
+                    "trader_upgrade_loot_experience_gain"
+                ]
+            }
+        },
+        {
+            "player_definition_id": "advent_loyalist",
+            "starting_assets": {
+                "credits": 45000,
+                "metal": 10500,
+                "crystal": 7500
+            },
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 3
+                }
+            ],
+            "home_planet": {
+                "starting_units_in_gravity_well": {
+                    "required_units": [
+                        {
+                            "unit": "advent_civilian_research_lab_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "advent_military_research_lab_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "advent_starbase",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                },
+                "starting_units_in_formations": [
+                    {
+                        "required_units": [
+                            {
+                                "unit": "advent_capital_ship_factory_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "advent_ship_factory_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "advent_light_frigate",
+                                "count": [
+                                    20,
+                                    20
+                                ]
+                            },
+                            {
+                                "unit": "advent_long_range_cruiser",
+                                "count": [
+                                    10,
+                                    10
+                                ]
+                            },
+                            {
+                                "unit": "advent_carrier_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            },
+                            {
+                                "unit": "advent_defense_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            },
+                            {
+                                "unit": "advent_guardian_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "home_planet_track_levels": {
+                    "logistics": 4,
+                    "defense": 4,
+                    "commerce": 2,
+                    "mining": 4,
+                    "research": 2,
+                    "focus": 2,
+                    "surveying": 0
+                },
+                "starting_units_in_hyperspace": {},
+                "home_planet_starting_population": [
+                    350,
+                    350
+                ],
+                "home_planet_starting_items": []
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 3,
+                "allowed_planet_types": [
+                    {
+                        "planet_type": "terran",
+                        "priority": 100
+                    },
+                    {
+                        "planet_type": "oceanic",
+                        "priority": 90
+                    },
+                    {
+                        "planet_type": "desert",
+                        "priority": 85
+                    },
+                    {
+                        "planet_type": "crystalline",
+                        "priority": 80
+                    },
+                    {
+                        "planet_type": "ferrous",
+                        "priority": 75
+                    },
+                    {
+                        "planet_type": "magnetic",
+                        "priority": 75
+                    },
+                    {
+                        "planet_type": "swamp",
+                        "priority": 70
+                    },
+                    {
+                        "planet_type": "hive_asteroid",
+                        "priority": 65
+                    },
+                    {
+                        "planet_type": "ice",
+                        "priority": 65
+                    },
+                    {
+                        "planet_type": "volcanic",
+                        "priority": 60
+                    },
+                    {
+                        "planet_type": "ice_asteroid",
+                        "priority": 55
+                    },
+                    {
+                        "planet_type": "asteroid",
+                        "priority": 50
+                    }
+                ],
+                "max_jumps": 2,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false,
+                "starting_planet_track_levels": {
+                    "logistics": 1,
+                    "defense": 1,
+                    "commerce": 1,
+                    "mining": 1,
+                    "research": 0,
+                    "focus": 0,
+                    "surveying": 0
+                },
+                "granted_planets_units_in_gravity_wells": {
+                    "required_units": [
+                        {
+                            "unit": "advent_civilian_research_lab_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "advent_military_research_lab_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "advent_laser_defense_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        }
+                    ]
+                },
+                "granted_planets_units_in_formations": [
+                    {
+                        "required_units": [
+                            {
+                                "unit": "advent_light_frigate",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            },
+                            {
+                                "unit": "advent_scout_corvette",
+                                "count": [
+                                    2,
+                                    2
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "granted_planet_starting_items": []
+            },
+            "starting_research": {
+                "starting_civilian_tier": 3,
+                "starting_military_tier": 3,
+                "starting_research_subjects": [
+                    "advent_capital_ship_starting_level_0",
+                    "advent_commerce_0",
+                    "advent_max_supply_0",
+                    "advent_max_supply_1",
+                    "advent_max_supply_2",
+                    "advent_unity_mana_0",
+                    "advent_unlock_carrier_cruiser",
+                    "advent_unlock_crystalline_biosphere",
+                    "advent_unlock_culture_center",
+                    "advent_unlock_defense_cruiser",
+                    "advent_unlock_exotic_factory_structure",
+                    "advent_unlock_ferrous_biosphere",
+                    "advent_unlock_guardian_cruiser",
+                    "advent_unlock_gunship_corvette",
+                    "advent_unlock_ice_biosphere",
+                    "advent_unlock_irradiated_biosphere",
+                    "advent_unlock_long_range_cruiser",
+                    "advent_unlock_magnetic_biosphere",
+                    "advent_unlock_missile_frigate",
+                    "advent_unlock_oceanic_biosphere",
+                    "advent_unlock_population_structure",
+                    "advent_unlock_resource_extractor_structures",
+                    "advent_unlock_siege_frigate",
+                    "advent_unlock_starbase",
+                    "advent_unlock_subjugator_cruiser",
+                    "advent_unlock_swamp_biosphere",
+                    "advent_unlock_unity_structure",
+                    "advent_unlock_volcanic_biosphere",
+                    "advent_upgrade_beam_weapon_damage_0",
+                    "advent_upgrade_home_planet",
+                    "advent_upgrade_hull_points_0",
+                    "advent_upgrade_influence_0",
+                    "advent_upgrade_influence_1",
+                    "advent_upgrade_laser_weapon_damage_0",
+                    "advent_upgrade_laser_weapon_damage_1",
+                    "advent_upgrade_missile_weapon_damage_0",
+                    "advent_upgrade_plasma_weapon_damage_0",
+                    "advent_upgrade_shield_points_0",
+                    "advent_upgrade_shield_points_1",
+                    "advent_upgrade_spell_power_0",
+                    "advent_upgrade_surveying_track"
+                ]
+            }
+        },
+        {
+            "player_definition_id": "advent_rebel",
+            "starting_assets": {
+                "credits": 45000,
+                "metal": 10500,
+                "crystal": 7500
+            },
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 5
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 3
+                }
+            ],
+            "home_planet": {
+                "starting_units_in_gravity_well": {
+                    "required_units": [
+                        {
+                            "unit": "advent_civilian_research_lab_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "advent_military_research_lab_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "advent_starbase",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                },
+                "starting_units_in_formations": [
+                    {
+                        "required_units": [
+                            {
+                                "unit": "advent_capital_ship_factory_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "advent_ship_factory_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "advent_light_frigate",
+                                "count": [
+                                    20,
+                                    20
+                                ]
+                            },
+                            {
+                                "unit": "advent_long_range_cruiser",
+                                "count": [
+                                    10,
+                                    10
+                                ]
+                            },
+                            {
+                                "unit": "advent_carrier_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            },
+                            {
+                                "unit": "advent_defense_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            },
+                            {
+                                "unit": "advent_guardian_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "home_planet_track_levels": {
+                    "logistics": 4,
+                    "defense": 4,
+                    "commerce": 2,
+                    "mining": 4,
+                    "research": 2,
+                    "focus": 2,
+                    "surveying": 0
+                },
+                "starting_units_in_hyperspace": {},
+                "home_planet_starting_population": [
+                    350,
+                    350
+                ],
+                "home_planet_starting_items": []
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 3,
+                "allowed_planet_types": [
+                    {
+                        "planet_type": "terran",
+                        "priority": 100
+                    },
+                    {
+                        "planet_type": "oceanic",
+                        "priority": 90
+                    },
+                    {
+                        "planet_type": "desert",
+                        "priority": 85
+                    },
+                    {
+                        "planet_type": "crystalline",
+                        "priority": 80
+                    },
+                    {
+                        "planet_type": "ferrous",
+                        "priority": 75
+                    },
+                    {
+                        "planet_type": "magnetic",
+                        "priority": 75
+                    },
+                    {
+                        "planet_type": "swamp",
+                        "priority": 70
+                    },
+                    {
+                        "planet_type": "hive_asteroid",
+                        "priority": 65
+                    },
+                    {
+                        "planet_type": "ice",
+                        "priority": 65
+                    },
+                    {
+                        "planet_type": "volcanic",
+                        "priority": 60
+                    },
+                    {
+                        "planet_type": "ice_asteroid",
+                        "priority": 55
+                    },
+                    {
+                        "planet_type": "asteroid",
+                        "priority": 50
+                    }
+                ],
+                "max_jumps": 2,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false,
+                "starting_planet_track_levels": {
+                    "logistics": 1,
+                    "defense": 1,
+                    "commerce": 1,
+                    "mining": 1,
+                    "research": 0,
+                    "focus": 0,
+                    "surveying": 0
+                },
+                "granted_planets_units_in_gravity_wells": {
+                    "required_units": [
+                        {
+                            "unit": "advent_civilian_research_lab_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "advent_military_research_lab_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "advent_laser_defense_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        }
+                    ]
+                },
+                "granted_planets_units_in_formations": [
+                    {
+                        "required_units": [
+                            {
+                                "unit": "advent_light_frigate",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            },
+                            {
+                                "unit": "advent_scout_corvette",
+                                "count": [
+                                    2,
+                                    2
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "granted_planet_starting_items": []
+            },
+            "starting_research": {
+                "starting_civilian_tier": 3,
+                "starting_military_tier": 3,
+                "starting_research_subjects": [
+                    "advent_capital_ship_starting_level_0",
+                    "advent_commerce_0",
+                    "advent_max_supply_0",
+                    "advent_max_supply_1",
+                    "advent_max_supply_2",
+                    "advent_unity_mana_0",
+                    "advent_unlock_carrier_cruiser",
+                    "advent_unlock_crystalline_biosphere",
+                    "advent_unlock_culture_center",
+                    "advent_unlock_defense_cruiser",
+                    "advent_unlock_exotic_factory_structure",
+                    "advent_unlock_ferrous_biosphere",
+                    "advent_unlock_guardian_cruiser",
+                    "advent_unlock_gunship_corvette",
+                    "advent_unlock_ice_biosphere",
+                    "advent_unlock_irradiated_biosphere",
+                    "advent_unlock_long_range_cruiser",
+                    "advent_unlock_magnetic_biosphere",
+                    "advent_unlock_missile_frigate",
+                    "advent_unlock_oceanic_biosphere",
+                    "advent_unlock_population_structure",
+                    "advent_unlock_resource_extractor_structures",
+                    "advent_unlock_siege_frigate",
+                    "advent_unlock_starbase",
+                    "advent_unlock_subjugator_cruiser",
+                    "advent_unlock_swamp_biosphere",
+                    "advent_unlock_unity_structure",
+                    "advent_unlock_volcanic_biosphere",
+                    "advent_upgrade_beam_weapon_damage_0",
+                    "advent_upgrade_home_planet",
+                    "advent_upgrade_hull_points_0",
+                    "advent_upgrade_influence_0",
+                    "advent_upgrade_influence_1",
+                    "advent_upgrade_laser_weapon_damage_0",
+                    "advent_upgrade_laser_weapon_damage_1",
+                    "advent_upgrade_missile_weapon_damage_0",
+                    "advent_upgrade_plasma_weapon_damage_0",
+                    "advent_upgrade_shield_points_0",
+                    "advent_upgrade_shield_points_1",
+                    "advent_upgrade_spell_power_0",
+                    "advent_upgrade_surveying_track"
+                ]
+            }
+        },
+        {
+            "player_definition_id": "vasari_loyalist",
+            "starting_assets": {
+                "metal": 48000,
+                "crystal": 60000
+            },
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 5
+                }
+            ],
+            "home_planet": {
+                "starting_units_in_gravity_well": {
+                    "required_units": [
+                        {
+                            "unit": "vasari_military_research_lab_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "vasari_civilian_research_lab_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "vasari_starbase",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                },
+                "starting_units_in_formations": [
+                    {
+                        "required_units": [
+                            {
+                                "unit": "vasari_fleet_beacon_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "vasari_factory_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "vasari_raider_corvette",
+                                "count": [
+                                    10,
+                                    10
+                                ]
+                            },
+                            {
+                                "unit": "vasari_light_frigate",
+                                "count": [
+                                    12,
+                                    12
+                                ]
+                            },
+                            {
+                                "unit": "vasari_long_range_frigate",
+                                "count": [
+                                    10,
+                                    10
+                                ]
+                            },
+                            {
+                                "unit": "vasari_carrier_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            },
+                            {
+                                "unit": "vasari_heavy_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "home_planet_track_levels": {
+                    "logistics": 4,
+                    "defense": 4,
+                    "commerce": 0,
+                    "mining": 5,
+                    "research": 3,
+                    "focus": 0,
+                    "surveying": 0
+                },
+                "starting_units_in_hyperspace": {},
+                "home_planet_starting_population": [
+                    240,
+                    240
+                ],
+                "home_planet_starting_items": [
+                    "vasari_exodus_debris_reclamation_center"
+                ],
+                "vasari_start_with_home_planet_owned": true
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 3,
+                "allowed_planet_types": [
+                    {
+                        "planet_type": "terran",
+                        "priority": 100
+                    },
+                    {
+                        "planet_type": "oceanic",
+                        "priority": 90
+                    },
+                    {
+                        "planet_type": "desert",
+                        "priority": 85
+                    },
+                    {
+                        "planet_type": "crystalline",
+                        "priority": 80
+                    },
+                    {
+                        "planet_type": "ferrous",
+                        "priority": 75
+                    },
+                    {
+                        "planet_type": "magnetic",
+                        "priority": 75
+                    },
+                    {
+                        "planet_type": "swamp",
+                        "priority": 70
+                    },
+                    {
+                        "planet_type": "hive_asteroid",
+                        "priority": 65
+                    },
+                    {
+                        "planet_type": "ice",
+                        "priority": 65
+                    },
+                    {
+                        "planet_type": "volcanic",
+                        "priority": 60
+                    },
+                    {
+                        "planet_type": "ice_asteroid",
+                        "priority": 55
+                    },
+                    {
+                        "planet_type": "asteroid",
+                        "priority": 50
+                    }
+                ],
+                "max_jumps": 2,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false,
+                "starting_planet_track_levels": {
+                    "logistics": 1,
+                    "defense": 1,
+                    "commerce": 0,
+                    "mining": 1,
+                    "research": 0,
+                    "focus": 0,
+                    "surveying": 0
+                },
+                "granted_planets_units_in_gravity_wells": {
+                    "required_units": [
+                        {
+                            "unit": "vasari_civilian_research_lab_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "vasari_military_research_lab_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "vasari_pulse_defense_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        }
+                    ]
+                },
+                "granted_planets_units_in_formations": [
+                    {
+                        "required_units": [
+                            {
+                                "unit": "vasari_light_frigate",
+                                "count": [
+                                    3,
+                                    3
+                                ]
+                            },
+                            {
+                                "unit": "vasari_scout_corvette",
+                                "count": [
+                                    2,
+                                    2
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "granted_planet_starting_items": []
+            },
+            "starting_research": {
+                "starting_civilian_tier": 3,
+                "starting_military_tier": 3,
+                "starting_research_subjects": [
+                    "vasari_capital_ship_starting_level_0",
+                    "vasari_improve_phase_lane_detection",
+                    "vasari_improve_surveying_planet_track",
+                    "vasari_max_supply_0",
+                    "vasari_max_supply_1",
+                    "vasari_max_supply_2",
+                    "vasari_unlock_anticorvette_corvette",
+                    "vasari_unlock_antifighter_frigate",
+                    "vasari_unlock_carrier_cruiser",
+                    "vasari_unlock_crystalline_biosphere",
+                    "vasari_unlock_culture_center",
+                    "vasari_unlock_desert_biosphere",
+                    "vasari_unlock_exotic_factory_structure",
+                    "vasari_unlock_fabricator_cruiser",
+                    "vasari_unlock_heavy_cruiser",
+                    "vasari_unlock_ice_biosphere",
+                    "vasari_unlock_irradiated_biosphere",
+                    "vasari_unlock_long_range_frigate",
+                    "vasari_unlock_magnetic_biosphere",
+                    "vasari_unlock_oceanic_biosphere",
+                    "vasari_unlock_overseer_cruiser",
+                    "vasari_unlock_phase_lane_detection",
+                    "vasari_unlock_phase_synchronizer_structure",
+                    "vasari_unlock_population_structure",
+                    "vasari_unlock_raider_corvette",
+                    "vasari_unlock_resource_extractor_structures",
+                    "vasari_unlock_siege_cruiser",
+                    "vasari_unlock_starbase",
+                    "vasari_unlock_swamp_biosphere",
+                    "vasari_unlock_terran_biosphere",
+                    "vasari_unlock_volcanic_biosphere",
+                    "vasari_upgrade_beam_weapons_0",
+                    "vasari_upgrade_ferrous_biosphere_1",
+                    "vasari_upgrade_hull_armor_0",
+                    "vasari_upgrade_hull_base",
+                    "vasari_upgrade_hull_point_restore_rate_0",
+                    "vasari_upgrade_hull_point_restore_rate_1",
+                    "vasari_upgrade_hull_points_0",
+                    "vasari_upgrade_influence_0",
+                    "vasari_upgrade_influence_1",
+                    "vasari_upgrade_missile_damage_0",
+                    "vasari_upgrade_orbital_extraction_0",
+                    "vasari_upgrade_pulse_weapons_0",
+                    "vasari_upgrade_pulse_weapons_1"
+                ]
+            }
+        },
+        {
+            "player_definition_id": "vasari_rebel",
+            "starting_assets": {
+                "metal": 48000,
+                "crystal": 60000
+            },
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 5
+                }
+            ],
+            "home_planet": {
+                "starting_units_in_gravity_well": {
+                    "required_units": [
+                        {
+                            "unit": "vasari_military_research_lab_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "vasari_civilian_research_lab_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "vasari_starbase",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                },
+                "starting_units_in_formations": [
+                    {
+                        "required_units": [
+                            {
+                                "unit": "vasari_fleet_beacon_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "vasari_factory_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "vasari_raider_corvette",
+                                "count": [
+                                    10,
+                                    10
+                                ]
+                            },
+                            {
+                                "unit": "vasari_light_frigate",
+                                "count": [
+                                    12,
+                                    12
+                                ]
+                            },
+                            {
+                                "unit": "vasari_long_range_frigate",
+                                "count": [
+                                    10,
+                                    10
+                                ]
+                            },
+                            {
+                                "unit": "vasari_carrier_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            },
+                            {
+                                "unit": "vasari_heavy_cruiser",
+                                "count": [
+                                    5,
+                                    5
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "home_planet_track_levels": {
+                    "logistics": 4,
+                    "defense": 4,
+                    "commerce": 0,
+                    "mining": 5,
+                    "research": 3,
+                    "focus": 0,
+                    "surveying": 0
+                },
+                "starting_units_in_hyperspace": {},
+                "home_planet_starting_population": [
+                    240,
+                    240
+                ],
+                "home_planet_starting_items": [
+                    "vasari_alliance_consulate"
+                ],
+                "vasari_start_with_home_planet_owned": true
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 3,
+                "allowed_planet_types": [
+                    {
+                        "planet_type": "terran",
+                        "priority": 100
+                    },
+                    {
+                        "planet_type": "oceanic",
+                        "priority": 90
+                    },
+                    {
+                        "planet_type": "desert",
+                        "priority": 85
+                    },
+                    {
+                        "planet_type": "crystalline",
+                        "priority": 80
+                    },
+                    {
+                        "planet_type": "ferrous",
+                        "priority": 75
+                    },
+                    {
+                        "planet_type": "magnetic",
+                        "priority": 75
+                    },
+                    {
+                        "planet_type": "swamp",
+                        "priority": 70
+                    },
+                    {
+                        "planet_type": "hive_asteroid",
+                        "priority": 65
+                    },
+                    {
+                        "planet_type": "ice",
+                        "priority": 65
+                    },
+                    {
+                        "planet_type": "volcanic",
+                        "priority": 60
+                    },
+                    {
+                        "planet_type": "ice_asteroid",
+                        "priority": 55
+                    },
+                    {
+                        "planet_type": "asteroid",
+                        "priority": 50
+                    }
+                ],
+                "max_jumps": 2,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false,
+                "starting_planet_track_levels": {
+                    "logistics": 1,
+                    "defense": 1,
+                    "commerce": 0,
+                    "mining": 1,
+                    "research": 0,
+                    "focus": 0,
+                    "surveying": 0
+                },
+                "granted_planets_units_in_gravity_wells": {
+                    "required_units": [
+                        {
+                            "unit": "vasari_civilian_research_lab_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "vasari_military_research_lab_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "vasari_pulse_defense_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        }
+                    ]
+                },
+                "granted_planets_units_in_formations": [
+                    {
+                        "required_units": [
+                            {
+                                "unit": "vasari_light_frigate",
+                                "count": [
+                                    3,
+                                    3
+                                ]
+                            },
+                            {
+                                "unit": "vasari_scout_corvette",
+                                "count": [
+                                    2,
+                                    2
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "granted_planet_starting_items": []
+            },
+            "starting_research": {
+                "starting_civilian_tier": 3,
+                "starting_military_tier": 3,
+                "starting_research_subjects": [
+                    "vasari_capital_ship_starting_level_0",
+                    "vasari_improve_phase_lane_detection",
+                    "vasari_improve_surveying_planet_track",
+                    "vasari_max_supply_0",
+                    "vasari_max_supply_1",
+                    "vasari_max_supply_2",
+                    "vasari_unlock_anticorvette_corvette",
+                    "vasari_unlock_antifighter_frigate",
+                    "vasari_unlock_carrier_cruiser",
+                    "vasari_unlock_crystalline_biosphere",
+                    "vasari_unlock_culture_center",
+                    "vasari_unlock_desert_biosphere",
+                    "vasari_unlock_exotic_factory_structure",
+                    "vasari_unlock_fabricator_cruiser",
+                    "vasari_unlock_heavy_cruiser",
+                    "vasari_unlock_ice_biosphere",
+                    "vasari_unlock_irradiated_biosphere",
+                    "vasari_unlock_long_range_frigate",
+                    "vasari_unlock_magnetic_biosphere",
+                    "vasari_unlock_oceanic_biosphere",
+                    "vasari_unlock_overseer_cruiser",
+                    "vasari_unlock_phase_lane_detection",
+                    "vasari_unlock_phase_synchronizer_structure",
+                    "vasari_unlock_population_structure",
+                    "vasari_unlock_raider_corvette",
+                    "vasari_unlock_resource_extractor_structures",
+                    "vasari_unlock_siege_cruiser",
+                    "vasari_unlock_starbase",
+                    "vasari_unlock_swamp_biosphere",
+                    "vasari_unlock_terran_biosphere",
+                    "vasari_unlock_volcanic_biosphere",
+                    "vasari_upgrade_beam_weapons_0",
+                    "vasari_upgrade_ferrous_biosphere_1",
+                    "vasari_upgrade_hull_armor_0",
+                    "vasari_upgrade_hull_base",
+                    "vasari_upgrade_hull_point_restore_rate_0",
+                    "vasari_upgrade_hull_point_restore_rate_1",
+                    "vasari_upgrade_hull_points_0",
+                    "vasari_upgrade_influence_0",
+                    "vasari_upgrade_influence_1",
+                    "vasari_upgrade_missile_damage_0",
+                    "vasari_upgrade_orbital_extraction_0",
+                    "vasari_upgrade_pulse_weapons_0",
+                    "vasari_upgrade_pulse_weapons_1"
+                ]
+            }
+        }
+    ]
+}

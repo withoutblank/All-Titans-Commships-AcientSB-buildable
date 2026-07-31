@@ -1,0 +1,41 @@
+{
+    "version": 0,
+    "level_count": 1,
+    "action_values": [
+        {
+            "action_value_id": "cooldown_time",
+            "action_value": {
+                "values": [
+                    60.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "armor_restore_amount_per_second",
+            "action_value": {
+                "values": [
+                    20.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "armor_restore_duration",
+            "action_value": {
+                "values": [
+                    30.0
+                ]
+            }
+        }
+    ],
+    "effect_alias_bindings": [
+        {
+            "alias_name": "salvage_kit_effect",
+            "alias_binding": {
+                "particle_effect": "salvage_kit",
+                "sounds": [
+                    "trader_salvage_kit_unit_item_buff"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "version": 0,
+    "level_count": 1,
+    "action_values": [
+        {
+            "action_value_id": "buff_duration",
+            "action_value": {
+                "values": [
+                    30.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "cooldown_time",
+            "action_value": {
+                "values": [
+                    150.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "weapon_cooldown_bonus",
+            "action_value": {
+                "values": [
+                    -0.4
+                ]
+            }
+        }
+    ],
+    "buff_weapon_modifiers": [
+        {
+            "buff_weapon_modifier_id": "weapon_cooldown_modifier",
+            "buff_weapon_modifier": {
+                "modifier_type": "cooldown_duration",
+                "value_behavior": "scalar",
+                "value_id": "weapon_cooldown_bonus",
+                "tags": [
+                    "physical"
+                ]
+            }
+        }
+    ],
+    "effect_alias_bindings": [
+        {
+            "alias_name": "trader_rapid_autoloader_unit_item_buff_large",
+            "alias_binding": {
+                "particle_effect": "rapid_autoloader_large"
+            }
+        },
+        {
+            "alias_name": "trader_rapid_autoloader_unit_item_buff_medium",
+            "alias_binding": {
+                "particle_effect": "rapid_autoloader_medium"
+            }
+        },
+        {
+            "alias_name": "trader_rapid_autoloader_unit_item_buff_small",
+            "alias_binding": {
+                "particle_effect": "rapid_autoloader_small"
+            }
+        },
+        {
+            "alias_name": "trader_rapid_autoloader_unit_item_activate_large",
+            "alias_binding": {
+                "particle_effect": "rapid_autoloader_activation_large"
+            }
+        },
+        {
+            "alias_name": "trader_rapid_autoloader_unit_item_activate_medium",
+            "alias_binding": {
+                "particle_effect": "rapid_autoloader_activation_medium"
+            }
+        },
+        {
+            "alias_name": "trader_rapid_autoloader_unit_item_activate_small",
+            "alias_binding": {
+                "particle_effect": "rapid_autoloader_activation"
+            }
+        }
+    ]
+}

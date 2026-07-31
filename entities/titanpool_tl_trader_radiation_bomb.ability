@@ -1,0 +1,91 @@
+{
+    "version": 0,
+    "action_data_source": "titanpool_tl_trader_radiation_bomb",
+    "level_source": "unit_item",
+    "active_actions": {
+        "cooldown_time": "radiation_bomb_cooldown_time_value",
+        "actions": {
+            "actions": [
+                {
+                    "action_type": "use_position_operators_on_single_position",
+                    "position": {
+                        "position_type": "target_position"
+                    },
+                    "position_operators": [
+                        {
+                            "operator_type": "create_buff_agent",
+                            "buff_on_agent": "trader_radiation_bomb_unit_item_on_spawner_travel"
+                        }
+                    ]
+                }
+            ]
+        },
+        "targeting_type": "position_targeted",
+        "range": "radiation_bomb_range_value",
+        "move_alignment": {
+            "type": "yaw",
+            "angle": 0.0,
+            "allow_opposite_angle": false
+        },
+        "firing_angle": 90.0,
+        "auto_cast": {
+            "target_definitions": [
+                {
+                    "target_filter": "radiation_bomb_auto_cast_target_filter"
+                }
+            ]
+        }
+    },
+    "gui": {
+        "targeting": {
+            "targeting_type": "range_and_radius",
+            "values": {
+                "range": "radiation_bomb_range_value",
+                "radius": "radiation_bomb_radius_value"
+            }
+        },
+        "tooltip_line_groups": [
+            {
+                "header_text": "tooltip.ability.enemy_units_in_range",
+                "lines": [
+                    {
+                        "rendering_type": "single_value",
+                        "label_text": "tooltip.ability.damage_rate",
+                        "value_id": "radiation_bomb_damage_rate_value",
+                        "value_suffix": "per_second",
+                        "value_color": "negative"
+                    },
+                    {
+                        "visible_if_value_zero": true,
+                        "rendering_type": "single_value",
+                        "label_text": "tooltip.ability.armor_penetration",
+                        "value_id": "radiation_bomb_armor_penetration_value"
+                    },
+                    {
+                        "rendering_type": "buff_unit_modifier",
+                        "unit_modifier_id": "radiation_bomb_hull_regeneration_modifier"
+                    },
+                    {
+                        "rendering_type": "buff_unit_modifier",
+                        "unit_modifier_id": "radiation_bomb_armor_regeneration_modifier"
+                    },
+                    {
+                        "rendering_type": "buff_unit_modifier",
+                        "unit_modifier_id": "radiation_bomb_shield_regeneration_modifier"
+                    },
+                    {
+                        "rendering_type": "single_value",
+                        "label_text": "tooltip.ability.radius",
+                        "value_id": "radiation_bomb_radius_value"
+                    },
+                    {
+                        "rendering_type": "single_value",
+                        "label_text": "tooltip.ability.duration",
+                        "value_id": "radiation_bomb_duration_value",
+                        "value_suffix": "seconds"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "advent_energy_booster_unit_item_hud_icon",
+    "tooltip_picture": "advent_energy_booster_unit_item_tooltip_picture",
+    "name": "advent_energy_booster_unit_item_name",
+    "description": "advent_energy_booster_unit_item_description",
+    "item_level_count": 1,
+    "build_time": 30.0,
+    "price": {
+        "credits": 600.0,
+        "metal": 125.0,
+        "crystal": 200.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "advent_loyalist_titan",
+        "advent_loyalist_command_ship"
+    ],
+    "owner_constraint": {
+        "constraint_type": "has_weapon",
+        "weapon_tag": "energy"
+    },
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "weapon_modifiers": [
+        {
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "values": [
+                0.3
+            ],
+            "tags": [
+                "energy"
+            ]
+        },
+        {
+            "modifier_type": "range",
+            "value_behavior": "scalar",
+            "values": [
+                0.4
+            ],
+            "tags": [
+                "energy"
+            ]
+        }
+    ]
+}

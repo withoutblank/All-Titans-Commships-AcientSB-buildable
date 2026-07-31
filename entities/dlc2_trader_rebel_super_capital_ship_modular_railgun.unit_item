@@ -1,0 +1,28 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "modular_railgun_hud_icon",
+    "tooltip_picture": "modular_railgun_tooltip_picture",
+    "name": "dlc2_trader_rebel_super_capital_ship_modular_railgun_unit_item_name",
+    "description": "dlc2_trader_rebel_super_capital_ship_modular_railgun_unit_item_description",
+    "build_time": 60.0,
+    "price": {
+        "credits": 750.0,
+        "metal": 125.0,
+        "crystal": 75.0
+    },
+    "required_unit_tags": [
+        "trader_rebel_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "other_item_requirements": {
+        "mutually_exclusive_items": [
+            "dlc2_trader_rebel_super_capital_ship_modular_hangar",
+            "dlc2_trader_rebel_super_capital_ship_modular_missile"
+        ]
+    },
+    "build_group_id": "offense",
+    "unit_mutations": [
+        "modular_railgun_equipped"
+    ]
+}

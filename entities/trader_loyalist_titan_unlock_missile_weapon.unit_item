@@ -1,0 +1,19 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "trader_loyalist_titan_unlock_missile_weapon_unit_item_hud_icon",
+    "tooltip_picture": "trader_loyalist_titan_unlock_missile_weapon_tooltip_picture",
+    "name": "trader_loyalist_titan_unlock_missile_weapon_unit_item_name",
+    "description": "trader_loyalist_titan_unlock_missile_weapon_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 900.0,
+        "metal": 300.0,
+        "crystal": 150.0
+    },
+    "required_unit_tags": [
+        "trader_loyalist_titan"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "offense"
+}

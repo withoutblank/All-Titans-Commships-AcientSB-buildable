@@ -1,0 +1,54 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_rebel_titan_hull_plating_1_unit_item_hud_icon",
+    "tooltip_icon": "vasari_rebel_titan_hull_plating_1_unit_item_hud_icon",
+    "tooltip_picture": "vasari_rebel_titan_hull_plating_1_unit_item_tooltip_picture",
+    "name": "vasari_rebel_titan_hull_plating_1_unit_item_name",
+    "description": "vasari_rebel_titan_hull_plating_1_unit_item_description",
+    "build_time": 120.0,
+    "price": {
+        "metal": 640,
+        "crystal": 460
+    },
+    "required_unit_tags": [
+        "vasari_rebel_titan"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "defense",
+    "other_item_requirements": {
+        "needed_items": [
+            "vasari_rebel_titan_hull_plating_0"
+        ]
+    },
+    "unit_modifiers": [
+        {
+            "modifier_type": "max_hull_points",
+            "value_behavior": "scalar",
+            "values": [
+                0.18
+            ]
+        },
+        {
+            "modifier_type": "hull_point_restore_scalar_after_damage_taken",
+            "value_behavior": "additive",
+            "values": [
+                0.18
+            ]
+        },
+        {
+            "modifier_type": "max_armor_points",
+            "value_behavior": "scalar",
+            "values": [
+                0.18
+            ]
+        },
+        {
+            "modifier_type": "armor_point_restore_scalar_after_damage_taken",
+            "value_behavior": "additive",
+            "values": [
+                0.18
+            ]
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "trader_heavy_gauss_slugs_unit_item_hud_icon",
+    "tooltip_icon": "trader_heavy_gauss_slugs_unit_item_hud_icon",
+    "tooltip_picture": "trader_heavy_gauss_slugs_unit_item_tooltip_picture",
+    "name": "trader_heavy_gauss_slugs_unit_item_name",
+    "description": "trader_heavy_gauss_slugs_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 750.0,
+        "metal": 250.0,
+        "crystal": 0.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "trader_rebel_titan",
+        "trader_rebel_command_ship"
+    ],
+    "owner_constraint": {
+        "constraint_type": "has_weapon",
+        "weapon_tag": "gauss"
+    },
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "weapon_modifiers": [
+        {
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "values": [
+                1.0
+            ],
+            "tags": [
+                "gauss"
+            ]
+        }
+    ]
+}

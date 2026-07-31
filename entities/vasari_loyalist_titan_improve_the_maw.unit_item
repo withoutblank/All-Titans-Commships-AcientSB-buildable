@@ -1,0 +1,45 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_loyalist_titan_improve_the_maw_unit_item_hud_icon",
+    "tooltip_picture": "vasari_loyalist_titan_improve_the_maw_unit_item_tooltip_picture",
+    "name": "vasari_loyalist_titan_improve_the_maw_unit_item_name",
+    "description": "vasari_loyalist_titan_improve_the_maw_unit_item_description",
+    "build_time": 120.0,
+    "price": {
+        "metal": 520,
+        "crystal": 380
+    },
+    "required_unit_tags": [
+        "vasari_loyalist_titan"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "unit_mutations": [
+        "improved_the_maw"
+    ],
+    "owner_unit_ability_tooltips": [
+        {
+            "ability": "vasari_loyalist_titan_the_maw",
+            "tooltip_lines": [
+                {
+                    "rendering_type": "single_value",
+                    "label_text": "weapon_modifier.damage",
+                    "value_id": "the_maw_weapon_damage_bonus_value",
+                    "value_float_format": "percentage_one_decimal_place_with_sign"
+                },
+                {
+                    "rendering_type": "single_value",
+                    "label_text": "tooltip.ability.max_stack_count",
+                    "value_id": "the_maw_max_stack_count_value"
+                },
+                {
+                    "rendering_type": "single_value",
+                    "label_text": "tooltip.ability.duration",
+                    "value_id": "the_maw_damage_bonus_duration_value",
+                    "value_suffix": "seconds"
+                }
+            ]
+        }
+    ]
+}

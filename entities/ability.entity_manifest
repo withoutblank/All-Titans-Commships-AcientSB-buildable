@@ -1,0 +1,16 @@
+{
+    "ids": [
+        "titanpool_tl_trader_flak_burst",
+        "titanpool_tl_trader_radiation_bomb",
+        "titanpool_tl_trader_rapid_autoloader",
+        "titanpool_tl_trader_salvage_kit",
+        "titanpool_tr_trader_flak_burst",
+        "titanpool_tr_trader_radiation_bomb",
+        "titanpool_tr_trader_rapid_autoloader",
+        "titanpool_tr_trader_salvage_kit",
+        "titanpool_vl_vasari_beam_boost",
+        "titanpool_vl_vasari_phase_missile_boost",
+        "titanpool_vr_vasari_beam_boost",
+        "titanpool_vr_vasari_phase_missile_boost"
+    ]
+}

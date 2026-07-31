@@ -1,0 +1,23 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_loyalist_titan_unlock_phase_cannon_weapon_unit_item_hud_icon",
+    "name": "vasari_loyalist_titan_unlock_phase_cannon_weapon_unit_item_name",
+    "description": "vasari_loyalist_titan_unlock_phase_cannon_weapon_unit_item_description",
+    "build_time": 120.0,
+    "price": {
+        "metal": 190,
+        "crystal": 290
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "vasari_loyalist_titan"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "offense"
+}

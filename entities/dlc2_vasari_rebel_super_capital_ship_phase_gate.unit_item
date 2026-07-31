@@ -1,0 +1,25 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "phase_gate_restore_hud_icon",
+    "tooltip_picture": "phase_gate_restore_tooltip_picture",
+    "name": "dlc2_vasari_rebel_super_capital_ship_phase_gate_name",
+    "description": "dlc2_vasari_rebel_super_capital_ship_phase_gate_description",
+    "build_time": 120.0,
+    "price": {
+        "metal": 520,
+        "crystal": 600
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "ultimate",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "vasari_rebel_command_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "ability": "dlc2_vasari_rebel_super_capital_ship_phase_gate"
+}

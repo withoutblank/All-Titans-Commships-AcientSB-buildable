@@ -1,0 +1,31 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "advent_essence_reservoir_unit_item_hud_icon",
+    "tooltip_picture": "advent_essence_reservoir_unit_item_tooltip_picture",
+    "name": "advent_essence_reservoir_unit_item_name",
+    "description": "advent_essence_reservoir_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 900.0,
+        "metal": 175.0,
+        "crystal": 300.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 2
+        }
+    ],
+    "required_unit_tags": [
+        "capital_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_prerequisites": [
+        [
+            "advent_unlock_essence_reservoir_unit_item"
+        ]
+    ],
+    "build_group_id": "utility",
+    "ability": "advent_essence_reservoir_unit_item"
+}

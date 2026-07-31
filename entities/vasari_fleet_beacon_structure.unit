@@ -1,0 +1,123 @@
+{
+    "version": 0,
+    "spatial": {
+        "radius": 665.586487,
+        "box": {
+            "center": [
+                0.0,
+                -71.263367,
+                -97.185684
+            ],
+            "extents": [
+                525.400391,
+                460.091919,
+                500.01593
+            ]
+        },
+        "can_be_displaced_on_collision": false
+    },
+    "physics": {},
+    "ai_attack_target": {
+        "attack_priority": 25.0,
+        "is_always_a_threat": false,
+        "attack_target_type": "civilian"
+    },
+    "user_interface": {
+        "can_be_controlled_by_selected_planet": true,
+        "pip_type": "capital_ship",
+        "can_ever_be_selected": true,
+        "selection_priority": 100,
+        "selection_group_unit_type": "civilian_structure"
+    },
+    "structure": {
+        "slot_type": "civilian",
+        "slots_required": 2,
+        "roles": [],
+        "build_group_id": "civilian"
+    },
+    "formation": {
+        "leader_priority": 3,
+        "offsets_per_formation_type": {
+            "ships_and_structures": {
+                "rank": 4,
+                "group": 5
+            }
+        }
+    },
+    "spawn_debris": {
+        "spawn_debris_time": 1.0,
+        "generic_group_name": "vasari",
+        "generic_counts": {
+            "small_debris": [
+                14,
+                18
+            ],
+            "large_debris": [
+                3,
+                5
+            ]
+        }
+    },
+    "health": {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 3.8,
+        "durability": 600.0,
+        "levels": [
+            {
+                "max_hull_points": 9000.0,
+                "hull_point_restore_rate": 6.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "max_armor_points": 960.0,
+                "armor_point_restore_rate": 8.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 72.0,
+                "experience_given_on_death": 75.0
+            }
+        ]
+    },
+    "unit_factory": {
+        "build_kinds": [
+            "super_capital_ship",
+            "titan",
+            "capital_ship",
+            "trader_loyalist_titan",
+            "trader_rebel_titan",
+            "advent_loyalist_titan",
+            "advent_rebel_titan",
+            "vasari_loyalist_titan",
+            "vasari_rebel_titan",
+            "trader_rebel_command_ship"
+        ],
+        "default_rally_point_offset": [
+            0.0,
+            0.0,
+            2500.0
+        ],
+        "will_spawn_units_in_hyperspace": true,
+        "spawn_units_in_hyperspace_delay_duration": 10.0
+    },
+    "build": {
+        "build_time": 150.0,
+        "price": {
+            "metal": 900.0,
+            "crystal": 720.0
+        },
+        "build_kind": "structure",
+        "build_radius": 725.300964
+    },
+    "target_filter_unit_type": "structure",
+    "tags": [
+        "structure"
+    ],
+    "virtual_supply_cost": 10,
+    "skin_groups": [
+        {
+            "skins": [
+                "vasari_fleet_beacon_structure"
+            ]
+        }
+    ],
+    "action_effect_size": "large_unit"
+}

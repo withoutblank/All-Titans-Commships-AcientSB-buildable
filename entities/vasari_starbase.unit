@@ -1,0 +1,2748 @@
+{
+    "version": 0,
+    "spatial": {
+        "radius": 3308.244141,
+        "box": {
+            "center": [
+                0.7771,
+                -104.67749,
+                5.283203
+            ],
+            "extents": [
+                3298.325684,
+                1398.479492,
+                1778.381958
+            ]
+        },
+        "collision_rank": 3,
+        "missile_aim_zones": [
+            {
+                "center": [
+                    0.0,
+                    -350.0,
+                    0.0
+                ],
+                "radius": 300.0
+            },
+            {
+                "center": [
+                    0.0,
+                    600.0,
+                    0.0
+                ],
+                "radius": 400.0
+            },
+            {
+                "center": [
+                    0.0,
+                    500.0,
+                    550.0
+                ],
+                "radius": 300.0
+            },
+            {
+                "center": [
+                    0.0,
+                    500.0,
+                    -550.0
+                ],
+                "radius": 300.0
+            },
+            {
+                "center": [
+                    0.0,
+                    850.0,
+                    0.0
+                ],
+                "radius": 200.0
+            },
+            {
+                "center": [
+                    950.0,
+                    680.0,
+                    0.0
+                ],
+                "radius": 300.0
+            },
+            {
+                "center": [
+                    -950.0,
+                    680.0,
+                    0.0
+                ],
+                "radius": 300.0
+            },
+            {
+                "center": [
+                    1600.0,
+                    580.0,
+                    0.0
+                ],
+                "radius": 250.0
+            },
+            {
+                "center": [
+                    2150.0,
+                    450.0,
+                    0.0
+                ],
+                "radius": 200.0
+            },
+            {
+                "center": [
+                    2650.0,
+                    350.0,
+                    0.0
+                ],
+                "radius": 150.0
+            },
+            {
+                "center": [
+                    -1600.0,
+                    580.0,
+                    0.0
+                ],
+                "radius": 250.0
+            },
+            {
+                "center": [
+                    -2150.0,
+                    450.0,
+                    0.0
+                ],
+                "radius": 200.0
+            },
+            {
+                "center": [
+                    -2650.0,
+                    350.0,
+                    0.0
+                ],
+                "radius": 150.0
+            },
+            {
+                "center": [
+                    1031.0,
+                    1051.0,
+                    1357.0
+                ],
+                "radius": 400.0
+            },
+            {
+                "center": [
+                    -1031.0,
+                    1051.0,
+                    1357.0
+                ],
+                "radius": 400.0
+            },
+            {
+                "center": [
+                    1031.0,
+                    1051.0,
+                    -1357.0
+                ],
+                "radius": 400.0
+            },
+            {
+                "center": [
+                    -1031.0,
+                    1051.0,
+                    -1357.0
+                ],
+                "radius": 400.0
+            },
+            {
+                "center": [
+                    0.0,
+                    -900.0,
+                    200.0
+                ],
+                "radius": 500.0
+            }
+        ]
+    },
+    "physics": {
+        "can_move_linear": true,
+        "max_linear_speed": 180.0,
+        "time_to_max_linear_speed": 6.0,
+        "arrival_tolerance_spatial_radius_scalar": 0.25,
+        "death_linear_speed_range": [
+            0.5,
+            1.0
+        ],
+        "can_move_angular": true,
+        "max_angular_speed": 6.0,
+        "time_to_max_angular_speed": 30.0,
+        "max_bank_angle": 5.0,
+        "death_angular_speed_range": [
+            1.5,
+            1.5
+        ],
+        "linear_acceleration_angle": 90.0,
+        "can_strafe_linear": true,
+        "strafe_max_linear_speed": 81.25,
+        "time_to_strafe_max_linear_speed": 16.25,
+        "strafe_max_linear_distance_spatial_radius_scalar": 3.0,
+        "strafe_start_angle": 0.0,
+        "strafe_stop_angle": 180.0,
+        "strafe_speed_start_angle": 10.0,
+        "strafe_max_start_turning_angle": 170.0
+    },
+    "hyperspace": {
+        "speed": 215000.0,
+        "speed_between_stars": 752500.0,
+        "charge_time": 8.0,
+        "charge_time_variance": 1.0,
+        "min_charge_angle": 10.0,
+        "max_charge_angle": 45.0,
+        "can_hyperspace_enabled_by_default": false
+    },
+    "move": {
+        "follow_distance": 11301.860352
+    },
+    "attack": {
+        "attack_pattern": {
+            "type": "stop_and_fire",
+            "rotate_only_on_plane": true
+        }
+    },
+    "ai": {
+        "attack_target_type_groups": [
+            "corvette",
+            "light_flak"
+        ],
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft"
+        ],
+        "attack_target_type_groups_matching_weapon": "vasari_starbase_pulse",
+        "auto_follow_target_priority": 5.0,
+        "pursuit": {
+            "min_target_speed": 100.0,
+            "min_distance_to_target": 5000.0
+        }
+    },
+    "ai_attack_target": {
+        "attack_priority": 50.0,
+        "is_always_a_threat": true,
+        "attack_target_type": "starbase"
+    },
+    "user_interface": {
+        "pip_type": "starbase",
+        "can_ever_be_selected": true,
+        "selection_priority": 600,
+        "selection_group_unit_type": "combat_ship",
+        "can_move": true,
+        "can_rotate": true,
+        "can_attack": true,
+        "can_show_max_weapon_range_in_tactical_view": true,
+        "can_show_distance_to_plane_line": true
+    },
+    "structure": {
+        "virtual_slot_type": "military",
+        "build_group_id": "military"
+    },
+    "weapons": {
+        "weapons": [
+            {
+                "weapon": "vasari_starbase_pulse",
+                "mesh_point": "child.vasari_asset_dual_pdpulse_starbase_barrel.0",
+                "weapon_position": [
+                    2614.929199,
+                    483.438965,
+                    -1.451469
+                ],
+                "forward": [
+                    1.0,
+                    0.0,
+                    -0.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_pulse",
+                "mesh_point": "child.vasari_asset_dual_pdpulse_starbase_barrel.1",
+                "weapon_position": [
+                    2611.423828,
+                    317.856628,
+                    -1.390701
+                ],
+                "forward": [
+                    0.983563,
+                    -0.179817,
+                    0.016409
+                ],
+                "up": [
+                    -0.179697,
+                    -0.983685,
+                    -0.00853
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_pulse",
+                "mesh_point": "child.vasari_asset_dual_pdpulse_starbase_barrel.2",
+                "weapon_position": [
+                    853.891113,
+                    919.460022,
+                    -1.451679
+                ],
+                "forward": [
+                    1.0,
+                    0.0,
+                    -0.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 65.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_pulse",
+                "mesh_point": "child.vasari_asset_dual_pdpulse_starbase_barrel.3",
+                "weapon_position": [
+                    791.951538,
+                    543.74469,
+                    -1.390919
+                ],
+                "forward": [
+                    0.939693,
+                    -0.34202,
+                    -0.0
+                ],
+                "up": [
+                    -0.34202,
+                    -0.939693,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_pulse",
+                "mesh_point": "child.vasari_asset_dual_pdpulse_starbase_barrel.4",
+                "weapon_position": [
+                    1131.831299,
+                    1271.79895,
+                    1495.650879
+                ],
+                "forward": [
+                    -0.915477,
+                    -0.383542,
+                    0.121642
+                ],
+                "up": [
+                    -0.330367,
+                    0.889061,
+                    0.316904
+                ],
+                "yaw_arc": {
+                    "min_angle": -0.0,
+                    "max_angle": 70.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_pulse",
+                "mesh_point": "child.vasari_asset_dual_pdpulse_starbase_barrel.5",
+                "weapon_position": [
+                    216.09256,
+                    684.037292,
+                    594.202515
+                ],
+                "forward": [
+                    -0.167354,
+                    -0.443962,
+                    0.880279
+                ],
+                "up": [
+                    -0.4145,
+                    0.841809,
+                    0.345757
+                ],
+                "yaw_arc": {
+                    "min_angle": -35.0,
+                    "max_angle": 50.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_pulse",
+                "mesh_point": "child.vasari_asset_dual_pdpulse_starbase_barrel.6",
+                "weapon_position": [
+                    -211.443542,
+                    683.762939,
+                    594.395264
+                ],
+                "forward": [
+                    0.065786,
+                    -0.195591,
+                    0.978477
+                ],
+                "up": [
+                    0.434551,
+                    0.888344,
+                    0.148358
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 40.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_pulse",
+                "mesh_point": "child.vasari_asset_dual_pdpulse_starbase_barrel.7",
+                "weapon_position": [
+                    -853.551819,
+                    919.460022,
+                    -0.64135
+                ],
+                "forward": [
+                    -1.0,
+                    0.0,
+                    -0.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 65.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_pulse",
+                "mesh_point": "child.vasari_asset_dual_pdpulse_starbase_barrel.8",
+                "weapon_position": [
+                    -2613.018799,
+                    483.438965,
+                    -1.452091
+                ],
+                "forward": [
+                    -1.0,
+                    -0.0,
+                    0.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_pulse",
+                "mesh_point": "child.vasari_asset_dual_pdpulse_starbase_barrel.9",
+                "weapon_position": [
+                    -2611.171387,
+                    319.408081,
+                    -1.512844
+                ],
+                "forward": [
+                    -1.0,
+                    0.0,
+                    1e-06
+                ],
+                "up": [
+                    0.0,
+                    -1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": -7.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_pulse",
+                "mesh_point": "child.vasari_asset_dual_pdpulse_starbase_barrel.10",
+                "weapon_position": [
+                    -790.017151,
+                    543.74469,
+                    -1.391106
+                ],
+                "forward": [
+                    -0.965926,
+                    -0.258819,
+                    1e-06
+                ],
+                "up": [
+                    0.258819,
+                    -0.965926,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_pulse",
+                "mesh_point": "child.vasari_asset_dual_pdpulse_starbase_barrel.11",
+                "weapon_position": [
+                    -1130.484131,
+                    1271.79895,
+                    1495.650635
+                ],
+                "forward": [
+                    0.881112,
+                    -0.470483,
+                    0.047818
+                ],
+                "up": [
+                    0.433343,
+                    0.843746,
+                    0.316711
+                ],
+                "yaw_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 0.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_pulse",
+                "mesh_point": "child.vasari_asset_dual_pdpulse_starbase_barrel.12",
+                "weapon_position": [
+                    -1127.197998,
+                    1264.567627,
+                    -1500.57605
+                ],
+                "forward": [
+                    0.839523,
+                    -0.355727,
+                    -0.410681
+                ],
+                "up": [
+                    0.34619,
+                    0.932789,
+                    -0.100283
+                ],
+                "yaw_arc": {
+                    "min_angle": -0.0,
+                    "max_angle": 70.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_pulse",
+                "mesh_point": "child.vasari_asset_dual_pdpulse_starbase_barrel.13",
+                "weapon_position": [
+                    1128.18042,
+                    1264.567627,
+                    -1500.575806
+                ],
+                "forward": [
+                    -0.907093,
+                    -0.355727,
+                    -0.225035
+                ],
+                "up": [
+                    -0.329658,
+                    0.932789,
+                    -0.145705
+                ],
+                "yaw_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 0.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 15.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_0",
+                "weapon_position": [
+                    1495.021729,
+                    756.027161,
+                    -0.940102
+                ],
+                "forward": [
+                    0.999965,
+                    0.008331,
+                    -0.000112
+                ],
+                "up": [
+                    -0.008331,
+                    0.999962,
+                    0.002553
+                ],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_1",
+                "weapon_position": [
+                    1864.660767,
+                    427.448914,
+                    -0.736687
+                ],
+                "forward": [
+                    0.963736,
+                    -0.266856,
+                    -0.00081
+                ],
+                "up": [
+                    -0.266857,
+                    -0.963733,
+                    -0.002424
+                ],
+                "yaw_arc": {
+                    "min_angle": -110.0,
+                    "max_angle": 110.0
+                },
+                "pitch_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_2",
+                "weapon_position": [
+                    1831.915649,
+                    608.782043,
+                    174.088913
+                ],
+                "forward": [
+                    0.022154,
+                    -0.253149,
+                    0.967174
+                ],
+                "up": [
+                    0.2404,
+                    0.940376,
+                    0.240628
+                ],
+                "yaw_arc": {
+                    "min_angle": -25.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_3",
+                "weapon_position": [
+                    1825.533203,
+                    608.782043,
+                    -168.94223
+                ],
+                "forward": [
+                    0.325493,
+                    -0.50143,
+                    -0.801637
+                ],
+                "up": [
+                    0.232192,
+                    0.864233,
+                    -0.446306
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "required_unit_item": "vasari_starbase_unlock_extra_wave_weapons",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_4",
+                "weapon_position": [
+                    934.120972,
+                    876.428772,
+                    983.95813
+                ],
+                "forward": [
+                    0.626068,
+                    0.326969,
+                    0.707905
+                ],
+                "up": [
+                    0.761262,
+                    -0.452903,
+                    -0.464068
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 85.0
+                },
+                "pitch_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "required_unit_item": "vasari_starbase_unlock_extra_wave_weapons",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_5",
+                "weapon_position": [
+                    931.398743,
+                    876.428772,
+                    -993.784363
+                ],
+                "forward": [
+                    0.614944,
+                    0.375389,
+                    -0.693489
+                ],
+                "up": [
+                    0.714485,
+                    -0.637379,
+                    0.288547
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 85.0
+                },
+                "pitch_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "required_unit_item": "vasari_starbase_unlock_extra_wave_weapons",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_9",
+                "weapon_position": [
+                    -929.961609,
+                    876.428772,
+                    -993.056091
+                ],
+                "forward": [
+                    -0.630217,
+                    0.502018,
+                    -0.592287
+                ],
+                "up": [
+                    -0.754103,
+                    -0.577353,
+                    0.313036
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 85.0
+                },
+                "pitch_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_11",
+                "weapon_position": [
+                    -1496.800171,
+                    756.027161,
+                    -0.940456
+                ],
+                "forward": [
+                    -0.999965,
+                    0.008331,
+                    0.000112
+                ],
+                "up": [
+                    0.008331,
+                    0.999962,
+                    -0.002553
+                ],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 95.0
+                },
+                "pitch_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_12",
+                "weapon_position": [
+                    -1831.771973,
+                    609.695251,
+                    174.717728
+                ],
+                "forward": [
+                    0.011238,
+                    -0.285498,
+                    0.958313
+                ],
+                "up": [
+                    -0.078133,
+                    0.955193,
+                    0.285485
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 25.0
+                },
+                "pitch_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_13",
+                "weapon_position": [
+                    -1824.577271,
+                    609.695251,
+                    -170.012207
+                ],
+                "forward": [
+                    -0.103811,
+                    -0.281558,
+                    -0.953912
+                ],
+                "up": [
+                    -0.219092,
+                    0.942009,
+                    -0.254201
+                ],
+                "yaw_arc": {
+                    "min_angle": -25.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_14",
+                "weapon_position": [
+                    -1863.456543,
+                    427.148682,
+                    -0.940506
+                ],
+                "forward": [
+                    -0.963736,
+                    -0.266856,
+                    0.00081
+                ],
+                "up": [
+                    0.266857,
+                    -0.963733,
+                    0.002424
+                ],
+                "yaw_arc": {
+                    "min_angle": -110.0,
+                    "max_angle": 110.0
+                },
+                "pitch_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "required_unit_item": "vasari_starbase_unlock_extra_wave_weapons",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_17",
+                "weapon_position": [
+                    -932.600037,
+                    877.689148,
+                    984.259583
+                ],
+                "forward": [
+                    -0.59934,
+                    0.403835,
+                    0.691165
+                ],
+                "up": [
+                    -0.778145,
+                    -0.496513,
+                    -0.384661
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 85.0
+                },
+                "pitch_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "required_unit_item": "vasari_starbase_unlock_extra_wave_weapons",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_7",
+                "weapon_position": [
+                    854.286865,
+                    828.622986,
+                    1063.80127
+                ],
+                "forward": [
+                    -0.652328,
+                    0.060924,
+                    0.755484
+                ],
+                "up": [
+                    0.370358,
+                    -0.84404,
+                    0.387854
+                ],
+                "yaw_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 60.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "required_unit_item": "vasari_starbase_unlock_extra_wave_weapons",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_8",
+                "weapon_position": [
+                    593.417786,
+                    572.678101,
+                    788.25
+                ],
+                "forward": [
+                    -0.652328,
+                    0.060924,
+                    0.755484
+                ],
+                "up": [
+                    0.370358,
+                    -0.84404,
+                    0.387854
+                ],
+                "yaw_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 60.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "required_unit_item": "vasari_starbase_unlock_extra_wave_weapons",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_16",
+                "weapon_position": [
+                    -853.308594,
+                    828.622986,
+                    1063.010254
+                ],
+                "forward": [
+                    0.671933,
+                    0.008523,
+                    0.740563
+                ],
+                "up": [
+                    -0.308649,
+                    -0.905739,
+                    0.290469
+                ],
+                "yaw_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 60.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "required_unit_item": "vasari_starbase_unlock_extra_wave_weapons",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_15",
+                "weapon_position": [
+                    -591.989319,
+                    572.678101,
+                    788.250122
+                ],
+                "forward": [
+                    0.811239,
+                    -0.052721,
+                    0.582333
+                ],
+                "up": [
+                    -0.318123,
+                    -0.875422,
+                    0.363916
+                ],
+                "yaw_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 80.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "required_unit_item": "vasari_starbase_unlock_extra_wave_weapons",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_19",
+                "weapon_position": [
+                    -848.066101,
+                    830.913391,
+                    -1073.067261
+                ],
+                "forward": [
+                    0.647629,
+                    -0.077954,
+                    -0.757958
+                ],
+                "up": [
+                    -0.397942,
+                    -0.882913,
+                    -0.249213
+                ],
+                "yaw_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "required_unit_item": "vasari_starbase_unlock_extra_wave_weapons",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_18",
+                "weapon_position": [
+                    -585.142761,
+                    585.218872,
+                    -797.536682
+                ],
+                "forward": [
+                    0.647629,
+                    -0.077954,
+                    -0.757958
+                ],
+                "up": [
+                    -0.397942,
+                    -0.882913,
+                    -0.249213
+                ],
+                "yaw_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 35.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "required_unit_item": "vasari_starbase_unlock_extra_wave_weapons",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_10",
+                "weapon_position": [
+                    584.879578,
+                    586.718018,
+                    -796.032288
+                ],
+                "forward": [
+                    -0.753146,
+                    -0.006081,
+                    -0.657825
+                ],
+                "up": [
+                    0.296982,
+                    -0.895406,
+                    -0.331738
+                ],
+                "yaw_arc": {
+                    "min_angle": -25.0,
+                    "max_angle": 70.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_wave",
+                "required_unit_item": "vasari_starbase_unlock_extra_wave_weapons",
+                "mesh_point": "child.vasari_asset_hvywave_starbase_barrel_6",
+                "weapon_position": [
+                    848.763916,
+                    828.622986,
+                    -1073.608032
+                ],
+                "forward": [
+                    -0.834407,
+                    -0.006303,
+                    -0.551112
+                ],
+                "up": [
+                    0.357745,
+                    -0.766855,
+                    -0.532872
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 70.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_missile_front",
+                "mesh_point": "weapon.torpedo_right_front",
+                "weapon_position": [
+                    1466.284546,
+                    656.725952,
+                    214.670486
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        1418.040894,
+                        653.822205,
+                        241.265671
+                    ],
+                    [
+                        1443.271362,
+                        649.449585,
+                        246.389206
+                    ],
+                    [
+                        1472.893677,
+                        644.236633,
+                        240.633957
+                    ],
+                    [
+                        1503.690796,
+                        636.937561,
+                        236.520187
+                    ],
+                    [
+                        1433.863037,
+                        664.043579,
+                        218.129196
+                    ],
+                    [
+                        1461.469971,
+                        659.516113,
+                        211.465988
+                    ],
+                    [
+                        1491.650146,
+                        653.775269,
+                        209.358337
+                    ],
+                    [
+                        1449.747192,
+                        673.548828,
+                        183.159607
+                    ],
+                    [
+                        1479.834106,
+                        669.409912,
+                        182.946106
+                    ],
+                    [
+                        1508.38501,
+                        662.519836,
+                        176.836731
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.0,
+                    1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_missile_front",
+                "mesh_point": "weapon.torpedo_left_front",
+                "weapon_position": [
+                    -1465.199951,
+                    656.935974,
+                    212.90564
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -1417.740112,
+                        654.576843,
+                        241.577576
+                    ],
+                    [
+                        -1442.688232,
+                        649.695435,
+                        239.951843
+                    ],
+                    [
+                        -1472.270996,
+                        644.02301,
+                        239.951843
+                    ],
+                    [
+                        -1503.123047,
+                        636.898071,
+                        231.237732
+                    ],
+                    [
+                        -1432.507568,
+                        664.488525,
+                        214.538269
+                    ],
+                    [
+                        -1459.156738,
+                        660.142639,
+                        209.601151
+                    ],
+                    [
+                        -1490.666016,
+                        654.315369,
+                        209.601151
+                    ],
+                    [
+                        -1448.610107,
+                        673.931885,
+                        182.781204
+                    ],
+                    [
+                        -1477.178223,
+                        668.21521,
+                        182.358109
+                    ],
+                    [
+                        -1508.057617,
+                        663.072998,
+                        177.45723
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.0,
+                    1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_missile_rear",
+                "mesh_point": "weapon.torpedo_right_rear",
+                "weapon_position": [
+                    1494.612549,
+                    650.09137,
+                    -210.072327
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        1458.613525,
+                        649.915344,
+                        -227.184357
+                    ],
+                    [
+                        1486.195068,
+                        645.439392,
+                        -224.846954
+                    ],
+                    [
+                        1514.67041,
+                        641.194946,
+                        -217.792633
+                    ],
+                    [
+                        1532.121582,
+                        650.014221,
+                        -192.12735
+                    ],
+                    [
+                        1501.793823,
+                        654.445007,
+                        -197.889435
+                    ],
+                    [
+                        1474.280396,
+                        659.539062,
+                        -200.593292
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "up": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_missile_rear",
+                "mesh_point": "weapon.torpedo_left_rear",
+                "weapon_position": [
+                    -1487.090698,
+                    650.107605,
+                    -213.110229
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -1502.617432,
+                        653.73584,
+                        -195.62587
+                    ],
+                    [
+                        -1473.814209,
+                        659.068787,
+                        -198.45607
+                    ],
+                    [
+                        -1515.803955,
+                        641.570374,
+                        -221.454727
+                    ],
+                    [
+                        -1485.522461,
+                        645.439392,
+                        -223.393814
+                    ],
+                    [
+                        -1457.695068,
+                        650.723572,
+                        -226.620621
+                    ]
+                ],
+                "forward": [
+                    -0.0,
+                    0.0,
+                    -1.0
+                ],
+                "up": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_missile_front",
+                "required_unit_item": "vasari_starbase_unlock_extra_phase_missile_weapons",
+                "mesh_point": "weapon.torpedo_right_front_component",
+                "weapon_position": [
+                    1614.267822,
+                    619.194092,
+                    210.890854
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        1581.25708,
+                        613.144714,
+                        235.830872
+                    ],
+                    [
+                        1607.012939,
+                        607.334045,
+                        233.12677
+                    ],
+                    [
+                        1637.47876,
+                        603.56604,
+                        235.211609
+                    ],
+                    [
+                        1666.51123,
+                        595.71814,
+                        230.882141
+                    ],
+                    [
+                        1571.010254,
+                        631.122192,
+                        212.891418
+                    ],
+                    [
+                        1595.677124,
+                        625.347168,
+                        203.702835
+                    ],
+                    [
+                        1626.016479,
+                        620.520508,
+                        203.944901
+                    ],
+                    [
+                        1656.293335,
+                        613.604919,
+                        203.003876
+                    ],
+                    [
+                        1588.018433,
+                        644.834229,
+                        174.980896
+                    ],
+                    [
+                        1613.401978,
+                        636.748718,
+                        175.332962
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.0,
+                    1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_missile_front",
+                "required_unit_item": "vasari_starbase_unlock_extra_phase_missile_weapons",
+                "mesh_point": "weapon.torpedo_left_front_component",
+                "weapon_position": [
+                    -1612.74646,
+                    619.303284,
+                    209.26062
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -1579.225708,
+                        613.11676,
+                        234.17598
+                    ],
+                    [
+                        -1605.766602,
+                        607.78064,
+                        229.502884
+                    ],
+                    [
+                        -1634.559204,
+                        601.64563,
+                        234.17598
+                    ],
+                    [
+                        -1665.199951,
+                        596.309509,
+                        229.502869
+                    ],
+                    [
+                        -1569.112671,
+                        631.016418,
+                        211.308762
+                    ],
+                    [
+                        -1594.865356,
+                        626.096802,
+                        202.74054
+                    ],
+                    [
+                        -1624.282837,
+                        620.252258,
+                        202.24408
+                    ],
+                    [
+                        -1655.003052,
+                        614.056091,
+                        202.24408
+                    ],
+                    [
+                        -1612.688232,
+                        638.187866,
+                        173.35553
+                    ],
+                    [
+                        -1586.76123,
+                        644.570312,
+                        173.35553
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.0,
+                    1.0,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_missile_rear",
+                "required_unit_item": "vasari_starbase_unlock_extra_phase_missile_weapons",
+                "mesh_point": "weapon.torpedo_right_rear_component",
+                "weapon_position": [
+                    1379.532227,
+                    673.410522,
+                    -220.306015
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        1342.555786,
+                        674.044617,
+                        -236.200974
+                    ],
+                    [
+                        1371.043945,
+                        670.104492,
+                        -236.368332
+                    ],
+                    [
+                        1399.85498,
+                        663.615479,
+                        -232.630524
+                    ],
+                    [
+                        1417.036743,
+                        673.339722,
+                        -200.403229
+                    ],
+                    [
+                        1387.610474,
+                        676.576233,
+                        -207.40567
+                    ],
+                    [
+                        1359.092041,
+                        682.782104,
+                        -208.827438
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    0.0,
+                    -1.0
+                ],
+                "up": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_missile_rear",
+                "required_unit_item": "vasari_starbase_unlock_extra_phase_missile_weapons",
+                "mesh_point": "weapon.torpedo_left_rear_component",
+                "weapon_position": [
+                    -1378.98877,
+                    673.010742,
+                    -219.687256
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -1400.899292,
+                        664.503967,
+                        -232.381104
+                    ],
+                    [
+                        -1370.617798,
+                        668.628845,
+                        -234.32019
+                    ],
+                    [
+                        -1342.176025,
+                        673.931885,
+                        -235.219849
+                    ],
+                    [
+                        -1415.328613,
+                        672.497253,
+                        -199.092285
+                    ],
+                    [
+                        -1387.324829,
+                        676.78009,
+                        -208.555054
+                    ],
+                    [
+                        -1357.585938,
+                        681.722534,
+                        -208.555054
+                    ]
+                ],
+                "forward": [
+                    -0.0,
+                    0.0,
+                    -1.0
+                ],
+                "up": [
+                    -0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 45.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_beam",
+                "mesh_point": "child.vasari_asset_starbase_heavybeam_0",
+                "weapon_position": [
+                    3206.415039,
+                    296.184052,
+                    -1.980869
+                ],
+                "forward": [
+                    0.984312,
+                    -0.176425,
+                    -0.00223
+                ],
+                "up": [
+                    0.176431,
+                    0.984069,
+                    0.021921
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_beam",
+                "mesh_point": "child.vasari_asset_starbase_heavybeam_1",
+                "weapon_position": [
+                    1213.9646,
+                    1144.089111,
+                    1728.689575
+                ],
+                "forward": [
+                    0.00223,
+                    -0.176425,
+                    0.984312
+                ],
+                "up": [
+                    -0.021921,
+                    0.984069,
+                    0.176431
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_beam",
+                "mesh_point": "child.vasari_asset_starbase_heavybeam_2",
+                "weapon_position": [
+                    -1212.342773,
+                    1144.089111,
+                    1728.995239
+                ],
+                "forward": [
+                    0.00223,
+                    -0.176425,
+                    0.984312
+                ],
+                "up": [
+                    -0.021921,
+                    0.984069,
+                    0.176431
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_beam",
+                "mesh_point": "child.vasari_asset_starbase_heavybeam_3",
+                "weapon_position": [
+                    1215.368774,
+                    1137.451782,
+                    -1728.536621
+                ],
+                "forward": [
+                    -0.00223,
+                    -0.176425,
+                    -0.984312
+                ],
+                "up": [
+                    0.021921,
+                    0.984069,
+                    -0.176431
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_beam",
+                "mesh_point": "child.vasari_asset_starbase_heavybeam_4",
+                "weapon_position": [
+                    -1213.454834,
+                    1137.51062,
+                    -1726.56311
+                ],
+                "forward": [
+                    -0.00223,
+                    -0.176425,
+                    -0.984312
+                ],
+                "up": [
+                    0.021921,
+                    0.984069,
+                    -0.176431
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_beam",
+                "mesh_point": "child.vasari_asset_starbase_heavybeam_5",
+                "weapon_position": [
+                    -3204.771484,
+                    296.184052,
+                    -1.981632
+                ],
+                "forward": [
+                    -0.984312,
+                    -0.176425,
+                    0.00223
+                ],
+                "up": [
+                    -0.176431,
+                    0.984069,
+                    -0.021921
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 120.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_0",
+                "weapon_position": [
+                    1846.102051,
+                    669.163025,
+                    -1.469009
+                ],
+                "forward": [
+                    1.0,
+                    -0.0,
+                    0.0
+                ],
+                "up": [
+                    0.0,
+                    0.999993,
+                    -0.003814
+                ],
+                "yaw_arc": {
+                    "min_angle": -85.0,
+                    "max_angle": 85.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_1",
+                "weapon_position": [
+                    1137.327271,
+                    561.445557,
+                    81.43013
+                ],
+                "forward": [
+                    0.173648,
+                    0.0,
+                    0.984808
+                ],
+                "up": [
+                    -0.089572,
+                    -0.995855,
+                    0.015794
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 35.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_2",
+                "weapon_position": [
+                    1136.423706,
+                    561.445557,
+                    -84.142586
+                ],
+                "forward": [
+                    0.00033,
+                    0.007596,
+                    -0.999971
+                ],
+                "up": [
+                    0.004146,
+                    -0.999963,
+                    -0.007595
+                ],
+                "yaw_arc": {
+                    "min_angle": -35.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_3",
+                "weapon_position": [
+                    1351.859009,
+                    661.464661,
+                    292.105927
+                ],
+                "forward": [
+                    0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.090954,
+                    0.995855,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_4",
+                "weapon_position": [
+                    1260.01062,
+                    676.609192,
+                    -302.071625
+                ],
+                "forward": [
+                    0.0,
+                    -0.0,
+                    -1.0
+                ],
+                "up": [
+                    0.083356,
+                    0.99652,
+                    -0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 5.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_5",
+                "weapon_position": [
+                    363.542908,
+                    1027.119873,
+                    -1.563477
+                ],
+                "forward": [
+                    -0.965926,
+                    0.258817,
+                    0.000987
+                ],
+                "up": [
+                    0.258819,
+                    0.965919,
+                    0.003684
+                ],
+                "yaw_arc": {
+                    "min_angle": -100.0,
+                    "max_angle": 100.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_6",
+                "weapon_position": [
+                    79.91629,
+                    442.673431,
+                    541.022705
+                ],
+                "forward": [
+                    0.258819,
+                    0.0,
+                    0.965926
+                ],
+                "up": [
+                    -0.003683,
+                    -0.999993,
+                    0.000987
+                ],
+                "yaw_arc": {
+                    "min_angle": -30.0,
+                    "max_angle": 65.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_7",
+                "weapon_position": [
+                    -79.356323,
+                    442.673431,
+                    541.558167
+                ],
+                "forward": [
+                    -0.34202,
+                    0.0,
+                    0.939693
+                ],
+                "up": [
+                    -0.003584,
+                    -0.999993,
+                    -0.001304
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 30.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_8",
+                "weapon_position": [
+                    -77.417397,
+                    399.356873,
+                    -572.337585
+                ],
+                "forward": [
+                    -0.173648,
+                    0.0,
+                    -0.984808
+                ],
+                "up": [
+                    0.003755,
+                    -0.999993,
+                    -0.000663
+                ],
+                "yaw_arc": {
+                    "min_angle": -30.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_9",
+                "weapon_position": [
+                    79.916428,
+                    399.678619,
+                    -572.394226
+                ],
+                "forward": [
+                    0.087156,
+                    0.0,
+                    -0.996195
+                ],
+                "up": [
+                    0.003799,
+                    -0.999993,
+                    0.000332
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 30.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_10",
+                "weapon_position": [
+                    -1123.567017,
+                    561.445557,
+                    -84.142853
+                ],
+                "forward": [
+                    -0.000331,
+                    0.007565,
+                    -0.999971
+                ],
+                "up": [
+                    0.091283,
+                    -0.995796,
+                    -0.007563
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 25.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_11",
+                "weapon_position": [
+                    -1136.015015,
+                    561.445557,
+                    81.429855
+                ],
+                "forward": [
+                    -0.330366,
+                    -0.006285,
+                    0.943832
+                ],
+                "up": [
+                    0.17519,
+                    -0.98301,
+                    0.054776
+                ],
+                "yaw_arc": {
+                    "min_angle": -25.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_12",
+                "weapon_position": [
+                    -1351.005493,
+                    661.464661,
+                    292.105591
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    -0.169891,
+                    0.985463,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 5.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_13",
+                "weapon_position": [
+                    -1258.884399,
+                    676.011658,
+                    -302.07193
+                ],
+                "forward": [
+                    -0.17101,
+                    0.030153,
+                    -0.984808
+                ],
+                "up": [
+                    -0.00116,
+                    0.999525,
+                    0.030805
+                ],
+                "yaw_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_14",
+                "weapon_position": [
+                    -361.217072,
+                    1027.119873,
+                    -1.563564
+                ],
+                "forward": [
+                    0.965926,
+                    0.258817,
+                    -0.000986
+                ],
+                "up": [
+                    -0.258819,
+                    0.965919,
+                    -0.003684
+                ],
+                "yaw_arc": {
+                    "min_angle": -100.0,
+                    "max_angle": 100.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 3.0
+                }
+            },
+            {
+                "weapon": "vasari_starbase_point_defense_pulse",
+                "mesh_point": "child.vasari_asset_pdpulse_starbase_barrel_15",
+                "weapon_position": [
+                    -1846.073608,
+                    669.163025,
+                    -1.469448
+                ],
+                "forward": [
+                    -1.0,
+                    -0.0,
+                    -0.0
+                ],
+                "up": [
+                    -0.0,
+                    0.999993,
+                    0.003814
+                ],
+                "yaw_arc": {
+                    "min_angle": -85.0,
+                    "max_angle": 85.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 10.0
+                }
+            }
+        ],
+        "max_range_weapon_index": 0
+    },
+    "formation": {
+        "leader_priority": 3,
+        "offsets_per_formation_type": {
+            "ships_and_structures": {
+                "rank": 5,
+                "group": 5
+            }
+        }
+    },
+    "spawn_debris": {
+        "spawn_debris_time": 6.6,
+        "generic_group_name": "vasari",
+        "generic_counts": {
+            "small_debris": [
+                40,
+                50
+            ],
+            "large_debris": [
+                20,
+                24
+            ]
+        },
+        "custom_debris": [
+            {
+                "unit": "vasari_starbase_debris_back",
+                "basis": {
+                    "position": [
+                        1600.0,
+                        600.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "vasari_starbase_debris_front_0",
+                "basis": {
+                    "position": [
+                        -600.0,
+                        700.0,
+                        900.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "vasari_starbase_debris_front_1",
+                "basis": {
+                    "position": [
+                        650.0,
+                        800.0,
+                        -900.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "vasari_starbase_debris_mid",
+                "basis": {
+                    "position": [
+                        0.0,
+                        -1000.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            }
+        ],
+        "spawn_loot": {
+            "loot_unit": "ship_loot_vasari",
+            "loot_name": "vasari_starbase_loot_name",
+            "loot_level": 1,
+            "experience_given": 500.0,
+            "exotics": [
+                {
+                    "bundles": [
+                        {
+                            "types": [
+                                "defense"
+                            ],
+                            "counts": [
+                                1,
+                                1
+                            ]
+                        }
+                    ],
+                    "weight": 1.0
+                }
+            ],
+            "assets": {
+                "metal": [
+                    400,
+                    600
+                ],
+                "crystal": [
+                    400,
+                    600
+                ]
+            }
+        }
+    },
+    "health": {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 6.0,
+        "durability": 1000.0,
+        "levels": [
+            {
+                "max_hull_points": 7200.0,
+                "hull_point_restore_rate": 9.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 1.0,
+                "max_armor_points": 3000.0,
+                "armor_point_restore_rate": 12.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 90.0,
+                "max_shield_points": 4800.0,
+                "shield_point_restore_rate": 15.0,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 120.0,
+                    "restore_percentage": 0.5
+                },
+                "experience_given_on_death": 2000.0
+            }
+        ]
+    },
+    "unit_factory": {
+        "build_kinds": [
+            "corvette",
+            "frigate",
+            "cruiser",
+            "capital_ship",
+            "super_capital_ship",
+            "titan",
+            "trader_loyalist_titan",
+            "trader_rebel_titan",
+            "advent_loyalist_titan",
+            "advent_rebel_titan",
+            "vasari_loyalist_titan",
+            "vasari_rebel_titan",
+            "trader_rebel_command_ship"
+        ],
+        "required_mutation": "mobile_unit_factory_enabled",
+        "will_spawn_units_in_hyperspace": true,
+        "spawn_units_in_hyperspace_delay_duration": 10.0
+    },
+    "exotic_factory": {
+        "required_mutation": "mobile_exotic_factory_enabled"
+    },
+    "build": {
+        "build_time": 180.0,
+        "price": {
+            "metal": 1080.0,
+            "crystal": 920.0
+        },
+        "exotic_price": [
+            {
+                "exotic_type": "offense",
+                "count": 1
+            },
+            {
+                "exotic_type": "defense",
+                "count": 1
+            }
+        ],
+        "prerequisites": [
+            [
+                "vasari_unlock_starbase"
+            ]
+        ],
+        "build_kind": "structure",
+        "build_radius": 3747.211426,
+        "self_build_time_gravity_well_scalars": {
+            "enemy": [
+                {
+                    "value": 2.5
+                },
+                {
+                    "value": 0.5,
+                    "prerequisites": [
+                        [
+                            "vasari_improve_starbase_build_time"
+                        ]
+                    ]
+                }
+            ],
+            "neutral": [
+                {
+                    "value": 1.0
+                },
+                {
+                    "value": 0.0,
+                    "prerequisites": [
+                        [
+                            "vasari_improve_starbase_build_time"
+                        ]
+                    ]
+                }
+            ]
+        },
+        "can_update_build_progress_by_default": true,
+        "build_group_id": "starbase"
+    },
+    "carrier": {
+        "base_max_squadron_capacity": 2,
+        "strikecraft_kinds": [
+            "interceptor",
+            "bomber"
+        ],
+        "launch_destination_formation": "vasari_starbase_strikecraft",
+        "launch_destination_formation_offset": {
+            "rank": 2,
+            "group": 0
+        },
+        "hangar_data": [
+            {
+                "hangar_basis": {
+                    "position": [
+                        1.638497,
+                        568.902832,
+                        625.749878
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -0.0,
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "hangar_basis": {
+                    "position": [
+                        1.638593,
+                        578.431519,
+                        -633.0
+                    ],
+                    "rotation": [
+                        -1.0,
+                        0.0,
+                        -0.0,
+                        -0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -1.0
+                    ]
+                }
+            },
+            {
+                "hangar_basis": {
+                    "position": [
+                        1.638497,
+                        520.448853,
+                        577.044739
+                    ],
+                    "rotation": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -0.0,
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            }
+        ]
+    },
+    "items": {
+        "levels": [
+            {
+                "max_ship_component_count": 8
+            }
+        ],
+        "requires_ship_component_shop_to_purchase_items": false
+    },
+    "passive_income": {},
+    "target_filter_unit_type": "starbase",
+    "tags": [
+        "starbase"
+    ],
+    "abilities": [
+        {
+            "abilities": [
+                "vasari_starbase_phase_jamming"
+            ]
+        }
+    ],
+    "virtual_supply_cost": 200,
+    "skin_groups": [
+        {
+            "skins": [
+                "vasari_starbase"
+            ]
+        }
+    ],
+    "child_meshes": [
+        {
+            "mesh_alias_name": "vasari_starbase_planetary_shield",
+            "mesh_point": "child.vasari_starbase_shield",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "vasari_starbase_planetary_shield_array"
+        },
+        {
+            "mesh_alias_name": "vasari_starbase_armor_0",
+            "mesh_point": "child.vasari_starbase_armor_0",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "vasari_starbase_structural_integrity_0"
+        },
+        {
+            "mesh_alias_name": "vasari_starbase_armor_1",
+            "mesh_point": "child.vasari_starbase_armor_1",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "vasari_starbase_structural_integrity_1"
+        },
+        {
+            "mesh_alias_name": "vasari_starbase_armor_2",
+            "mesh_point": "child.vasari_starbase_armor_2",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "vasari_starbase_structural_integrity_2"
+        },
+        {
+            "mesh_alias_name": "vasari_starbase_phase_gate",
+            "mesh_point": "child.vasari_starbase_phase_gate",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "vasari_starbase_hyperspace_engines"
+        },
+        {
+            "mesh_alias_name": "vasari_starbase_disintergrater",
+            "mesh_point": "child.vasari_starbase_disintergrater",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "vasari_starbase_debris_vortex"
+        },
+        {
+            "mesh_alias_name": "vasari_starbase_disintergrater",
+            "mesh_point": "child.vasari_starbase_disintergrater",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "vasari_starbase_debris_vortex"
+        },
+        {
+            "mesh_alias_name": "vasari_starbase_missile_cover",
+            "mesh_point": "child.vasari_starbase_missile_cover",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "vasari_starbase_unlock_extra_phase_missile_weapons"
+        },
+        {
+            "mesh_alias_name": "vasari_starbase_hangar_front_0",
+            "mesh_point": "child.vasari_starbase_hangar_front_0",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "vasari_starbase_hangar_2"
+        },
+        {
+            "mesh_alias_name": "vasari_starbase_hangar_rear_0",
+            "mesh_point": "child.vasari_starbase_hangar_rear_0",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "vasari_starbase_hangar_2"
+        },
+        {
+            "mesh_alias_name": "vasari_starbase_hangar_1",
+            "mesh_point": "child.vasari_starbase_hangar_1",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "vasari_starbase_hangar_1"
+        },
+        {
+            "mesh_alias_name": "vasari_starbase_exotic",
+            "mesh_point": "child.vasari_starbase_exotic",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "vasari_mobile_exotic_factory"
+        }
+    ],
+    "action_effect_size": "large_unit"
+}

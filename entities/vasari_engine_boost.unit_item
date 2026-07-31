@@ -1,0 +1,52 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_engine_boost_unit_item_hud_icon",
+    "tooltip_picture": "vasari_engine_boost_unit_item_tooltip_picture",
+    "name": "vasari_engine_boost_unit_item_name",
+    "description": "vasari_engine_boost_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "metal": 275.0,
+        "crystal": 375.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "capital_ship"
+    ],
+    "build_prerequisites": [
+        [
+            "vasari_unlock_engine_boost_unit_item"
+        ]
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "unit_modifiers": [
+        {
+            "modifier_type": "max_linear_speed",
+            "value_behavior": "scalar",
+            "values": [
+                0.12
+            ]
+        },
+        {
+            "modifier_type": "max_linear_acceleration",
+            "value_behavior": "scalar",
+            "values": [
+                0.24
+            ]
+        },
+        {
+            "modifier_type": "max_angular_speed",
+            "value_behavior": "scalar",
+            "values": [
+                0.24
+            ]
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "version": 0,
+    "spatial": {
+        "radius": 1854.346313,
+        "box": {
+            "center": [
+                0.0,
+                0.0,
+                -159.956268
+            ],
+            "extents": [
+                907.872986,
+                1772.116333,
+                744.377319
+            ]
+        },
+        "can_be_displaced_on_collision": false
+    },
+    "physics": {},
+    "ai": {
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft"
+        ]
+    },
+    "ai_attack_target": {
+        "attack_priority": 25.0,
+        "is_always_a_threat": false,
+        "attack_target_type": "civilian"
+    },
+    "user_interface": {
+        "can_be_controlled_by_selected_planet": true,
+        "pip_type": "titan",
+        "can_ever_be_selected": true,
+        "selection_priority": 100,
+        "has_sub_selection_grouping": true,
+        "selection_group_unit_type": "factory_structure"
+    },
+    "structure": {
+        "slot_type": "civilian",
+        "slots_required": 3,
+        "roles": [
+            "unit_factory"
+        ],
+        "build_group_id": "civilian"
+    },
+    "formation": {
+        "leader_priority": 3,
+        "offsets_per_formation_type": {
+            "ships_and_structures": {
+                "rank": 4,
+                "group": 5
+            }
+        }
+    },
+    "spawn_debris": {
+        "spawn_debris_time": 1.0,
+        "generic_group_name": "advent",
+        "generic_counts": {
+            "small_debris": [
+                14,
+                18
+            ],
+            "large_debris": [
+                3,
+                5
+            ]
+        }
+    },
+    "health": {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 3.8,
+        "durability": 750.0,
+        "levels": [
+            {
+                "max_hull_points": 7500.0,
+                "hull_point_restore_rate": 6.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "max_armor_points": 1000.0,
+                "armor_point_restore_rate": 8.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 50.0,
+                "max_shield_points": 6000.0,
+                "shield_point_restore_rate": 10.0,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 90.0,
+                    "restore_percentage": 0.5
+                },
+                "experience_given_on_death": 75.0
+            }
+        ]
+    },
+    "unit_factory": {
+        "build_kinds": [
+            "super_capital_ship",
+            "titan",
+            "advent_rebel_titan",
+            "advent_loyalist_titan",
+            "trader_rebel_titan",
+            "trader_loyalist_titan",
+            "vasari_rebel_titan",
+            "vasari_loyalist_titan",
+            "trader_rebel_command_ship"
+        ],
+        "default_rally_point_offset": [
+            0.0,
+            0.0,
+            2500.0
+        ],
+        "base_build_point": {
+            "position": [
+                -9e-06,
+                -8e-06,
+                1381.534302
+            ],
+            "rotation": [
+                1.0,
+                -0.0,
+                0.0,
+                0.0,
+                1.0,
+                -0.0,
+                -0.0,
+                0.0,
+                1.0
+            ]
+        }
+    },
+    "build": {
+        "build_time": 150.0,
+        "price": {
+            "credits": 2000.0,
+            "metal": 500.0,
+            "crystal": 600.0
+        },
+        "prerequisites": [],
+        "build_kind": "structure",
+        "build_radius": 1174.023438
+    },
+    "target_filter_unit_type": "structure",
+    "tags": [
+        "structure"
+    ],
+    "virtual_supply_cost": 20,
+    "skin_groups": [
+        {
+            "skins": [
+                "advent_rebel_titan_factory_structure"
+            ]
+        }
+    ],
+    "action_effect_size": "medium_unit",
+    "player_ai": {
+        "max_count_at_planet": {
+            "type": "constant",
+            "value": 1
+        }
+    }
+}

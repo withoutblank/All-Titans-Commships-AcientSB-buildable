@@ -1,0 +1,46 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "trader_beam_armor_unit_item_hud_icon",
+    "tooltip_icon": "trader_beam_armor_unit_item_hud_icon",
+    "tooltip_picture": "trader_beam_armor_unit_item_tooltip_picture",
+    "name": "trader_beam_armor_unit_item_name",
+    "description": "trader_beam_armor_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 500.0,
+        "metal": 150.0,
+        "crystal": 0.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "defense",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "capital_ship"
+    ],
+    "max_count_on_unit": 1,
+    "build_prerequisites": [
+        [
+            "trader_unlock_beam_armor_unit_item"
+        ]
+    ],
+    "other_item_requirements": {
+        "mutually_exclusive_items": [
+            "trader_missile_armor"
+        ]
+    },
+    "build_group_id": "defense",
+    "ability": "trader_beam_armor",
+    "unit_modifiers": [
+        {
+            "modifier_type": "armor_strength",
+            "value_behavior": "additive",
+            "values": [
+                25.0
+            ]
+        }
+    ]
+}

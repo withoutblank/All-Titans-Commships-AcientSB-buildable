@@ -1,0 +1,28 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_deploy_phase_gate_unit_item_hud_icon",
+    "name": "vasari_deploy_phase_gate_unit_item_name",
+    "description": "vasari_deploy_phase_gate_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "metal": 240.0,
+        "crystal": 360.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 2
+        }
+    ],
+    "required_unit_tags": [
+        "vasari_loyalist_titan",
+        "vasari_loyalist_command_ship"
+    ],
+    "consumable_stack_count": [
+        1
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "ability": "vasari_deploy_phase_gate"
+}

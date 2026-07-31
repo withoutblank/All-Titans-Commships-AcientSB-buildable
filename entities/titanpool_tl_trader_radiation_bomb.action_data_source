@@ -1,0 +1,207 @@
+{
+    "version": 0,
+    "level_count": 1,
+    "target_filters": [
+        {
+            "target_filter_id": "radiation_bomb_auto_cast_target_filter",
+            "target_filter": {
+                "unit_types": [
+                    "capital_ship",
+                    "cruiser",
+                    "frigate",
+                    "super_capital_ship",
+                    "titan"
+                ],
+                "ownerships": [
+                    "enemy"
+                ],
+                "constraints": [
+                    {
+                        "constraint_type": "is_always_a_threat"
+                    },
+                    {
+                        "constraint_type": "composite_not",
+                        "constraint": {
+                            "constraint_type": "has_buff",
+                            "buff": "trader_radiation_bomb_unit_item_on_target",
+                            "include_pending_buffs": true
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "target_filter_id": "radiation_bomb_target_filter",
+            "target_filter": {
+                "unit_types": [
+                    "capital_ship",
+                    "corvette",
+                    "cruiser",
+                    "frigate",
+                    "starbase",
+                    "structure",
+                    "super_capital_ship",
+                    "titan"
+                ],
+                "ownerships": [
+                    "enemy"
+                ]
+            }
+        }
+    ],
+    "action_values": [
+        {
+            "action_value_id": "radiation_bomb_cooldown_time_value",
+            "action_value": {
+                "values": [
+                    60.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "radiation_bomb_damage_rate_value",
+            "action_value": {
+                "values": [
+                    15.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "radiation_bomb_duration_value",
+            "action_value": {
+                "values": [
+                    75.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "radiation_bomb_armor_penetration_value",
+            "action_value": {
+                "values": [
+                    500.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "radiation_bomb_radius_value",
+            "action_value": {
+                "values": [
+                    2500.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "radiation_bomb_range_value",
+            "action_value": {
+                "values": [
+                    10000.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "radiation_bomb_travel_speed_value",
+            "action_value": {
+                "values": [
+                    4000.0
+                ]
+            }
+        },
+        {
+            "action_value_id": "radiation_bomb_hull_regeneration_bonus_value",
+            "action_value": {
+                "values": [
+                    -0.25
+                ]
+            }
+        },
+        {
+            "action_value_id": "radiation_bomb_armor_regeneration_bonus_value",
+            "action_value": {
+                "values": [
+                    -0.25
+                ]
+            }
+        },
+        {
+            "action_value_id": "radiation_bomb_shield_regeneration_bonus_value",
+            "action_value": {
+                "values": [
+                    -0.25
+                ]
+            }
+        }
+    ],
+    "buff_unit_modifiers": [
+        {
+            "buff_unit_modifier_id": "radiation_bomb_hull_regeneration_modifier",
+            "buff_unit_modifier": {
+                "modifier_type": "hull_point_restore_rate",
+                "value_behavior": "scalar",
+                "value_id": "radiation_bomb_hull_regeneration_bonus_value"
+            }
+        },
+        {
+            "buff_unit_modifier_id": "radiation_bomb_armor_regeneration_modifier",
+            "buff_unit_modifier": {
+                "modifier_type": "armor_point_restore_rate",
+                "value_behavior": "scalar",
+                "value_id": "radiation_bomb_armor_regeneration_bonus_value"
+            }
+        },
+        {
+            "buff_unit_modifier_id": "radiation_bomb_shield_regeneration_modifier",
+            "buff_unit_modifier": {
+                "modifier_type": "shield_point_restore_rate",
+                "value_behavior": "scalar",
+                "value_id": "radiation_bomb_shield_regeneration_bonus_value"
+            }
+        }
+    ],
+    "effect_alias_bindings": [
+        {
+            "alias_name": "trader_radiation_bomb_unit_item_impact",
+            "alias_binding": {
+                "particle_effect": "trader_radiation_bomb_impact",
+                "sounds": [
+                    "item_impact_tech_radiationbomb"
+                ]
+            }
+        },
+        {
+            "alias_name": "trader_radiation_bomb_unit_item_muzzle",
+            "alias_binding": {
+                "particle_effect": "trader_radiation_bomb_muzzle"
+            }
+        },
+        {
+            "alias_name": "trader_radiation_bomb_unit_item_on_target_large",
+            "alias_binding": {
+                "particle_effect": "trader_radiation_bomb_status_large"
+            }
+        },
+        {
+            "alias_name": "trader_radiation_bomb_unit_item_on_target_medium",
+            "alias_binding": {
+                "particle_effect": "trader_radiation_bomb_status"
+            }
+        },
+        {
+            "alias_name": "trader_radiation_bomb_unit_item_on_target_small",
+            "alias_binding": {
+                "particle_effect": "trader_radiation_bomb_status_small"
+            }
+        },
+        {
+            "alias_name": "trader_radiation_bomb_unit_item_projectile_travel",
+            "alias_binding": {
+                "particle_effect": "trader_radiation_bomb_travel"
+            }
+        },
+        {
+            "alias_name": "trader_radiation_bomb_unit_item_on_spawner",
+            "alias_binding": {
+                "particle_effect": "trader_radiation_bomb_duration"
+            }
+        }
+    ]
+}

@@ -1,0 +1,2971 @@
+{
+    "version": 0,
+    "spatial": {
+        "radius": 1629.098267,
+        "box": {
+            "center": [
+                0.0,
+                0.0,
+                -415.71637
+            ],
+            "extents": [
+                1131.765137,
+                1409.317139,
+                605.150024
+            ]
+        },
+        "collision_rank": 3,
+        "missile_aim_zones": [
+            {
+                "center": [
+                    0.0,
+                    550.0,
+                    -100.0
+                ],
+                "radius": 200.0
+            },
+            {
+                "center": [
+                    0.0,
+                    50.0,
+                    0.0
+                ],
+                "radius": 250.0
+            },
+            {
+                "center": [
+                    0.0,
+                    -450.0,
+                    -125.0
+                ],
+                "radius": 250.0
+            },
+            {
+                "center": [
+                    0.0,
+                    -900.0,
+                    -350.0
+                ],
+                "radius": 150.0
+            },
+            {
+                "center": [
+                    0.0,
+                    -1150.0,
+                    -550.0
+                ],
+                "radius": 100.0
+            },
+            {
+                "center": [
+                    400.0,
+                    500.0,
+                    -400.0
+                ],
+                "radius": 200.0
+            },
+            {
+                "center": [
+                    -400.0,
+                    500.0,
+                    -400.0
+                ],
+                "radius": 200.0
+            },
+            {
+                "center": [
+                    450.0,
+                    50.0,
+                    -450.0
+                ],
+                "radius": 150.0
+            },
+            {
+                "center": [
+                    -450.0,
+                    50.0,
+                    -450.0
+                ],
+                "radius": 150.0
+            }
+        ]
+    },
+    "physics": {
+        "can_move_linear": true,
+        "max_linear_speed": 600.0,
+        "time_to_max_linear_speed": 6.0,
+        "arrival_tolerance_spatial_radius_scalar": 0.25,
+        "death_linear_speed_range": [
+            0.75,
+            1.25
+        ],
+        "can_move_angular": true,
+        "max_angular_speed": 15.0,
+        "time_to_max_angular_speed": 20.0,
+        "max_bank_angle": 1.0,
+        "death_angular_speed_range": [
+            1.0,
+            2.0
+        ],
+        "linear_acceleration_angle": 75.0,
+        "can_strafe_linear": true,
+        "strafe_max_linear_speed": 200.0,
+        "time_to_strafe_max_linear_speed": 20.0,
+        "strafe_max_linear_distance_spatial_radius_scalar": 3.0,
+        "strafe_start_angle": 0.0,
+        "strafe_stop_angle": 180.0,
+        "strafe_speed_start_angle": 10.0,
+        "strafe_max_start_turning_angle": 170.0
+    },
+    "hyperspace": {
+        "speed": 215000.0,
+        "speed_between_stars": 752500.0,
+        "charge_time": 8.0,
+        "charge_time_variance": 1.0,
+        "min_charge_angle": 10.0,
+        "max_charge_angle": 45.0
+    },
+    "move": {
+        "follow_distance": 9481.554688
+    },
+    "attack": {
+        "attack_pattern": {
+            "type": "stop_and_fire"
+        }
+    },
+    "ai": {
+        "attack_target_type_groups": [
+            "heavy_capital",
+            "defense"
+        ],
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft_corvette"
+        ],
+        "attack_target_type_groups_matching_weapon": "advent_rebel_titan_beam",
+        "auto_follow_target_priority": 5.0,
+        "pursuit": {
+            "min_target_speed": 100.0,
+            "min_distance_to_target": 5000.0
+        },
+        "attack_target_type_range_scalar": 1.5
+    },
+    "ai_attack_target": {
+        "attack_priority": 50.0,
+        "is_always_a_threat": true,
+        "attack_target_type": "titan"
+    },
+    "user_interface": {
+        "pip_type": "titan",
+        "can_ever_be_selected": true,
+        "selection_priority": 500,
+        "selection_group_unit_type": "combat_ship",
+        "can_move": true,
+        "can_rotate": true,
+        "can_attack": true,
+        "can_show_max_weapon_range_in_tactical_view": true,
+        "can_show_distance_to_plane_line": true,
+        "bar_size": "large"
+    },
+    "weapons": {
+        "weapons": [
+            {
+                "weapon": "advent_rebel_titan_beam",
+                "mesh_point": "child.advent_asset_hvybeam_mount_0",
+                "weapon_position": [
+                    662.17041,
+                    584.768005,
+                    -536.458862
+                ],
+                "forward": [
+                    0.676059,
+                    -0.609254,
+                    0.414433
+                ],
+                "up": [
+                    0.230262,
+                    0.708955,
+                    0.666605
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 65.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": -5.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_beam",
+                "mesh_point": "child.advent_asset_hvybeam_mount_1",
+                "weapon_position": [
+                    625.430359,
+                    561.511353,
+                    -501.663757
+                ],
+                "forward": [
+                    0.773134,
+                    -0.471298,
+                    0.424432
+                ],
+                "up": [
+                    0.106629,
+                    0.756255,
+                    0.64553
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_beam",
+                "mesh_point": "child.advent_asset_hvybeam_mount_2",
+                "weapon_position": [
+                    596.740601,
+                    539.562439,
+                    -472.184052
+                ],
+                "forward": [
+                    0.807545,
+                    -0.490439,
+                    0.32763
+                ],
+                "up": [
+                    0.185296,
+                    0.738321,
+                    0.648496
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": -5.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_beam",
+                "mesh_point": "child.advent_asset_hvybeam_mount_3",
+                "weapon_position": [
+                    568.65802,
+                    515.705261,
+                    -437.83255
+                ],
+                "forward": [
+                    0.525757,
+                    -0.605847,
+                    0.597101
+                ],
+                "up": [
+                    0.123046,
+                    0.748731,
+                    0.651354
+                ],
+                "yaw_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_beam",
+                "mesh_point": "child.advent_asset_hvybeam_mount_4",
+                "weapon_position": [
+                    -568.279541,
+                    515.495544,
+                    -438.383728
+                ],
+                "forward": [
+                    -0.419042,
+                    -0.667468,
+                    0.61554
+                ],
+                "up": [
+                    -0.146461,
+                    0.718745,
+                    0.679672
+                ],
+                "yaw_arc": {
+                    "min_angle": -85.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_beam",
+                "mesh_point": "child.advent_asset_hvybeam_mount_5",
+                "weapon_position": [
+                    -597.387329,
+                    539.505676,
+                    -470.627319
+                ],
+                "forward": [
+                    -0.453225,
+                    -0.59495,
+                    0.663793
+                ],
+                "up": [
+                    -0.108842,
+                    0.776031,
+                    0.621232
+                ],
+                "yaw_arc": {
+                    "min_angle": -85.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_beam",
+                "mesh_point": "child.advent_asset_hvybeam_mount_6",
+                "weapon_position": [
+                    -624.830078,
+                    561.588379,
+                    -501.142334
+                ],
+                "forward": [
+                    -0.433591,
+                    -0.602025,
+                    0.670496
+                ],
+                "up": [
+                    -0.144436,
+                    0.780889,
+                    0.607742
+                ],
+                "yaw_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_beam",
+                "mesh_point": "child.advent_asset_hvybeam_mount_7",
+                "weapon_position": [
+                    -661.940735,
+                    584.04303,
+                    -535.663574
+                ],
+                "forward": [
+                    -0.314943,
+                    -0.649664,
+                    0.691916
+                ],
+                "up": [
+                    -0.232855,
+                    0.759625,
+                    0.607247
+                ],
+                "yaw_arc": {
+                    "min_angle": -85.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_0",
+                "weapon_position": [
+                    -190.035004,
+                    197.489258,
+                    -72.867729
+                ],
+                "forward": [
+                    0.172502,
+                    -0.305658,
+                    0.936385
+                ],
+                "up": [
+                    -0.816365,
+                    0.487574,
+                    0.309548
+                ],
+                "yaw_arc": {
+                    "min_angle": -95.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_1",
+                "weapon_position": [
+                    -745.475586,
+                    -92.751022,
+                    -513.031738
+                ],
+                "forward": [
+                    -0.150974,
+                    -0.616471,
+                    0.772768
+                ],
+                "up": [
+                    -0.628529,
+                    0.663232,
+                    0.406294
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 60.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_2",
+                "weapon_position": [
+                    -1060.446899,
+                    786.04303,
+                    -772.792725
+                ],
+                "forward": [
+                    -0.39567,
+                    -0.812344,
+                    0.428419
+                ],
+                "up": [
+                    -0.286012,
+                    0.552283,
+                    0.783059
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 60.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_3",
+                "weapon_position": [
+                    -558.97821,
+                    444.792175,
+                    -356.110138
+                ],
+                "forward": [
+                    -0.377739,
+                    -0.736914,
+                    0.560599
+                ],
+                "up": [
+                    -0.125837,
+                    0.640697,
+                    0.757412
+                ],
+                "yaw_arc": {
+                    "min_angle": -110.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_4",
+                "weapon_position": [
+                    -183.551331,
+                    294.708282,
+                    -85.378906
+                ],
+                "forward": [
+                    -0.160985,
+                    -0.535656,
+                    0.828949
+                ],
+                "up": [
+                    -0.425863,
+                    0.795392,
+                    0.431268
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 20.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_5",
+                "weapon_position": [
+                    -101.820107,
+                    488.849426,
+                    -73.819069
+                ],
+                "forward": [
+                    0.156529,
+                    -0.363847,
+                    0.918213
+                ],
+                "up": [
+                    -0.976035,
+                    0.085317,
+                    0.200193
+                ],
+                "yaw_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": -5.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_6",
+                "weapon_position": [
+                    -51.122635,
+                    -1226.181396,
+                    -590.637024
+                ],
+                "forward": [
+                    -0.147261,
+                    -0.279989,
+                    0.948641
+                ],
+                "up": [
+                    -0.976738,
+                    -0.10998,
+                    -0.184083
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": -5.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_7",
+                "weapon_position": [
+                    0.7315,
+                    -203.382385,
+                    -247.176163
+                ],
+                "forward": [
+                    0.011165,
+                    -0.959322,
+                    -0.282092
+                ],
+                "up": [
+                    -0.004922,
+                    0.282054,
+                    -0.959386
+                ],
+                "yaw_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 60.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_8",
+                "weapon_position": [
+                    -80.010597,
+                    4.483968,
+                    129.81218
+                ],
+                "forward": [
+                    0.348351,
+                    -0.737675,
+                    0.578349
+                ],
+                "up": [
+                    -0.630035,
+                    0.272582,
+                    0.727156
+                ],
+                "yaw_arc": {
+                    "min_angle": -150.0,
+                    "max_angle": 0.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": -5.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_9",
+                "weapon_position": [
+                    -296.124573,
+                    199.92244,
+                    -408.419128
+                ],
+                "forward": [
+                    0.478671,
+                    -0.819421,
+                    -0.315314
+                ],
+                "up": [
+                    0.566977,
+                    0.562696,
+                    -0.60159
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 75.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_10",
+                "weapon_position": [
+                    -378.627441,
+                    633.633484,
+                    -573.726379
+                ],
+                "forward": [
+                    0.574418,
+                    -0.619313,
+                    0.535253
+                ],
+                "up": [
+                    0.179025,
+                    -0.543015,
+                    -0.820418
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": -45.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_11",
+                "weapon_position": [
+                    296.557831,
+                    199.92244,
+                    -408.419128
+                ],
+                "forward": [
+                    -0.289547,
+                    -0.819421,
+                    -0.494683
+                ],
+                "up": [
+                    -0.57075,
+                    0.562696,
+                    -0.598011
+                ],
+                "yaw_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 20.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_12",
+                "weapon_position": [
+                    378.571716,
+                    633.633484,
+                    -573.342346
+                ],
+                "forward": [
+                    -0.494361,
+                    -0.685335,
+                    0.534718
+                ],
+                "up": [
+                    -0.237582,
+                    -0.485194,
+                    -0.841512
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": -45.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_13",
+                "weapon_position": [
+                    51.138523,
+                    -1226.181396,
+                    -590.637024
+                ],
+                "forward": [
+                    0.14798,
+                    -0.172422,
+                    0.973844
+                ],
+                "up": [
+                    0.982498,
+                    -0.087012,
+                    -0.164701
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": -5.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_14",
+                "weapon_position": [
+                    80.239937,
+                    4.483968,
+                    129.81218
+                ],
+                "forward": [
+                    -0.26938,
+                    -0.792592,
+                    0.547022
+                ],
+                "up": [
+                    0.621903,
+                    0.290528,
+                    0.727207
+                ],
+                "yaw_arc": {
+                    "min_angle": -0.0,
+                    "max_angle": 140.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": -10.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_15",
+                "weapon_position": [
+                    744.785461,
+                    -92.751022,
+                    -512.28241
+                ],
+                "forward": [
+                    0.264082,
+                    -0.694182,
+                    0.669606
+                ],
+                "up": [
+                    0.725327,
+                    0.600542,
+                    0.336527
+                ],
+                "yaw_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_16",
+                "weapon_position": [
+                    189.795364,
+                    197.567703,
+                    -72.867729
+                ],
+                "forward": [
+                    -0.115546,
+                    -0.395849,
+                    0.911017
+                ],
+                "up": [
+                    0.813698,
+                    0.488297,
+                    0.315375
+                ],
+                "yaw_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 85.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_17",
+                "weapon_position": [
+                    183.409393,
+                    294.708282,
+                    -85.762199
+                ],
+                "forward": [
+                    0.1395,
+                    -0.605768,
+                    0.783317
+                ],
+                "up": [
+                    0.406657,
+                    0.756314,
+                    0.512464
+                ],
+                "yaw_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_18",
+                "weapon_position": [
+                    101.78891,
+                    488.849426,
+                    -73.626854
+                ],
+                "forward": [
+                    -0.17924,
+                    -0.25412,
+                    0.950419
+                ],
+                "up": [
+                    0.974808,
+                    0.084482,
+                    0.206429
+                ],
+                "yaw_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 25.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": -5.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_19",
+                "weapon_position": [
+                    558.42749,
+                    445.803223,
+                    -356.984528
+                ],
+                "forward": [
+                    0.24905,
+                    -0.758066,
+                    0.602752
+                ],
+                "up": [
+                    0.078589,
+                    0.636128,
+                    0.767571
+                ],
+                "yaw_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 115.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_point_defense_laser",
+                "mesh_point": "child.advent_asset_pdlaser_mount_20",
+                "weapon_position": [
+                    1060.059692,
+                    786.04303,
+                    -772.796814
+                ],
+                "forward": [
+                    0.278665,
+                    -0.829159,
+                    0.484604
+                ],
+                "up": [
+                    0.300087,
+                    0.554502,
+                    0.776193
+                ],
+                "yaw_arc": {
+                    "min_angle": -60.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_plasma",
+                "mesh_point": "child.advent_asset_hvyplasma_mount_0",
+                "weapon_position": [
+                    -444.631439,
+                    418.356354,
+                    -312.945557
+                ],
+                "forward": [
+                    -0.093116,
+                    -0.769831,
+                    0.631419
+                ],
+                "up": [
+                    -0.116001,
+                    0.638243,
+                    0.761045
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 30.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_plasma",
+                "mesh_point": "child.advent_asset_hvyplasma_mount_1",
+                "weapon_position": [
+                    -560.656677,
+                    -32.883923,
+                    -311.343475
+                ],
+                "forward": [
+                    -0.431571,
+                    -0.810287,
+                    0.396461
+                ],
+                "up": [
+                    -0.554848,
+                    0.584967,
+                    0.591572
+                ],
+                "yaw_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 60.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_plasma",
+                "mesh_point": "child.advent_asset_hvyplasma_mount_2",
+                "weapon_position": [
+                    -157.165207,
+                    -103.040047,
+                    103.753716
+                ],
+                "forward": [
+                    0.526235,
+                    -0.673243,
+                    0.519442
+                ],
+                "up": [
+                    -0.6229,
+                    0.110634,
+                    0.774439
+                ],
+                "yaw_arc": {
+                    "min_angle": -40.0,
+                    "max_angle": 65.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_plasma",
+                "mesh_point": "child.advent_asset_hvyplasma_mount_3",
+                "weapon_position": [
+                    158.222626,
+                    -103.040047,
+                    102.998665
+                ],
+                "forward": [
+                    -0.665597,
+                    -0.4775,
+                    0.573563
+                ],
+                "up": [
+                    0.605889,
+                    0.102993,
+                    0.788854
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_plasma",
+                "mesh_point": "child.advent_asset_hvyplasma_mount_4",
+                "weapon_position": [
+                    444.84491,
+                    418.356354,
+                    -312.945557
+                ],
+                "forward": [
+                    -0.020564,
+                    -0.764926,
+                    0.64379
+                ],
+                "up": [
+                    0.098817,
+                    0.639218,
+                    0.762651
+                ],
+                "yaw_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 130.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_plasma",
+                "mesh_point": "child.advent_asset_hvyplasma_mount_5",
+                "weapon_position": [
+                    560.982361,
+                    -33.414284,
+                    -311.343475
+                ],
+                "forward": [
+                    0.151592,
+                    -0.749659,
+                    0.644229
+                ],
+                "up": [
+                    0.531948,
+                    0.611203,
+                    0.586057
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 80.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_0",
+                "weapon_position": [
+                    -260.464539,
+                    524.938904,
+                    -345.591492
+                ],
+                "forward": [
+                    0.036401,
+                    -0.707722,
+                    0.705553
+                ],
+                "up": [
+                    0.037931,
+                    0.70649,
+                    0.706706
+                ],
+                "yaw_arc": {
+                    "min_angle": -110.0,
+                    "max_angle": 0.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_1",
+                "weapon_position": [
+                    -320.328735,
+                    111.396637,
+                    -197.647629
+                ],
+                "forward": [
+                    -0.525385,
+                    -0.712711,
+                    0.464772
+                ],
+                "up": [
+                    -0.575717,
+                    0.699977,
+                    0.42259
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 65.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_2",
+                "weapon_position": [
+                    260.912628,
+                    524.938904,
+                    -345.591492
+                ],
+                "forward": [
+                    0.124024,
+                    -0.69772,
+                    0.705553
+                ],
+                "up": [
+                    -0.050114,
+                    0.705731,
+                    0.706706
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 100.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_3",
+                "weapon_position": [
+                    319.55011,
+                    113.593307,
+                    -199.570587
+                ],
+                "forward": [
+                    0.419445,
+                    -0.604284,
+                    0.677426
+                ],
+                "up": [
+                    0.538233,
+                    0.766475,
+                    0.350459
+                ],
+                "yaw_arc": {
+                    "min_angle": -55.0,
+                    "max_angle": 55.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_4",
+                "weapon_position": [
+                    0.526836,
+                    698.192322,
+                    -259.850372
+                ],
+                "forward": [
+                    -0.009732,
+                    -0.979822,
+                    -0.199635
+                ],
+                "up": [
+                    0.009387,
+                    0.199546,
+                    -0.979843
+                ],
+                "yaw_arc": {
+                    "min_angle": -15.0,
+                    "max_angle": 15.0
+                },
+                "pitch_arc": {
+                    "min_angle": -75.0,
+                    "max_angle": -35.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_5",
+                "weapon_position": [
+                    -144.99617,
+                    86.954262,
+                    27.340292
+                ],
+                "forward": [
+                    0.004029,
+                    -0.357392,
+                    0.933946
+                ],
+                "up": [
+                    -0.803321,
+                    0.555048,
+                    0.215865
+                ],
+                "yaw_arc": {
+                    "min_angle": -50.0,
+                    "max_angle": 30.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_6",
+                "weapon_position": [
+                    145.605911,
+                    86.27327,
+                    27.340292
+                ],
+                "forward": [
+                    -0.198686,
+                    -0.147582,
+                    0.968888
+                ],
+                "up": [
+                    0.805627,
+                    0.538378,
+                    0.247213
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 70.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_7",
+                "weapon_position": [
+                    -256.794434,
+                    149.900894,
+                    -317.540741
+                ],
+                "forward": [
+                    0.157984,
+                    0.612546,
+                    -0.774486
+                ],
+                "up": [
+                    0.592715,
+                    -0.686146,
+                    -0.421773
+                ],
+                "yaw_arc": {
+                    "min_angle": -120.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": -10.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_8",
+                "weapon_position": [
+                    256.144958,
+                    150.432098,
+                    -317.540741
+                ],
+                "forward": [
+                    -0.004768,
+                    0.524899,
+                    -0.851151
+                ],
+                "up": [
+                    -0.591687,
+                    -0.687655,
+                    -0.420758
+                ],
+                "yaw_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 110.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": -10.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_9",
+                "weapon_position": [
+                    -200.156311,
+                    412.274719,
+                    -332.85611
+                ],
+                "forward": [
+                    0.145414,
+                    0.736885,
+                    -0.660193
+                ],
+                "up": [
+                    -0.044244,
+                    -0.661775,
+                    -0.748396
+                ],
+                "yaw_arc": {
+                    "min_angle": -20.0,
+                    "max_angle": 25.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_10",
+                "weapon_position": [
+                    201.930237,
+                    410.197937,
+                    -330.984222
+                ],
+                "forward": [
+                    -0.324644,
+                    0.709882,
+                    -0.62504
+                ],
+                "up": [
+                    0.028267,
+                    -0.653256,
+                    -0.75661
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 35.0
+                },
+                "pitch_arc": {
+                    "min_angle": -56.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_11",
+                "weapon_position": [
+                    -112.106415,
+                    -933.637817,
+                    -384.917603
+                ],
+                "forward": [
+                    -0.078939,
+                    -0.263156,
+                    0.961518
+                ],
+                "up": [
+                    -0.995153,
+                    -0.035935,
+                    -0.091536
+                ],
+                "yaw_arc": {
+                    "min_angle": -210.0,
+                    "max_angle": 45.0
+                },
+                "pitch_arc": {
+                    "min_angle": -65.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_12",
+                "weapon_position": [
+                    112.187988,
+                    -933.637817,
+                    -384.917603
+                ],
+                "forward": [
+                    0.090003,
+                    -0.132324,
+                    0.987112
+                ],
+                "up": [
+                    0.994144,
+                    -0.047583,
+                    -0.097022
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 210.0
+                },
+                "pitch_arc": {
+                    "min_angle": -56.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_13",
+                "weapon_position": [
+                    -192.62883,
+                    -471.502075,
+                    -136.98143
+                ],
+                "forward": [
+                    -0.039731,
+                    0.085817,
+                    -0.995519
+                ],
+                "up": [
+                    -0.992958,
+                    -0.114669,
+                    0.029744
+                ],
+                "yaw_arc": {
+                    "min_angle": -45.0,
+                    "max_angle": 100.0
+                },
+                "pitch_arc": {
+                    "min_angle": -25.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_laser",
+                "mesh_point": "child.advent_asset_hvylaser_mount_14",
+                "weapon_position": [
+                    192.643097,
+                    -471.502075,
+                    -136.98143
+                ],
+                "forward": [
+                    0.020748,
+                    -0.092264,
+                    -0.995518
+                ],
+                "up": [
+                    0.994817,
+                    -0.097235,
+                    0.029745
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 50.0
+                },
+                "pitch_arc": {
+                    "min_angle": -25.0,
+                    "max_angle": 0.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_missile",
+                "required_unit_item": "advent_rebel_titan_unlock_missile_weapon",
+                "mesh_point": "weapon.0_bottomleft",
+                "weapon_position": [
+                    -122.148247,
+                    -724.66687,
+                    -190.329926
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -139.108154,
+                        -593.874695,
+                        -120.575478
+                    ],
+                    [
+                        -139.108154,
+                        -606.785889,
+                        -138.182007
+                    ],
+                    [
+                        -113.0774,
+                        -785.437195,
+                        -218.28717
+                    ],
+                    [
+                        -116.014763,
+                        -792.762512,
+                        -236.043152
+                    ],
+                    [
+                        -99.167503,
+                        -829.631042,
+                        -226.81485
+                    ],
+                    [
+                        -99.167503,
+                        -839.799438,
+                        -246.515762
+                    ],
+                    [
+                        -102.104858,
+                        -847.126038,
+                        -264.271729
+                    ],
+                    [
+                        -139.108154,
+                        -618.431152,
+                        -155.938339
+                    ],
+                    [
+                        -133.615875,
+                        -654.228455,
+                        -146.382385
+                    ],
+                    [
+                        -133.615875,
+                        -667.139709,
+                        -163.988937
+                    ],
+                    [
+                        -133.615875,
+                        -678.787781,
+                        -181.745239
+                    ],
+                    [
+                        -122.834877,
+                        -715.842896,
+                        -166.819763
+                    ],
+                    [
+                        -122.834877,
+                        -728.754089,
+                        -186.520676
+                    ],
+                    [
+                        -125.772575,
+                        -736.133545,
+                        -204.276657
+                    ],
+                    [
+                        -113.0774,
+                        -775.268921,
+                        -198.586578
+                    ]
+                ],
+                "forward": [
+                    -0.868751,
+                    0.492404,
+                    -0.053007
+                ],
+                "up": [
+                    0.482963,
+                    0.866025,
+                    0.129409
+                ],
+                "yaw_arc": {
+                    "min_angle": -110.0,
+                    "max_angle": 110.0
+                },
+                "pitch_arc": {
+                    "min_angle": -110.0,
+                    "max_angle": 110.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_missile",
+                "required_unit_item": "advent_rebel_titan_unlock_missile_weapon",
+                "mesh_point": "weapon.0_middleleft",
+                "weapon_position": [
+                    -551.758118,
+                    67.368912,
+                    -600.0802
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -445.588928,
+                        120.316811,
+                        -513.27887
+                    ],
+                    [
+                        -467.076508,
+                        116.141556,
+                        -515.618774
+                    ],
+                    [
+                        -594.80249,
+                        44.667568,
+                        -643.701782
+                    ],
+                    [
+                        -615.911377,
+                        37.854378,
+                        -645.867188
+                    ],
+                    [
+                        -614.552124,
+                        17.626394,
+                        -682.549072
+                    ],
+                    [
+                        -633.484741,
+                        11.87811,
+                        -684.89032
+                    ],
+                    [
+                        -654.590942,
+                        5.064888,
+                        -687.057007
+                    ],
+                    [
+                        -488.184082,
+                        112.692268,
+                        -517.785461
+                    ],
+                    [
+                        -487.73233,
+                        99.498878,
+                        -557.191467
+                    ],
+                    [
+                        -509.218628,
+                        95.323288,
+                        -559.53125
+                    ],
+                    [
+                        -530.327454,
+                        91.874168,
+                        -561.697998
+                    ],
+                    [
+                        -532.500977,
+                        72.993217,
+                        -594.607727
+                    ],
+                    [
+                        -553.987244,
+                        68.817627,
+                        -596.947571
+                    ],
+                    [
+                        -575.09613,
+                        65.368515,
+                        -599.112976
+                    ],
+                    [
+                        -573.316284,
+                        50.415894,
+                        -641.36322
+                    ]
+                ],
+                "forward": [
+                    0.081547,
+                    0.497845,
+                    -0.863424
+                ],
+                "up": [
+                    -0.198267,
+                    0.857098,
+                    0.475472
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_missile",
+                "required_unit_item": "advent_rebel_titan_unlock_missile_weapon",
+                "mesh_point": "weapon.0_topleft",
+                "weapon_position": [
+                    -635.336243,
+                    620.710327,
+                    -564.95343
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -540.388916,
+                        586.112488,
+                        -500.592163
+                    ],
+                    [
+                        -559.566467,
+                        575.26123,
+                        -499.917236
+                    ],
+                    [
+                        -671.719421,
+                        639.407471,
+                        -597.709045
+                    ],
+                    [
+                        -692.477966,
+                        631.959106,
+                        -595.93457
+                    ],
+                    [
+                        -694.294434,
+                        676.703491,
+                        -630.062866
+                    ],
+                    [
+                        -713.473267,
+                        665.850769,
+                        -629.386597
+                    ],
+                    [
+                        -734.233215,
+                        658.399658,
+                        -627.613464
+                    ],
+                    [
+                        -580.326416,
+                        567.810059,
+                        -498.144104
+                    ],
+                    [
+                        -577.50769,
+                        609.639771,
+                        -535.161377
+                    ],
+                    [
+                        -596.685181,
+                        598.787048,
+                        -534.483826
+                    ],
+                    [
+                        -617.44519,
+                        591.335938,
+                        -532.712036
+                    ],
+                    [
+                        -613.422729,
+                        629.427185,
+                        -565.774536
+                    ],
+                    [
+                        -632.601562,
+                        618.574524,
+                        -565.09967
+                    ],
+                    [
+                        -653.360168,
+                        611.123474,
+                        -563.325073
+                    ],
+                    [
+                        -652.540527,
+                        650.261536,
+                        -598.383972
+                    ]
+                ],
+                "forward": [
+                    -0.705515,
+                    0.690543,
+                    -0.159372
+                ],
+                "up": [
+                    0.072129,
+                    0.293679,
+                    0.953179
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_missile",
+                "required_unit_item": "advent_rebel_titan_unlock_missile_weapon",
+                "mesh_point": "weapon.0_bottomright",
+                "weapon_position": [
+                    121.213638,
+                    -725.531982,
+                    -190.934753
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        137.463486,
+                        -593.874695,
+                        -120.575478
+                    ],
+                    [
+                        137.463486,
+                        -606.773743,
+                        -138.292923
+                    ],
+                    [
+                        111.779312,
+                        -784.85968,
+                        -218.92421
+                    ],
+                    [
+                        114.43399,
+                        -796.19519,
+                        -237.129227
+                    ],
+                    [
+                        93.422478,
+                        -830.657654,
+                        -227.639206
+                    ],
+                    [
+                        97.577095,
+                        -840.535156,
+                        -246.355484
+                    ],
+                    [
+                        100.231773,
+                        -849.595825,
+                        -264.559143
+                    ],
+                    [
+                        140.118149,
+                        -618.110596,
+                        -154.476593
+                    ],
+                    [
+                        133.308853,
+                        -655.990845,
+                        -147.916153
+                    ],
+                    [
+                        137.463486,
+                        -668.031067,
+                        -165.633926
+                    ],
+                    [
+                        140.118149,
+                        -679.36792,
+                        -181.817596
+                    ],
+                    [
+                        118.745171,
+                        -717.639099,
+                        -168.285233
+                    ],
+                    [
+                        122.899796,
+                        -727.513855,
+                        -187.001831
+                    ],
+                    [
+                        125.554482,
+                        -738.852112,
+                        -205.206192
+                    ],
+                    [
+                        107.624863,
+                        -774.982178,
+                        -200.207916
+                    ]
+                ],
+                "forward": [
+                    0.868751,
+                    0.492404,
+                    0.053007
+                ],
+                "up": [
+                    -0.482963,
+                    0.866025,
+                    -0.12941
+                ],
+                "yaw_arc": {
+                    "min_angle": -110.0,
+                    "max_angle": 110.0
+                },
+                "pitch_arc": {
+                    "min_angle": -110.0,
+                    "max_angle": 110.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_missile",
+                "required_unit_item": "advent_rebel_titan_unlock_missile_weapon",
+                "mesh_point": "weapon.0_middleright",
+                "weapon_position": [
+                    551.207764,
+                    66.917053,
+                    -599.327759
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        446.434265,
+                        119.68721,
+                        -513.27887
+                    ],
+                    [
+                        466.738403,
+                        115.471718,
+                        -514.083679
+                    ],
+                    [
+                        592.899536,
+                        43.710823,
+                        -642.497986
+                    ],
+                    [
+                        613.599915,
+                        37.493,
+                        -644.030457
+                    ],
+                    [
+                        614.020569,
+                        18.338079,
+                        -684.494019
+                    ],
+                    [
+                        634.32605,
+                        11.882337,
+                        -685.297424
+                    ],
+                    [
+                        655.027832,
+                        5.664481,
+                        -686.829834
+                    ],
+                    [
+                        487.440186,
+                        112.05455,
+                        -515.616028
+                    ],
+                    [
+                        488.745361,
+                        98.919991,
+                        -554.898804
+                    ],
+                    [
+                        509.050873,
+                        92.876732,
+                        -555.704956
+                    ],
+                    [
+                        529.751343,
+                        88.619987,
+                        -557.236023
+                    ],
+                    [
+                        532.058716,
+                        74.209816,
+                        -597.038208
+                    ],
+                    [
+                        552.364197,
+                        69.994492,
+                        -597.841675
+                    ],
+                    [
+                        573.065979,
+                        64.666046,
+                        -599.375366
+                    ],
+                    [
+                        572.593994,
+                        50.166523,
+                        -641.691895
+                    ]
+                ],
+                "forward": [
+                    0.004965,
+                    0.390373,
+                    -0.920643
+                ],
+                "up": [
+                    0.403976,
+                    0.841402,
+                    0.358951
+                ],
+                "yaw_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                },
+                "pitch_arc": {
+                    "min_angle": -90.0,
+                    "max_angle": 90.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_missile",
+                "required_unit_item": "advent_rebel_titan_unlock_missile_weapon",
+                "mesh_point": "weapon.0_topright",
+                "weapon_position": [
+                    635.324402,
+                    619.329956,
+                    -564.847107
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        541.736023,
+                        585.04126,
+                        -500.216125
+                    ],
+                    [
+                        560.231873,
+                        576.83551,
+                        -500.118805
+                    ],
+                    [
+                        671.189209,
+                        639.454834,
+                        -596.287537
+                    ],
+                    [
+                        691.995117,
+                        630.429443,
+                        -594.473816
+                    ],
+                    [
+                        693.516724,
+                        673.523621,
+                        -629.279785
+                    ],
+                    [
+                        713.17572,
+                        665.317871,
+                        -627.823059
+                    ],
+                    [
+                        733.981628,
+                        656.292419,
+                        -626.007996
+                    ],
+                    [
+                        582.199646,
+                        567.810059,
+                        -499.639954
+                    ],
+                    [
+                        577.444092,
+                        607.732605,
+                        -536.022949
+                    ],
+                    [
+                        597.101807,
+                        599.526855,
+                        -534.566284
+                    ],
+                    [
+                        617.909058,
+                        590.501404,
+                        -532.752563
+                    ],
+                    [
+                        612.577393,
+                        625.086975,
+                        -567.500366
+                    ],
+                    [
+                        632.236389,
+                        616.879761,
+                        -566.042358
+                    ],
+                    [
+                        653.040955,
+                        607.855713,
+                        -564.22998
+                    ],
+                    [
+                        651.530212,
+                        647.660645,
+                        -597.744263
+                    ]
+                ],
+                "forward": [
+                    0.632807,
+                    0.770355,
+                    0.078159
+                ],
+                "up": [
+                    -0.194965,
+                    0.060834,
+                    0.978922
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "advent_rebel_titan_planet_bombing",
+                "mesh_point": "bomb",
+                "weapon_position": [
+                    0.0,
+                    423.736786,
+                    33.62587
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        0.0,
+                        423.736786,
+                        33.62587
+                    ]
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                }
+            }
+        ],
+        "max_range_weapon_index": 0
+    },
+    "formation": {
+        "leader_priority": 4,
+        "offsets_per_formation_type": {
+            "ships_and_structures": {
+                "rank": 0,
+                "group": 3
+            }
+        }
+    },
+    "spawn_debris": {
+        "spawn_debris_time": 5.0,
+        "generic_group_name": "trader",
+        "generic_counts": {
+            "small_debris": [
+                50,
+                60
+            ],
+            "large_debris": [
+                50,
+                60
+            ]
+        },
+        "custom_debris": [
+            {
+                "unit": "advent_rebel_titan_debris_back",
+                "basis": {
+                    "position": [
+                        -100.0,
+                        -950.0,
+                        -100.0
+                    ],
+                    "rotation": [
+                        0.984808,
+                        0.173648,
+                        0.0,
+                        -0.173648,
+                        0.984808,
+                        -0.0,
+                        -0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "advent_rebel_titan_debris_front",
+                "basis": {
+                    "position": [
+                        -30.0,
+                        1100.0,
+                        -800.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "advent_rebel_titan_debris_mid_0",
+                "basis": {
+                    "position": [
+                        0.0,
+                        500.0,
+                        -200.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            {
+                "unit": "advent_rebel_titan_debris_mid_1",
+                "basis": {
+                    "position": [
+                        300.0,
+                        300.0,
+                        -200.0
+                    ],
+                    "rotation": [
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        -0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            }
+        ],
+        "spawn_loot": {
+            "loot_unit": "ship_loot_advent",
+            "loot_name": "advent_rebel_titan_loot_name",
+            "loot_level": 1,
+            "experience_given": 1000.0,
+            "exotics": [
+                {
+                    "bundles": [
+                        {
+                            "types": [
+                                "offense"
+                            ],
+                            "counts": [
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "types": [
+                                "utility"
+                            ],
+                            "counts": [
+                                1,
+                                2
+                            ]
+                        },
+                        {
+                            "types": [
+                                "ultimate"
+                            ],
+                            "counts": [
+                                1,
+                                3
+                            ]
+                        }
+                    ],
+                    "weight": 1.0
+                }
+            ],
+            "assets": {
+                "credits": [
+                    750,
+                    2250
+                ],
+                "metal": [
+                    250,
+                    750
+                ],
+                "crystal": [
+                    300,
+                    900
+                ]
+            }
+        }
+    },
+    "health": {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 6.5,
+        "durability": 750.0,
+        "levels": [
+            {
+                "max_hull_points": 11100.0,
+                "hull_point_restore_rate": 6.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.5,
+                "max_armor_points": 1535.0,
+                "armor_point_restore_rate": 8.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 100.0,
+                "max_shield_points": 9500.0,
+                "shield_point_restore_rate": 10.0,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 70.0,
+                    "restore_percentage": 0.25
+                },
+                "experience_given_on_death": 400.0
+            },
+            {
+                "max_hull_points": 11845.0,
+                "hull_point_restore_rate": 7.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.52,
+                "max_armor_points": 1605.0,
+                "armor_point_restore_rate": 9.2,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 105.0,
+                "max_shield_points": 10350.0,
+                "shield_point_restore_rate": 12.4,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 68.0,
+                    "restore_percentage": 0.27
+                },
+                "experience_given_on_death": 480.0
+            },
+            {
+                "max_hull_points": 12590.0,
+                "hull_point_restore_rate": 8.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.54,
+                "max_armor_points": 1675.0,
+                "armor_point_restore_rate": 10.4,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 110.0,
+                "max_shield_points": 11195.0,
+                "shield_point_restore_rate": 14.8,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 66.0,
+                    "restore_percentage": 0.29
+                },
+                "experience_given_on_death": 600.0
+            },
+            {
+                "max_hull_points": 13700.0,
+                "hull_point_restore_rate": 9.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.56,
+                "max_armor_points": 1745.0,
+                "armor_point_restore_rate": 11.6,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 115.0,
+                "max_shield_points": 12040.0,
+                "shield_point_restore_rate": 17.2,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 64.0,
+                    "restore_percentage": 0.32
+                },
+                "experience_given_on_death": 760.0
+            },
+            {
+                "max_hull_points": 14565.0,
+                "hull_point_restore_rate": 10.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.58,
+                "max_armor_points": 1815.0,
+                "armor_point_restore_rate": 12.8,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 120.0,
+                "max_shield_points": 12885.0,
+                "shield_point_restore_rate": 19.6,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 62.0,
+                    "restore_percentage": 0.35
+                },
+                "experience_given_on_death": 960.0
+            },
+            {
+                "max_hull_points": 15430.0,
+                "hull_point_restore_rate": 11.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.61,
+                "max_armor_points": 1885.0,
+                "armor_point_restore_rate": 14.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 125.0,
+                "max_shield_points": 13730.0,
+                "shield_point_restore_rate": 22.0,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 60.0,
+                    "restore_percentage": 0.38
+                },
+                "experience_given_on_death": 1200.0
+            },
+            {
+                "max_hull_points": 16295.0,
+                "hull_point_restore_rate": 12.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.64,
+                "max_armor_points": 1950.0,
+                "armor_point_restore_rate": 15.2,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 130.0,
+                "max_shield_points": 14575.0,
+                "shield_point_restore_rate": 24.4,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 58.0,
+                    "restore_percentage": 0.41
+                },
+                "experience_given_on_death": 1480.0
+            },
+            {
+                "max_hull_points": 17165.0,
+                "hull_point_restore_rate": 13.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.67,
+                "max_armor_points": 2020.0,
+                "armor_point_restore_rate": 16.4,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 135.0,
+                "max_shield_points": 15420.0,
+                "shield_point_restore_rate": 26.8,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 56.0,
+                    "restore_percentage": 0.44
+                },
+                "experience_given_on_death": 1800.0
+            },
+            {
+                "max_hull_points": 18030.0,
+                "hull_point_restore_rate": 14.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.71,
+                "max_armor_points": 2090.0,
+                "armor_point_restore_rate": 17.6,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 140.0,
+                "max_shield_points": 16265.0,
+                "shield_point_restore_rate": 29.2,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 53.0,
+                    "restore_percentage": 0.47
+                },
+                "experience_given_on_death": 2160.0
+            },
+            {
+                "max_hull_points": 18895.0,
+                "hull_point_restore_rate": 15.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_point_restore_scalar_after_damage_taken": 0.0,
+                "hull_crippled_percentage": 0.75,
+                "max_armor_points": 2160.0,
+                "armor_point_restore_rate": 18.8,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_point_restore_scalar_after_damage_taken": 0.0,
+                "armor_strength": 145.0,
+                "max_shield_points": 17110.0,
+                "shield_point_restore_rate": 31.6,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_point_restore_scalar_after_damage_taken": 0.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 50.0,
+                    "restore_percentage": 0.5
+                },
+                "experience_given_on_death": 2560.0
+            }
+        ]
+    },
+    "antimatter": {
+        "max_antimatter": 0.0,
+        "antimatter_restore_rate": 0.0
+    },
+    "levels": {
+        "type": "experience",
+        "levels": [
+            {
+                "experience_to_next_level": 500.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 480.0,
+                        "antimatter_restore_rate": 1.54,
+                        "max_squadron_capacity": 3.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {}
+                }
+            },
+            {
+                "experience_to_next_level": 1250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 502.220001,
+                        "antimatter_restore_rate": 1.63,
+                        "max_squadron_capacity": 4.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.04,
+                        "cooldown_duration": -0.03
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 2250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 524.440002,
+                        "antimatter_restore_rate": 1.72,
+                        "max_squadron_capacity": 5.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.08,
+                        "cooldown_duration": -0.06
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 3750.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 546.669983,
+                        "antimatter_restore_rate": 1.81,
+                        "max_squadron_capacity": 5.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.12,
+                        "cooldown_duration": -0.09
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 5750.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 568.890015,
+                        "antimatter_restore_rate": 1.9,
+                        "max_squadron_capacity": 6.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.16,
+                        "cooldown_duration": -0.12
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 8250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 591.109985,
+                        "antimatter_restore_rate": 1.98,
+                        "max_squadron_capacity": 6.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.2,
+                        "cooldown_duration": -0.15
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 11250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 613.330017,
+                        "antimatter_restore_rate": 2.07,
+                        "max_squadron_capacity": 7.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.24,
+                        "cooldown_duration": -0.18
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 15000.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 635.559998,
+                        "antimatter_restore_rate": 2.16,
+                        "max_squadron_capacity": 7.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.28,
+                        "cooldown_duration": -0.21
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 19500.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 640.0,
+                        "antimatter_restore_rate": 2.18,
+                        "max_squadron_capacity": 8.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.32,
+                        "cooldown_duration": -0.24
+                    }
+                }
+            },
+            {
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 680.0,
+                        "antimatter_restore_rate": 2.34,
+                        "max_squadron_capacity": 8.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.36,
+                        "cooldown_duration": -0.27
+                    }
+                }
+            }
+        ]
+    },
+    "unit_factory": {
+        "build_kinds": [
+            "corvette",
+            "frigate",
+            "cruiser",
+            "capital_ship",
+            "super_capital_ship",
+            "trader_rebel_command_ship"
+        ],
+        "required_mutation": "mobile_unit_factory_enabled",
+        "will_spawn_units_in_hyperspace": true,
+        "spawn_units_in_hyperspace_delay_duration": 10.0
+    },
+    "build": {
+        "build_time": 300.0,
+        "price": {
+            "credits": 7500.0,
+            "metal": 2500.0,
+            "crystal": 3000.0
+        },
+        "exotic_price": [
+            {
+                "exotic_type": "offense",
+                "count": 2
+            },
+            {
+                "exotic_type": "utility",
+                "count": 2
+            },
+            {
+                "exotic_type": "ultimate",
+                "count": 3
+            }
+        ],
+        "prerequisites": [],
+        "build_kind": "advent_rebel_titan",
+        "supply_cost": 150,
+        "build_group_id": "titan"
+    },
+    "carrier": {
+        "base_max_squadron_capacity": 0,
+        "strikecraft_kinds": [
+            "interceptor",
+            "bomber"
+        ],
+        "launch_destination_formation": "capital_ship_strikecraft",
+        "launch_destination_formation_offset": {
+            "rank": 3,
+            "group": 2
+        },
+        "hangar_data": [
+            {
+                "hangar_basis": {
+                    "position": [
+                        0.0,
+                        642.362732,
+                        -250.390778
+                    ],
+                    "rotation": [
+                        -1.0,
+                        0.0,
+                        -0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        -1.0
+                    ]
+                }
+            }
+        ]
+    },
+    "items": {
+        "levels": [
+            {
+                "max_ship_component_count": 8
+            }
+        ]
+    },
+    "item_builds": [
+        {
+            "weight": 5.0,
+            "build_group": [
+                "advent_rebel_titan_shield_booster",
+                "titanpool_ar_advent_shield_boost"
+            ]
+        },
+        {
+            "weight": 5.0,
+            "build_group": [
+                "advent_rebel_titan_hull_plating",
+                "titanpool_ar_advent_structural_forcefields"
+            ]
+        },
+        {
+            "weight": 5.0,
+            "build_group": [
+                "advent_rebel_titan_hull_plating",
+                "titanpool_ar_advent_focus_armor",
+                "titanpool_ar_advent_harmony_circuit",
+                "titanpool_ar_advent_essence_reservoir"
+            ]
+        },
+        {
+            "weight": 5.0,
+            "build_group": [
+                "titanpool_ar_advent_focus_weapons",
+                "advent_rebel_titan_unlock_missile_weapon",
+                "titanpool_ar_advent_harmony_circuit",
+                "titanpool_ar_advent_psionic_dynamo"
+            ]
+        },
+        {
+            "weight": 5.0,
+            "build_group": [
+                "titanpool_ar_advent_energy_booster",
+                "titanpool_ar_advent_plasma_booster"
+            ]
+        },
+        {
+            "weight": 3.0,
+            "build_group": [
+                "titanpool_ar_advent_energy_booster"
+            ]
+        },
+        {
+            "weight": 3.0,
+            "build_group": [
+                "titanpool_ar_advent_structural_forcefields"
+            ]
+        },
+        {
+            "weight": 3.0,
+            "build_group": [
+                "titanpool_ar_advent_psionic_dynamo"
+            ]
+        },
+        {
+            "weight": 3.0,
+            "build_group": [
+                "advent_rebel_titan_unlock_missile_weapon"
+            ]
+        },
+        {
+            "weight": 3.0,
+            "build_group": [
+                "titanpool_ar_advent_focus_shields",
+                "titanpool_ar_advent_harmony_circuit"
+            ]
+        },
+        {
+            "weight": 3.0,
+            "build_group": [
+                "titanpool_ar_advent_focus_weapons",
+                "titanpool_ar_advent_harmony_circuit"
+            ]
+        },
+        {
+            "weight": 2.0,
+            "build_group": [
+                "titanpool_ar_advent_psionic_dynamo",
+                "titanpool_ar_advent_harmony_circuit",
+                "titanpool_ar_advent_guiding_mentor",
+                "titanpool_ar_advent_focus_antimatter"
+            ]
+        }
+    ],
+    "target_filter_unit_type": "titan",
+    "tags": [
+        "advent_rebel_titan",
+        "titan"
+    ],
+    "is_loot_collector": true,
+    "capture_points": 15,
+    "abilities": [
+        {
+            "abilities": [
+                "advent_rebel_titan_purification",
+                "advent_rebel_titan_chastic_burst",
+                "advent_rebel_titan_strength_of_the_fallen",
+                "advent_rebel_titan_unyielding_will"
+            ]
+        }
+    ],
+    "ship_roles": [
+        "attack_ship",
+        "bomb_planet"
+    ],
+    "skin_groups": [
+        {
+            "skins": [
+                "advent_rebel_titan"
+            ]
+        }
+    ],
+    "child_meshes": [
+        {
+            "mesh_alias_name": "advent_rebel_titan_component_armor",
+            "mesh_point": "child.advent_rebel_titan_component_armor",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "advent_rebel_titan_hull_plating"
+        },
+        {
+            "mesh_alias_name": "advent_rebel_titan_component_missile_covers",
+            "mesh_point": "child.advent_rebel_titan_component_missile_covers",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "advent_rebel_titan_unlock_missile_weapon"
+        },
+        {
+            "mesh_alias_name": "advent_rebel_titan_component_shield_booster",
+            "mesh_point": "child.advent_rebel_titan_component_shield_booster",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "advent_rebel_titan_shield_booster"
+        }
+    ],
+    "action_effect_size": "large_unit",
+    "can_join_fleet": true
+}
