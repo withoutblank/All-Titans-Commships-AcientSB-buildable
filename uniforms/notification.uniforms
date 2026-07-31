@@ -1,4 +1,2379 @@
 {
+    "default_sound": "notification_created",
+    "npc_pirates_tag": "pirates",
+    "types":
+    {
+        "enemy_planet_made_dead_from_bombing":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "enemy_planet_made_dead_from_bombing_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "enemy_planet_made_dead_from_bombing_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.enemy_planet_made_dead_from_bombing",
+            "duration": "brief",
+            "player_sound_id": "enemy_planet_made_dead_from_bombing"
+        },
+        "enemy_units_arrived":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "enemy_units_arrived_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "enemy_units_arrived_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.enemy_units_arrived",
+            "player_sound_id": "enemy_units_arrived",
+            "suppress_duplicates_duration": 60
+        },
+        "pirate_units_arrived":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_units_arrived_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "pirate_units_arrived_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.pirate_units_arrived",
+            "player_sound_id": "pirate_units_arrived",
+            "suppress_duplicates_duration": 180
+        },
+        "enemy_special_operations_units_arrived":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "enemy_units_arrived_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "enemy_units_arrived_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.enemy_special_operations_units_arrived",
+            "player_sound_id": "enemy_special_operations_units_arrived",
+            "suppress_duplicates_duration": 60
+        },
+        "insurgent_units_arrived":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "insurgent_units_arrived_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "insurgent_units_arrived_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.insurgent_units_arrived",
+            "description": "game_client_notification.insurgent_units_arrived.description",
+            "suppress_duplicates_duration": 60
+        },
+        "derelict_loot_discovered":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "derelict_loot_discovered_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "derelict_loot_discovered_notification_icon",
+                "click_action": "select_unit_current_gravity_well_fixture"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "derelict_loot_collected_level",
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.derelict_loot_discovered"
+        },
+        "objective_structure_captured":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "derelict_loot_discovered_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "derelict_loot_discovered_notification_icon",
+                "click_action": "select_unit_current_gravity_well_fixture"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "derelict_loot_collected_level",
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.objective_structure_captured"
+        },
+        "objective_structure_destroyed":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "derelict_loot_discovered_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "derelict_loot_discovered_notification_icon",
+                "click_action": "select_unit_current_gravity_well_fixture"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "derelict_loot_collected_level",
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.objective_structure_destroyed"
+        },
+        "enemy_captured_objective_structure":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "derelict_loot_discovered_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "derelict_loot_discovered_notification_icon",
+                "click_action": "select_unit_current_gravity_well_fixture"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "derelict_loot_collected_level",
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.enemy_objective_structure_captured"
+        },
+        "enemy_destroyed_objective_structure":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "derelict_loot_discovered_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "derelict_loot_discovered_notification_icon",
+                "click_action": "select_unit_current_gravity_well_fixture"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "derelict_loot_collected_level",
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.enemy_objective_structure_destroyed"
+        },
+        "derelict_loot_collected":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "derelict_loot_collected_level"
+            },
+            "primary_icon":
+            {
+                "icon_type": "derelict_loot_collected_level"
+            },
+            "name": "game_client_notification.derelict_loot_collected"
+        },
+        "wreckage_loot_collected":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "wreckage_loot_collected_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "wreckage_loot_collected_icon"
+            },
+            "name": "game_client_notification.wreckage_loot_collected"
+        },
+        "ally_player_lost":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "player_lost_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "player_lost_notification_icon",
+                "click_action": "open_players_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "player",
+                "has_backdrop": true,
+                "click_action": "open_players_window"
+            },
+            "name": "game_client_notification.ally_player_lost",
+            "player_sound_id": "ally_player_lost"
+        },
+        "enemy_player_lost":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "player_lost_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "player_lost_notification_icon",
+                "click_action": "open_players_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "player",
+                "has_backdrop": true,
+                "click_action": "open_players_window"
+            },
+            "name": "game_client_notification.enemy_player_lost",
+            "player_sound_id": "enemy_player_lost"
+        },
+        "player_discovered":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "player_discovered_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "player_discovered_notification_icon",
+                "click_action": "open_players_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "player",
+                "has_backdrop": true,
+                "click_action": "open_players_window"
+            },
+            "name": "game_client_notification.player_discovered"
+        },
+        "npc_discovered":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "player_discovered_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "player_discovered_notification_icon",
+                "click_action": "open_npcs_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "player",
+                "has_backdrop": true,
+                "click_action": "open_npcs_window"
+            },
+            "name": "game_client_notification.npc_discovered"
+        },
+        "alliance_offer_received":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "alliance_offer_received_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "alliance_offer_received_notification_icon",
+                "click_action": "open_player_alliance_offer_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "player",
+                "has_backdrop": true,
+                "click_action": "open_player_alliance_offer_window"
+            },
+            "name": "game_client_notification.alliance_offer_received",
+            "player_alliance_player_sound_ids":
+            {
+                "cease_fire": "alliance_offered_cease_fire",
+                "share_vision": "alliance_offered_share_vision",
+                "synergy": "alliance_offered_synergy"
+            },
+            "should_flash": true
+        },
+        "alliance_offer_revised":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "alliance_offer_revised_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "alliance_offer_revised_notification_icon",
+                "click_action": "open_player_alliance_offer_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "player",
+                "has_backdrop": true,
+                "click_action": "open_player_alliance_offer_window"
+            },
+            "name": "game_client_notification.alliance_offer_revised",
+            "player_alliance_player_sound_ids":
+            {
+                "cease_fire": "alliance_offered_cease_fire",
+                "share_vision": "alliance_offered_share_vision",
+                "synergy": "alliance_offered_synergy"
+            },
+            "should_flash": true
+        },
+        "alliance_offer_accepted":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "alliance_offer_accepted_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "alliance_offer_accepted_notification_icon"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "player",
+                "has_backdrop": true
+            },
+            "name": "game_client_notification.alliance_offer_accepted",
+            "player_alliance_player_sound_ids":
+            {
+                "cease_fire": "alliance_accepted_cease_fire",
+                "share_vision": "alliance_accepted_share_vision",
+                "synergy": "alliance_accepted_synergy"
+            }
+        },
+        "alliance_offer_declined":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "alliance_offer_declined_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "alliance_offer_declined_notification_icon"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "player",
+                "has_backdrop": true
+            },
+            "name": "game_client_notification.alliance_offer_declined"
+        },
+        "alliance_offer_expired":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "alliance_offer_expired_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "alliance_offer_expired_notification_icon"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "player",
+                "has_backdrop": true
+            },
+            "name": "game_client_notification.alliance_offer_expired"
+        },
+        "alliance_broken":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "alliance_broken_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "alliance_broken_notification_icon"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "player",
+                "has_backdrop": true
+            },
+            "name": "game_client_notification.alliance_broken",
+            "player_sound_id": "alliance_broken_cease_fire"
+        },
+        "npc_alliance_broken":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "alliance_broken_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "alliance_broken_notification_icon"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "player",
+                "has_backdrop": true
+            },
+            "name": "game_client_notification.npc_alliance_broken",
+            "player_sound_id": "alliance_broken_cease_fire"
+        },
+        "civilian_research_subject_completed":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "research_civil_icon",
+                "has_backdrop": true,
+                "click_action": "open_civilian_research_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "research_subject",
+                "click_action": "open_civilian_research_window"
+            },
+            "name": "game_client_notification.civilian_research_subject_completed",
+            "player_sound_id": "civilian_research_subject_completed",
+            "duration": "brief",
+            "suppress_duplicates_duration": 10
+        },
+        "military_research_subject_completed":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "research_military_icon",
+                "has_backdrop": true,
+                "click_action": "open_military_research_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "research_subject",
+                "click_action": "open_military_research_window"
+            },
+            "name": "game_client_notification.military_research_subject_completed",
+            "player_sound_id": "military_research_subject_completed",
+            "duration": "brief",
+            "suppress_duplicates_duration": 10
+        },
+        "victory_condition_alliance_guard_research_subject_completed":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "research_civil_icon",
+                "has_backdrop": true
+            },
+            "secondary_icon":
+            {
+                "icon_type": "research_subject"
+            },
+            "name": "game_client_notification.victory_condition_alliance_guard_research_subject_completed",
+            "description": "game_client_notification.victory_condition_alliance_guard_research_subject_completed.description",
+            "player_sound_id": "victory_condition_alliance_guard_research_subject_completed",
+            "duration": "brief"
+        },
+        "ally_victory_condition_alliance_guard_research_subject_completed":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "research_civil_icon",
+                "has_backdrop": true
+            },
+            "secondary_icon":
+            {
+                "icon_type": "research_subject"
+            },
+            "name": "game_client_notification.ally_victory_condition_alliance_guard_research_subject_completed",
+            "description": "game_client_notification.ally_victory_condition_alliance_guard_research_subject_completed.description",
+            "player_sound_id": "ally_victory_condition_alliance_guard_research_subject_completed",
+            "duration": "brief"
+        },
+        "civilian_research_domain_tier_acquired":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "research_civil_icon",
+                "has_backdrop": true,
+                "click_action": "open_civilian_research_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "research_domain_tier",
+                "click_action": "open_civilian_research_window"
+            },
+            "name": "game_client_notification.civilian_research_domain_tier_acquired",
+            "player_sound_id": "civilian_research_domain_tier_acquired",
+            "duration": "brief"
+        },
+        "military_research_domain_tier_acquired":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "research_military_icon",
+                "has_backdrop": true,
+                "click_action": "open_military_research_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "research_domain_tier",
+                "click_action": "open_military_research_window"
+            },
+            "name": "game_client_notification.military_research_domain_tier_acquired",
+            "player_sound_id": "military_research_domain_tier_acquired",
+            "duration": "brief"
+        },
+        "planet_being_bombed":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "planet_being_bombed_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "planet_being_bombed_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.planet_being_bombed",
+            "player_sound_id": "planet_being_bombed"
+        },
+        "planet_discovered":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "planet_discovered_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "planet_discovered_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.planet_discovered",
+            "player_sound_id": "planet_discovered",
+            "suppress_duplicates_duration": 60,
+            "duration": "brief"
+        },
+        "planet_colonized":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "planet_colonized_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "planet_colonized_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.planet_colonized",
+            "player_sound_id": "planet_colonized",
+            "duration": "brief"
+        },
+        "destroy_planet_rewards_given":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "planet_lost_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "planet_lost_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.destroy_planet_rewards_given",
+            "player_sound_id": "destroy_planet_rewards_given"
+        },
+        "planet_lost":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "planet_lost_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "planet_lost_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.planet_lost",
+            "player_sound_id": "planet_lost"
+        },
+        "ally_planet_lost":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "planet_lost_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "planet_lost_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.ally_planet_lost",
+            "player_sound_id": "ally_planet_lost"
+        },
+        "planet_track_upgrade_completed":
+        {
+            "primary_icon":
+            {
+                "icon_type": "planet_track",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.planet_track_upgrade_completed",
+            "planet_track_type_player_sound_ids":
+            {
+                "defense": "planet_track_upgrade_defense_completed",
+                "logistics": "planet_track_upgrade_logistics_completed",
+                "commerce": "planet_track_upgrade_commerce_completed",
+                "mining": "planet_track_upgrade_mining_completed",
+                "research": "planet_track_upgrade_research_completed",
+                "focus": "planet_track_upgrade_focus_completed",
+                "surveying": "nothing_surveyed"
+            },
+            "suppress_duplicates_duration": 60,
+            "duration": "brief"
+        },
+        "planet_component_finished_building":
+        {
+            "primary_icon":
+            {
+                "icon_type": "unit_item",
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.planet_component_finished_building",
+            "player_sound_id": "planet_component_finished_building",
+            "suppress_duplicates_duration": 60,
+            "duration": "brief"
+        },
+        "ship_component_finished_building":
+        {
+            "primary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit_item",
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.ship_component_finished_building",
+            "unit_dialogue_sound_type": "ship_component_finished_building",
+            "suppress_duplicates_duration": 60,
+            "duration": "brief"
+        },
+        "starbase_component_finished_building":
+        {
+            "primary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit_item",
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.starbase_component_finished_building",
+            "unit_dialogue_sound_type": "ship_component_finished_building",
+            "suppress_duplicates_duration": 60,
+            "duration": "brief"
+        },
+        "titan_component_finished_building":
+        {
+            "primary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit_item",
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.titan_component_finished_building",
+            "unit_dialogue_sound_type": "ship_component_finished_building",
+            "suppress_duplicates_duration": 60,
+            "duration": "brief"
+        },
+        "assets_surveyed":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "surveyed_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "asset_values",
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.assets_surveyed"
+        },
+        "unit_item_surveyed":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "surveyed_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit_item",
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.unit_item_surveyed"
+        },
+        "planet_artifact_surveyed":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "surveyed_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit_item",
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.planet_artifact_surveyed",
+            "player_sound_id": "planet_artifact_surveyed"
+        },
+        "planet_bonus_surveyed":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "surveyed_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "surveyed_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet_item",
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.planet_bonus_surveyed",
+            "player_sound_id": "planet_bonus_surveyed"
+        },
+        "exotics_surveyed":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "surveyed_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "surveyed_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "exotics_received_notification_icon",
+                "click_action": "open_exotics_window"
+            },
+            "name": "game_client_notification.exotics_surveyed",
+            "player_sound_id": "exotics_surveyed"
+        },
+        "exotics_received_from_npc_reward":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "exotics_received_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "exotics_received_notification_icon",
+                "click_action": "open_exotics_window"
+            },
+            "name": "game_client_notification.exotics_received_from_npc_reward"
+        },
+        "exotics_received_from_action":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "exotics_received_notification_icon",
+                "click_action": "open_exotics_window"
+            },
+            "name": "game_client_notification.exotics_received_from_action"
+        },
+        "unit_leveled_up":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "unit_leveled_up_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "unit_leveled_up_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.unit_leveled_up"
+        },
+        "npc_auction_running":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_auction_running_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "npc_auction_reward",
+                "click_action": "change_npc_auction_bid_amount"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "npc_auction_bid_amount",
+                "click_action": "change_npc_auction_bid_amount"
+            },
+            "name": "game_client_notification.npc_auction_running",
+            "npc_sound_id": "auction_started",
+            "should_flash": true
+        },
+        "npc_auction_expired":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_auction_lost_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_auction_lost_notification_icon",
+                "click_action": "open_npcs_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "npc_auction_reward",
+                "click_action": "open_npcs_window"
+            },
+            "name": "game_client_notification.npc_auction_expired",
+            "npc_sound_id": "auction_ignored"
+        },
+        "npc_auction_won_by_me":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_auction_won_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_auction_won_notification_icon",
+                "click_action": "open_npcs_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "npc_auction_reward",
+                "click_action": "open_npcs_window"
+            },
+            "name": "game_client_notification.npc_auction_won_by_me",
+            "npc_sound_id": "auction_won"
+        },
+        "npc_auction_won_by_other":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_auction_lost_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_auction_lost_notification_icon",
+                "click_action": "open_npcs_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "npc_auction_reward",
+                "click_action": "open_npcs_window"
+            },
+            "name": "game_client_notification.npc_auction_won_by_other",
+            "npc_sound_id": "auction_lost"
+        },
+        "npc_market_demand_level_increased":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_market_demand_level_increased_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_market_demand_level_increased_notification_icon",
+                "click_action": "open_npc_markets_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "asset_market",
+                "click_action": "open_npc_markets_window"
+            },
+            "name": "game_client_notification.npc_market_demand_level_increased"
+        },
+        "npc_market_demand_level_decreased":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_market_demand_level_decreased_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_market_demand_level_decreased_notification_icon",
+                "click_action": "open_npc_markets_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "asset_market",
+                "click_action": "open_npc_markets_window"
+            },
+            "name": "game_client_notification.npc_market_demand_level_decreased"
+        },
+        "npc_metal_market_exclusive_player_started_positive":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_asset_market_exclusive_player_started_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_asset_market_exclusive_player_started_notification_icon",
+                "click_action": "open_npc_markets_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "asset_market",
+                "click_action": "open_npc_markets_window"
+            },
+            "name": "game_client_notification.npc_asset_market_exclusive_player_started",
+            "player_sound_id": "npc_metal_market_exclusive_player_started_positive"
+        },
+        "npc_metal_market_exclusive_player_started_negative":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_asset_market_exclusive_player_started_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_asset_market_exclusive_player_started_notification_icon",
+                "click_action": "open_npc_markets_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "asset_market",
+                "click_action": "open_npc_markets_window"
+            },
+            "name": "game_client_notification.npc_asset_market_exclusive_player_started",
+            "player_sound_id": "npc_metal_market_exclusive_player_started_negative"
+        },
+        "npc_crystal_market_exclusive_player_started_positive":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_asset_market_exclusive_player_started_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_asset_market_exclusive_player_started_notification_icon",
+                "click_action": "open_npc_markets_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "asset_market",
+                "click_action": "open_npc_markets_window"
+            },
+            "name": "game_client_notification.npc_asset_market_exclusive_player_started",
+            "player_sound_id": "npc_crystal_market_exclusive_player_started_positive"
+        },
+        "npc_crystal_market_exclusive_player_started_negative":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_asset_market_exclusive_player_started_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_asset_market_exclusive_player_started_notification_icon",
+                "click_action": "open_npc_markets_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "asset_market",
+                "click_action": "open_npc_markets_window"
+            },
+            "name": "game_client_notification.npc_asset_market_exclusive_player_started",
+            "player_sound_id": "npc_crystal_market_exclusive_player_started_negative"
+        },
+        "npc_asset_market_exclusive_player_stopped":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_asset_market_exclusive_player_stopped_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_asset_market_exclusive_player_stopped_notification_icon",
+                "click_action": "open_npc_markets_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "asset_market",
+                "click_action": "open_npc_markets_window"
+            },
+            "name": "game_client_notification.npc_asset_market_exclusive_player_stopped"
+        },
+        "unit_built":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "unit_built_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "unit_built_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.unit_built",
+            "unit_dialogue_sound_type": "spawned"
+        },
+        "military_structure_built":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "unit_built_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "unit_built_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.military_structure_built",
+            "player_sound_id": "military_structure_built",
+            "suppress_duplicates_duration": 5
+        },
+        "civilian_structure_built":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "unit_built_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "unit_built_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.civilian_structure_built",
+            "player_sound_id": "civilian_structure_built",
+            "suppress_duplicates_duration": 5
+        },
+        "enemy_phase_jump_inhibitor_built":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "unit_built_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "unit_built_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.enemy_phase_jump_inhibitor_built",
+            "player_sound_id": "enemy_phase_jump_inhibitor_built"
+        },
+        "player_units_arrived_at_enemy_phase_jump_inhibitor":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "player_units_arrived_at_enemy_phase_jump_inhibitor_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "player_units_arrived_at_enemy_phase_jump_inhibitor_notification_icon",
+                "click_action": "focus_on_gravity_well"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "gravity_well_primary_fixture",
+                "click_action": "focus_on_gravity_well"
+            },
+            "name": "game_client_notification.player_units_arrived_at_enemy_phase_jump_inhibitor",
+            "player_sound_id": "player_units_arrived_at_enemy_phase_jump_inhibitor"
+        },
+        "exotic_built":
+        {
+            "primary_icon":
+            {
+                "icon_type": "exotic",
+                "click_action": "open_exotics_window"
+            },
+            "name": "game_client_notification.exotic_built"
+        },
+        "dominant_culture_established":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "dominant_culture_established_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "dominant_culture_established_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.dominant_culture_established",
+            "suppress_duplicates_duration": 30
+        },
+        "dominant_culture_lost":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "dominant_culture_lost_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "dominant_culture_lost_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.dominant_culture_lost",
+            "suppress_duplicates_duration": 30
+        },
+        "enemy_dominant_culture_established_with_owned_planet":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "enemy_dominant_culture_established_with_owned_planet_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "enemy_dominant_culture_established_with_owned_planet_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.enemy_dominant_culture_established_with_owned_planet"
+        },
+        "npc_culture_reward_given":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_culture_reward_given_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_culture_reward_given_notification_icon",
+                "click_action": "open_npcs_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "npc_culture_reward",
+                "click_action": "open_npcs_window"
+            },
+            "name": "game_client_notification.npc_culture_reward_given",
+            "description": "game_client_notification.npc_culture_reward_given.description"
+        },
+        "npc_reputation_level_increased":
+        {
+            "duration": "brief",
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_reputation_level_increased_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_reputation_level_increased_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "npc_player",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.npc_reputation_level_increased",
+            "npc_sound_id": "reputation_level_increased"
+        },
+        "npc_player_made_dead":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "player_lost_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "player_lost_notification_icon",
+                "click_action": "open_npcs_window"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "npc_player",
+                "has_backdrop": true,
+                "click_action": "open_npcs_window"
+            },
+            "name": "game_client_notification.npc_player_made_dead"
+        },
+        "orbital_cannon_shell_detected":
+        {
+            "primary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name_postfix": "game_client_notification.orbital_cannon_launch_detected.postfix",
+            "suppress_duplicates_duration": 5
+        },
+        "ping_received":
+        {
+            "primary_icon":
+            {
+                "icon_type": "ping",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "ping_type_player_sound_ids":
+            {
+                "attention": "ping_received_attention",
+                "attack": "ping_received_attack",
+                "defend": "ping_received_defend"
+            }
+        },
+        "npc_raid_sent":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "send_pirate_raid_npc_reward_hud_icon",
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.npc_raid_sent",
+            "description": "game_client_notification.npc_raid_sent.description",
+            "sound": "ui_common_ping"
+        },
+        "npc_raid_event_running":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_event_running_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_event_running_notification_icon"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "send_pirate_raid_npc_reward_hud_icon"
+            },
+            "name": "game_client_notification.npc_raid_event_running",
+            "description": "game_client_notification.npc_raid_event_running.description",
+            "sound": "ui_common_ping"
+        },
+        "npc_raid_collect_bounty_awakening":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_units_arrived_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "send_pirate_raid_npc_reward_hud_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.npc_raid_collect_bounty_awakening",
+            "description": "game_client_notification.npc_raid_collect_bounty_awakening.description"
+        },
+        "npc_raid_claim_planet_awakening":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_units_arrived_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "send_pirate_raid_npc_reward_hud_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.npc_raid_claim_planet_awakening",
+            "description": "game_client_notification.npc_raid_claim_planet_awakening.description"
+        },
+        "npc_raid_kill_population_awakening":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_units_arrived_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "send_pirate_raid_npc_reward_hud_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.npc_raid_kill_population_awakening",
+            "description": "game_client_notification.npc_raid_kill_population_awakening.description"
+        },
+        "npc_raid_destroy_infrastructure_awakening":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_units_arrived_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "send_pirate_raid_npc_reward_hud_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.npc_raid_destroy_infrastructure_awakening",
+            "description": "game_client_notification.npc_raid_destroy_infrastructure_awakening.description"
+        },
+        "npc_raid_destroy_planet_awakening":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "enemy_planet_made_dead_from_bombing_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "send_pirate_raid_npc_reward_hud_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.npc_raid_destroy_planet_awakening",
+            "description": "game_client_notification.npc_raid_destroy_planet_awakening.description"
+        },
+        "npc_raid_collect_bounty_active":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_units_arrived_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "send_pirate_raid_npc_reward_hud_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.npc_raid_collect_bounty_active",
+            "description": "game_client_notification.npc_raid_collect_bounty_active.description"
+        },
+        "npc_raid_claim_planet_active":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_units_arrived_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "send_pirate_raid_npc_reward_hud_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.npc_raid_claim_planet_active",
+            "description": "game_client_notification.npc_raid_claim_planet_active.description"
+        },
+        "npc_raid_kill_population_active":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_units_arrived_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "send_pirate_raid_npc_reward_hud_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.npc_raid_kill_population_active",
+            "description": "game_client_notification.npc_raid_kill_population_active.description"
+        },
+        "npc_raid_destroy_infrastructure_active":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_units_arrived_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "send_pirate_raid_npc_reward_hud_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.npc_raid_destroy_infrastructure_active",
+            "description": "game_client_notification.npc_raid_destroy_infrastructure_active.description"
+        },
+        "npc_raid_destroy_planet_active":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "enemy_planet_made_dead_from_bombing_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "send_pirate_raid_npc_reward_hud_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.npc_raid_destroy_planet_active",
+            "description": "game_client_notification.npc_raid_destroy_planet_active.description"
+        },
+        "capital_ship_shields_down":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_shields_down_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.capital_ship_shields_down",
+            "unit_dialogue_sound_type": "shields_down"
+        },
+        "capital_ship_armor_down":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_armor_down_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.capital_ship_armor_down",
+            "unit_dialogue_sound_type": "armor_down"
+        },
+        "capital_ship_became_crippled":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_became_crippled_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.capital_ship_became_crippled",
+            "unit_dialogue_sound_type": "became_crippled"
+        },
+        "capital_ship_became_surrendered":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_became_crippled_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.capital_ship_became_surrendered",
+            "unit_dialogue_sound_type": "became_crippled"
+        },
+        "capital_ship_destroyed":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_destroyed_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.capital_ship_destroyed",
+            "unit_dialogue_sound_type": "destroyed"
+        },
+        "ally_capital_ship_destroyed":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_destroyed_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.ally_capital_ship_destroyed",
+            "player_sound_id": "ally_capital_ship_destroyed"
+        },
+        "starbase_shields_down":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_shields_down_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.starbase_shields_down",
+            "unit_dialogue_sound_type": "shields_down"
+        },
+        "starbase_armor_down":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_armor_down_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.starbase_armor_down",
+            "unit_dialogue_sound_type": "armor_down"
+        },
+        "starbase_became_crippled":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_became_crippled_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.starbase_became_crippled",
+            "unit_dialogue_sound_type": "became_crippled"
+        },
+        "starbase_became_surrendered":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_became_crippled_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.starbase_became_surrendered",
+            "unit_dialogue_sound_type": "became_crippled"
+        },
+        "starbase_destroyed":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_destroyed_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.starbase_destroyed",
+            "unit_dialogue_sound_type": "destroyed"
+        },
+        "ally_starbase_destroyed":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_destroyed_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.ally_starbase_destroyed",
+            "player_sound_id": "ally_starbase_destroyed"
+        },
+        "titan_shields_down":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_shields_down_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.titan_shields_down",
+            "unit_dialogue_sound_type": "shields_down"
+        },
+        "titan_armor_down":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_armor_down_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.titan_armor_down",
+            "unit_dialogue_sound_type": "armor_down"
+        },
+        "titan_became_crippled":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_became_crippled_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.titan_became_crippled",
+            "unit_dialogue_sound_type": "became_crippled"
+        },
+        "titan_became_surrendered":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_became_crippled_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.titan_became_surrendered",
+            "unit_dialogue_sound_type": "became_crippled"
+        },
+        "titan_destroyed":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_destroyed_notification_icon",
+                "click_action": "select_unit_current_gravity_well_fixture"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit_current_gravity_well_fixture"
+            },
+            "name": "game_client_notification.titan_destroyed",
+            "unit_dialogue_sound_type": "destroyed"
+        },
+        "ally_titan_destroyed":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "capital_ship_destroyed_notification_icon",
+                "click_action": "select_unit_current_gravity_well_fixture"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit_current_gravity_well_fixture"
+            },
+            "name": "game_client_notification.ally_titan_destroyed",
+            "player_sound_id": "ally_titan_destroyed"
+        },
+        "ally_titan_built":
+        {
+            "primary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true
+            },
+            "secondary_icon":
+            {
+                "icon_type": "player",
+                "has_backdrop": true
+            },
+            "player_sound_id": "ally_titan_built",
+            "name": "game_client_notification.ally_titan_built"
+        },
+        "enemy_titan_built":
+        {
+            "primary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true
+            },
+            "secondary_icon":
+            {
+                "icon_type": "player",
+                "has_backdrop": true
+            },
+            "name": "game_client_notification.enemy_titan_built",
+            "player_sound_id": "enemy_titan_built"
+        },
+        "fleet_under_attack":
+        {
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "fleet_under_attack_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.fleet_under_attack",
+            "player_sound_id": "fleet_under_attack"
+        },
+        "planet_conversion_started":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "planet_lost_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "planet_lost_notification_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.planet_conversion_started",
+            "description": "game_client_notification.planet_conversion_started.description",
+            "player_sound_id": "planet_conversion_started",
+            "should_flash": true
+        },
+        "planet_conversion_colonized":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "advent_unity_conversion_ability_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "advent_unity_conversion_ability_hud_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "name": "game_client_notification.planet_conversion_colonized",
+            "player_sound_id": "planet_conversion_colonized"
+        },
+        "player_added_first_ruler_ship":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "player_added_first_ruler_ship_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "player_added_first_ruler_ship_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.player_added_first_ruler_ship",
+            "player_sound_id": "player_added_first_ruler_ship"
+        },
+        "mad_titan_built_by_player":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "dlc_vasari_loyalist_titan_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "fleet_under_attack_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.mad_titan_summoned_by_player"
+        },
+        "mad_titan_built_by_enemy":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "dlc_vasari_loyalist_titan_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "fleet_under_attack_notification_icon",
+                "click_action": "select_unit"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "unit",
+                "has_backdrop": true,
+                "click_action": "select_unit"
+            },
+            "name": "game_client_notification.mad_titan_summoned_by_player"
+        },
+        "player_completed_mission":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_event_running_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_event_running_notification_icon",
+                "click_action": "open_missions_window"
+            },
+            "name": "game_client_notification.mission_complete"
+        },
+        "player_await_mission_reward":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "npc_event_running_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "npc_event_running_notification_icon",
+                "click_action": "open_missions_window"
+            },
+            "name": "game_client_notification.mission_await_complete"
+        },
+        "player_factional_victory":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "factional_victory_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "factional_victory_notification_icon"
+            },
+            "duration": "forever",
+            "name": "game_client_notification.factional_victory"
+        },
+        "pirate_incursion_incoming":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_incursion_started_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "pirate_incursion_started_notification_icon"
+            },
+            "duration": "extended",
+            "name": "game_client_notification.pirate_incursion_incoming",
+            "description": "game_client_notification.pirate_incursion_incoming.description",
+            "player_sound_id": "pirate_units_arrived"
+        },
+        "pirate_incursion_started":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_incursion_started_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "pirate_incursion_started_notification_icon"
+            },
+            "duration": "extended",
+            "name": "game_client_notification.pirate_incursion_started",
+            "description": "game_client_notification.pirate_incursion_started.description"
+        },
+        "pirate_incursion_player_targeted":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_incursion_player_targeted_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "pirate_incursion_player_targeted_notification_icon"
+            },
+            "duration": "extended",
+            "name": "game_client_notification.pirate_incursion_player_targeted",
+            "description": "game_client_notification.pirate_incursion_player_targeted.description"
+        },
+        "pirate_king_arrived":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_king_arrived_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "pirate_king_arrived_notification_icon",
+                "click_action": "focus_on_gravity_well"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "gravity_well_primary_fixture",
+                "click_action": "focus_on_gravity_well"
+            },
+            "duration": "extended",
+            "name": "game_client_notification.pirate_king_arrived",
+            "description": "game_client_notification.pirate_king_arrived.description",
+            "player_sound_id": "pirate_units_arrived"
+        },
+        "pirate_incursion_target_changed":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_incursion_target_changed_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "pirate_incursion_target_changed_notification_icon",
+                "click_action": "focus_on_gravity_well"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "gravity_well_primary_fixture",
+                "click_action": "focus_on_gravity_well"
+            },
+            "name": "game_client_notification.pirate_incursion_target_changed",
+            "description": "game_client_notification.pirate_incursion_target_changed.description"
+        },
+        "pirate_incursion_ended":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_incursion_ended_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "pirate_incursion_ended_notification_icon"
+            },
+            "duration": "extended",
+            "name": "game_client_notification.pirate_incursion_ended",
+            "description": "game_client_notification.pirate_incursion_ended.description"
+        },
+        "npc_raid_arrived":
+        {
+            "tooltip_picture":
+            {
+                "picture_type": "brush",
+                "brush": "pirate_units_arrived_notification_tooltip_picture"
+            },
+            "primary_icon":
+            {
+                "icon_type": "brush",
+                "brush": "send_pirate_raid_npc_reward_hud_icon",
+                "click_action": "select_planet"
+            },
+            "secondary_icon":
+            {
+                "icon_type": "planet",
+                "has_backdrop": true,
+                "click_action": "select_planet"
+            },
+            "duration": "extended",
+            "name": "game_client_notification.npc_raid_arrived",
+            "description": "game_client_notification.npc_raid_arrived.description",
+            "sound": "ui_common_ping"
+        }
+    },
+    "fleet_under_attack_notification_suppress_duplicates_duration": 600.0,
+    "ship_notification_suppress_duplicates_durations":
+    {
+        "shields_down": 160.0,
+        "armor_down": 160.0,
+        "became_crippled": 160.0,
+        "became_surrendered": 160.0,
+        "destroyed": 160
+    },
     "unit_built_notification_build_kinds": [
         "capital_ship",
         "starbase",
@@ -11,5 +2386,26 @@
         "advent_rebel_titan",
         "vasari_loyalist_titan",
         "vasari_rebel_titan"
-    ]
+    ],
+    "metal_market_context_icon": "metal_asset_icon",
+    "crystal_market_context_icon": "crystal_asset_icon",
+    "ping_received_names":
+    {
+        "attention": "game_client_notification_ping_received_attention",
+        "attack": "game_client_notification_ping_received_attack",
+        "defend": "game_client_notification_ping_received_defend"
+    },
+    "derelict_loot_collected_levels": [
+    {
+        "icon": "derelict_loot_collected_0_notification_icon",
+        "tooltip_picture": "derelict_loot_collected_0_notification_tooltip_picture"
+    },
+    {
+        "icon": "derelict_loot_collected_1_notification_icon",
+        "tooltip_picture": "derelict_loot_collected_1_notification_tooltip_picture"
+    },
+    {
+        "icon": "derelict_loot_collected_2_notification_icon",
+        "tooltip_picture": "derelict_loot_collected_2_notification_tooltip_picture"
+    }]
 }
