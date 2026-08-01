@@ -1,8 +1,5 @@
 {
     "ids": [
-        "trader_ancient_starbase",
-        "advent_ancient_starbase",
-        "vasari_ancient_starbase",
         "native_trader_loyalist_titan",
         "native_trader_rebel_titan",
         "native_advent_loyalist_titan",

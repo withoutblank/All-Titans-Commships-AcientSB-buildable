@@ -662,7 +662,8 @@
         "capital_ship",
         "corvette",
         "cruiser",
-        "frigate"
+        "frigate",
+        "trader_rebel_command_ship"
     ],
     "capital_ship_build_kind": "capital_ship",
     "super_capital_ship_build_kind": "super_capital_ship",

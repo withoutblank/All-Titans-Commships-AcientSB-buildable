@@ -2785,7 +2785,7 @@
             }
         ],
         "prerequisites": [],
-        "build_kind": "titan",
+        "build_kind": "advent_rebel_titan",
         "supply_cost": 150,
         "build_group_id": "titan"
     },
@@ -2918,7 +2918,7 @@
             ]
         }
     ],
-    "target_filter_unit_type": "titan",
+    "target_filter_unit_type": "cruiser",
     "tags": [
         "advent_rebel_titan",
         "titan"

@@ -8832,7 +8832,7 @@
     "vasari_mobile_military_research_lab_unit_item_name": "Mobile Warfare Lab",
     "vasari_mobile_resonance_collector_unit_item_description": "Permanently collects Phase Resonance, storing it in this item as long as it remains alive.",
     "vasari_mobile_resonance_collector_unit_item_name": "Mobile Resonance Capacitor",
-    "vasari_mobile_ruler_ship_unit_item_description": "",
+    "vasari_mobile_ruler_ship_unit_item_description": "Your empire will survive without any planets while a ship equipped with Mobile Rulership remains alive.",
     "vasari_mobile_ruler_ship_unit_item_name": "Mobile Rulership",
     "vasari_mobile_speed_research_lab_unit_item_description": "Onboard data relays and support labs increase the speed of all research conducted by the Vasari Exodus fleet.",
     "vasari_mobile_speed_research_lab_unit_item_name": "Mobile Adjunct Lab",
@@ -9704,5 +9704,7 @@
     "unit_tag_name.vasari_loyalist_command_ship": "Vasari Loyalist Command Ship",
     "unit_tag_name.vasari_rebel_command_ship": "Vasari Rebel Command Ship",
     "unlock_ancient_starbase_research_subject_name": "Ancient Starbase Unlock",
-    "unlock_ancient_starbase_research_subject_name_uppercase": "ANCIENT STARBASE UNLOCK"
+    "unlock_ancient_starbase_research_subject_name_uppercase": "ANCIENT STARBASE UNLOCK",
+    "deploy_ancient_starbase_unit_item_name": "Deploy Ancient Starbase",
+    "deploy_ancient_starbase_unit_item_description": "Deploys a self-constructing Ancient Starbase at the target position. This component is consumed on use."
 }

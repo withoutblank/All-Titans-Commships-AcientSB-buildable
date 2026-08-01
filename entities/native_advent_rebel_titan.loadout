@@ -1,0 +1,74 @@
+{
+    "loadouts": [
+        {
+            "name": "area_damage",
+            "ability_picking_order": [1, 2, 1, 0, 1, 3, 2, 0, 2, 0],
+            "required_items": [
+                {
+                    "slot_index": 0,
+                    "candidates": [
+                        { "item": "advent_rebel_titan_hull_plating", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 1,
+                    "candidates": [
+                        { "item": "advent_rebel_titan_shield_booster", "priority": 3 },
+                        { "item": "titanpool_ar_advent_focus_shields", "priority": 2 },
+                        { "item": "titanpool_ar_advent_shield_battery", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 2,
+                    "candidates": [
+                        { "item": "advent_rebel_titan_unlock_missile_weapon", "priority": 2 },
+                        { "item": "titanpool_ar_advent_structural_forcefields", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 3,
+                    "candidates": [
+                        { "item": "titanpool_ar_advent_harmony_circuit", "priority": 2 },
+                        { "item": "titanpool_ar_advent_votary_siphon", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 4,
+                    "candidates": [
+                        { "item": "titanpool_ar_advent_psionic_dynamo", "priority": 2 },
+                        { "item": "titanpool_ar_advent_votary_siphon", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 5,
+                    "candidates": [
+                        { "item": "exoforce_matrix_ship_artifact", "priority": 4 },
+                        { "item": "weapon_symbiote_ship_artifact", "priority": 4 },
+                        { "item": "aluxian_admiral_scion", "priority": 4 },
+                        { "item": "aluxian_military_observers", "priority": 3 },
+                        { "item": "titanpool_ar_advent_shield_boost", "priority": 2 },
+                        { "item": "titanpool_ar_advent_shield_battery", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 6,
+                    "candidates": [
+                        { "item": "titanpool_ar_advent_energy_booster", "priority": 2 },
+                        { "item": "titanpool_ar_advent_antimatter_pod", "priority": 1 }
+                    ]
+                },
+                {
+                    "slot_index": 7,
+                    "candidates": [
+                        { "item": "titanpool_ar_advent_focus_weapons", "priority": 3 },
+                        { "item": "titanpool_ar_advent_plasma_booster", "priority": 2 },
+                        { "item": "titanpool_ar_advent_plasma_pulse", "priority": 1 }
+                    ]
+                }
+            ]
+        }
+    ],
+    "weighted_random_loadouts": [
+        { "loadout": "area_damage", "weight": 1.0 }
+    ]
+}

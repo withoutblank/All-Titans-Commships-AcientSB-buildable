@@ -3077,7 +3077,7 @@
                 "count": 3
             }
         ],
-        "build_kind": "titan",
+        "build_kind": "trader_loyalist_titan",
         "supply_cost": 150,
         "build_group_id": "titan"
     },
@@ -3390,7 +3390,7 @@
         },
         {
             "build_group": [
-                "trader_loyalist_titan_shield_array"
+                "trader_loyalist_titan_planetary_shield_array"
             ],
             "weight": 3.0
         },
@@ -3413,7 +3413,7 @@
             ]
         }
     ],
-    "target_filter_unit_type": "titan",
+    "target_filter_unit_type": "cruiser",
     "tags": [
         "trader_loyalist_titan",
         "titan"

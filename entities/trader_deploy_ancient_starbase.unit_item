@@ -1,0 +1,40 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "unlock_ancient_starbase_research_subject_hud_icon",
+    "tooltip_picture": "unlock_ancient_starbase_research_subject_tooltip_picture",
+    "name": "deploy_ancient_starbase_unit_item_name",
+    "description": "deploy_ancient_starbase_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 4000.0,
+        "metal": 2000.0,
+        "crystal": 2000.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "defense",
+            "count": 2
+        },
+        {
+            "exotic_type": "utility",
+            "count": 1
+        },
+        {
+            "exotic_type": "ultimate",
+            "count": 2
+        }
+    ],
+    "required_unit_tags": [
+        "capital_ship",
+        "super_capital_ship",
+        "titan"
+    ],
+    "consumable_stack_count": [1],
+    "max_count_on_unit": 1,
+    "build_prerequisites": [
+        ["trader_unlock_ancient_starbase"]
+    ],
+    "build_group_id": "consumable",
+    "ability": "trader_deploy_ancient_starbase"
+}
