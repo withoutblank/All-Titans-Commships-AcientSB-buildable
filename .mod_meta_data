@@ -2,8 +2,8 @@
     "compatibility_version": 2,
     "display_version": "18.1.2",
     "display_name": "UNLOCK ALL Titans & Command Ships & Ancient Starbase",
-    "short_description": "All Titans and Command Ships remain player-buildable. Ancient Starbases support both planet-defense construction and consumable ship deployment, while AI receives managed foreign Titan reinforcements.",
-    "long_description": "Human players retain manual construction of all six Titans and Command Ships. Each AI faction uses the native planner for its own canonical Titan and receives staged Lua-managed foreign Titan reinforcements with tracked loss replacement. Ancient Starbases remain directly constructible from the planet-defense build list and may also be deployed from a consumable component fitted to a Capital Ship, Command Ship, or Titan.",
+    "short_description": "All Titans and Command Ships remain player-buildable. AI factions build multiple Titans normally, while Ancient Starbases support both planet-defense construction and consumable ship deployment.",
+    "long_description": "Human and AI players can construct multiple faction Titans through the normal game construction systems. Each AI faction retains its own canonical Titan as its native Titan. Ancient Starbases remain directly constructible from the planet-defense build list and may also be deployed from a consumable component fitted to a Capital Ship, Command Ship, or Titan.",
     "logos": {
         "small_logo": "mod_small_logo.png",
         "large_logo": "mod_large_logo.png"
