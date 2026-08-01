@@ -2167,24 +2167,18 @@
         },
         "mad_titan_built_by_enemy":
         {
-            "tooltip_picture":
-            {
-                "picture_type": "brush",
-                "brush": "dlc_vasari_loyalist_titan_tooltip_picture"
-            },
             "primary_icon":
             {
-                "icon_type": "brush",
-                "brush": "fleet_under_attack_notification_icon",
-                "click_action": "select_unit"
+                "icon_type": "unit",
+                "has_backdrop": true
             },
             "secondary_icon":
             {
-                "icon_type": "unit",
-                "has_backdrop": true,
-                "click_action": "select_unit"
+                "icon_type": "player",
+                "has_backdrop": true
             },
-            "name": "game_client_notification.mad_titan_summoned_by_player"
+            "name": "game_client_notification.enemy_titan_built",
+            "player_sound_id": "enemy_titan_built"
         },
         "player_completed_mission":
         {
