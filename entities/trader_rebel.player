@@ -1136,7 +1136,8 @@
             "trader_wormhole_travel",
             "trader_unlock_commodity_exchange_unit_item",
             "trader_unlock_population_growth_ability",
-            "trader_unlock_ancient_starbase"
+            "trader_unlock_ancient_starbase",
+            "dlc3_trader_shroud_mitigation"
         ],
         "faction_research_subjects": [
             "trader_enemy_culture_suppression",

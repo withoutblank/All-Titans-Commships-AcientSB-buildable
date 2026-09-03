@@ -461,7 +461,9 @@
         "advent_colony_capital_ship",
         "advent_carrier_capital_ship",
         "advent_battle_psionic_capital_ship",
-        "advent_planet_psionic_capital_ship"
+        "advent_planet_psionic_capital_ship",
+        "advent_antiarmor_corvette",
+        "advent_medium_cruiser"
     ],
     "faction_buildable_units": [
         "advent_loyalist_titan",
@@ -1106,7 +1108,12 @@
             "dlc2_advent_upgrade_loyalist_super_limit_0",
             "dlc2_advent_upgrade_loyalist_super_limit_1",
             "advent_unlock_population_growth_ability",
-            "advent_unlock_ancient_starbase"
+            "advent_unlock_ancient_starbase",
+            "advent_focus_conversion_0",
+            "advent_focus_conversion_1",
+            "advent_unlock_antiarmor_corvette",
+            "advent_unlock_medium_cruiser",
+            "dlc3_advent_loyalist_shroud_mitigation"
         ],
         "faction_research_subjects": [
             "advent_unlock_temple_of_pilgrimage_unit_item",

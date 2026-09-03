@@ -980,8 +980,10 @@
             "vasari_unlock_precise_turret_servos",
             "vasari_unlock_pulse_defense_phasic_trap_ability",
             "vasari_unlock_raider_corvette",
+            "vasari_unlock_raider_corvette_cloak",
             "vasari_unlock_repair_platform_structure",
             "vasari_unlock_resource_booster_unit_item",
+            "vasari_unlock_scout_corvette_cloak",
             "vasari_unlock_self_repairing_armor_unit_item",
             "vasari_unlock_siege_cruiser",
             "vasari_unlock_starbase",
@@ -1280,7 +1282,9 @@
         "dlc2_vasari_rebel_super_capital_ship_phase_gate",
         "dlc2_vasari_rebel_super_capital_ship_phasic_comms_net",
         "dlc2_vasari_rebel_super_capital_ship_mobile_embassy",
-        "commandpool_vl_dlc2_vasari_faction_victory"
+        "commandpool_vl_dlc2_vasari_faction_victory",
+        "vasari_mobile_ruler_ship",
+        "vasari_fighter_clone_bay"
     ],
     "ship_component_build_groups": [
         {
