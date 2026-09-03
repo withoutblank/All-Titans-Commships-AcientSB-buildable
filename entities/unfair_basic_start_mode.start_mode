@@ -417,6 +417,108 @@
                     "count": 5
                 }
             ]
+        },
+        {
+            "player_definition_id": "dlc3_herald",
+            "starting_assets": {
+                "credits": 45000,
+                "metal": 48000,
+                "crystal": 60000
+            },
+            "home_planet": {
+                "starting_units_in_gravity_well": {},
+                "starting_units_in_hyperspace": {},
+                "starting_units_in_portal": {
+                    "required_units": [
+                        {
+                            "unit": "dlc3_herald_colony_frigate",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "dlc3_herald_heavy_frigate",
+                            "count": [
+                                2,
+                                2
+                            ]
+                        }
+                    ]
+                },
+                "starting_units_in_portal_duration": 14.0,
+                "starting_militia_units_in_gravity_well": {
+                    "required_units": [
+                        {
+                            "unit": "vasari_overseer_cruiser",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "vasari_light_frigate",
+                            "count": [
+                                2,
+                                2
+                            ]
+                        }
+                    ]
+                },
+                "starting_militia_units_owner": "dark_fleet_rearguard",
+                "home_planet_starting_population": [
+                    200,
+                    200
+                ],
+                "home_planet_track_levels": {
+                    "logistics": 1,
+                    "defense": 0,
+                    "commerce": 0,
+                    "mining": 0,
+                    "research": 0,
+                    "focus": 0,
+                    "corruption": 0,
+                    "industry": 0,
+                    "influence": 0,
+                    "culture": 0,
+                    "population": 0,
+                    "surveying": 0
+                }
+            },
+            "starting_research": {
+                "starting_research_subjects": []
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 0,
+                "allowed_planet_types": [],
+                "max_jumps": 0,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false
+            },
+            "free_starting_capital_ship": false,
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 5
+                }
+            ]
         }
     ]
 }

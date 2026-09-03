@@ -106,6 +106,9 @@
         "commandpool_vr_dlc2_vasari_faction_victory",
         "trader_deploy_ancient_starbase",
         "advent_deploy_ancient_starbase",
-        "vasari_deploy_ancient_starbase"
+        "vasari_deploy_ancient_starbase",
+        "dlc3_herald_titan_unlock_phase_cannon_weapon",
+        "dlc3_herald_titan_crest_cloaking",
+        "dlc3_herald_titan_crest_corruption"
     ]
 }

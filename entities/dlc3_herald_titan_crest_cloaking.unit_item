@@ -1,0 +1,35 @@
+{
+    "version": 0,
+    "required_product": "dlc_Herald",
+    "item_type": "ship_component",
+    "hud_icon": "dlc3_herald_titan_crest_cloaking_unit_item_hud_icon",
+    "tooltip_picture": "dlc3_herald_titan_crest_cloaking_unit_item_tooltip_picture",
+    "name": "dlc3_herald_titan_crest_cloaking_unit_item_name",
+    "description": "dlc3_herald_titan_crest_cloaking_unit_item_description",
+    "build_time": 60.0,
+    "price":
+    {
+        "credits": 2000.0,
+        "metal": 250.0,
+        "crystal": 500.0
+    },
+    "exotic_price": [
+    {
+        "exotic_type": "ultimate",
+        "count": 3
+    }],
+    "required_unit_tags": [
+        "titan"
+    ],
+    "required_item_access_tags": [
+        "dlc3_herald_titan"
+    ],
+    "other_item_requirements":
+    {
+        "mutually_exclusive_items": [
+            "dlc3_herald_titan_crest_corruption"]
+    },
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "ability": "dlc3_herald_titan_crest_cloaking"
+}

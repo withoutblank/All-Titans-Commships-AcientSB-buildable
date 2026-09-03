@@ -667,6 +667,121 @@
                 "include_star_phase_lanes": false,
                 "include_wormhole_phase_lanes": false
             }
+        },
+        {
+            "player_definition_id": "dlc3_herald",
+            "starting_assets": {
+                "credits": 45000,
+                "metal": 48000,
+                "crystal": 60000
+            },
+            "home_planet": {
+                "starting_units_in_gravity_well": {},
+                "starting_units_in_hyperspace": {},
+                "starting_units_in_portal": {
+                    "required_units": [
+                        {
+                            "unit": "dlc3_herald_scout_corvette",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "dlc3_herald_heavy_frigate",
+                            "count": [
+                                6,
+                                6
+                            ]
+                        },
+                        {
+                            "unit": "dlc3_herald_corruptor_cruiser",
+                            "count": [
+                                2,
+                                2
+                            ]
+                        }
+                    ]
+                },
+                "starting_units_in_portal_duration": 14.0,
+                "starting_militia_units_in_gravity_well": {
+                    "required_units": [
+                        {
+                            "unit": "vasari_overseer_cruiser",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "vasari_light_frigate",
+                            "count": [
+                                2,
+                                2
+                            ]
+                        }
+                    ]
+                },
+                "starting_militia_units_owner": "dark_fleet_rearguard",
+                "home_planet_starting_population": [
+                    250,
+                    250
+                ],
+                "home_planet_track_levels": {
+                    "logistics": 3,
+                    "defense": 3,
+                    "commerce": 0,
+                    "mining": 0,
+                    "research": 1,
+                    "focus": 0,
+                    "corruption": 3,
+                    "industry": 0,
+                    "influence": 0,
+                    "culture": 1,
+                    "population": 3,
+                    "surveying": 0
+                }
+            },
+            "starting_research": {
+                "starting_civilian_tier": 1,
+                "starting_military_tier": 1,
+                "starting_research_subjects": [
+                    "dlc3_herald_max_supply_0",
+                    "dlc3_herald_unlock_ice_biosphere",
+                    "dlc3_herald_unlock_irradiated_biosphere",
+                    "dlc3_herald_unlock_volcanic_biosphere"
+                ]
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 0,
+                "allowed_planet_types": [],
+                "max_jumps": 0,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false
+            },
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 5
+                }
+            ]
         }
     ]
 }

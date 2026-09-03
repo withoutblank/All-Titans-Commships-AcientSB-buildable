@@ -1755,6 +1755,315 @@
                     "vasari_upgrade_pulse_weapons_1"
                 ]
             }
+        },
+        {
+            "player_definition_id": "dlc3_herald",
+            "starting_assets": {
+                "credits": 45000,
+                "metal": 48000,
+                "crystal": 60000
+            },
+            "home_planet": {
+                "vasari_start_with_home_planet_owned": true,
+                "portal_starts_scarred": true,
+                "starting_units_in_gravity_well": {
+                    "required_units": [
+                        {
+                            "unit": "dlc3_herald_civilian_research_lab_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "dlc3_herald_military_research_lab_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        },
+                        {
+                            "unit": "dlc3_herald_starbase",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        }
+                    ]
+                },
+                "starting_units_in_formations": [
+                    {
+                        "required_units": [
+                            {
+                                "unit": "dlc3_herald_ship_factory_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "dlc3_herald_titan_factory_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "dlc3_herald_corruption_structure",
+                                "count": [
+                                    1,
+                                    1
+                                ]
+                            },
+                            {
+                                "unit": "dlc3_herald_scout_corvette",
+                                "count": [
+                                    4,
+                                    4
+                                ]
+                            },
+                            {
+                                "unit": "dlc3_herald_heavy_frigate",
+                                "count": [
+                                    6,
+                                    6
+                                ]
+                            },
+                            {
+                                "unit": "dlc3_herald_corruptor_cruiser",
+                                "count": [
+                                    2,
+                                    2
+                                ]
+                            },
+                            {
+                                "unit": "dlc3_herald_missile_frigate",
+                                "count": [
+                                    6,
+                                    6
+                                ]
+                            },
+                            {
+                                "unit": "dlc3_herald_defiler_cruiser",
+                                "count": [
+                                    4,
+                                    4
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "home_planet_track_levels": {
+                    "logistics": 5,
+                    "defense": 4,
+                    "commerce": 0,
+                    "mining": 0,
+                    "research": 4,
+                    "focus": 0,
+                    "corruption": 4,
+                    "industry": 0,
+                    "influence": 0,
+                    "culture": 4,
+                    "population": 5,
+                    "surveying": 0
+                },
+                "starting_units_in_hyperspace": {},
+                "home_planet_starting_population": [
+                    250,
+                    250
+                ],
+                "home_planet_starting_items": []
+            },
+            "starting_player_inventory_items": [],
+            "additional_starting_planets": {
+                "count": 3,
+                "allowed_planet_types": [
+                    {
+                        "planet_type": "terran",
+                        "priority": 100
+                    },
+                    {
+                        "planet_type": "oceanic",
+                        "priority": 90
+                    },
+                    {
+                        "planet_type": "desert",
+                        "priority": 85
+                    },
+                    {
+                        "planet_type": "crystalline",
+                        "priority": 80
+                    },
+                    {
+                        "planet_type": "ferrous",
+                        "priority": 75
+                    },
+                    {
+                        "planet_type": "magnetic",
+                        "priority": 75
+                    },
+                    {
+                        "planet_type": "swamp",
+                        "priority": 70
+                    },
+                    {
+                        "planet_type": "hive_asteroid",
+                        "priority": 65
+                    },
+                    {
+                        "planet_type": "ice",
+                        "priority": 65
+                    },
+                    {
+                        "planet_type": "volcanic",
+                        "priority": 60
+                    },
+                    {
+                        "planet_type": "ice_asteroid",
+                        "priority": 55
+                    },
+                    {
+                        "planet_type": "asteroid",
+                        "priority": 50
+                    }
+                ],
+                "max_jumps": 2,
+                "include_star_phase_lanes": false,
+                "include_wormhole_phase_lanes": false,
+                "starting_planet_track_levels": {
+                    "logistics": 1,
+                    "defense": 1,
+                    "commerce": 0,
+                    "mining": 0,
+                    "research": 0,
+                    "focus": 0,
+                    "corruption": 0,
+                    "industry": 0,
+                    "influence": 0,
+                    "culture": 0,
+                    "population": 1,
+                    "surveying": 0
+                },
+                "granted_planets_units_in_gravity_wells": {
+                    "required_units": [
+                        {
+                            "unit": "dlc3_herald_civilian_research_lab_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "dlc3_herald_military_research_lab_structure",
+                            "count": [
+                                1,
+                                1
+                            ]
+                        },
+                        {
+                            "unit": "dlc3_herald_light_defense_structure",
+                            "count": [
+                                3,
+                                3
+                            ]
+                        }
+                    ]
+                },
+                "granted_planets_units_in_formations": [
+                    {
+                        "required_units": [
+                            {
+                                "unit": "dlc3_herald_heavy_frigate",
+                                "count": [
+                                    2,
+                                    2
+                                ]
+                            },
+                            {
+                                "unit": "dlc3_herald_scout_corvette",
+                                "count": [
+                                    2,
+                                    2
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "granted_planet_starting_items": []
+            },
+            "starting_research": {
+                "starting_civilian_tier": 3,
+                "starting_military_tier": 3,
+                "starting_research_subjects": [
+                    "dlc3_herald_starting_experience_0",
+                    "dlc3_herald_max_supply_0",
+                    "dlc3_herald_max_supply_1",
+                    "dlc3_herald_max_supply_2",
+                    "dlc3_herald_unlock_attack_corvette",
+                    "dlc3_herald_unlock_antifighter_frigate",
+                    "dlc3_herald_unlock_bomber_strikecraft",
+                    "dlc3_herald_unlock_carrier_cruiser",
+                    "dlc3_herald_unlock_cloak_frigate",
+                    "dlc3_herald_unlock_corruptor_cruiser",
+                    "dlc3_herald_unlock_corruption_structure",
+                    "dlc3_herald_unlock_crystalline_biosphere",
+                    "dlc3_herald_unlock_culture_center",
+                    "dlc3_herald_unlock_defiler_cruiser",
+                    "dlc3_herald_unlock_desert_biosphere",
+                    "dlc3_herald_unlock_dimensional_observatory_item",
+                    "dlc3_herald_unlock_exotic_factory_structure",
+                    "dlc3_herald_unlock_ferrous_biosphere",
+                    "dlc3_herald_unlock_heavy_defense_structure",
+                    "dlc3_herald_unlock_ice_biosphere",
+                    "dlc3_herald_unlock_irradiated_biosphere",
+                    "dlc3_herald_unlock_missile_frigate",
+                    "dlc3_herald_unlock_oceanic_biosphere",
+                    "dlc3_herald_unlock_resource_extractor_structures",
+                    "dlc3_herald_unlock_siege_cruiser",
+                    "dlc3_herald_unlock_starbase",
+                    "dlc3_herald_unlock_support_defense_structure",
+                    "dlc3_herald_unlock_swamp_biosphere",
+                    "dlc3_herald_unlock_terran_biosphere",
+                    "dlc3_herald_unlock_volcanic_biosphere",
+                    "dlc3_herald_upgrade_armor_points_0",
+                    "dlc3_herald_upgrade_extraction_0",
+                    "dlc3_herald_upgrade_hull_points_0",
+                    "dlc3_herald_upgrade_hull_points_1",
+                    "dlc3_herald_upgrade_influence_0",
+                    "dlc3_herald_upgrade_influence_1",
+                    "dlc3_herald_upgrade_magnetic_planets_0",
+                    "dlc3_herald_upgrade_magnetic_planets_1",
+                    "dlc3_herald_upgrade_null_cannon_weapon_damage_0",
+                    "dlc3_herald_upgrade_population_commerce_0",
+                    "dlc3_herald_upgrade_shield_points_0",
+                    "dlc3_herald_upgrade_shock_cannon_weapon_damage_0",
+                    "dlc3_herald_upgrade_shock_cannon_weapon_damage_1",
+                    "dlc3_herald_upgrade_survey_0",
+                    "dlc3_herald_upgrade_void_missile_weapon_damage_0"
+                ]
+            },
+            "starting_exotics": [
+                {
+                    "exotic_type": "offense",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "utility",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "defense",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "economic",
+                    "count": 8
+                },
+                {
+                    "exotic_type": "ultimate",
+                    "count": 5
+                }
+            ]
         }
     ]
 }
