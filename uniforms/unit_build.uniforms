@@ -31,6 +31,10 @@
         {
             "name": "dlc3_herald_titan",
             "localized_name": "unit_tag_name.dlc3_herald_titan"
+        },
+        {
+            "name": "dlc3_herald_command_ship",
+            "localized_name": "unit_tag_name.dlc3_herald_command_ship"
         }
     ]
 }
