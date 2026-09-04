@@ -1,0 +1,53 @@
+{
+    "version": 0,
+    "name": "weapon_name.super_heavy_null_cannon",
+    "pitch_speed": 10.0,
+    "yaw_speed": 10.0,
+    "pitch_firing_tolerance": 1.0,
+    "yaw_firing_tolerance": 1.0,
+    "range": 15000.0,
+    "cooldown_duration": 15.0,
+    "uniforms_target_filter_id": "common_weapon",
+    "attack_target_type_groups": [
+        "heavy_capital",
+        "defense"
+    ],
+    "weapon_type": "normal",
+    "damage_affect_type": "hull_and_armor_and_shields",
+    "damage": 600.0,
+    "penetration": 600.0,
+    "tags": [
+        "beam",
+        "energy"
+    ],
+    "acquire_target_logic": "order_target_or_best_target_in_range",
+    "target_acquired_duration_required_to_fire": 1.0,
+    "firing": {
+        "firing_type": "beam",
+        "beam_duration": 2.0
+    },
+    "effects": {
+        "muzzle_effect": "dlc3_herald_starbase_beam_weapon_muzzle",
+        "beam_effect": "dlc3_herald_starbase_beam_weapon_beam",
+        "hit_hull_effect": "dlc3_herald_starbase_beam_weapon_hit_hull",
+        "hit_shield_effect": "dlc3_herald_starbase_beam_weapon_hit_shield",
+        "hit_shield_impact_radius_t": 1.0
+    },
+    "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "dlc3_herald_type_8_heavy_starbase_mount_0",
+        "biaxial_barrel_mesh": "dlc3_herald_type_8_heavy_starbase_barrel_0",
+        "barrel_position": [
+            5.9e-05,
+            56.390194,
+            -9.350059
+        ],
+        "muzzle_positions": [
+            [
+                0.490578,
+                13.04552,
+                54.919529
+            ]
+        ]
+    }
+}

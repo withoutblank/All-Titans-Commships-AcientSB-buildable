@@ -1,0 +1,85 @@
+{
+    "version": 0,
+    "name": "weapon_name.heavy_beam",
+    "pitch_speed": 15.0,
+    "yaw_speed": 15.0,
+    "pitch_firing_tolerance": 1.0,
+    "yaw_firing_tolerance": 1.0,
+    "range": 15000.0,
+    "cooldown_duration": 5.0,
+    "uniforms_target_filter_id": "common_weapon_no_corvette_weapon",
+    "attack_target_type_groups": [
+        "heavy_capital",
+        "defense"
+    ],
+    "weapon_type": "normal",
+    "damage_affect_type": "hull_and_armor_and_shields",
+    "damage": 300.0,
+    "penetration": 500.0,
+    "tags": [
+        "beam",
+        "energy"
+    ],
+    "acquire_target_logic": "order_target_or_best_target_in_range",
+    "target_acquired_duration_required_to_fire": 1.0,
+    "firing": {
+        "firing_type": "beam",
+        "beam_duration": 1.5
+    },
+    "modifiers": [
+        {
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "value": 0.25,
+            "prerequisites": [
+                [
+                    "trader_unlock_starbase_improve_weapon_item"
+                ]
+            ]
+        },
+        {
+            "modifier_type": "tracking_speed",
+            "value_behavior": "scalar",
+            "value": 0.25,
+            "prerequisites": [
+                [
+                    "trader_unlock_starbase_improve_weapon_item"
+                ]
+            ]
+        },
+        {
+            "modifier_type": "range",
+            "value_behavior": "scalar",
+            "value": 0.25,
+            "prerequisites": [
+                [
+                    "trader_unlock_starbase_improve_weapon_item"
+                ]
+            ]
+        }
+    ],
+    "effects": {
+        "muzzle_effect": "trader_starbase_beam_weapon_muzzle",
+        "beam_effect": "trader_starbase_beam_weapon_beam",
+        "hit_hull_effect": "trader_starbase_beam_weapon_hit_hull",
+        "hit_shield_effect": "trader_starbase_beam_weapon_hit_shield",
+        "hit_shield_impact_radius_t": 1.0
+    },
+    "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "beamturret_mount_0",
+        "biaxial_barrel_mesh": "beamturret_barrel_0",
+        "barrel_position": [
+            -0.307922,
+            32.450317,
+            0.21814
+        ],
+        "muzzle_positions": [
+            [
+                0.040473,
+                3.771362,
+                26.335079
+            ]
+        ]
+    }
+}

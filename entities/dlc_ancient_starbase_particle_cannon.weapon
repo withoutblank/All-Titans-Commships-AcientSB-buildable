@@ -1,0 +1,60 @@
+{
+    "version": 0,
+    "name": "weapon_name.heavy_particle_cannon",
+    "pitch_speed": 30.0,
+    "yaw_speed": 30.0,
+    "pitch_firing_tolerance": 3.0,
+    "yaw_firing_tolerance": 3.0,
+    "range": 15000.0,
+    "cooldown_duration": 1.5,
+    "uniforms_target_filter_id": "common_weapon",
+    "attack_target_type_groups": [
+        "light_flak",
+        "corvette"
+    ],
+    "weapon_type": "normal",
+    "damage_affect_type": "hull_and_armor_and_shields",
+    "damage": 35.0,
+    "penetration": 250.0,
+    "tags": [
+        "autocannon",
+        "physical"
+    ],
+    "acquire_target_logic": "order_target_or_best_target_in_range",
+    "target_acquired_duration_required_to_fire": 0.5,
+    "firing": {
+        "firing_type": "projectile",
+        "travel_speed": 4000.0
+    },
+    "effects": {
+        "burst_pattern": [
+            0.0,
+            0.15,
+            0.3,
+            0.45,
+            0.6
+        ],
+        "muzzle_effect": "dlc_ancient_starbase_particle_cannon_weapon_muzzle",
+        "projectile_travel_effect": "dlc_ancient_starbase_particle_cannon_weapon_projectile_travel",
+        "hit_hull_effect": "dlc_ancient_starbase_particle_cannon_weapon_hit_hull",
+        "hit_shield_effect": "dlc_ancient_starbase_particle_cannon_weapon_hit_shield",
+        "hit_shield_impact_radius_t": 0.25
+    },
+    "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "ancient_starbase_light_base_0",
+        "biaxial_barrel_mesh": "ancient_starbase_light_barrel_0",
+        "barrel_position": [
+            -0.021571,
+            20.837685,
+            -8.432241
+        ],
+        "muzzle_positions": [
+            [
+                0.263058,
+                6.541495,
+                44.964825
+            ]
+        ]
+    }
+}

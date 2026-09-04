@@ -1,0 +1,58 @@
+{
+    "version": 0,
+    "name": "weapon_name.heavy_plasma",
+    "pitch_speed": 15.0,
+    "yaw_speed": 15.0,
+    "pitch_firing_tolerance": 2.0,
+    "yaw_firing_tolerance": 2.0,
+    "range": 15000.0,
+    "cooldown_duration": 12.0,
+    "uniforms_target_filter_id": "common_weapon_no_corvette_weapon",
+    "attack_target_type_groups": [
+        "heavy_capital",
+        "defense"
+    ],
+    "weapon_type": "normal",
+    "damage_affect_type": "hull_and_armor_and_shields",
+    "damage": 150.0,
+    "penetration": 750.0,
+    "tags": [
+        "plasma",
+        "energy"
+    ],
+    "acquire_target_logic": "order_target_or_best_target_in_range",
+    "target_acquired_duration_required_to_fire": 0.5,
+    "firing": {
+        "firing_type": "projectile",
+        "travel_speed": 3000.0
+    },
+    "effects": {
+        "burst_pattern": [
+            0.0,
+            0.36,
+            0.72
+        ],
+        "muzzle_effect": "advent_starbase_plasma_weapon_muzzle",
+        "projectile_travel_effect": "advent_starbase_plasma_weapon_projectile_travel",
+        "hit_hull_effect": "advent_starbase_plasma_weapon_hit_hull",
+        "hit_shield_effect": "advent_starbase_plasma_weapon_hit_shield",
+        "hit_shield_impact_radius_t": 1.0
+    },
+    "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "advent_starbase_super_heavy_plasma_mount_0",
+        "biaxial_barrel_mesh": "advent_starbase_super_heavy_plasma_barrel_0",
+        "barrel_position": [
+            0.0,
+            41.022766,
+            -24.566971
+        ],
+        "muzzle_positions": [
+            [
+                -0.78206,
+                -1.486075,
+                68.720535
+            ]
+        ]
+    }
+}

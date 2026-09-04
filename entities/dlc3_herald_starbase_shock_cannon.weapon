@@ -1,0 +1,59 @@
+{
+    "version": 0,
+    "name": "weapon_name.medium_shock_cannon",
+    "pitch_speed": 40.0,
+    "yaw_speed": 40.0,
+    "pitch_firing_tolerance": 4.0,
+    "yaw_firing_tolerance": 4.0,
+    "range": 15000.0,
+    "cooldown_duration": 1.5,
+    "uniforms_target_filter_id": "common_weapon",
+    "attack_target_type_groups": [
+        "corvette",
+        "light_flak"
+    ],
+    "weapon_type": "normal",
+    "damage_affect_type": "hull_and_armor_and_shields",
+    "damage": 10.0,
+    "penetration": 50.0,
+    "tags": [
+        "shock_cannon",
+        "energy"
+    ],
+    "acquire_target_logic": "best_target_in_range",
+    "target_acquired_duration_required_to_fire": 0.5,
+    "firing": {
+        "firing_type": "projectile",
+        "travel_speed": 5000.0
+    },
+    "effects": {
+        "burst_pattern": [
+            0.0,
+            0.15,
+            0.3,
+            0.45
+        ],
+        "muzzle_effect": "dlc3_herald_starbase_shock_cannon_weapon_muzzle",
+        "projectile_travel_effect": "dlc3_herald_starbase_shock_cannon_weapon_projectile_travel",
+        "hit_hull_effect": "dlc3_herald_starbase_shock_cannon_weapon_hit_hull",
+        "hit_shield_effect": "dlc3_herald_starbase_shock_cannon_weapon_hit_shield",
+        "hit_shield_impact_radius_t": 0.1
+    },
+    "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "dlc3_herald_type_2_heavy_starbase_mount_0",
+        "biaxial_barrel_mesh": "dlc3_herald_type_2_heavy_starbase_barrel_0",
+        "barrel_position": [
+            -6e-05,
+            16.733051,
+            -5.742037
+        ],
+        "muzzle_positions": [
+            [
+                -0.082916,
+                4.71606,
+                9.559114
+            ]
+        ]
+    }
+}

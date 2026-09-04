@@ -1,0 +1,58 @@
+{
+    "version": 0,
+    "name": "weapon_name.phase_dart",
+    "pitch_speed": 20.0,
+    "yaw_speed": 20.0,
+    "pitch_firing_tolerance": 3.0,
+    "yaw_firing_tolerance": 3.0,
+    "range": 15000.0,
+    "cooldown_duration": 8.0,
+    "uniforms_target_filter_id": "common_weapon",
+    "attack_target_type_groups": [
+        "light_flak",
+        "corvette"
+    ],
+    "weapon_type": "normal",
+    "damage_affect_type": "hull_and_armor_and_shields",
+    "damage": 200.0,
+    "penetration": 750.0,
+    "tags": [
+        "phase_dart",
+        "physical"
+    ],
+    "acquire_target_logic": "order_target_or_best_target_in_range",
+    "target_acquired_duration_required_to_fire": 0.5,
+    "firing": {
+        "firing_type": "projectile",
+        "travel_speed": 6000.0,
+        "bypass_shields_chance": 0.2
+    },
+    "effects": {
+        "burst_pattern": [
+            0.0,
+            0.25
+        ],
+        "muzzle_effect": "dlc3_herald_starbase_phase_dart_weapon_muzzle",
+        "projectile_travel_effect": "dlc3_herald_starbase_phase_dart_weapon_projectile_travel",
+        "hit_hull_effect": "dlc3_herald_starbase_phase_dart_weapon_hit_hull",
+        "hit_shield_effect": "dlc3_herald_starbase_phase_dart_weapon_hit_shield",
+        "hit_shield_impact_radius_t": 0.75
+    },
+    "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "dlc3_herald_type_2_medium_starbase_mount_0",
+        "biaxial_barrel_mesh": "dlc3_herald_type_2_medium_starbase_barrel_0",
+        "barrel_position": [
+            0.0,
+            33.727879,
+            -30.251474
+        ],
+        "muzzle_positions": [
+            [
+                -0.097236,
+                -2.819556,
+                114.770752
+            ]
+        ]
+    }
+}

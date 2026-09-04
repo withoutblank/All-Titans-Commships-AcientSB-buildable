@@ -1,0 +1,58 @@
+{
+    "version": 0,
+    "name": "weapon_name.point_defense_laser",
+    "pitch_speed": 125.0,
+    "yaw_speed": 125.0,
+    "pitch_firing_tolerance": 3.0,
+    "yaw_firing_tolerance": 3.0,
+    "range": 11000.0,
+    "cooldown_duration": 2.0,
+    "uniforms_target_filter_id": "common_and_strikecraft_and_torpedo_weapon",
+    "attack_target_type_groups": [
+        "torpedo_strikecraft"
+    ],
+    "always_check_is_dead_soon": true,
+    "weapon_type": "normal",
+    "damage_affect_type": "hull_and_armor_and_shields",
+    "damage": 5.0,
+    "penetration": 0.0,
+    "tags": [
+        "laser",
+        "energy",
+        "point_defense"
+    ],
+    "acquire_target_logic": "best_target_in_range",
+    "firing": {
+        "firing_type": "projectile",
+        "travel_speed": 6500.0
+    },
+    "effects": {
+        "burst_pattern": [
+            0.0,
+            0.1,
+            0.2
+        ],
+        "muzzle_effect": "advent_starbase_point_defense_laser_weapon_muzzle",
+        "projectile_travel_effect": "advent_starbase_point_defense_laser_weapon_projectile_travel",
+        "hit_hull_effect": "advent_starbase_point_defense_laser_weapon_hit_hull",
+        "hit_shield_effect": "advent_starbase_point_defense_laser_weapon_hit_shield",
+        "hit_shield_impact_radius_t": 0.075
+    },
+    "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "advent_asset_titan_pdlaser_mount_0",
+        "biaxial_barrel_mesh": "advent_asset_titan_pdlaser_barrel_0",
+        "barrel_position": [
+            -0.000642,
+            13.455091,
+            -3.534297
+        ],
+        "muzzle_positions": [
+            [
+                0.30757,
+                1.301818,
+                12.002004
+            ]
+        ]
+    }
+}
