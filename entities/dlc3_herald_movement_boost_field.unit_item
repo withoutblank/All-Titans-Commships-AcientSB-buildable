@@ -1,0 +1,32 @@
+{
+    "version": 0,
+    "required_product": "dlc_Herald",
+    "item_type": "ship_component",
+    "hud_icon": "dlc3_herald_movement_boost_field_unit_icon_hud_icon",
+    "tooltip_picture": "dlc3_herald_movement_boost_field_unit_icon_tooltip_picture",
+    "name": "dlc3_herald_movement_boost_field_unit_item_name",
+    "description": "dlc3_herald_movement_boost_field_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 600.0,
+        "metal": 125.0,
+        "crystal": 200.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "economic",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "capital_ship"
+    ],
+    "build_prerequisites": [
+        [
+            "dlc3_herald_unlock_movement_boost_field_item"
+        ]
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "ability": "dlc3_herald_movement_boost_field"
+}

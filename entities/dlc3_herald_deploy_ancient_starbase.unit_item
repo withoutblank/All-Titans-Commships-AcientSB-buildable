@@ -26,8 +26,7 @@
     ],
     "required_unit_tags": [
         "capital_ship",
-        "super_capital_ship",
-        "titan"
+        "dlc3_herald_titan"
     ],
     "consumable_stack_count": [
         1

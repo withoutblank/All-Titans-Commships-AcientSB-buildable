@@ -1,0 +1,60 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "dlc3_herald_energized_lattice_unit_item_hud_icon",
+    "tooltip_picture": "dlc3_herald_energized_lattice_unit_item_tooltip_picture",
+    "name": "dlc3_herald_energized_lattice_unit_item_name",
+    "description": "dlc3_herald_energized_lattice_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 750.0,
+        "metal": 75.0,
+        "crystal": 150.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "capital_ship"
+    ],
+    "build_prerequisites": [
+        [
+            "dlc3_herald_unlock_energized_lattice_item"
+        ]
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "defense",
+    "unit_modifiers": [
+        {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "scalar",
+            "values": [
+                0.5
+            ]
+        },
+        {
+            "modifier_type": "shield_point_restore_rate",
+            "value_behavior": "scalar",
+            "values": [
+                0.25
+            ]
+        },
+        {
+            "modifier_type": "max_antimatter",
+            "value_behavior": "scalar",
+            "values": [
+                0.25
+            ]
+        },
+        {
+            "modifier_type": "antimatter_restore_rate",
+            "value_behavior": "scalar",
+            "values": [
+                0.25
+            ]
+        }
+    ]
+}

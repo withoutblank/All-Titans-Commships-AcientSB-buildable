@@ -1,0 +1,50 @@
+{
+    "version": 0,
+    "required_product": "dlc_Herald",
+    "item_type": "ship_component",
+    "hud_icon": "dlc3_herald_immolation_beam_unit_item_hud_icon",
+    "tooltip_picture": "dlc3_herald_immolation_beam_unit_item_tooltip_picture",
+    "name": "dlc3_herald_immolation_beam_unit_item_name",
+    "description": "dlc3_herald_immolation_beam_unit_item_description",
+    "item_level_count": 2,
+    "item_level_source": "research_prerequisites_per_level",
+    "item_level_prerequisites": [
+        [
+            [
+                "dlc3_herald_upgrade_immolation_beam"
+            ]
+        ]
+    ],
+    "build_time": 30.0,
+    "price": {
+        "credits": 600.0,
+        "metal": 125.0,
+        "crystal": 200.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "capital_ship"
+    ],
+    "build_prerequisites": [
+        [
+            "dlc3_herald_unlock_immolation_beam"
+        ]
+    ],
+    "other_item_requirements": {
+        "mutually_exclusive_items": [
+            "dlc3_herald_null_catalyst"
+        ]
+    },
+    "owner_constraint": {
+        "constraint_type": "has_weapon",
+        "weapon_tag": "beam"
+    },
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "ability": "dlc3_herald_immolation_beam"
+}
