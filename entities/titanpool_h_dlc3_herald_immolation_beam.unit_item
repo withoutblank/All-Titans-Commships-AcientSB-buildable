@@ -6,15 +6,7 @@
     "tooltip_picture": "dlc3_herald_immolation_beam_unit_item_tooltip_picture",
     "name": "dlc3_herald_immolation_beam_unit_item_name",
     "description": "dlc3_herald_immolation_beam_unit_item_description",
-    "item_level_count": 2,
-    "item_level_source": "research_prerequisites_per_level",
-    "item_level_prerequisites": [
-        [
-            [
-                "dlc3_herald_upgrade_immolation_beam"
-            ]
-        ]
-    ],
+    "item_level_count": 1,
     "build_time": 30.0,
     "price": {
         "credits": 600.0,
