@@ -95,7 +95,8 @@
             "advent_loyalist_titan",
             "vasari_rebel_titan",
             "vasari_loyalist_titan",
-            "trader_rebel_command_ship"
+            "trader_rebel_command_ship",
+            "dlc3_herald_titan"
         ],
         "default_rally_point_offset": [
             0.0,

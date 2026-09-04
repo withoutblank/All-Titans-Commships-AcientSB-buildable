@@ -1883,6 +1883,7 @@
     }],
     "target_filter_unit_type": "titan",
     "tags": [
+        "dlc3_herald_titan",
         "titan"
     ],
     "item_access_tags": [

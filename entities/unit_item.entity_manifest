@@ -106,6 +106,22 @@
         "commandpool_vr_dlc2_vasari_faction_victory",
         "trader_deploy_ancient_starbase",
         "advent_deploy_ancient_starbase",
-        "vasari_deploy_ancient_starbase"
+        "vasari_deploy_ancient_starbase",
+        "titanpool_h_dlc3_herald_amalgam_penitents",
+        "titanpool_h_dlc3_herald_antimatter_osmosis",
+        "titanpool_h_dlc3_herald_dissipation_field",
+        "titanpool_h_dlc3_herald_null_catalyst",
+        "titanpool_h_dlc3_herald_immolation_beam",
+        "titanpool_h_dlc3_herald_infused_armor",
+        "titanpool_h_dlc3_herald_infused_reactor",
+        "titanpool_h_dlc3_herald_amalgam_grafter",
+        "titanpool_h_dlc3_herald_energized_lattice",
+        "titanpool_h_dlc3_herald_metamorphic_structure",
+        "titanpool_h_dlc3_herald_movement_boost_field",
+        "titanpool_h_dlc3_herald_retributive_capacitive_shield",
+        "titanpool_h_dlc3_herald_safeguard",
+        "titanpool_h_dlc3_herald_stigmata_projector",
+        "titanpool_h_dlc3_herald_cloak_detector_array",
+        "dlc3_herald_deploy_ancient_starbase"
     ]
 }

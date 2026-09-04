@@ -2496,7 +2496,8 @@
             "advent_loyalist_titan",
             "trader_rebel_titan",
             "trader_loyalist_titan",
-            "trader_rebel_command_ship"
+            "trader_rebel_command_ship",
+            "dlc3_herald_titan"
         ],
         "required_mutation": "mobile_unit_factory_enabled",
         "will_spawn_units_in_hyperspace": true,

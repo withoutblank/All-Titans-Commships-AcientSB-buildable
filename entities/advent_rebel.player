@@ -445,6 +445,7 @@
         "native_advent_loyalist_titan",
         "native_vasari_loyalist_titan",
         "native_vasari_rebel_titan",
+        "native_dlc3_herald_titan",
         "native_dlc2_advent_rebel_super_capital_ship",
         "dlc2_trader_loyalist_super_capital_ship",
         "dlc2_trader_rebel_super_capital_ship",
@@ -539,7 +540,7 @@
         "global": [
             {
                 "tag": "titan",
-                "unit_limit": 6
+                "unit_limit": 7
             },
             {
                 "tag": "super_capital_ship",
@@ -592,6 +593,10 @@
             {
                 "tag": "vasari_rebel_command_ship",
                 "unit_limit": 3
+            },
+            {
+                "tag": "dlc3_herald_titan",
+                "unit_limit": 1
             }
         ],
         "star": [
@@ -1327,7 +1332,31 @@
         "dlc2_vasari_rebel_super_capital_ship_phase_gate",
         "dlc2_vasari_rebel_super_capital_ship_phasic_comms_net",
         "dlc2_vasari_rebel_super_capital_ship_mobile_embassy",
-        "commandpool_ar_dlc2_advent_faction_victory"
+        "commandpool_ar_dlc2_advent_faction_victory",
+        "dlc3_herald_titan_armor_0",
+        "dlc3_herald_titan_armor_1",
+        "dlc3_herald_titan_crest_cloaking",
+        "dlc3_herald_titan_crest_corruption",
+        "dlc3_herald_titan_hangar",
+        "dlc3_herald_titan_shield_0",
+        "dlc3_herald_titan_shield_1",
+        "dlc3_herald_titan_unlock_missile_weapon",
+        "dlc3_herald_titan_unlock_phase_cannon_weapon",
+        "titanpool_h_dlc3_herald_amalgam_penitents",
+        "titanpool_h_dlc3_herald_antimatter_osmosis",
+        "titanpool_h_dlc3_herald_dissipation_field",
+        "titanpool_h_dlc3_herald_null_catalyst",
+        "titanpool_h_dlc3_herald_immolation_beam",
+        "titanpool_h_dlc3_herald_infused_armor",
+        "titanpool_h_dlc3_herald_infused_reactor",
+        "titanpool_h_dlc3_herald_amalgam_grafter",
+        "titanpool_h_dlc3_herald_energized_lattice",
+        "titanpool_h_dlc3_herald_metamorphic_structure",
+        "titanpool_h_dlc3_herald_movement_boost_field",
+        "titanpool_h_dlc3_herald_retributive_capacitive_shield",
+        "titanpool_h_dlc3_herald_safeguard",
+        "titanpool_h_dlc3_herald_stigmata_projector",
+        "titanpool_h_dlc3_herald_cloak_detector_array"
     ],
     "ship_component_build_groups": [
         {
@@ -6291,6 +6320,10 @@
             {
                 "build_kind": "trader_rebel_command_ship",
                 "sound_id": "medium_unit_factory_needed"
+            },
+            {
+                "build_kind": "dlc3_herald_titan",
+                "sound_id": "large_unit_factory_needed"
             }
         ]
     },

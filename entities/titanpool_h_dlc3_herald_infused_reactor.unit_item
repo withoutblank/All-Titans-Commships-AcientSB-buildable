@@ -1,0 +1,29 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "dlc3_herald_infused_reactor_unit_item_hud_icon",
+    "tooltip_picture": "dlc3_herald_infused_reactor_unit_item_tooltip_picture",
+    "name": "dlc3_herald_infused_reactor_unit_item_name",
+    "description": "dlc3_herald_infused_reactor_unit_item_description",
+    "build_time": 30.0,
+    "price": {
+        "credits": 500.0,
+        "metal": 100.0,
+        "crystal": 100.0
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "titan"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "ability": "dlc3_herald_infused_reactor_unit_item",
+    "required_item_access_tags": [
+        "dlc3_herald_titan"
+    ]
+}

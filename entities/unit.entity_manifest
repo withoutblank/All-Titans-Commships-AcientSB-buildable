@@ -14,6 +14,8 @@
         "native_dlc2_advent_loyalist_super_capital_ship",
         "native_dlc2_advent_rebel_super_capital_ship",
         "native_dlc2_vasari_loyalist_super_capital_ship",
-        "native_dlc2_vasari_rebel_super_capital_ship"
+        "native_dlc2_vasari_rebel_super_capital_ship",
+        "native_dlc3_herald_titan",
+        "dlc3_herald_ancient_starbase"
     ]
 }

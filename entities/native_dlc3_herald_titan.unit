@@ -1,0 +1,3040 @@
+{
+    "version": 0,
+    "spatial": {
+        "radius": 1823.594238,
+        "box": {
+            "center": [
+                0.000183,
+                0.0,
+                0.0
+            ],
+            "extents": [
+                874.333191,
+                421.599426,
+                1707.225708
+            ]
+        },
+        "collision_rank": 3
+    },
+    "physics": {
+        "can_move_linear": true,
+        "max_linear_speed": 650.0,
+        "time_to_max_linear_speed": 8.125,
+        "arrival_tolerance_spatial_radius_scalar": 0.25,
+        "death_linear_speed_range": [
+            1.0,
+            2.0
+        ],
+        "can_move_angular": true,
+        "max_angular_speed": 15.0,
+        "time_to_max_angular_speed": 20.0,
+        "max_bank_angle": 15.0,
+        "death_angular_speed_range": [
+            1.0,
+            2.0
+        ],
+        "linear_acceleration_angle": 75.0,
+        "can_strafe_linear": true,
+        "strafe_max_linear_speed": 250.0,
+        "time_to_strafe_max_linear_speed": 20.0,
+        "strafe_max_linear_distance_spatial_radius_scalar": 3.0,
+        "strafe_start_angle": 0.0,
+        "strafe_stop_angle": 180.0,
+        "strafe_speed_start_angle": 10.0,
+        "strafe_max_start_turning_angle": 170.0
+    },
+    "hyperspace": {
+        "speed": 215000.0,
+        "speed_between_stars": 752500.0,
+        "charge_time": 8.0,
+        "charge_time_variance": 1.0,
+        "min_charge_angle": 10.0,
+        "max_charge_angle": 45.0
+    },
+    "move": {
+        "follow_distance": 8255.702148
+    },
+    "attack": {
+        "attack_pattern": {
+            "type": "stop_and_fire"
+        }
+    },
+    "ai": {
+        "attack_target_type_groups": [
+            "heavy_capital",
+            "defense"
+        ],
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft_corvette"
+        ],
+        "attack_target_type_groups_matching_weapon": "trader_rebel_titan_fixed_heavy_gauss",
+        "auto_follow_target_priority": 5.0,
+        "pursuit": {
+            "min_target_speed": 100.0,
+            "min_distance_to_target": 10000.0
+        },
+        "attack_target_type_range_scalar": 1.5
+    },
+    "ai_attack_target": {
+        "attack_priority": 50.0,
+        "is_always_a_threat": true,
+        "attack_target_type": "titan"
+    },
+    "user_interface": {
+        "pip_type": "titan",
+        "can_ever_be_selected": true,
+        "selection_priority": 500,
+        "selection_group_unit_type": "combat_ship",
+        "can_move": true,
+        "can_rotate": true,
+        "can_attack": true,
+        "can_show_distance_to_plane_line": true,
+        "bar_size": "large"
+    },
+    "weapons": {
+        "weapons": [
+            {
+                "weapon": "dlc3_herald_titan_beam",
+                "mesh_point": "child.dlc3_herald_type_1_heavy_titan_mount_0",
+                "weapon_position": [
+                    -634.290161,
+                    -244.780197,
+                    655.878906
+                ],
+                "forward": [
+                    -0.356976,
+                    -0.071894,
+                    0.931343
+                ],
+                "up": [
+                    -0.087727,
+                    0.995207,
+                    0.043199
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_beam",
+                "mesh_point": "child.dlc3_herald_type_1_heavy_titan_mount_1",
+                "weapon_position": [
+                    -167.909561,
+                    -170.17955,
+                    1135.4823
+                ],
+                "forward": [
+                    0.182311,
+                    -0.048908,
+                    0.982024
+                ],
+                "up": [
+                    -0.534924,
+                    0.833086,
+                    0.140798
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_beam",
+                "mesh_point": "child.dlc3_herald_type_1_heavy_titan_mount_2",
+                "weapon_position": [
+                    167.812378,
+                    -170.078018,
+                    1135.4823
+                ],
+                "forward": [
+                    -0.246672,
+                    -0.019055,
+                    0.968912
+                ],
+                "up": [
+                    0.525984,
+                    0.837096,
+                    0.150371
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_beam",
+                "mesh_point": "child.dlc3_herald_type_1_heavy_titan_mount_3",
+                "weapon_position": [
+                    634.778198,
+                    -244.922501,
+                    656.165283
+                ],
+                "forward": [
+                    0.348801,
+                    -0.048274,
+                    0.935953
+                ],
+                "up": [
+                    0.100534,
+                    0.994837,
+                    0.013845
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_beam",
+                "mesh_point": "child.dlc3_herald_type_1_heavy_titan_mount_4",
+                "weapon_position": [
+                    -246.181534,
+                    136.607086,
+                    -514.085693
+                ],
+                "forward": [
+                    0.115594,
+                    -0.153845,
+                    0.98131
+                ],
+                "up": [
+                    -0.375921,
+                    0.907673,
+                    0.186583
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_beam",
+                "mesh_point": "child.dlc3_herald_type_1_heavy_titan_mount_5",
+                "weapon_position": [
+                    244.172653,
+                    137.326263,
+                    -514.085693
+                ],
+                "forward": [
+                    -0.028973,
+                    -0.190239,
+                    0.98131
+                ],
+                "up": [
+                    0.385165,
+                    0.903789,
+                    0.186583
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_phase_dart",
+                "mesh_point": "weapon.1",
+                "weapon_position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        0.0,
+                        0.0,
+                        -0.0
+                    ]
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 5.0
+                },
+                "pitch_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_0",
+                "weapon_position": [
+                    -716.750793,
+                    -264.295349,
+                    89.774727
+                ],
+                "forward": [
+                    -0.660275,
+                    -0.732317,
+                    0.16658
+                ],
+                "up": [
+                    -0.743618,
+                    0.668552,
+                    -0.00841
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_1",
+                "weapon_position": [
+                    -615.128662,
+                    -382.420685,
+                    234.997864
+                ],
+                "forward": [
+                    -0.977696,
+                    0.191323,
+                    -0.086635
+                ],
+                "up": [
+                    -0.203679,
+                    -0.96436,
+                    0.168895
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_2",
+                "weapon_position": [
+                    -743.321411,
+                    -257.659332,
+                    -132.756378
+                ],
+                "forward": [
+                    -0.845715,
+                    -0.523708,
+                    0.102451
+                ],
+                "up": [
+                    -0.516186,
+                    0.851537,
+                    0.091853
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_3",
+                "weapon_position": [
+                    -762.979553,
+                    -379.580475,
+                    -498.245819
+                ],
+                "forward": [
+                    -0.99085,
+                    0.125121,
+                    -0.050608
+                ],
+                "up": [
+                    -0.123024,
+                    -0.991487,
+                    -0.042647
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_4",
+                "weapon_position": [
+                    -806.834351,
+                    -259.428436,
+                    -690.357422
+                ],
+                "forward": [
+                    -0.755874,
+                    -0.646652,
+                    0.102451
+                ],
+                "up": [
+                    -0.640106,
+                    0.762776,
+                    0.091852
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_5",
+                "weapon_position": [
+                    -760.179565,
+                    -365.742767,
+                    -807.474365
+                ],
+                "forward": [
+                    -0.99085,
+                    0.125121,
+                    -0.050608
+                ],
+                "up": [
+                    -0.123024,
+                    -0.991487,
+                    -0.042647
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_6",
+                "weapon_position": [
+                    -820.297729,
+                    -256.136932,
+                    -958.785034
+                ],
+                "forward": [
+                    -0.687167,
+                    -0.703685,
+                    0.180634
+                ],
+                "up": [
+                    -0.711705,
+                    0.701955,
+                    0.027096
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_7",
+                "weapon_position": [
+                    -848.163879,
+                    -254.047745,
+                    -1443.964844
+                ],
+                "forward": [
+                    -0.727579,
+                    -0.662134,
+                    0.179466
+                ],
+                "up": [
+                    -0.672942,
+                    0.739695,
+                    0.000886
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_8",
+                "weapon_position": [
+                    -813.28418,
+                    -335.497742,
+                    -1473.201294
+                ],
+                "forward": [
+                    -0.974466,
+                    0.218757,
+                    -0.050608
+                ],
+                "up": [
+                    -0.216729,
+                    -0.9753,
+                    -0.042646
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_9",
+                "weapon_position": [
+                    616.266724,
+                    -382.420685,
+                    234.997955
+                ],
+                "forward": [
+                    0.975475,
+                    0.201458,
+                    -0.088675
+                ],
+                "up": [
+                    0.209947,
+                    -0.972593,
+                    0.099929
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_10",
+                "weapon_position": [
+                    716.150635,
+                    -264.295349,
+                    89.774857
+                ],
+                "forward": [
+                    0.672546,
+                    -0.739683,
+                    -0.023458
+                ],
+                "up": [
+                    0.739873,
+                    0.672746,
+                    -0.000878
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_11",
+                "weapon_position": [
+                    743.06134,
+                    -257.659332,
+                    -132.756241
+                ],
+                "forward": [
+                    0.835425,
+                    -0.523708,
+                    0.166721
+                ],
+                "up": [
+                    0.51906,
+                    0.851537,
+                    0.073903
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_12",
+                "weapon_position": [
+                    761.087219,
+                    -379.601257,
+                    -498.245697
+                ],
+                "forward": [
+                    0.976876,
+                    0.107557,
+                    0.184784
+                ],
+                "up": [
+                    0.116769,
+                    -0.992366,
+                    -0.039686
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_13",
+                "weapon_position": [
+                    760.234131,
+                    -365.742767,
+                    -807.474365
+                ],
+                "forward": [
+                    0.988629,
+                    0.12032,
+                    0.090195
+                ],
+                "up": [
+                    0.121543,
+                    -0.992553,
+                    -0.008173
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_14",
+                "weapon_position": [
+                    806.902954,
+                    -259.428436,
+                    -690.3573
+                ],
+                "forward": [
+                    0.756599,
+                    -0.646652,
+                    0.096953
+                ],
+                "up": [
+                    0.64204,
+                    0.762776,
+                    0.077185
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_15",
+                "weapon_position": [
+                    820.197205,
+                    -256.136932,
+                    -958.784912
+                ],
+                "forward": [
+                    0.642816,
+                    -0.734906,
+                    -0.216104
+                ],
+                "up": [
+                    0.741387,
+                    0.667841,
+                    -0.065824
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_16",
+                "weapon_position": [
+                    848.45105,
+                    -254.047745,
+                    -1443.9646
+                ],
+                "forward": [
+                    0.688118,
+                    -0.723429,
+                    0.056074
+                ],
+                "up": [
+                    0.722651,
+                    0.690232,
+                    0.036818
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_titan_mount_17",
+                "weapon_position": [
+                    811.489014,
+                    -335.497742,
+                    -1473.200928
+                ],
+                "forward": [
+                    0.96437,
+                    0.209479,
+                    0.161585
+                ],
+                "up": [
+                    0.211313,
+                    -0.9774,
+                    0.005948
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_titan_mount_0",
+                "weapon_position": [
+                    -177.452927,
+                    107.101311,
+                    -216.440094
+                ],
+                "forward": [
+                    0.169224,
+                    -0.044825,
+                    0.984558
+                ],
+                "up": [
+                    -0.548617,
+                    0.825606,
+                    0.131883
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_titan_mount_1",
+                "weapon_position": [
+                    -718.298218,
+                    -376.670135,
+                    -216.440094
+                ],
+                "forward": [
+                    0.134279,
+                    -0.057758,
+                    0.989259
+                ],
+                "up": [
+                    -0.868035,
+                    -0.488405,
+                    0.089309
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_titan_mount_2",
+                "weapon_position": [
+                    -38.537952,
+                    172.726151,
+                    -1691.005737
+                ],
+                "forward": [
+                    -0.052327,
+                    0.149814,
+                    -0.987329
+                ],
+                "up": [
+                    -0.418283,
+                    -0.901064,
+                    -0.114556
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_titan_mount_3",
+                "weapon_position": [
+                    39.612072,
+                    172.917633,
+                    -1691.005737
+                ],
+                "forward": [
+                    -0.139146,
+                    0.060129,
+                    -0.988445
+                ],
+                "up": [
+                    0.332513,
+                    -0.937366,
+                    -0.10383
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_titan_mount_4",
+                "weapon_position": [
+                    180.341675,
+                    105.202057,
+                    -216.440002
+                ],
+                "forward": [
+                    -0.202043,
+                    -0.069805,
+                    0.976886
+                ],
+                "up": [
+                    0.511072,
+                    0.843363,
+                    0.165965
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_titan_mount_5",
+                "weapon_position": [
+                    -476.993286,
+                    395.792084,
+                    -1519.158203
+                ],
+                "forward": [
+                    -0.517651,
+                    0.375349,
+                    -0.768863
+                ],
+                "up": [
+                    0.83445,
+                    0.022951,
+                    -0.550605
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_titan_mount_6",
+                "weapon_position": [
+                    476.870392,
+                    395.792084,
+                    -1519.158203
+                ],
+                "forward": [
+                    0.582932,
+                    0.212068,
+                    -0.784358
+                ],
+                "up": [
+                    -0.807751,
+                    0.046797,
+                    -0.587664
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_titan_mount_7",
+                "weapon_position": [
+                    -185.887695,
+                    -373.337463,
+                    -216.440033
+                ],
+                "forward": [
+                    0.127083,
+                    -0.072226,
+                    0.989259
+                ],
+                "up": [
+                    -0.916635,
+                    -0.389622,
+                    0.089307
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_titan_mount_8",
+                "weapon_position": [
+                    185.795364,
+                    -373.337463,
+                    -216.440048
+                ],
+                "forward": [
+                    -0.027703,
+                    0.143525,
+                    0.989259
+                ],
+                "up": [
+                    0.891855,
+                    -0.443417,
+                    0.089308
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_titan_mount_9",
+                "weapon_position": [
+                    -366.876282,
+                    -294.671295,
+                    -801.999695
+                ],
+                "forward": [
+                    -0.004072,
+                    0.001294,
+                    -0.999991
+                ],
+                "up": [
+                    -0.653193,
+                    -0.75719,
+                    0.00168
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_titan_mount_10",
+                "weapon_position": [
+                    366.936371,
+                    -294.671295,
+                    -801.999573
+                ],
+                "forward": [
+                    -0.006328,
+                    0.001273,
+                    -0.999979
+                ],
+                "up": [
+                    0.667105,
+                    -0.744946,
+                    -0.00517
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_titan_mount_11",
+                "weapon_position": [
+                    718.423096,
+                    -376.670135,
+                    -216.439987
+                ],
+                "forward": [
+                    -0.024622,
+                    0.144279,
+                    0.989231
+                ],
+                "up": [
+                    0.879834,
+                    -0.466688,
+                    0.089966
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_0",
+                "weapon_position": [
+                    -57.319195,
+                    188.299561,
+                    -1679.255493
+                ],
+                "forward": [
+                    0.147153,
+                    0.143817,
+                    -0.978602
+                ],
+                "up": [
+                    -0.952968,
+                    -0.244404,
+                    -0.179217
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_1",
+                "weapon_position": [
+                    57.173935,
+                    188.299561,
+                    -1679.255493
+                ],
+                "forward": [
+                    -0.19896,
+                    -0.052466,
+                    -0.978602
+                ],
+                "up": [
+                    0.949456,
+                    -0.25771,
+                    -0.179217
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_2",
+                "weapon_position": [
+                    -204.553574,
+                    -111.041336,
+                    -1220.824585
+                ],
+                "forward": [
+                    0.403376,
+                    0.171497,
+                    -0.89882
+                ],
+                "up": [
+                    -0.859042,
+                    -0.267363,
+                    -0.436537
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_3",
+                "weapon_position": [
+                    204.57869,
+                    -111.041336,
+                    -1220.824585
+                ],
+                "forward": [
+                    -0.431913,
+                    0.074657,
+                    -0.89882
+                ],
+                "up": [
+                    0.866747,
+                    -0.241216,
+                    -0.436537
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_4",
+                "weapon_position": [
+                    -830.993286,
+                    -248.694733,
+                    -1569.85022
+                ],
+                "forward": [
+                    0.051661,
+                    0.028551,
+                    -0.998257
+                ],
+                "up": [
+                    -0.17187,
+                    0.984931,
+                    0.019276
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_5",
+                "weapon_position": [
+                    834.916443,
+                    -249.431976,
+                    -1569.849976
+                ],
+                "forward": [
+                    0.058274,
+                    0.00939,
+                    -0.998257
+                ],
+                "up": [
+                    0.171477,
+                    0.985,
+                    0.019276
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_6",
+                "weapon_position": [
+                    460.278046,
+                    225.429504,
+                    -936.789307
+                ],
+                "forward": [
+                    0.451905,
+                    0.233169,
+                    -0.861054
+                ],
+                "up": [
+                    0.674797,
+                    0.541971,
+                    0.500915
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_7",
+                "weapon_position": [
+                    -460.367706,
+                    225.429504,
+                    -936.789429
+                ],
+                "forward": [
+                    -0.333226,
+                    0.384117,
+                    -0.861054
+                ],
+                "up": [
+                    -0.685906,
+                    0.527842,
+                    0.500914
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_8",
+                "weapon_position": [
+                    -189.822052,
+                    -127.104752,
+                    778.200562
+                ],
+                "forward": [
+                    0.043177,
+                    -0.12814,
+                    0.990816
+                ],
+                "up": [
+                    -0.53896,
+                    0.832068,
+                    0.131096
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_9",
+                "weapon_position": [
+                    189.87294,
+                    -127.104752,
+                    778.200623
+                ],
+                "forward": [
+                    -0.095936,
+                    -0.095292,
+                    0.990816
+                ],
+                "up": [
+                    0.508838,
+                    0.850822,
+                    0.131096
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_10",
+                "weapon_position": [
+                    588.283447,
+                    -320.736633,
+                    644.902527
+                ],
+                "forward": [
+                    0.076505,
+                    0.029364,
+                    0.996637
+                ],
+                "up": [
+                    -0.349423,
+                    -0.935386,
+                    0.054382
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_11",
+                "weapon_position": [
+                    -588.636963,
+                    -320.736633,
+                    644.902405
+                ],
+                "forward": [
+                    0.036089,
+                    0.073572,
+                    0.996637
+                ],
+                "up": [
+                    0.380329,
+                    -0.923251,
+                    0.054382
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_12",
+                "weapon_position": [
+                    -226.152863,
+                    -312.228729,
+                    1192.222534
+                ],
+                "forward": [
+                    0.170951,
+                    0.195994,
+                    0.965589
+                ],
+                "up": [
+                    -0.059474,
+                    -0.976176,
+                    0.208672
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_13",
+                "weapon_position": [
+                    224.441284,
+                    -312.228729,
+                    1192.222534
+                ],
+                "forward": [
+                    -0.179955,
+                    0.162986,
+                    0.970078
+                ],
+                "up": [
+                    0.077387,
+                    -0.980775,
+                    0.179139
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_14",
+                "weapon_position": [
+                    651.347351,
+                    -394.991516,
+                    31.570864
+                ],
+                "forward": [
+                    -0.179716,
+                    -0.032367,
+                    0.983186
+                ],
+                "up": [
+                    0.033866,
+                    -0.99907,
+                    -0.026699
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_15",
+                "weapon_position": [
+                    -652.923706,
+                    -394.991516,
+                    31.57074
+                ],
+                "forward": [
+                    -0.181365,
+                    -0.021266,
+                    0.983186
+                ],
+                "up": [
+                    -0.027568,
+                    -0.999263,
+                    -0.026699
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_16",
+                "weapon_position": [
+                    -136.939453,
+                    75.340134,
+                    19.425215
+                ],
+                "forward": [
+                    0.226227,
+                    -0.121278,
+                    0.966495
+                ],
+                "up": [
+                    -0.649729,
+                    0.720453,
+                    0.242486
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_17",
+                "weapon_position": [
+                    136.894958,
+                    75.340134,
+                    19.425238
+                ],
+                "forward": [
+                    -0.099938,
+                    -0.236431,
+                    0.966495
+                ],
+                "up": [
+                    0.657583,
+                    0.713292,
+                    0.242486
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_18",
+                "weapon_position": [
+                    237.169006,
+                    -106.915741,
+                    430.412415
+                ],
+                "forward": [
+                    0.044579,
+                    -0.104135,
+                    0.993564
+                ],
+                "up": [
+                    0.205713,
+                    0.974195,
+                    0.092875
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_large_mount_19",
+                "weapon_position": [
+                    -243.376587,
+                    -108.206299,
+                    430.412292
+                ],
+                "forward": [
+                    0.082556,
+                    -0.077562,
+                    0.993564
+                ],
+                "up": [
+                    -0.201699,
+                    0.975034,
+                    0.092875
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -70.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_phase_cannon",
+                "required_unit_item": "dlc3_herald_titan_unlock_phase_cannon_weapon",
+                "mesh_point": "weapon.2",
+                "weapon_position": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        0.0,
+                        0.0,
+                        -0.0
+                    ]
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 5.0
+                },
+                "pitch_arc": {
+                    "min_angle": -5.0,
+                    "max_angle": 5.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_missile",
+                "required_unit_item": "dlc3_herald_titan_unlock_missile_weapon",
+                "mesh_point": "weapon.0_left_front",
+                "weapon_position": [
+                    -144.688873,
+                    -132.128418,
+                    570.303772
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -153.777237,
+                        -139.540131,
+                        701.71759
+                    ],
+                    [
+                        -144.704987,
+                        -137.772537,
+                        667.52356
+                    ],
+                    [
+                        -143.127716,
+                        -125.496147,
+                        474.330841
+                    ],
+                    [
+                        -132.084869,
+                        -121.179184,
+                        438.014618
+                    ],
+                    [
+                        -134.242294,
+                        -133.711487,
+                        631.312622
+                    ],
+                    [
+                        -161.184692,
+                        -140.174042,
+                        622.513062
+                    ],
+                    [
+                        -151.788239,
+                        -136.560745,
+                        591.156067
+                    ],
+                    [
+                        -122.749031,
+                        -131.260147,
+                        594.240906
+                    ],
+                    [
+                        -141.023148,
+                        -131.260147,
+                        555.560059
+                    ],
+                    [
+                        -165.961182,
+                        -131.260147,
+                        541.257263
+                    ],
+                    [
+                        -156.070435,
+                        -131.260147,
+                        508.890259
+                    ],
+                    [
+                        -129.552582,
+                        -126.066193,
+                        517.127991
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    1.0,
+                    -0.0
+                ],
+                "up": [
+                    -0.0,
+                    -0.0,
+                    -1.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_missile",
+                "required_unit_item": "dlc3_herald_titan_unlock_missile_weapon",
+                "mesh_point": "weapon.0_right_front",
+                "weapon_position": [
+                    143.892929,
+                    -132.118851,
+                    570.62262
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        153.264481,
+                        -139.540131,
+                        701.71759
+                    ],
+                    [
+                        143.30275,
+                        -137.772537,
+                        667.52356
+                    ],
+                    [
+                        142.036285,
+                        -125.496147,
+                        474.330902
+                    ],
+                    [
+                        131.292953,
+                        -121.179184,
+                        438.014679
+                    ],
+                    [
+                        133.636322,
+                        -133.711487,
+                        631.312622
+                    ],
+                    [
+                        158.976898,
+                        -140.174042,
+                        622.513062
+                    ],
+                    [
+                        153.614899,
+                        -135.324326,
+                        594.240906
+                    ],
+                    [
+                        123.642036,
+                        -132.381744,
+                        594.982361
+                    ],
+                    [
+                        139.139557,
+                        -131.260147,
+                        555.560059
+                    ],
+                    [
+                        163.787811,
+                        -131.260147,
+                        541.257263
+                    ],
+                    [
+                        128.294846,
+                        -126.066193,
+                        517.127991
+                    ],
+                    [
+                        155.726196,
+                        -131.260147,
+                        508.89032
+                    ]
+                ],
+                "forward": [
+                    0.0,
+                    1.0,
+                    -0.0
+                ],
+                "up": [
+                    -0.0,
+                    -0.0,
+                    -1.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_missile",
+                "required_unit_item": "dlc3_herald_titan_unlock_missile_weapon",
+                "mesh_point": "weapon.0_left_back",
+                "weapon_position": [
+                    -727.731506,
+                    -260.081573,
+                    -509.310883
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -735.68634,
+                        -259.843109,
+                        -383.437866
+                    ],
+                    [
+                        -726.798828,
+                        -259.843109,
+                        -414.88382
+                    ],
+                    [
+                        -713.857178,
+                        -256.148804,
+                        -645.174927
+                    ],
+                    [
+                        -717.44928,
+                        -259.843109,
+                        -451.788788
+                    ],
+                    [
+                        -741.533081,
+                        -259.843109,
+                        -460.865417
+                    ],
+                    [
+                        -703.506104,
+                        -259.843109,
+                        -491.24826
+                    ],
+                    [
+                        -732.580078,
+                        -262.810669,
+                        -495.27243
+                    ],
+                    [
+                        -724.340515,
+                        -258.824402,
+                        -526.555481
+                    ],
+                    [
+                        -746.51947,
+                        -262.5159,
+                        -546.314148
+                    ],
+                    [
+                        -736.723511,
+                        -262.5159,
+                        -575.554565
+                    ],
+                    [
+                        -726.05188,
+                        -258.865936,
+                        -611.323792
+                    ]
+                ],
+                "forward": [
+                    -0.466236,
+                    0.543677,
+                    0.697882
+                ],
+                "up": [
+                    0.363108,
+                    0.836964,
+                    -0.409444
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_missile",
+                "required_unit_item": "dlc3_herald_titan_unlock_missile_weapon",
+                "mesh_point": "weapon.0_right_back",
+                "weapon_position": [
+                    726.873108,
+                    -260.550476,
+                    -510.246643
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        735.486511,
+                        -259.843109,
+                        -383.437744
+                    ],
+                    [
+                        726.51001,
+                        -259.843109,
+                        -417.054535
+                    ],
+                    [
+                        710.825439,
+                        -259.957672,
+                        -647.763
+                    ],
+                    [
+                        715.851501,
+                        -259.843109,
+                        -452.728241
+                    ],
+                    [
+                        741.169922,
+                        -261.993683,
+                        -461.695068
+                    ],
+                    [
+                        733.674377,
+                        -261.993683,
+                        -495.018097
+                    ],
+                    [
+                        705.126526,
+                        -256.578522,
+                        -491.832611
+                    ],
+                    [
+                        721.840576,
+                        -259.206573,
+                        -528.22522
+                    ],
+                    [
+                        746.46991,
+                        -263.418884,
+                        -545.490784
+                    ],
+                    [
+                        734.322266,
+                        -263.418884,
+                        -577.56488
+                    ],
+                    [
+                        724.326782,
+                        -259.957672,
+                        -611.902893
+                    ]
+                ],
+                "forward": [
+                    0.606319,
+                    0.543677,
+                    0.580339
+                ],
+                "up": [
+                    -0.340171,
+                    0.836964,
+                    -0.42869
+                ],
+                "yaw_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                },
+                "pitch_arc": {
+                    "min_angle": -180.0,
+                    "max_angle": 180.0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_titan_planet_bombing",
+                "mesh_point": "bomb",
+                "weapon_position": [
+                    -8.2e-05,
+                    -141.892914,
+                    1092.290161
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -8.2e-05,
+                        -141.892914,
+                        1092.290161
+                    ]
+                ],
+                "forward": [
+                    -0.0,
+                    -0.0,
+                    1.0
+                ],
+                "up": [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                "yaw_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                },
+                "pitch_arc": {
+                    "min_angle": -10.0,
+                    "max_angle": 10.0
+                }
+            }
+        ],
+        "max_range_weapon_index": 0
+    },
+    "formation": {
+        "leader_priority": 4,
+        "offsets_per_formation_type": {
+            "ships_and_structures": {
+                "rank": 0,
+                "group": 3
+            }
+        }
+    },
+    "spawn_debris": {
+        "spawn_debris_time": 6.0,
+        "generic_group_name": "trader",
+        "generic_counts": {
+            "small_debris": [
+                50,
+                60
+            ],
+            "large_debris": [
+                50,
+                60
+            ]
+        },
+        "spawn_loot": {
+            "loot_unit": "dlc3_ship_loot_herald",
+            "loot_name": "dlc3_herald_titan_loot_name",
+            "loot_level": 1,
+            "experience_given": 1000.0,
+            "exotics": [
+                {
+                    "bundles": [
+                        {
+                            "types": [
+                                "offense"
+                            ],
+                            "counts": [
+                                2,
+                                4
+                            ]
+                        },
+                        {
+                            "types": [
+                                "ultimate"
+                            ],
+                            "counts": [
+                                1,
+                                3
+                            ]
+                        }
+                    ],
+                    "weight": 1.0
+                }
+            ],
+            "assets": {
+                "credits": [
+                    960,
+                    2880
+                ],
+                "metal": [
+                    290,
+                    870
+                ],
+                "crystal": [
+                    190,
+                    570
+                ]
+            }
+        }
+    },
+    "health": {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 6.5,
+        "durability": 750.0,
+        "levels": [
+            {
+                "max_hull_points": 10000.0,
+                "hull_point_restore_rate": 9.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_crippled_percentage": 0.75,
+                "max_armor_points": 9000.0,
+                "armor_point_restore_rate": 12.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_strength": 120.0,
+                "max_shield_points": 20000.0,
+                "shield_point_restore_rate": 15.0,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 70.0,
+                    "restore_percentage": 0.25
+                },
+                "experience_given_on_death": 400.0
+            },
+            {
+                "max_hull_points": 10890.0,
+                "hull_point_restore_rate": 10.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_crippled_percentage": 0.77,
+                "max_armor_points": 9310.0,
+                "armor_point_restore_rate": 13.2,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_strength": 125.0,
+                "max_shield_points": 21340.0,
+                "shield_point_restore_rate": 17.4,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 68.0,
+                    "restore_percentage": 0.27
+                },
+                "experience_given_on_death": 480.0
+            },
+            {
+                "max_hull_points": 11780.0,
+                "hull_point_restore_rate": 11.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_crippled_percentage": 0.79,
+                "max_armor_points": 9615.0,
+                "armor_point_restore_rate": 14.4,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_strength": 130.0,
+                "max_shield_points": 22680.0,
+                "shield_point_restore_rate": 19.799999,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 66.0,
+                    "restore_percentage": 0.29
+                },
+                "experience_given_on_death": 600.0
+            },
+            {
+                "max_hull_points": 12670.0,
+                "hull_point_restore_rate": 12.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_crippled_percentage": 0.81,
+                "max_armor_points": 9920.0,
+                "armor_point_restore_rate": 15.6,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_strength": 135.0,
+                "max_shield_points": 24020.0,
+                "shield_point_restore_rate": 22.200001,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 64.0,
+                    "restore_percentage": 0.32
+                },
+                "experience_given_on_death": 760.0
+            },
+            {
+                "max_hull_points": 13560.0,
+                "hull_point_restore_rate": 13.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_crippled_percentage": 0.83,
+                "max_armor_points": 10225.0,
+                "armor_point_restore_rate": 16.799999,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_strength": 140.0,
+                "max_shield_points": 25360.0,
+                "shield_point_restore_rate": 24.6,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 62.0,
+                    "restore_percentage": 0.35
+                },
+                "experience_given_on_death": 960.0
+            },
+            {
+                "max_hull_points": 14450.0,
+                "hull_point_restore_rate": 14.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_crippled_percentage": 0.86,
+                "max_armor_points": 10530.0,
+                "armor_point_restore_rate": 18.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_strength": 145.0,
+                "max_shield_points": 26700.0,
+                "shield_point_restore_rate": 27.0,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 60.0,
+                    "restore_percentage": 0.38
+                },
+                "experience_given_on_death": 1200.0
+            },
+            {
+                "max_hull_points": 15340.0,
+                "hull_point_restore_rate": 15.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_crippled_percentage": 0.89,
+                "max_armor_points": 10840.0,
+                "armor_point_restore_rate": 19.200001,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_strength": 150.0,
+                "max_shield_points": 28040.0,
+                "shield_point_restore_rate": 29.4,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 58.0,
+                    "restore_percentage": 0.41
+                },
+                "experience_given_on_death": 1480.0
+            },
+            {
+                "max_hull_points": 16230.0,
+                "hull_point_restore_rate": 16.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_crippled_percentage": 0.92,
+                "max_armor_points": 11145.0,
+                "armor_point_restore_rate": 20.4,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_strength": 155.0,
+                "max_shield_points": 29380.0,
+                "shield_point_restore_rate": 31.799999,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 56.0,
+                    "restore_percentage": 0.44
+                },
+                "experience_given_on_death": 1800.0
+            },
+            {
+                "max_hull_points": 17120.0,
+                "hull_point_restore_rate": 17.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_crippled_percentage": 0.96,
+                "max_armor_points": 11450.0,
+                "armor_point_restore_rate": 21.6,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_strength": 160.0,
+                "max_shield_points": 30720.0,
+                "shield_point_restore_rate": 34.200001,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 53.0,
+                    "restore_percentage": 0.47
+                },
+                "experience_given_on_death": 2160.0
+            },
+            {
+                "max_hull_points": 18010.0,
+                "hull_point_restore_rate": 18.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "hull_crippled_percentage": 1.0,
+                "max_armor_points": 11755.0,
+                "armor_point_restore_rate": 22.799999,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_strength": 165.0,
+                "max_shield_points": 32060.0,
+                "shield_point_restore_rate": 36.599998,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 50.0,
+                    "restore_percentage": 0.5
+                },
+                "experience_given_on_death": 2560.0
+            }
+        ]
+    },
+    "corruption": {
+        "max_corruption": 10000.0,
+        "corruption_decay_rate": 50.0,
+        "corruption_decay_delay_duration_after_gain": 60.0,
+        "corruption_thresholds": [
+            0.1,
+            0.5,
+            0.9
+        ],
+        "positive_corruption_buffs": [
+            "dlc3_herald_ship_corruption_benefit_mild",
+            "dlc3_herald_ship_corruption_benefit_moderate",
+            "dlc3_herald_ship_corruption_benefit_extreme"
+        ],
+        "show_main_view_icon_alert_fill": true
+    },
+    "antimatter": {
+        "max_antimatter": 0.0,
+        "antimatter_restore_rate": 0.0
+    },
+    "levels": {
+        "type": "experience",
+        "levels": [
+            {
+                "experience_to_next_level": 500.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 615.0,
+                        "antimatter_restore_rate": 1.45,
+                        "max_squadron_capacity": 7.0
+                    },
+                    "scalar_values": {}
+                }
+            },
+            {
+                "experience_to_next_level": 1250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 650.0,
+                        "antimatter_restore_rate": 1.57,
+                        "max_squadron_capacity": 8.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.05,
+                        "cooldown_duration": -0.005
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 2250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 685.0,
+                        "antimatter_restore_rate": 1.69,
+                        "max_squadron_capacity": 9.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.1,
+                        "cooldown_duration": -0.01
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 3750.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 720.0,
+                        "antimatter_restore_rate": 1.81,
+                        "max_squadron_capacity": 9.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.15,
+                        "cooldown_duration": -0.015
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 5750.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 755.0,
+                        "antimatter_restore_rate": 1.93,
+                        "max_squadron_capacity": 10.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.2,
+                        "cooldown_duration": -0.02
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 8250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 790.0,
+                        "antimatter_restore_rate": 2.05,
+                        "max_squadron_capacity": 10.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.25,
+                        "cooldown_duration": -0.025
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 11250.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 825.0,
+                        "antimatter_restore_rate": 2.17,
+                        "max_squadron_capacity": 11.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.3,
+                        "cooldown_duration": -0.03
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 15000.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 860.0,
+                        "antimatter_restore_rate": 2.29,
+                        "max_squadron_capacity": 11.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.35,
+                        "cooldown_duration": -0.035
+                    }
+                }
+            },
+            {
+                "experience_to_next_level": 19500.0,
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 895.0,
+                        "antimatter_restore_rate": 2.41,
+                        "max_squadron_capacity": 12.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.4,
+                        "cooldown_duration": -0.04
+                    }
+                }
+            },
+            {
+                "unit_modifiers": {
+                    "additive_values": {
+                        "max_antimatter": 930.0,
+                        "antimatter_restore_rate": 2.53,
+                        "max_squadron_capacity": 12.0
+                    },
+                    "scalar_values": {}
+                },
+                "weapon_modifiers": {
+                    "additive_values": {},
+                    "scalar_values": {
+                        "damage": 0.45,
+                        "cooldown_duration": -0.045
+                    }
+                }
+            }
+        ]
+    },
+    "build": {
+        "build_time": 400.0,
+        "price": {
+            "credits": 10000.0,
+            "metal": 3500.0,
+            "crystal": 4000.0
+        },
+        "exotic_price": [
+            {
+                "exotic_type": "offense",
+                "count": 3
+            },
+            {
+                "exotic_type": "utility",
+                "count": 1
+            },
+            {
+                "exotic_type": "economic",
+                "count": 2
+            },
+            {
+                "exotic_type": "ultimate",
+                "count": 5
+            }
+        ],
+        "build_kind": "dlc3_herald_titan",
+        "supply_cost": 200,
+        "build_point_offset": [
+            0.0,
+            0.0,
+            1707.225708
+        ],
+        "build_group_id": "titan"
+    },
+    "carrier": {
+        "base_max_squadron_capacity": 0,
+        "strikecraft_kinds": [
+            "interceptor",
+            "bomber"
+        ],
+        "launch_destination_formation": "titan_strikecraft",
+        "launch_destination_formation_offset": {
+            "rank": 2,
+            "group": 0
+        },
+        "launch_points": [
+            {
+                "position": [
+                    6e-06,
+                    76.581146,
+                    -80.096466
+                ],
+                "rotation": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    -0.0,
+                    -0.0,
+                    1.0
+                ]
+            },
+            {
+                "position": [
+                    -489.052307,
+                    -290.905273,
+                    387.432526
+                ],
+                "rotation": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    -0.0,
+                    -0.0,
+                    1.0
+                ]
+            },
+            {
+                "position": [
+                    483.032806,
+                    -290.905273,
+                    387.432617
+                ],
+                "rotation": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    -0.0,
+                    -0.0,
+                    1.0
+                ]
+            }
+        ],
+        "land_points": [
+            {
+                "position": [
+                    9e-05,
+                    76.581146,
+                    -1189.664551
+                ],
+                "rotation": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    -0.0,
+                    -0.0,
+                    1.0
+                ]
+            },
+            {
+                "position": [
+                    -586.052734,
+                    -287.800751,
+                    -793.611389
+                ],
+                "rotation": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    -0.0,
+                    -0.0,
+                    1.0
+                ]
+            },
+            {
+                "position": [
+                    574.795166,
+                    -287.800751,
+                    -793.611267
+                ],
+                "rotation": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    -0.0,
+                    -0.0,
+                    1.0
+                ]
+            }
+        ]
+    },
+    "items": {
+        "levels": [
+            {
+                "max_ship_component_count": 8
+            }
+        ]
+    },
+    "item_builds": [
+        {
+            "build_group": [
+                "trader_rebel_titan_unlock_rail_gun_weapon"
+            ],
+            "weight": 10.0
+        },
+        {
+            "build_group": [
+                "trader_heavy_gauss_slugs",
+                "trader_rapid_autoloader",
+                "trader_targeting_array"
+            ],
+            "weight": 8.0
+        },
+        {
+            "build_group": [
+                "trader_missile_guidance_computer",
+                "trader_rebel_titan_unlock_missile_weapon"
+            ],
+            "weight": 8.0
+        },
+        {
+            "build_group": [
+                "trader_heavy_armor",
+                "trader_rebel_titan_hull_plating_0",
+                "trader_rebel_titan_hull_plating_1"
+            ],
+            "weight": 8.0
+        },
+        {
+            "build_group": [
+                "trader_rebel_titan_hangar"
+            ],
+            "weight": 8.0
+        },
+        {
+            "build_group": [
+                "trader_flak_burst"
+            ],
+            "weight": 5.0
+        },
+        {
+            "build_group": [
+                "trader_missile_armor"
+            ],
+            "weight": 5.0
+        },
+        {
+            "build_group": [
+                "trader_beam_armor"
+            ],
+            "weight": 5.0
+        },
+        {
+            "build_group": [
+                "trader_combat_repair_system"
+            ],
+            "weight": 5.0
+        },
+        {
+            "build_group": [
+                "trader_antimatter_engine"
+            ],
+            "weight": 3.0
+        },
+        {
+            "build_group": [
+                "pranast_armored_citadel"
+            ]
+        }
+    ],
+    "target_filter_unit_type": "titan",
+    "tags": [
+        "dlc3_herald_titan",
+        "titan"
+    ],
+    "item_access_tags": [
+        "dlc3_herald_titan"
+    ],
+    "is_loot_collector": true,
+    "abilities": [
+        {
+            "abilities": [
+                "dlc3_herald_titan_overpower",
+                "dlc3_herald_titan_oblation",
+                "dlc3_herald_titan_phasic_breach",
+                "dlc3_herald_titan_madness_shroud"
+            ]
+        }
+    ],
+    "ship_roles": [
+        "attack_ship",
+        "bomb_planet"
+    ],
+    "cloak_ability": "dlc3_herald_titan_crest_cloaking",
+    "skin_groups": [
+        {
+            "skins": [
+                "dlc3_herald_titan"
+            ]
+        }
+    ],
+    "child_meshes": [
+        {
+            "mesh_alias_name": "dlc3_herald_titan_components_armor_0",
+            "mesh_point": "child.dlc3_herald_titan_components_armor_0",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_titan_armor_0"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_components_armor_1",
+            "mesh_point": "child.dlc3_herald_titan_components_armor_1",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_titan_armor_1"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_components_shield_0",
+            "mesh_point": "child.dlc3_herald_titan_components_shield_0",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_titan_shield_0"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_components_shield_1",
+            "mesh_point": "child.dlc3_herald_titan_components_shield_1",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_titan_shield_1"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_components_cloak",
+            "mesh_point": "child.dlc3_herald_titan_components_cloak",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_titan_crest_cloaking"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_components_cloak_prong_0",
+            "mesh_point": "child.dlc3_herald_titan_components_cloak_prong_0",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_titan_crest_cloaking",
+            "will_transition_positions": true,
+            "transition_time": 1.5,
+            "position_states": [
+                {
+                    "state_name": "is_cloaked",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        0.9900237,
+                        0.0,
+                        0.14090121,
+                        0.0,
+                        1.0,
+                        0.0,
+                        -0.14090121,
+                        0.0,
+                        0.9900237
+                    ]
+                },
+                {
+                    "state_name": "idle",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_components_cloak_prong_1",
+            "mesh_point": "child.dlc3_herald_titan_components_cloak_prong_1",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_titan_crest_cloaking",
+            "will_transition_positions": true,
+            "transition_time": 1.5,
+            "position_states": [
+                {
+                    "state_name": "is_cloaked",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        0.99306846,
+                        0.0,
+                        0.117537394,
+                        0.0,
+                        1.0,
+                        0.0,
+                        -0.117537394,
+                        0.0,
+                        0.99306846
+                    ]
+                },
+                {
+                    "state_name": "idle",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_components_cloak_prong_2",
+            "mesh_point": "child.dlc3_herald_titan_components_cloak_prong_2",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_titan_crest_cloaking",
+            "will_transition_positions": true,
+            "transition_time": 1.5,
+            "position_states": [
+                {
+                    "state_name": "is_cloaked",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        0.993961,
+                        0.0,
+                        -0.10973432,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.10973432,
+                        0.0,
+                        0.993961
+                    ]
+                },
+                {
+                    "state_name": "idle",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_components_cloak_prong_3",
+            "mesh_point": "child.dlc3_herald_titan_components_cloak_prong_3",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_titan_crest_cloaking",
+            "will_transition_positions": true,
+            "transition_time": 1.5,
+            "position_states": [
+                {
+                    "state_name": "is_cloaked",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        0.9900237,
+                        0.0,
+                        -0.14090121,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.14090121,
+                        0.0,
+                        0.9900237
+                    ]
+                },
+                {
+                    "state_name": "idle",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_components_corruption_crest",
+            "mesh_point": "child.dlc3_herald_titan_components_corruption_crest",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_titan_crest_corruption"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_components_phase_canon",
+            "mesh_point": "child.dlc3_herald_titan_components_phase_canon",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_titan_unlock_phase_cannon_weapon"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_components_missile_covers",
+            "mesh_point": "child.dlc3_herald_titan_components_missile_covers",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "dlc3_herald_titan_unlock_missile_weapon"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_components_hangar_cover",
+            "mesh_point": "child.dlc3_herald_titan_components_hangar_cover",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "dlc3_herald_titan_hangar"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_components_secondary_battery",
+            "mesh_point": "child.dlc3_herald_titan_components_secondary_battery",
+            "is_weapon_effects_destination": true
+        }
+    ],
+    "action_effect_size": "large_unit",
+    "can_join_fleet": true,
+    "capture_points": 20
+}

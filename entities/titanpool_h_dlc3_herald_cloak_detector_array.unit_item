@@ -1,0 +1,38 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "dlc3_herald_cloak_detector_array_unit_item_hud_icon",
+    "tooltip_picture": "dlc3_herald_cloak_detector_array_unit_item_tooltip_picture",
+    "name": "dlc3_herald_cloak_detector_array_unit_item_name",
+    "description": "dlc3_herald_cloak_detector_array_unit_item_description",
+    "build_time": 20.0,
+    "price": {
+        "credits": 500.0,
+        "metal": 75.0,
+        "crystal": 125.0
+    },
+    "required_unit_tags": [
+        "titan"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "unit_modifiers": [
+        {
+            "modifier_type": "detection_quality",
+            "value_behavior": "additive",
+            "values": [
+                5.0
+            ]
+        },
+        {
+            "modifier_type": "detection_range",
+            "value_behavior": "additive",
+            "values": [
+                10000.0
+            ]
+        }
+    ],
+    "required_item_access_tags": [
+        "dlc3_herald_titan"
+    ]
+}

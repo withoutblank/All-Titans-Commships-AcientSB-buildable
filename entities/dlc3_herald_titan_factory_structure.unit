@@ -1,0 +1,1044 @@
+{
+    "version": 0,
+    "spatial": {
+        "radius": 687.575195,
+        "box": {
+            "center": [
+                0.0,
+                31.586121,
+                -15.827148
+            ],
+            "extents": [
+                430.789612,
+                431.609924,
+                415.362061
+            ]
+        },
+        "can_be_displaced_on_collision": false
+    },
+    "physics": {},
+    "ai": {
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft"
+        ]
+    },
+    "ai_attack_target": {
+        "attack_priority": 25.0,
+        "is_always_a_threat": false
+    },
+    "user_interface": {
+        "can_be_controlled_by_selected_planet": true,
+        "pip_type": "titan",
+        "can_ever_be_selected": true,
+        "under_cursor_type": "sphere",
+        "selection_priority": 100,
+        "has_sub_selection_grouping": true,
+        "selection_group_unit_type": "factory_structure"
+    },
+    "structure": {
+        "slot_type": "civilian",
+        "slots_required": 3,
+        "roles": [
+            "unit_factory"
+        ],
+        "build_group_id": "civilian"
+    },
+    "formation": {
+        "leader_priority": 3,
+        "offsets_per_formation_type": {
+            "ships_and_structures": {
+                "rank": 4,
+                "group": 5
+            }
+        }
+    },
+    "spawn_debris": {
+        "spawn_debris_time": 1.0,
+        "generic_group_name": "trader",
+        "generic_counts": {
+            "small_debris": [
+                14,
+                18
+            ],
+            "large_debris": [
+                3,
+                5
+            ]
+        }
+    },
+    "health": {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 3.8,
+        "durability": 600.0,
+        "levels": [
+            {
+                "max_hull_points": 4000.0,
+                "hull_point_restore_rate": 6.0,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "max_armor_points": 4000.0,
+                "armor_point_restore_rate": 8.0,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+                "armor_strength": 60.0,
+                "shield_point_restore_rate": 10.0,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+                "shield_burst_restore": {
+                    "cooldown_duration": 60.0,
+                    "restore_percentage": 0.5
+                },
+                "experience_given_on_death": 75.0
+            }
+        ]
+    },
+    "corruption": {
+        "max_corruption": 3000.0,
+        "corruption_decay_rate": 25.0,
+        "corruption_decay_delay_duration_after_gain": 60.0,
+        "corruption_thresholds": [
+            0.1,
+            0.5,
+            0.9
+        ]
+    },
+    "unit_factory": {
+        "build_kinds": [
+            "capital_ship",
+            "super_capital_ship",
+            "titan",
+            "trader_loyalist_titan",
+            "trader_rebel_titan",
+            "advent_loyalist_titan",
+            "advent_rebel_titan",
+            "vasari_loyalist_titan",
+            "vasari_rebel_titan",
+            "dlc3_herald_titan"
+        ],
+        "default_rally_point_offset": [
+            0.0,
+            0.0,
+            2500.0
+        ],
+        "base_build_point": {
+            "position": [
+                -47.703239,
+                267.403259,
+                46.615707
+            ],
+            "rotation": [
+                1.0,
+                -0.0,
+                -0.0,
+                -0.0,
+                1.0,
+                0.0,
+                -0.0,
+                0.0,
+                1.0
+            ]
+        }
+    },
+    "build": {
+        "build_time": 150.0,
+        "price": {
+            "credits": 2000.0,
+            "metal": 400.0,
+            "crystal": 400.0
+        },
+        "build_kind": "structure",
+        "build_radius": 798.419006
+    },
+    "traffic_port": {
+        "max_traffic_ship_count": 1,
+        "traffic_ship_construction_time": 60.0,
+        "traffic_ship": "dlc3_herald_traffic_ship",
+        "allowed_destination_units": [
+            "dlc3_herald_civilian_research_lab_structure",
+            "dlc3_herald_military_research_lab_structure",
+            "dlc3_herald_ship_factory_structure",
+            "dlc3_herald_titan_factory_structure",
+            "dlc3_herald_starbase"
+        ],
+        "special_operation_unit_kind": "traffic_ship",
+        "create_traffic_ship_offset": [
+            0.0,
+            0.0,
+            1500.0
+        ],
+        "force_stay_in_gravity_well": false,
+        "traffic_ship_per_hundred_pop": 0.75
+    },
+    "target_filter_unit_type": "structure",
+    "tags": [
+        "structure"
+    ],
+    "virtual_supply_cost": 20,
+    "skin_groups": [
+        {
+            "skins": [
+                "dlc3_herald_titan_factory_structure"
+            ]
+        }
+    ],
+    "child_meshes": [
+        {
+            "mesh_alias_name": "dlc3_herald_titan_factory_structure_prong_0",
+            "mesh_point": "child.dlc3_herald_titan_factory_structure_prong_0",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "transition_time": 2.0,
+            "default_state_index": 3,
+            "position_states": [
+                {
+                    "state_name": "capital_ship",
+                    "position_offset": [
+                        -122.63431,
+                        0.25493193,
+                        -214.19205
+                    ],
+                    "rotation_offset": [
+                        0.93263894,
+                        0.36081097,
+                        0.0,
+                        -0.36081097,
+                        0.93263894,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "super_capital_ship",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "titan",
+                    "position_offset": [
+                        -122.63431,
+                        -1124.794,
+                        -1460.9481
+                    ],
+                    "rotation_offset": [
+                        0.93263894,
+                        0.36081097,
+                        0.0,
+                        -0.36081097,
+                        0.93263894,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "idle",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_factory_structure_prong_1",
+            "mesh_point": "child.dlc3_herald_titan_factory_structure_prong_1",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "transition_time": 2.0,
+            "default_state_index": 3,
+            "position_states": [
+                {
+                    "state_name": "capital_ship",
+                    "position_offset": [
+                        -43.81252,
+                        198.61389,
+                        -200.66629
+                    ],
+                    "rotation_offset": [
+                        0.93819135,
+                        0.34611702,
+                        0.0,
+                        -0.34611702,
+                        0.93819135,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "super_capital_ship",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "titan",
+                    "position_offset": [
+                        -45.19936,
+                        198.61389,
+                        -1999.4192
+                    ],
+                    "rotation_offset": [
+                        0.93819135,
+                        0.34611702,
+                        0.0,
+                        -0.34611702,
+                        0.93819135,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "idle",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_factory_structure_prong_2",
+            "mesh_point": "child.dlc3_herald_titan_factory_structure_prong_2",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "transition_time": 2.0,
+            "default_state_index": 3,
+            "position_states": [
+                {
+                    "state_name": "capital_ship",
+                    "position_offset": [
+                        325.34686,
+                        390.4454,
+                        -198.52824
+                    ],
+                    "rotation_offset": [
+                        0.93819135,
+                        0.34611702,
+                        0.0,
+                        -0.34611702,
+                        0.93819135,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "super_capital_ship",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "titan",
+                    "position_offset": [
+                        350.4353,
+                        1305.1415,
+                        -1684.5403
+                    ],
+                    "rotation_offset": [
+                        0.93819135,
+                        0.34611702,
+                        0.0,
+                        -0.34611702,
+                        0.93819135,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "idle",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_factory_structure_prong_3",
+            "mesh_point": "child.dlc3_herald_titan_factory_structure_prong_3",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "transition_time": 2.0,
+            "default_state_index": 3,
+            "position_states": [
+                {
+                    "state_name": "capital_ship",
+                    "position_offset": [
+                        123.06871,
+                        442.32138,
+                        -115.30764
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "super_capital_ship",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "titan",
+                    "position_offset": [
+                        123.06871,
+                        1902.0471,
+                        -1046.1937
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "idle",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_factory_structure_prong_4",
+            "mesh_point": "child.dlc3_herald_titan_factory_structure_prong_4",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "transition_time": 2.0,
+            "default_state_index": 3,
+            "position_states": [
+                {
+                    "state_name": "capital_ship",
+                    "position_offset": [
+                        119.97826,
+                        438.95758,
+                        122.61496
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "super_capital_ship",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "titan",
+                    "position_offset": [
+                        119.97826,
+                        1902.907,
+                        1020.8862
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "idle",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_factory_structure_prong_5",
+            "mesh_point": "child.dlc3_herald_titan_factory_structure_prong_5",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "transition_time": 2.0,
+            "default_state_index": 3,
+            "position_states": [
+                {
+                    "state_name": "capital_ship",
+                    "position_offset": [
+                        307.98782,
+                        403.91602,
+                        197.84032
+                    ],
+                    "rotation_offset": [
+                        0.93819135,
+                        0.34611702,
+                        0.0,
+                        -0.34611702,
+                        0.93819135,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "super_capital_ship",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "titan",
+                    "position_offset": [
+                        352.82086,
+                        1417.6384,
+                        1592.1796
+                    ],
+                    "rotation_offset": [
+                        0.93819135,
+                        0.34611702,
+                        0.0,
+                        -0.34611702,
+                        0.93819135,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "idle",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_factory_structure_prong_6",
+            "mesh_point": "child.dlc3_herald_titan_factory_structure_prong_6",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "transition_time": 2.0,
+            "default_state_index": 3,
+            "position_states": [
+                {
+                    "state_name": "capital_ship",
+                    "position_offset": [
+                        -94.09714,
+                        217.03647,
+                        240.15729
+                    ],
+                    "rotation_offset": [
+                        0.93819135,
+                        0.34611702,
+                        0.0,
+                        -0.34611702,
+                        0.93819135,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "super_capital_ship",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "titan",
+                    "position_offset": [
+                        -124.402534,
+                        233.3565,
+                        1819.2773
+                    ],
+                    "rotation_offset": [
+                        0.93819135,
+                        0.34611702,
+                        0.0,
+                        -0.34611702,
+                        0.93819135,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "idle",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_factory_structure_prong_7",
+            "mesh_point": "child.dlc3_herald_titan_factory_structure_prong_7",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "transition_time": 2.0,
+            "default_state_index": 3,
+            "position_states": [
+                {
+                    "state_name": "capital_ship",
+                    "position_offset": [
+                        -122.71841,
+                        40.24643,
+                        278.12613
+                    ],
+                    "rotation_offset": [
+                        0.93263894,
+                        0.36081097,
+                        0.0,
+                        -0.36081097,
+                        0.93263894,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "super_capital_ship",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "titan",
+                    "position_offset": [
+                        -128.37254,
+                        -1117.5083,
+                        1456.1166
+                    ],
+                    "rotation_offset": [
+                        0.93263894,
+                        0.36081097,
+                        0.0,
+                        -0.36081097,
+                        0.93263894,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "idle",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_factory_structure_prong_top",
+            "mesh_point": "child.dlc3_herald_titan_factory_structure_prong_top",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "transition_time": 2.0,
+            "default_state_index": 3,
+            "position_states": [
+                {
+                    "state_name": "capital_ship",
+                    "position_offset": [
+                        132.44604,
+                        525.0913,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "super_capital_ship",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "titan",
+                    "position_offset": [
+                        132.44604,
+                        2273.6785,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "idle",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            ]
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_titan_factory_structure_prong_bottom",
+            "mesh_point": "child.dlc3_herald_titan_factory_structure_prong_bottom",
+            "is_weapon_effects_destination": true,
+            "will_transition_positions": true,
+            "transition_time": 2.0,
+            "default_state_index": 3,
+            "position_states": [
+                {
+                    "state_name": "capital_ship",
+                    "position_offset": [
+                        -172.46236,
+                        -67.32336,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        0.932639,
+                        0.36081085,
+                        0.0,
+                        -0.36081085,
+                        0.932639,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "super_capital_ship",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "titan",
+                    "position_offset": [
+                        -81.175766,
+                        -1963.271,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                },
+                {
+                    "state_name": "idle",
+                    "position_offset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "rotation_offset": [
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                }
+            ]
+        }
+    ],
+    "action_effect_size": "medium_unit"
+}

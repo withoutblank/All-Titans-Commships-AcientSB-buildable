@@ -47,6 +47,10 @@
         {
             "name": "vasari_rebel_command_ship",
             "localized_name": "unit_tag_name.vasari_rebel_command_ship"
+        },
+        {
+            "name": "dlc3_herald_titan",
+            "localized_name": "unit_tag_name.dlc3_herald_titan"
         }
     ]
 }

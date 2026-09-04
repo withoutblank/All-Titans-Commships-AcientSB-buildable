@@ -9708,5 +9708,6 @@
     "unlock_ancient_starbase_research_subject_name": "远古星际基地解锁",
     "unlock_ancient_starbase_research_subject_name_uppercase": "远古星际基地解锁",
     "deploy_ancient_starbase_unit_item_name": "部署远古星际基地",
-    "deploy_ancient_starbase_unit_item_description": "在目标位置部署一座自行建造的远古星际基地。使用后消耗该组件。"
+    "deploy_ancient_starbase_unit_item_description": "在目标位置部署一座自行建造的远古星际基地。使用后消耗该组件。",
+    "unit_tag_name.dlc3_herald_titan": "扎尔萨里恩禁忌"
 }
