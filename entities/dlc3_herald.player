@@ -401,6 +401,11 @@
             "column_count": 3
         },
         {
+            "id": "super_capital_ship",
+            "name": "unit_build_group_name.super_capital_ship",
+            "column_count": 3
+        },
+        {
             "id": "titan",
             "name": "unit_build_group_name.titan",
             "column_count": 1
@@ -414,6 +419,12 @@
         "native_advent_rebel_titan",
         "native_vasari_loyalist_titan",
         "native_vasari_rebel_titan",
+        "dlc2_trader_loyalist_super_capital_ship",
+        "dlc2_trader_rebel_super_capital_ship",
+        "dlc2_advent_loyalist_super_capital_ship",
+        "dlc2_advent_rebel_super_capital_ship",
+        "dlc2_vasari_loyalist_super_capital_ship",
+        "dlc2_vasari_rebel_super_capital_ship",
         "dlc3_herald_scout_corvette",
         "dlc3_herald_cloak_frigate",
         "dlc3_herald_heavy_frigate",
@@ -433,7 +444,13 @@
         "dlc3_herald_support_capital_ship"
     ],
     "faction_buildable_units": [
-        "dlc3_herald_titan"
+        "dlc3_herald_titan",
+        "dlc2_trader_loyalist_super_capital_ship",
+        "dlc2_trader_rebel_super_capital_ship",
+        "dlc2_advent_loyalist_super_capital_ship",
+        "dlc2_advent_rebel_super_capital_ship",
+        "dlc2_vasari_loyalist_super_capital_ship",
+        "dlc2_vasari_rebel_super_capital_ship"
     ],
     "buildable_strikecraft": [
         "dlc3_herald_interceptor_strikecraft",
@@ -494,7 +511,7 @@
             },
             {
                 "tag": "super_capital_ship",
-                "unit_limit": 1
+                "unit_limit": 18
             },
             {
                 "tag": "trader_loyalist_titan",
@@ -523,6 +540,30 @@
             {
                 "tag": "dlc3_herald_titan",
                 "unit_limit": 1
+            },
+            {
+                "tag": "trader_loyalist_command_ship",
+                "unit_limit": 3
+            },
+            {
+                "tag": "trader_rebel_command_ship",
+                "unit_limit": 3
+            },
+            {
+                "tag": "advent_loyalist_command_ship",
+                "unit_limit": 3
+            },
+            {
+                "tag": "advent_rebel_command_ship",
+                "unit_limit": 3
+            },
+            {
+                "tag": "vasari_loyalist_command_ship",
+                "unit_limit": 3
+            },
+            {
+                "tag": "vasari_rebel_command_ship",
+                "unit_limit": 3
             }
         ],
         "star": [
@@ -1246,7 +1287,24 @@
         "titanpool_h_dlc3_herald_safeguard",
         "titanpool_h_dlc3_herald_stigmata_projector",
         "titanpool_h_dlc3_herald_cloak_detector_array",
-        "dlc3_herald_deploy_ancient_starbase"
+        "dlc3_herald_deploy_ancient_starbase",
+        "dlc2_trader_loyalist_super_capital_ship_unlock_missile_weapon",
+        "dlc2_trader_loyalist_super_capital_ship_factory_supplies",
+        "dlc2_trader_loyalist_super_capital_ship_antimatter_reserves",
+        "commandpool_tl_trader_reserve_squadron_hangar",
+        "commandpool_tr_trader_reserve_squadron_hangar",
+        "dlc2_trader_rebel_super_capital_ship_modular_hangar",
+        "dlc2_trader_rebel_super_capital_ship_modular_missile",
+        "dlc2_trader_rebel_super_capital_ship_modular_railgun",
+        "dlc2_trader_rebel_super_capital_ship_turret_beam",
+        "dlc2_trader_rebel_super_capital_ship_turret_gauss",
+        "dlc2_trader_rebel_super_capital_ship_turret_missile",
+        "dlc2_advent_rebel_super_capital_ship_malefic_locus",
+        "dlc2_advent_rebel_super_capital_ship_mind_locus",
+        "dlc2_advent_rebel_super_capital_ship_savior_locus",
+        "dlc2_vasari_rebel_super_capital_ship_phase_gate",
+        "dlc2_vasari_rebel_super_capital_ship_phasic_comms_net",
+        "dlc2_vasari_rebel_super_capital_ship_mobile_embassy"
     ],
     "ship_component_build_groups": [
         {
@@ -8293,6 +8351,10 @@
             {
                 "build_kind": "dlc3_herald_titan",
                 "sound_id": "large_unit_factory_needed"
+            },
+            {
+                "build_kind": "trader_rebel_command_ship",
+                "sound_id": "medium_unit_factory_needed"
             }
         ]
     },
