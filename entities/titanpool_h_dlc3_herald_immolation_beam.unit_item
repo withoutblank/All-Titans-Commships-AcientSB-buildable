@@ -6,7 +6,7 @@
     "tooltip_picture": "dlc3_herald_immolation_beam_unit_item_tooltip_picture",
     "name": "dlc3_herald_immolation_beam_unit_item_name",
     "description": "dlc3_herald_immolation_beam_unit_item_description",
-    "item_level_count": 2,
+    "item_level_count": 1,
     "item_level_source": "fixed_level_0",
     "build_time": 30.0,
     "price": {
@@ -34,7 +34,7 @@
     },
     "max_count_on_unit": 1,
     "build_group_id": "offense",
-    "ability": "dlc3_herald_immolation_beam",
+    "ability": "titanpool_h_dlc3_herald_immolation_beam",
     "required_item_access_tags": [
         "dlc3_herald_titan"
     ]

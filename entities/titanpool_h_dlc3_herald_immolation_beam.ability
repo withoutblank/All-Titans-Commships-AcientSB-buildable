@@ -1,0 +1,29 @@
+{
+    "version": 0,
+    "action_data_source": "titanpool_h_dlc3_herald_immolation_beam",
+    "level_source": "unit_item",
+    "passive_actions": {
+        "persistant_buff": "dlc3_herald_immolation_beam_on_self"
+    },
+    "gui": {
+        "tooltip_line_groups": [
+            {
+                "lines": [
+                    {
+                        "rendering_type": "single_value",
+                        "label_text": "tooltip.ability.maximum_damage_increased_by",
+                        "value_id": "immolation_beam_corruption_conversion_max",
+                        "value_float_format": "percentage_one_decimal_place",
+                        "value_color": "positive"
+                    },
+                    {
+                        "rendering_type": "single_value",
+                        "label_text": "tooltip.ability.corruption_to_damage_conversion_rate",
+                        "value_id": "immolation_beam_corruption_conversion_rate",
+                        "value_float_format": "percentage_one_decimal_place"
+                    }
+                ]
+            }
+        ]
+    }
+}

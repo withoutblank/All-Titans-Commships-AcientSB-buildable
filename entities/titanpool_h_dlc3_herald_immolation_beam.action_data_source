@@ -1,0 +1,59 @@
+{
+    "version": 0,
+    "level_count": 1,
+    "per_buff_memory_declaration": {
+        "float_variable_ids": [
+            "corruption_consumed",
+            "damage_augment"
+        ]
+    },
+    "action_values": [
+        {
+            "action_value_id": "immolation_beam_corruption_conversion_max",
+            "action_value": {
+                "transform_type": "per_raw_damage_dealt",
+                "values": [0.36]
+            }
+        },
+        {
+            "action_value_id": "immolation_beam_corruption_conversion_rate",
+            "action_value": {
+                "values": [1.0]
+            }
+        },
+        {
+            "action_value_id": "immolation_beam_target_corruption_available",
+            "action_value": {
+                "transform_type": "per_current_corruption",
+                "transform_unit": {
+                    "unit_type": "trigger_event_destination"
+                },
+                "values": [1.0]
+            }
+        },
+        {
+            "action_value_id": "immolation_beam_corruption_consumed",
+            "action_value": {
+                "transform_type": "current_buff_memory_value",
+                "memory_float_variable_id": "corruption_consumed",
+                "values": [1.0]
+            }
+        },
+        {
+            "action_value_id": "immolation_beam_damaged_augment_value",
+            "action_value": {
+                "transform_type": "current_buff_memory_value",
+                "memory_float_variable_id": "damage_augment",
+                "values": [1.0]
+            }
+        }
+    ],
+    "effect_alias_bindings": [
+        {
+            "alias_name": "immolation_beam_activation",
+            "alias_binding": {
+                "particle_effect": "trader_experimental_beam_impact"
+            }
+        }
+    ]
+}
