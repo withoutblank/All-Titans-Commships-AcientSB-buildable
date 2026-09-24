@@ -18,7 +18,7 @@
     ],
     "required_unit_tags": [
         "capital_ship",
-        "starbase"
+        "vasari_starbase"
     ],
     "max_count_on_unit": 1,
     "build_prerequisites": [

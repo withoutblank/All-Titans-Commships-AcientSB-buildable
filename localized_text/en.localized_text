@@ -9708,5 +9708,9 @@
     "deploy_ancient_starbase_unit_item_name": "Deploy Ancient Starbase",
     "deploy_ancient_starbase_unit_item_description": "Deploys a self-constructing Ancient Starbase at the target position. This component is consumed on use.",
     "unit_tag_name.dlc3_herald_titan": "Zhaltharien Anathema",
+    "unit_tag_name.trader_starbase": "TEC Starbase",
+    "unit_tag_name.advent_starbase": "Advent Starbase",
+    "unit_tag_name.vasari_starbase": "Vasari Starbase",
+    "unit_tag_name.dlc3_herald_starbase": "Harbinger Starbase",
     "unit_tag_name.dlc3_herald_command_ship": "Command Ship"
 }

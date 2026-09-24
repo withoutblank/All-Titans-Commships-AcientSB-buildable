@@ -1,0 +1,34 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_starbase_hyperspace_engines_unit_item_hud_icon",
+    "tooltip_picture": "vasari_starbase_hyperspace_engines_unit_item_tooltip_picture",
+    "name": "vasari_starbase_hyperspace_engines_unit_item_name",
+    "description": "vasari_starbase_hyperspace_engines_unit_item_description",
+    "build_time": 120,
+    "price": {
+        "metal": 720,
+        "crystal": 900
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 3
+        },
+        {
+            "exotic_type": "ultimate",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "vasari_starbase"
+    ],
+    "required_item_access_tags": [
+        "titanpool_vasari_starbase_components"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "unit_mutations": [
+        "enable_can_hyperspace"
+    ]
+}

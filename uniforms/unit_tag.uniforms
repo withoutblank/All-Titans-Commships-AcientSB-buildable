@@ -51,6 +51,16 @@
         {
             "name": "dlc3_herald_titan",
             "localized_name": "unit_tag_name.dlc3_herald_titan"
+        },
+        {
+            "name": "vasari_starbase",
+            "localized_name": "unit_tag_name.vasari_starbase"
         }
+    ],
+    "item_access_tags": [
+        "titanpool_trader_starbase_components",
+        "titanpool_advent_starbase_components",
+        "titanpool_vasari_starbase_components",
+        "titanpool_herald_starbase_components"
     ]
 }

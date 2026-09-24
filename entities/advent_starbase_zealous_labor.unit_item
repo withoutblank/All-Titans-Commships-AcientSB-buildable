@@ -1,0 +1,24 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "advent_starbase_zealous_labor_unit_item_hud_icon",
+    "tooltip_icon": "advent_starbase_zealous_labor_unit_item_hud_icon",
+    "tooltip_picture": "advent_starbase_zealous_labor_unit_item_tooltip_picture",
+    "name": "advent_starbase_zealous_labor_unit_item_name",
+    "description": "advent_starbase_zealous_labor_unit_item_description",
+    "build_time": 90,
+    "price": {
+        "credits": 1200,
+        "metal": 350,
+        "crystal": 300
+    },
+    "required_unit_tags": [
+        "starbase"
+    ],
+    "required_item_access_tags": [
+        "titanpool_advent_starbase_components"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "ability": "advent_starbase_zealous_labor"
+}

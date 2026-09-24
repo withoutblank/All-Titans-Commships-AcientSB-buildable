@@ -1,0 +1,32 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "advent_starbase_meteor_storm_unit_item_hud_icon",
+    "tooltip_icon": "advent_starbase_meteor_storm_unit_item_hud_icon",
+    "tooltip_picture": "advent_starbase_meteor_storm_unit_item_tooltip_picture",
+    "name": "advent_starbase_meteor_storm_unit_item_name",
+    "description": "advent_starbase_meteor_storm_unit_item_description",
+    "item_level_count": 1,
+    "item_level_source": "fixed_level_0",
+    "build_time": 120,
+    "price": {
+        "credits": 1500,
+        "metal": 550,
+        "crystal": 400
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "offense",
+            "count": 2
+        }
+    ],
+    "required_unit_tags": [
+        "starbase"
+    ],
+    "required_item_access_tags": [
+        "titanpool_advent_starbase_components"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "ability": "advent_starbase_meteor_storm"
+}

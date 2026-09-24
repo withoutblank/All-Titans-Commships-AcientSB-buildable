@@ -1,0 +1,49 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_mobile_military_research_lab_unit_item_hud_icon",
+    "tooltip_picture": "vasari_mobile_military_research_lab_unit_item_tooltip_picture",
+    "name": "vasari_mobile_military_research_lab_unit_item_name",
+    "description": "vasari_mobile_military_research_lab_unit_item_description",
+    "item_level_count": 3,
+    "item_level_source": "research_prerequisites_per_level",
+    "item_level_prerequisites": [
+        [
+            [
+                "vasari_upgrade_mobile_research_lab_unit_item_0"
+            ]
+        ],
+        [
+            [
+                "vasari_upgrade_mobile_research_lab_unit_item_1"
+            ]
+        ]
+    ],
+    "build_time": 40,
+    "price": {
+        "metal": 270,
+        "crystal": 120
+    },
+    "required_unit_tags": [
+        "capital_ship",
+        "vasari_starbase"
+    ],
+    "max_count_on_unit": 1,
+    "build_prerequisites": [
+        [
+            "vasari_unlock_mobile_military_research_lab_unit_item"
+        ]
+    ],
+    "build_group_id": "infrastructure",
+    "unit_modifiers": [
+        {
+            "modifier_type": "military_research_points",
+            "value_behavior": "additive",
+            "values": [
+                1,
+                2,
+                3
+            ]
+        }
+    ]
+}

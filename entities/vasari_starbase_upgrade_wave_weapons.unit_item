@@ -1,0 +1,33 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "vasari_starbase_upgrade_wave_weapons_unit_icon_hud_icon",
+    "tooltip_picture": "vasari_starbase_upgrade_wave_weapons_unit_icon_tooltip_picture",
+    "name": "vasari_starbase_upgrade_wave_weapons_ability_name",
+    "description": "vasari_starbase_upgrade_wave_weapons_ability_description",
+    "build_time": 120,
+    "price": {
+        "metal": 420,
+        "crystal": 300
+    },
+    "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 1
+        }
+    ],
+    "required_unit_tags": [
+        "starbase"
+    ],
+    "required_item_access_tags": [
+        "titanpool_vasari_starbase_components"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "other_item_requirements": {
+        "needed_items": [
+            "vasari_starbase_unlock_extra_wave_weapons"
+        ]
+    },
+    "ability": "vasari_starbase_upgrade_wave_weapons"
+}

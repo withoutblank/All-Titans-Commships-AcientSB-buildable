@@ -17,7 +17,8 @@
         }
     ],
     "required_unit_tags": [
-        "super_capital_ship"
+        "vasari_loyalist_command_ship",
+        "vasari_starbase"
     ],
     "max_count_on_unit": 1,
     "build_prerequisites": [

@@ -1,0 +1,86 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "trader_starbase_structural_integrity_1_unit_item_hud_icon",
+    "tooltip_icon": "trader_starbase_structural_integrity_1_unit_item_hud_icon",
+    "tooltip_picture": "trader_starbase_structural_integrity_1_unit_item_tooltip_picture",
+    "name": "trader_starbase_structural_integrity_1_unit_item_name",
+    "description": "trader_starbase_structural_integrity_1_unit_item_description",
+    "build_time": 90,
+    "price": {
+        "credits": 1200,
+        "metal": 480,
+        "crystal": 150
+    },
+    "required_unit_tags": [
+        "starbase"
+    ],
+    "required_item_access_tags": [
+        "titanpool_trader_starbase_components"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "defense",
+    "other_item_requirements": {
+        "needed_items": [
+            "trader_starbase_structural_integrity_0"
+        ]
+    },
+    "unit_modifiers": [
+        {
+            "modifier_type": "max_hull_points",
+            "value_behavior": "additive",
+            "values": [
+                5000
+            ]
+        },
+        {
+            "modifier_type": "hull_point_restore_rate",
+            "value_behavior": "additive",
+            "values": [
+                3
+            ]
+        },
+        {
+            "modifier_type": "max_armor_points",
+            "value_behavior": "additive",
+            "values": [
+                1500
+            ]
+        },
+        {
+            "modifier_type": "armor_point_restore_rate",
+            "value_behavior": "additive",
+            "values": [
+                4
+            ]
+        },
+        {
+            "modifier_type": "armor_strength",
+            "value_behavior": "additive",
+            "values": [
+                15
+            ]
+        },
+        {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "additive",
+            "values": [
+                1500
+            ]
+        },
+        {
+            "modifier_type": "shield_point_restore_rate",
+            "value_behavior": "additive",
+            "values": [
+                5
+            ]
+        },
+        {
+            "modifier_type": "shield_burst_restore_cooldown_duration",
+            "value_behavior": "additive",
+            "values": [
+                -10
+            ]
+        }
+    ]
+}

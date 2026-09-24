@@ -1,0 +1,46 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "advent_starbase_shield_booster_unit_item_hud_icon",
+    "tooltip_icon": "advent_starbase_shield_booster_unit_item_tooltip_picture",
+    "name": "advent_starbase_shield_booster_unit_item_name",
+    "description": "advent_starbase_shield_booster_unit_item_description",
+    "build_time": 120,
+    "price": {
+        "credits": 1500,
+        "metal": 480,
+        "crystal": 270
+    },
+    "required_unit_tags": [
+        "starbase"
+    ],
+    "required_item_access_tags": [
+        "titanpool_advent_starbase_components"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "defense",
+    "ability": "advent_starbase_shield_booster",
+    "unit_modifiers": [
+        {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "scalar",
+            "values": [
+                0.25
+            ]
+        },
+        {
+            "modifier_type": "shield_point_restore_rate",
+            "value_behavior": "scalar",
+            "values": [
+                0.25
+            ]
+        },
+        {
+            "modifier_type": "shield_burst_restore_points",
+            "value_behavior": "scalar",
+            "values": [
+                0.5
+            ]
+        }
+    ]
+}

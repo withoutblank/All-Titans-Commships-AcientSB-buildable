@@ -1,0 +1,2837 @@
+{
+    "version": 0,
+    "spatial": {
+        "radius": 3460.766113,
+        "box": {
+            "center": [
+                0,
+                -293.917847,
+                641.853271
+            ],
+            "extents": [
+                2673.387451,
+                2039.992065,
+                2365.133301
+            ]
+        },
+        "can_be_displaced_on_collision": false
+    },
+    "physics": {
+        "can_move_angular": true,
+        "max_angular_speed": 0.5,
+        "death_angular_speed_range": [
+            1.5,
+            1.5
+        ]
+    },
+    "attack": {
+        "attack_pattern": {
+            "type": "immobile",
+            "rotate_only_on_plane": true
+        }
+    },
+    "ai": {
+        "attack_target_type_groups": [
+            "light_flak",
+            "corvette"
+        ],
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft_corvette"
+        ],
+        "attack_target_type_groups_matching_weapon": "dlc3_herald_starbase_null_cannon",
+        "auto_follow_target_priority": 2
+    },
+    "ai_attack_target": {
+        "attack_priority": 50,
+        "is_always_a_threat": true,
+        "attack_target_type": "starbase"
+    },
+    "user_interface": {
+        "can_be_controlled_by_selected_planet": true,
+        "pip_type": "starbase",
+        "can_ever_be_selected": true,
+        "selection_priority": 600,
+        "selection_group_unit_type": "combat_ship",
+        "can_rotate": true,
+        "can_attack": true,
+        "can_show_distance_to_plane_line": true
+    },
+    "structure": {
+        "virtual_slot_type": "military",
+        "build_group_id": "military"
+    },
+    "weapons": {
+        "weapons": [
+            {
+                "weapon": "dlc3_herald_starbase_null_beam",
+                "required_unit_item": "dlc3_herald_starbase_unlock_phase_cannon_weapon",
+                "mesh_point": "child.dlc3_herald_type_8_heavy_starbase_mount_0",
+                "weapon_position": [
+                    2291.487549,
+                    1537.05249,
+                    -1609.365723
+                ],
+                "forward": [
+                    0.70593,
+                    0.316502,
+                    -0.633632
+                ],
+                "up": [
+                    -0.224411,
+                    -0.748567,
+                    -0.623929
+                ],
+                "yaw_arc": {
+                    "min_angle": -150,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_beam",
+                "required_unit_item": "dlc3_herald_starbase_unlock_phase_cannon_weapon",
+                "mesh_point": "child.dlc3_herald_type_8_heavy_starbase_mount_1",
+                "weapon_position": [
+                    2535.100098,
+                    1537.322144,
+                    -1177.501343
+                ],
+                "forward": [
+                    0.902242,
+                    0.322199,
+                    -0.286612
+                ],
+                "up": [
+                    0.428385,
+                    -0.745881,
+                    0.510047
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 150
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_beam",
+                "required_unit_item": "dlc3_herald_starbase_unlock_phase_cannon_weapon",
+                "mesh_point": "child.dlc3_herald_type_8_heavy_starbase_mount_2",
+                "weapon_position": [
+                    -2288.881348,
+                    1536.930176,
+                    -1607.676392
+                ],
+                "forward": [
+                    -0.711604,
+                    0.307132,
+                    -0.631894
+                ],
+                "up": [
+                    0.227638,
+                    -0.750084,
+                    -0.620931
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 150
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_beam",
+                "required_unit_item": "dlc3_herald_starbase_unlock_phase_cannon_weapon",
+                "mesh_point": "child.dlc3_herald_type_8_heavy_starbase_mount_3",
+                "weapon_position": [
+                    -2537.83252,
+                    1537.66333,
+                    -1179.859009
+                ],
+                "forward": [
+                    -0.904583,
+                    0.331932,
+                    -0.26749
+                ],
+                "up": [
+                    -0.424938,
+                    -0.752171,
+                    0.503653
+                ],
+                "yaw_arc": {
+                    "min_angle": -150,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_beam",
+                "required_unit_item": "dlc3_herald_starbase_unlock_phase_cannon_weapon",
+                "mesh_point": "child.dlc3_herald_type_8_heavy_starbase_mount_4",
+                "weapon_position": [
+                    -247.757584,
+                    1539.130005,
+                    2790.689697
+                ],
+                "forward": [
+                    -0.224459,
+                    0.300706,
+                    0.926927
+                ],
+                "up": [
+                    -0.649042,
+                    -0.755649,
+                    0.087973
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 150
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_beam",
+                "required_unit_item": "dlc3_herald_starbase_unlock_phase_cannon_weapon",
+                "mesh_point": "child.dlc3_herald_type_8_heavy_starbase_mount_5",
+                "weapon_position": [
+                    247.846954,
+                    1537.045898,
+                    2788.140137
+                ],
+                "forward": [
+                    0.197964,
+                    0.320742,
+                    0.926248
+                ],
+                "up": [
+                    0.650113,
+                    -0.75017,
+                    0.120823
+                ],
+                "yaw_arc": {
+                    "min_angle": -150,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_void_missile",
+                "required_unit_item": "dlc3_herald_starbase_unlock_torpedo_weapon",
+                "mesh_point": "weapon.0",
+                "weapon_position": [
+                    261.2052,
+                    -778.764893,
+                    150.948547
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        137.349243,
+                        -750.146057,
+                        362.612946
+                    ],
+                    [
+                        120.817581,
+                        -762.221375,
+                        390.607056
+                    ],
+                    [
+                        153.172272,
+                        -795.339661,
+                        345.932953
+                    ],
+                    [
+                        138.819473,
+                        -807.352478,
+                        371.15509
+                    ],
+                    [
+                        377.442413,
+                        -750.146118,
+                        -62.368469
+                    ],
+                    [
+                        396.688812,
+                        -762.221436,
+                        -94.245102
+                    ],
+                    [
+                        374.457703,
+                        -795.339722,
+                        -41.303909
+                    ],
+                    [
+                        390.893921,
+                        -807.352539,
+                        -64.802254
+                    ]
+                ],
+                "forward": [
+                    0.754376,
+                    0.491198,
+                    0.435478
+                ],
+                "up": [
+                    -0.431357,
+                    0.870986,
+                    -0.235192
+                ],
+                "yaw_arc": {
+                    "min_angle": -90,
+                    "max_angle": 90
+                },
+                "pitch_arc": {
+                    "min_angle": -60,
+                    "max_angle": 120
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_void_missile",
+                "required_unit_item": "dlc3_herald_starbase_unlock_torpedo_weapon",
+                "mesh_point": "weapon.1",
+                "weapon_position": [
+                    -0.82995,
+                    -778.765015,
+                    -300.778259
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        279.423218,
+                        -762.221497,
+                        -296.604614
+                    ],
+                    [
+                        241.703064,
+                        -750.146179,
+                        -295.354462
+                    ],
+                    [
+                        250.934204,
+                        -807.3526,
+                        -305.299683
+                    ],
+                    [
+                        222.064896,
+                        -795.339783,
+                        -305.85434
+                    ],
+                    [
+                        -243.631577,
+                        -750.146179,
+                        -295.354462
+                    ],
+                    [
+                        -278.281158,
+                        -762.221497,
+                        -296.604614
+                    ],
+                    [
+                        -223.589935,
+                        -795.339783,
+                        -305.85434
+                    ],
+                    [
+                        -255.262283,
+                        -807.3526,
+                        -305.299683
+                    ]
+                ],
+                "forward": [
+                    0.041132,
+                    0.491198,
+                    -0.870076
+                ],
+                "up": [
+                    -0.011241,
+                    0.870985,
+                    0.49118
+                ],
+                "yaw_arc": {
+                    "min_angle": -90,
+                    "max_angle": 90
+                },
+                "pitch_arc": {
+                    "min_angle": -60,
+                    "max_angle": 120
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_void_missile",
+                "required_unit_item": "dlc3_herald_starbase_unlock_torpedo_weapon",
+                "mesh_point": "weapon.2",
+                "weapon_position": [
+                    -261.703369,
+                    -778.764954,
+                    151.361816
+                ],
+                "non_turret_muzzle_positions": [
+                    [
+                        -139.874115,
+                        -807.352478,
+                        371.15509
+                    ],
+                    [
+                        -156.412796,
+                        -795.339661,
+                        345.932953
+                    ],
+                    [
+                        -117.998558,
+                        -762.221375,
+                        390.607056
+                    ],
+                    [
+                        -136.085754,
+                        -750.146057,
+                        362.612946
+                    ],
+                    [
+                        -395.304535,
+                        -762.221436,
+                        -92.882584
+                    ],
+                    [
+                        -379.028931,
+                        -750.146118,
+                        -62.235264
+                    ],
+                    [
+                        -391.014557,
+                        -807.352539,
+                        -64.32782
+                    ],
+                    [
+                        -377.907837,
+                        -795.339722,
+                        -39.967728
+                    ]
+                ],
+                "forward": [
+                    -0.724665,
+                    0.491198,
+                    0.483307
+                ],
+                "up": [
+                    0.401982,
+                    0.870986,
+                    -0.28248
+                ],
+                "yaw_arc": {
+                    "min_angle": -90,
+                    "max_angle": 90
+                },
+                "pitch_arc": {
+                    "min_angle": -60,
+                    "max_angle": 120
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_phase_dart",
+                "mesh_point": "child.dlc3_herald_type_2_medium_starbase_mount_0",
+                "weapon_position": [
+                    2491.984131,
+                    1678.197876,
+                    -1530.856323
+                ],
+                "forward": [
+                    0.851173,
+                    0.078046,
+                    -0.519051
+                ],
+                "up": [
+                    -0.343532,
+                    0.8305,
+                    -0.438469
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_phase_dart",
+                "mesh_point": "child.dlc3_herald_type_2_medium_starbase_mount_1",
+                "weapon_position": [
+                    2574.991699,
+                    1676.091064,
+                    -1390.866577
+                ],
+                "forward": [
+                    0.858054,
+                    0.107467,
+                    -0.50219
+                ],
+                "up": [
+                    0.174733,
+                    0.858428,
+                    0.482254
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_phase_dart",
+                "mesh_point": "child.dlc3_herald_type_2_medium_starbase_mount_2",
+                "weapon_position": [
+                    81.590118,
+                    1677.920044,
+                    2926.961182
+                ],
+                "forward": [
+                    0.050495,
+                    0.050414,
+                    0.997451
+                ],
+                "up": [
+                    0.544065,
+                    0.836135,
+                    -0.069803
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_phase_dart",
+                "mesh_point": "child.dlc3_herald_type_2_medium_starbase_mount_3",
+                "weapon_position": [
+                    -79.842407,
+                    1678.167969,
+                    2927.620605
+                ],
+                "forward": [
+                    -0.037402,
+                    0.069978,
+                    0.996847
+                ],
+                "up": [
+                    -0.50677,
+                    0.858429,
+                    -0.079275
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_phase_dart",
+                "mesh_point": "child.dlc3_herald_type_2_medium_starbase_mount_4",
+                "weapon_position": [
+                    -2567.257568,
+                    1679.212646,
+                    -1391.611816
+                ],
+                "forward": [
+                    -0.903729,
+                    0.029407,
+                    -0.427095
+                ],
+                "up": [
+                    -0.211427,
+                    0.836826,
+                    0.504995
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_phase_dart",
+                "mesh_point": "child.dlc3_herald_type_2_medium_starbase_mount_5",
+                "weapon_position": [
+                    -2492.787109,
+                    1677.93103,
+                    -1530.673706
+                ],
+                "forward": [
+                    -0.849392,
+                    0.102174,
+                    -0.517778
+                ],
+                "up": [
+                    0.340258,
+                    0.855976,
+                    -0.389268
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_0",
+                "weapon_position": [
+                    -2.179565,
+                    1513.460205,
+                    1374.574341
+                ],
+                "forward": [
+                    0,
+                    0.173648,
+                    0.984808
+                ],
+                "up": [
+                    0,
+                    0.984808,
+                    -0.173648
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_1",
+                "weapon_position": [
+                    302.385651,
+                    1087.349121,
+                    834.016846
+                ],
+                "forward": [
+                    -0.032376,
+                    0,
+                    0.999476
+                ],
+                "up": [
+                    0.999476,
+                    0,
+                    0.032376
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_2",
+                "weapon_position": [
+                    90.531151,
+                    1581.945435,
+                    2284.969238
+                ],
+                "forward": [
+                    -0.052331,
+                    0.12295,
+                    0.991032
+                ],
+                "up": [
+                    0.644755,
+                    0.761992,
+                    -0.060489
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_3",
+                "weapon_position": [
+                    -90.239182,
+                    1581.945435,
+                    2284.969238
+                ],
+                "forward": [
+                    0.020128,
+                    0.117346,
+                    0.992887
+                ],
+                "up": [
+                    -0.668977,
+                    0.739605,
+                    -0.07385
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_4",
+                "weapon_position": [
+                    -303.358154,
+                    1093.295044,
+                    834.016846
+                ],
+                "forward": [
+                    -0.011258,
+                    -0.000938,
+                    0.999936
+                ],
+                "up": [
+                    -0.999517,
+                    0.02897,
+                    -0.011226
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_5",
+                "weapon_position": [
+                    -1189.371338,
+                    1512.959351,
+                    -688.354126
+                ],
+                "forward": [
+                    -0.853572,
+                    0.173648,
+                    -0.491183
+                ],
+                "up": [
+                    0.150507,
+                    0.984808,
+                    0.086609
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_6",
+                "weapon_position": [
+                    -872.754028,
+                    1087.348999,
+                    -154.766296
+                ],
+                "forward": [
+                    -0.850137,
+                    0,
+                    -0.526561
+                ],
+                "up": [
+                    -0.526561,
+                    0,
+                    0.850137
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_7",
+                "weapon_position": [
+                    -2024.6875,
+                    1581.94519,
+                    -1064.53418
+                ],
+                "forward": [
+                    -0.832867,
+                    0.179677,
+                    -0.523497
+                ],
+                "up": [
+                    -0.26915,
+                    0.694988,
+                    0.666746
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_8",
+                "weapon_position": [
+                    -1934.526245,
+                    1581.945068,
+                    -1220.427979
+                ],
+                "forward": [
+                    -0.854345,
+                    0.179216,
+                    -0.487829
+                ],
+                "up": [
+                    0.475553,
+                    0.648201,
+                    -0.594714
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_9",
+                "weapon_position": [
+                    -1348.871582,
+                    641.05011,
+                    -536.846375
+                ],
+                "forward": [
+                    -0.796367,
+                    0.465311,
+                    -0.386374
+                ],
+                "up": [
+                    -0.2657,
+                    -0.843042,
+                    -0.467636
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_10",
+                "weapon_position": [
+                    2011.928101,
+                    1581.94519,
+                    -1060.190308
+                ],
+                "forward": [
+                    0.844212,
+                    0.179216,
+                    -0.505161
+                ],
+                "up": [
+                    0.28494,
+                    0.648202,
+                    0.706147
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_11",
+                "weapon_position": [
+                    -1144.514404,
+                    644.716064,
+                    -906.676147
+                ],
+                "forward": [
+                    -0.716195,
+                    0.455289,
+                    -0.528939
+                ],
+                "up": [
+                    -0.547959,
+                    -0.836211,
+                    0.022173
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_12",
+                "weapon_position": [
+                    -729.182251,
+                    682.75061,
+                    -912.341797
+                ],
+                "forward": [
+                    -0.937096,
+                    0.154051,
+                    -0.313239
+                ],
+                "up": [
+                    0.256509,
+                    -0.304734,
+                    -0.917246
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_13",
+                "weapon_position": [
+                    707.089783,
+                    698.146484,
+                    -911.810059
+                ],
+                "forward": [
+                    0.973962,
+                    0.025486,
+                    -0.225275
+                ],
+                "up": [
+                    -0.20728,
+                    -0.302395,
+                    -0.930372
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 115
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_14",
+                "weapon_position": [
+                    1190.245605,
+                    677.536987,
+                    -911.13623
+                ],
+                "forward": [
+                    0.724858,
+                    0.465311,
+                    -0.508003
+                ],
+                "up": [
+                    0.537826,
+                    -0.843042,
+                    -0.004783
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_15",
+                "weapon_position": [
+                    1414.039917,
+                    672.703918,
+                    -552.733887
+                ],
+                "forward": [
+                    0.810449,
+                    0.455289,
+                    -0.368625
+                ],
+                "up": [
+                    0.247073,
+                    -0.836211,
+                    -0.489598
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_16",
+                "weapon_position": [
+                    1153.601074,
+                    698.146484,
+                    -167.830856
+                ],
+                "forward": [
+                    0.774234,
+                    0.154051,
+                    -0.613865
+                ],
+                "up": [
+                    0.628224,
+                    -0.304735,
+                    0.715871
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_17",
+                "weapon_position": [
+                    871.725464,
+                    1093.2948,
+                    -153.619003
+                ],
+                "forward": [
+                    0.865512,
+                    -0.000938,
+                    -0.500887
+                ],
+                "up": [
+                    0.5007,
+                    0.028968,
+                    0.865136
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_18",
+                "weapon_position": [
+                    -570.632568,
+                    1093.294678,
+                    -679.788452
+                ],
+                "forward": [
+                    -0.861069,
+                    -0.000938,
+                    -0.508487
+                ],
+                "up": [
+                    0.50825,
+                    0.028969,
+                    -0.860722
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_19",
+                "weapon_position": [
+                    1184.27356,
+                    1512.443726,
+                    -682.493164
+                ],
+                "forward": [
+                    0.846757,
+                    0.173648,
+                    -0.502842
+                ],
+                "up": [
+                    -0.149306,
+                    0.984808,
+                    0.088664
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_20",
+                "weapon_position": [
+                    562.433594,
+                    1087.348755,
+                    -674.230896
+                ],
+                "forward": [
+                    0.875899,
+                    0,
+                    -0.482494
+                ],
+                "up": [
+                    -0.482494,
+                    0,
+                    -0.875899
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_21",
+                "weapon_position": [
+                    1920.312744,
+                    1581.94519,
+                    -1210.131714
+                ],
+                "forward": [
+                    0.876988,
+                    0.226683,
+                    -0.423682
+                ],
+                "up": [
+                    -0.457505,
+                    0.663476,
+                    -0.592021
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_22",
+                "weapon_position": [
+                    427.058563,
+                    682.750732,
+                    1079.630493
+                ],
+                "forward": [
+                    -0.289075,
+                    0.025486,
+                    0.956967
+                ],
+                "up": [
+                    0.910201,
+                    -0.302396,
+                    0.283002
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 115
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_23",
+                "weapon_position": [
+                    209.706207,
+                    639.518005,
+                    1435.435913
+                ],
+                "forward": [
+                    0.04698,
+                    0.465311,
+                    0.883899
+                ],
+                "up": [
+                    -0.2808,
+                    -0.843042,
+                    0.458728
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_24",
+                "weapon_position": [
+                    -212.829239,
+                    638.707581,
+                    1435.435913
+                ],
+                "forward": [
+                    -0.116576,
+                    0.455289,
+                    0.882679
+                ],
+                "up": [
+                    0.284426,
+                    -0.836211,
+                    0.468885
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_25",
+                "weapon_position": [
+                    -427.67334,
+                    682.750732,
+                    1079.630493
+                ],
+                "forward": [
+                    0.179055,
+                    0.154051,
+                    0.971704
+                ],
+                "up": [
+                    -0.926892,
+                    -0.304734,
+                    0.219109
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_null_cannon",
+                "mesh_point": "child.dlc3_herald_type_4_heavy_starbase_mount_26",
+                "weapon_position": [
+                    -1146.355347,
+                    682.750488,
+                    -167.776123
+                ],
+                "forward": [
+                    -0.697789,
+                    0.025486,
+                    -0.71585
+                ],
+                "up": [
+                    -0.687916,
+                    -0.302396,
+                    0.659794
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 115
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_0",
+                "weapon_position": [
+                    -207.268494,
+                    1272.214844,
+                    724.658752
+                ],
+                "forward": [
+                    -0.159803,
+                    0.163806,
+                    0.973463
+                ],
+                "up": [
+                    -0.430948,
+                    0.875627,
+                    -0.218087
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 55
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_1",
+                "weapon_position": [
+                    300.450592,
+                    799.80426,
+                    1617.446045
+                ],
+                "forward": [
+                    -0.019169,
+                    0.536789,
+                    0.843498
+                ],
+                "up": [
+                    0.930879,
+                    -0.298261,
+                    0.210964
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 155
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_2",
+                "weapon_position": [
+                    -300.552338,
+                    799.80426,
+                    1617.446045
+                ],
+                "forward": [
+                    0.163117,
+                    0.342589,
+                    0.925216
+                ],
+                "up": [
+                    -0.927835,
+                    -0.265565,
+                    0.261912
+                ],
+                "yaw_arc": {
+                    "min_angle": -145,
+                    "max_angle": 125
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_3",
+                "weapon_position": [
+                    223.179001,
+                    1181.36731,
+                    2178.764648
+                ],
+                "forward": [
+                    -0.097102,
+                    0.532087,
+                    0.841104
+                ],
+                "up": [
+                    0.907377,
+                    -0.299913,
+                    0.29448
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 155
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_4",
+                "weapon_position": [
+                    -225.603088,
+                    1181.36731,
+                    2172.071289
+                ],
+                "forward": [
+                    0.216214,
+                    0.287129,
+                    0.933171
+                ],
+                "up": [
+                    -0.918417,
+                    -0.264512,
+                    0.294183
+                ],
+                "yaw_arc": {
+                    "min_angle": -155,
+                    "max_angle": 115
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_5",
+                "weapon_position": [
+                    207.763199,
+                    1272.214844,
+                    724.658752
+                ],
+                "forward": [
+                    0.039435,
+                    0.22542,
+                    0.973463
+                ],
+                "up": [
+                    0.458315,
+                    0.861618,
+                    -0.218087
+                ],
+                "yaw_arc": {
+                    "min_angle": -55,
+                    "max_angle": 115
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_6",
+                "weapon_position": [
+                    -492.476501,
+                    1267.442749,
+                    -518.651611
+                ],
+                "forward": [
+                    -0.882075,
+                    0.182484,
+                    -0.434332
+                ],
+                "up": [
+                    0.323838,
+                    0.904449,
+                    -0.277672
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 55
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_7",
+                "weapon_position": [
+                    -1522.949707,
+                    802.520569,
+                    -518.658142
+                ],
+                "forward": [
+                    -0.713423,
+                    0.493768,
+                    -0.497213
+                ],
+                "up": [
+                    -0.676764,
+                    -0.301515,
+                    0.671624
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 155
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_8",
+                "weapon_position": [
+                    -1180.979248,
+                    779.259033,
+                    -1045.683228
+                ],
+                "forward": [
+                    -0.785808,
+                    0.455069,
+                    -0.41883
+                ],
+                "up": [
+                    0.304725,
+                    -0.304418,
+                    -0.902481
+                ],
+                "yaw_arc": {
+                    "min_angle": -155,
+                    "max_angle": 115
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_9",
+                "weapon_position": [
+                    694.506104,
+                    1267.574585,
+                    -167.332947
+                ],
+                "forward": [
+                    0.711739,
+                    0.308519,
+                    -0.631066
+                ],
+                "up": [
+                    0.057703,
+                    0.86967,
+                    0.490249
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 55
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_10",
+                "weapon_position": [
+                    467.969513,
+                    1262.203979,
+                    -504.905518
+                ],
+                "forward": [
+                    0.864434,
+                    0.219641,
+                    -0.452229
+                ],
+                "up": [
+                    -0.380407,
+                    0.873871,
+                    -0.302721
+                ],
+                "yaw_arc": {
+                    "min_angle": -55,
+                    "max_angle": 115
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_11",
+                "weapon_position": [
+                    1510.535889,
+                    799.804016,
+                    -507.53952
+                ],
+                "forward": [
+                    0.722613,
+                    0.449292,
+                    -0.525325
+                ],
+                "up": [
+                    0.672834,
+                    -0.282897,
+                    0.683567
+                ],
+                "yaw_arc": {
+                    "min_angle": -155,
+                    "max_angle": 115
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_12",
+                "weapon_position": [
+                    1107.084839,
+                    758.71228,
+                    -1021.975281
+                ],
+                "forward": [
+                    0.822441,
+                    0.451637,
+                    -0.345854
+                ],
+                "up": [
+                    -0.202745,
+                    -0.335333,
+                    -0.920025
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 155
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_13",
+                "weapon_position": [
+                    2014.034912,
+                    1181.366943,
+                    -913.716797
+                ],
+                "forward": [
+                    0.730175,
+                    0.501223,
+                    -0.464349
+                ],
+                "up": [
+                    0.647029,
+                    -0.288865,
+                    0.705628
+                ],
+                "yaw_arc": {
+                    "min_angle": -155,
+                    "max_angle": 115
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_14",
+                "weapon_position": [
+                    1766.016479,
+                    1181.367065,
+                    -1281.297607
+                ],
+                "forward": [
+                    0.858305,
+                    0.420652,
+                    -0.293878
+                ],
+                "up": [
+                    -0.19684,
+                    -0.25899,
+                    -0.94561
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 155
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_15",
+                "weapon_position": [
+                    -678.375793,
+                    1259.43042,
+                    -149.477066
+                ],
+                "forward": [
+                    -0.772199,
+                    0.296706,
+                    -0.561849
+                ],
+                "up": [
+                    -0.057846,
+                    0.84777,
+                    0.527201
+                ],
+                "yaw_arc": {
+                    "min_angle": -55,
+                    "max_angle": 115
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_16",
+                "weapon_position": [
+                    -2002.122314,
+                    1169.621704,
+                    -905.192505
+                ],
+                "forward": [
+                    -0.638012,
+                    0.547102,
+                    -0.541867
+                ],
+                "up": [
+                    -0.737113,
+                    -0.230391,
+                    0.635283
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 155
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_2_heavy_starbase_mount_17",
+                "weapon_position": [
+                    -1812.01709,
+                    1201.829956,
+                    -1295.831299
+                ],
+                "forward": [
+                    -0.940386,
+                    0.202207,
+                    -0.27347
+                ],
+                "up": [
+                    0.212963,
+                    -0.276841,
+                    -0.93702
+                ],
+                "yaw_arc": {
+                    "min_angle": -145,
+                    "max_angle": 125
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -5
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_0",
+                "weapon_position": [
+                    1145.206909,
+                    1188.865723,
+                    -929.609741
+                ],
+                "forward": [
+                    0.886405,
+                    0.120326,
+                    -0.446998
+                ],
+                "up": [
+                    -0.448075,
+                    -0.019474,
+                    -0.893784
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 155
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": -10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_1",
+                "weapon_position": [
+                    1287.088013,
+                    1094.37793,
+                    -1117.871094
+                ],
+                "forward": [
+                    0.757312,
+                    0.295209,
+                    -0.58252
+                ],
+                "up": [
+                    -0.385543,
+                    0.922065,
+                    -0.033946
+                ],
+                "yaw_arc": {
+                    "min_angle": -15,
+                    "max_angle": 145
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_2",
+                "weapon_position": [
+                    1397.855957,
+                    1186.324219,
+                    -542.562805
+                ],
+                "forward": [
+                    0.815446,
+                    0.161987,
+                    -0.555705
+                ],
+                "up": [
+                    0.566084,
+                    -0.022789,
+                    0.824033
+                ],
+                "yaw_arc": {
+                    "min_angle": -145,
+                    "max_angle": 125
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": -10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_3",
+                "weapon_position": [
+                    1624.241943,
+                    1099.900269,
+                    -564.615784
+                ],
+                "forward": [
+                    0.832279,
+                    0.305679,
+                    -0.462463
+                ],
+                "up": [
+                    -0.154591,
+                    0.929118,
+                    0.335918
+                ],
+                "yaw_arc": {
+                    "min_angle": -145,
+                    "max_angle": 15
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_4",
+                "weapon_position": [
+                    760.522949,
+                    -1.51677,
+                    -111.529778
+                ],
+                "forward": [
+                    0.753753,
+                    -0.406559,
+                    -0.516301
+                ],
+                "up": [
+                    0.486922,
+                    -0.182095,
+                    0.854253
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_5",
+                "weapon_position": [
+                    80.979813,
+                    -1050.35498,
+                    402.486511
+                ],
+                "forward": [
+                    -0.094014,
+                    -0.995204,
+                    -0.027028
+                ],
+                "up": [
+                    0.508464,
+                    -0.071338,
+                    0.858123
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_6",
+                "weapon_position": [
+                    -333.846008,
+                    1078.88501,
+                    1627.075684
+                ],
+                "forward": [
+                    -0.048543,
+                    0.30568,
+                    0.950896
+                ],
+                "up": [
+                    -0.203054,
+                    0.929118,
+                    -0.309045
+                ],
+                "yaw_arc": {
+                    "min_angle": -145,
+                    "max_angle": 15
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_7",
+                "weapon_position": [
+                    -1344.536987,
+                    1170.928467,
+                    -507.377197
+                ],
+                "forward": [
+                    -0.792359,
+                    0.359471,
+                    -0.492897
+                ],
+                "up": [
+                    -0.526121,
+                    0.00633,
+                    0.850386
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 145
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": -10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_8",
+                "weapon_position": [
+                    -1576.609863,
+                    1077.94873,
+                    -520.943176
+                ],
+                "forward": [
+                    -0.877262,
+                    0.295209,
+                    -0.3785
+                ],
+                "up": [
+                    0.157809,
+                    0.922065,
+                    0.3534
+                ],
+                "yaw_arc": {
+                    "min_angle": -15,
+                    "max_angle": 145
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_9",
+                "weapon_position": [
+                    -77.736427,
+                    -1050.35498,
+                    405.805695
+                ],
+                "forward": [
+                    0.066145,
+                    -0.997368,
+                    -0.029691
+                ],
+                "up": [
+                    -0.484459,
+                    -0.058114,
+                    0.872882
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_10",
+                "weapon_position": [
+                    -389.829132,
+                    -1050.950073,
+                    -131.45784
+                ],
+                "forward": [
+                    0.056781,
+                    -0.997859,
+                    -0.032442
+                ],
+                "up": [
+                    -0.998271,
+                    -0.057238,
+                    0.013346
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_11",
+                "weapon_position": [
+                    -311.091003,
+                    -1050.29895,
+                    -270.694
+                ],
+                "forward": [
+                    -0.007692,
+                    -0.997458,
+                    0.070846
+                ],
+                "up": [
+                    -0.507579,
+                    -0.057148,
+                    -0.859708
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_12",
+                "weapon_position": [
+                    283.113037,
+                    -0.793403,
+                    717.087891
+                ],
+                "forward": [
+                    -0.081651,
+                    -0.416867,
+                    0.905293
+                ],
+                "up": [
+                    0.982545,
+                    -0.186004,
+                    0.002968
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_13",
+                "weapon_position": [
+                    -283.896057,
+                    -0.832886,
+                    716.183044
+                ],
+                "forward": [
+                    0.095065,
+                    -0.389565,
+                    0.916079
+                ],
+                "up": [
+                    -0.982679,
+                    -0.183778,
+                    0.023824
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_14",
+                "weapon_position": [
+                    -761.215332,
+                    -1.043778,
+                    -111.882607
+                ],
+                "forward": [
+                    -0.745576,
+                    -0.394484,
+                    -0.537121
+                ],
+                "up": [
+                    -0.505312,
+                    -0.190826,
+                    0.841573
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_15",
+                "weapon_position": [
+                    -479.748779,
+                    3.871099,
+                    -605.645264
+                ],
+                "forward": [
+                    -0.8355,
+                    -0.389941,
+                    -0.387151
+                ],
+                "up": [
+                    0.482065,
+                    -0.181994,
+                    -0.857025
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_16",
+                "weapon_position": [
+                    477.361359,
+                    -0.700618,
+                    -603.269287
+                ],
+                "forward": [
+                    0.841449,
+                    -0.368669,
+                    -0.395027
+                ],
+                "up": [
+                    -0.484,
+                    -0.189235,
+                    -0.854362
+                ],
+                "yaw_arc": {
+                    "min_angle": -75,
+                    "max_angle": 75
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_17",
+                "weapon_position": [
+                    233.402969,
+                    1170.928467,
+                    1417.389282
+                ],
+                "forward": [
+                    -0.048193,
+                    0.359471,
+                    0.931911
+                ],
+                "up": [
+                    0.998768,
+                    0.00633,
+                    0.049209
+                ],
+                "yaw_arc": {
+                    "min_angle": -115,
+                    "max_angle": 155
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_18",
+                "weapon_position": [
+                    333.77005,
+                    1079.30603,
+                    1627.075684
+                ],
+                "forward": [
+                    0.092997,
+                    0.295209,
+                    0.950896
+                ],
+                "up": [
+                    0.232995,
+                    0.922065,
+                    -0.309045
+                ],
+                "yaw_arc": {
+                    "min_angle": -15,
+                    "max_angle": 145
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_19",
+                "weapon_position": [
+                    -233.306183,
+                    1170.928467,
+                    1417.389282
+                ],
+                "forward": [
+                    0.039461,
+                    0.161987,
+                    0.986004
+                ],
+                "up": [
+                    -0.998784,
+                    -0.02279,
+                    0.043717
+                ],
+                "yaw_arc": {
+                    "min_angle": -145,
+                    "max_angle": 125
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_20",
+                "weapon_position": [
+                    -1253.720459,
+                    1083.171021,
+                    -1105.283691
+                ],
+                "forward": [
+                    -0.808807,
+                    0.30568,
+                    -0.502385
+                ],
+                "up": [
+                    0.368702,
+                    0.929118,
+                    -0.028257
+                ],
+                "yaw_arc": {
+                    "min_angle": -145,
+                    "max_angle": 15
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": 10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_21",
+                "weapon_position": [
+                    -1118.815063,
+                    1170.928345,
+                    -914.897888
+                ],
+                "forward": [
+                    -0.882099,
+                    0.161987,
+                    -0.442337
+                ],
+                "up": [
+                    0.444794,
+                    -0.022789,
+                    -0.895343
+                ],
+                "yaw_arc": {
+                    "min_angle": -145,
+                    "max_angle": 125
+                },
+                "pitch_arc": {
+                    "min_angle": -75,
+                    "max_angle": -10
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_22",
+                "weapon_position": [
+                    311.871155,
+                    -1050.623901,
+                    -270.600372
+                ],
+                "forward": [
+                    -0.021315,
+                    -0.997996,
+                    0.059581
+                ],
+                "up": [
+                    0.498297,
+                    -0.06227,
+                    -0.864767
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": 0
+                }
+            },
+            {
+                "weapon": "dlc3_herald_starbase_point_defense_shock_cannon",
+                "mesh_point": "child.dlc3_herald_type_5_pd_starbase_mount_23",
+                "weapon_position": [
+                    390.223846,
+                    -1050.229126,
+                    -135.831909
+                ],
+                "forward": [
+                    -0.065579,
+                    -0.997458,
+                    -0.027885
+                ],
+                "up": [
+                    0.997799,
+                    -0.065273,
+                    -0.011724
+                ],
+                "yaw_arc": {
+                    "min_angle": -135,
+                    "max_angle": 135
+                },
+                "pitch_arc": {
+                    "min_angle": -90,
+                    "max_angle": 0
+                }
+            }
+        ],
+        "max_range_weapon_index": 0
+    },
+    "formation": {
+        "leader_priority": 3,
+        "offsets_per_formation_type": {
+            "ships_and_structures": {
+                "rank": 5,
+                "group": 5
+            }
+        }
+    },
+    "spawn_debris": {
+        "spawn_debris_time": 6.5,
+        "generic_group_name": "trader",
+        "generic_counts": {
+            "small_debris": [
+                20,
+                24
+            ],
+            "large_debris": [
+                10,
+                12
+            ]
+        },
+        "spawn_loot": {
+            "loot_unit": "dlc3_ship_loot_herald",
+            "loot_name": "dlc3_herald_starbase_loot_name",
+            "loot_level": 1,
+            "experience_given": 500,
+            "exotics": [
+                {
+                    "bundles": [
+                        {
+                            "types": [
+                                "defense"
+                            ],
+                            "counts": [
+                                1,
+                                1
+                            ]
+                        }
+                    ],
+                    "weight": 1
+                }
+            ],
+            "assets": {
+                "metal": [
+                    200,
+                    400
+                ],
+                "crystal": [
+                    200,
+                    400
+                ]
+            }
+        }
+    },
+    "health": {
+        "release_time_after_death": 60,
+        "can_collide_duration_after_death": 6,
+        "durability": 1000,
+        "levels": [
+            {
+                "max_hull_points": 6000,
+                "hull_point_restore_rate": 9,
+                "hull_point_restore_cooldown_duration_after_damage_taken": 60,
+                "hull_crippled_percentage": 1,
+                "max_armor_points": 6000,
+                "armor_point_restore_rate": 12,
+                "armor_point_restore_cooldown_duration_after_damage_taken": 60,
+                "armor_strength": 150,
+                "max_shield_points": 10000,
+                "shield_point_restore_rate": 15,
+                "shield_point_restore_cooldown_duration_after_damage_taken": 20,
+                "shield_burst_restore": {
+                    "cooldown_duration": 120,
+                    "restore_percentage": 0.5
+                },
+                "experience_given_on_death": 3000
+            }
+        ]
+    },
+    "corruption": {
+        "max_corruption": 10000,
+        "corruption_decay_rate": 50,
+        "corruption_decay_delay_duration_after_gain": 60,
+        "corruption_thresholds": [
+            0.1,
+            0.5,
+            0.9
+        ],
+        "positive_corruption_buffs": [
+            "dlc3_herald_ship_corruption_benefit_mild",
+            "dlc3_herald_ship_corruption_benefit_moderate",
+            "dlc3_herald_ship_corruption_benefit_extreme"
+        ]
+    },
+    "build": {
+        "build_time": 270,
+        "price": {
+            "credits": 2500,
+            "metal": 750,
+            "crystal": 900
+        },
+        "exotic_price": [
+            {
+                "exotic_type": "offense",
+                "count": 1
+            },
+            {
+                "exotic_type": "defense",
+                "count": 1
+            },
+            {
+                "exotic_type": "economic",
+                "count": 1
+            }
+        ],
+        "build_kind": "starbase",
+        "build_radius": 3569.433594,
+        "self_build_time_gravity_well_scalars": {
+            "enemy": [
+                {
+                    "value": 2.5
+                }
+            ],
+            "neutral": [
+                {
+                    "value": 1
+                }
+            ]
+        },
+        "can_update_build_progress_by_default": true,
+        "build_group_id": "starbase"
+    },
+    "carrier": {
+        "base_max_squadron_capacity": 0,
+        "strikecraft_kinds": [
+            "interceptor",
+            "bomber"
+        ],
+        "launch_destination_formation": "trader_starbase_strikecraft",
+        "launch_destination_formation_offset": {
+            "rank": 2,
+            "group": 0
+        },
+        "hangar_data": [
+            {
+                "launch_basis": {
+                    "position": [
+                        0.087891,
+                        661.858154,
+                        -248.065094
+                    ],
+                    "rotation": [
+                        -1,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        -1
+                    ]
+                },
+                "land_basis": {
+                    "position": [
+                        0.087891,
+                        661.858154,
+                        -248.065094
+                    ],
+                    "rotation": [
+                        -1,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        -1
+                    ]
+                }
+            },
+            {
+                "launch_basis": {
+                    "position": [
+                        265.327637,
+                        661.858154,
+                        144.506714
+                    ],
+                    "rotation": [
+                        0.573576,
+                        0,
+                        -0.819152,
+                        0,
+                        1,
+                        0,
+                        0.819152,
+                        0,
+                        0.573576
+                    ]
+                },
+                "land_basis": {
+                    "position": [
+                        265.327637,
+                        661.858154,
+                        144.506714
+                    ],
+                    "rotation": [
+                        0.573576,
+                        0,
+                        -0.819152,
+                        0,
+                        1,
+                        0,
+                        0.819152,
+                        0,
+                        0.573576
+                    ]
+                }
+            },
+            {
+                "launch_basis": {
+                    "position": [
+                        -262.514313,
+                        661.858154,
+                        149.653015
+                    ],
+                    "rotation": [
+                        0.5,
+                        0,
+                        0.866025,
+                        0,
+                        1,
+                        0,
+                        -0.866025,
+                        0,
+                        0.5
+                    ]
+                },
+                "land_basis": {
+                    "position": [
+                        -262.514313,
+                        661.858154,
+                        149.653015
+                    ],
+                    "rotation": [
+                        0.5,
+                        0,
+                        0.866025,
+                        0,
+                        1,
+                        0,
+                        -0.866025,
+                        0,
+                        0.5
+                    ]
+                }
+            }
+        ]
+    },
+    "items": {
+        "levels": [
+            {
+                "max_ship_component_count": 8
+            }
+        ],
+        "requires_ship_component_shop_to_purchase_items": false
+    },
+    "unit_modifiers": [
+        {
+            "modifier_type": "min_detection_level",
+            "value_behavior": "additive",
+            "value": 1
+        }
+    ],
+    "target_filter_unit_type": "starbase",
+    "tags": [
+        "starbase"
+    ],
+    "item_access_tags": [
+        "titanpool_herald_starbase_components"
+    ],
+    "virtual_supply_cost": 300,
+    "skin_groups": [
+        {
+            "skins": [
+                "dlc3_herald_starbase"
+            ]
+        }
+    ],
+    "child_meshes": [
+        {
+            "mesh_alias_name": "dlc3_herald_starbase_component_hangar",
+            "mesh_point": "child.dlc3_herald_starbase_component_hangar",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "dlc3_herald_starbase_hangar_0"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_starbase_component_stablizer",
+            "mesh_point": "child.dlc3_herald_starbase_component_stablizer",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_starbase_teleporter"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_starbase_component_shield",
+            "mesh_point": "child.dlc3_herald_starbase_component_shield",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_starbase_planetary_shield_array"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_starbase_component_armor_0",
+            "mesh_point": "child.dlc3_herald_starbase_component_armor_0",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_starbase_structural_integrity_0"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_starbase_component_armor_1",
+            "mesh_point": "child.dlc3_herald_starbase_component_armor_1",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_starbase_structural_integrity_1"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_starbase_component_inhibitor",
+            "mesh_point": "child.dlc3_herald_starbase_component_inhibitor",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_starbase_phase_jump_inhibitor"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_starbase_component_crown",
+            "mesh_point": "child.dlc3_herald_starbase_component_crown",
+            "is_weapon_effects_destination": true,
+            "required_unit_item": "dlc3_herald_starbase_corruption"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_starbase_component_crown_cap",
+            "mesh_point": "child.dlc3_herald_starbase_component_crown_cap",
+            "is_weapon_effects_destination": true,
+            "hidden_by_unit_item": "dlc3_herald_starbase_corruption"
+        },
+        {
+            "mesh_alias_name": "dlc3_herald_starbase_component_missile",
+            "mesh_point": "child.dlc3_herald_starbase_component_missile",
+            "is_weapon_effects_destination": false,
+            "hidden_by_unit_item": "dlc3_herald_starbase_unlock_torpedo_weapon"
+        }
+    ],
+    "action_effect_size": "large_unit",
+    "traffic_port": {
+        "max_traffic_ship_count": 3,
+        "traffic_ship_construction_time": 60,
+        "traffic_ship": "dlc3_herald_trade_ship",
+        "allowed_destination_units": [
+            "dlc3_herald_civilian_research_lab_structure",
+            "dlc3_herald_military_research_lab_structure",
+            "dlc3_herald_ship_factory_structure",
+            "dlc3_herald_titan_factory_structure"
+        ],
+        "special_operation_unit_kind": "traffic_ship",
+        "create_traffic_ship_offset": [
+            0,
+            0,
+            3000
+        ],
+        "force_stay_in_gravity_well": false
+    }
+}

@@ -1,0 +1,121 @@
+{
+    "version": 0,
+    "spatial":
+    {
+        "radius": 407.025452,
+        "box":
+        {
+            "center": [0.122467, 1.5e-05, 34.477253],
+            "extents": [256.153687, 369.759827, 137.388412]
+        },
+        "can_be_displaced_on_collision": false
+    },
+    "physics":
+    {},
+    "ai":
+    {
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft"]
+    },
+    "ai_attack_target":
+    {
+        "attack_priority": 25.0,
+        "is_always_a_threat": false,
+        "attack_target_type": "civilian"
+    },
+    "user_interface":
+    {
+        "pip_type": "frigate",
+        "can_ever_be_selected": true,
+        "selection_priority": 100,
+        "selection_group_unit_type": "military_structure"
+    },
+    "structure":
+    {
+        "slot_type": "civilian",
+        "slots_required": 3,
+        "roles": [],
+        "build_group_id": "civilian"
+    },
+    "formation":
+    {
+        "leader_priority": 3,
+        "offsets_per_formation_type":
+        {
+            "ships_and_structures":
+            {
+                "rank": 4,
+                "group": 5
+            }
+        }
+    },
+    "spawn_debris":
+    {
+        "spawn_debris_time": 1.0,
+        "generic_group_name": "vasari",
+        "generic_counts":
+        {
+            "small_debris": [14, 18],
+            "large_debris": [3, 5]
+        }
+    },
+    "health":
+    {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 3.8,
+        "durability": 750.0,
+        "levels": [
+        {
+            "max_hull_points": 2400.0,
+            "hull_point_restore_rate": 3.0,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "max_armor_points": 1440.0,
+            "armor_point_restore_rate": 4.0,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 96.0,
+            "experience_given_on_death": 75.0
+        }]
+    },
+    "corruption":
+    {
+        "max_corruption": 3000.0,
+        "corruption_decay_rate": 25.0,
+        "corruption_decay_delay_duration_after_gain": 60.0,
+        "corruption_thresholds": [0.1, 0.5, 0.9]
+    },
+    "build":
+    {
+        "build_time": 96.0,
+        "price":
+        {
+            "metal": 240.0,
+            "crystal": 360.0
+        },
+        "exotic_price": [
+        {
+            "exotic_type": "utility",
+            "count": 2
+        }],
+        "build_kind": "structure",
+        "build_radius": 290.672119
+    },
+    "target_filter_unit_type": "structure",
+    "tags": [
+        "structure"
+    ],
+    "virtual_supply_cost": 10,
+    "is_phase_lane_stabilizer": true,
+    "abilities": [
+    {
+        "abilities": [
+            "vasari_phase_gate_structure_spawn_phase_lane"]
+    }],
+    "skin_groups": [
+    {
+        "skins": [
+            "vasari_phase_gate_structure"]
+    }],
+    "action_effect_size": "medium_unit"
+}

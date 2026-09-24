@@ -1,0 +1,1678 @@
+{
+    "version": 0,
+    "spatial":
+    {
+        "radius": 1645.410767,
+        "box":
+        {
+            "center": [0.0, 43.786133, 0.0],
+            "extents": [1295.149658, 734.397827, 1295.149536]
+        },
+        "collision_rank": 3,
+        "can_be_displaced_on_collision": false,
+        "missile_aim_zones": [
+            { "center": [0.0, -325, 0.0], "radius": 500.0 },
+            { "center": [0.0, 300.0, 0.0], "radius": 600.0 },
+            { "center": [800.0, 400.0, 800.0], "radius": 300.0 },
+            { "center": [800.0, 400.0, -800.0], "radius": 300.0 },
+            { "center": [-800.0, 400.0, 800.0], "radius": 300.0 },
+            { "center": [-800.0, 400.0, -800.0], "radius": 300.0 },
+            { "center": [750.0, 450.0, 0.0], "radius": 450.0 },
+            { "center": [-750.0, 450.0, 0.0], "radius": 450.0 },
+            { "center": [0.0, 450.0, 750.0], "radius": 450.0 },
+            { "center": [0.0, 450.0, -750.0], "radius": 450.0 }
+        ]
+    },
+    "physics":
+    {
+        "can_move_angular": true,
+        "max_angular_speed": 0.5,
+        "death_angular_speed_range": [1.5, 1.5]
+    },
+    "attack":
+    {
+        "attack_pattern":
+        {
+            "type": "immobile",
+            "rotate_only_on_plane": true
+        }
+    },
+    "ai":
+    {
+        "attack_target_type_groups": [
+            "light_flak",
+            "corvette"
+        ],
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft_corvette"
+        ],
+        "attack_target_type_groups_matching_weapon": "trader_starbase_medium_autocannon",
+        "auto_follow_target_priority": 2.0
+    },
+    "ai_attack_target":
+    {
+        "attack_priority": 50.0,
+        "is_always_a_threat": true,
+        "attack_target_type": "starbase"
+    },
+    "user_interface":
+    {
+        "can_be_controlled_by_selected_planet": true,
+        "pip_type": "starbase",
+        "can_ever_be_selected": true,
+        "selection_priority": 600,
+        "selection_group_unit_type": "combat_ship",
+        "can_rotate": true,
+        "can_attack": true,
+        "can_show_max_weapon_range_in_tactical_view": true,
+        "can_show_distance_to_plane_line": true
+    },
+    "structure":
+    {
+        "virtual_slot_type": "military",
+        "build_group_id": "military"
+    },
+    "weapons":
+    {
+        "weapons": [
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_0",
+            "weapon_position": [434.414185, 335.703125, 1259.19519],
+            "forward": [-2e-06, 0.0, 1.0],
+            "up": [0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_1",
+            "weapon_position": [209.802979, 335.703125, 1259.195312],
+            "forward": [-2e-06, 0.0, 1.0],
+            "up": [0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_2",
+            "weapon_position": [-209.255615, 335.703125, 1259.195312],
+            "forward": [-2e-06, 0.0, 1.0],
+            "up": [0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_3",
+            "weapon_position": [-433.866943, 335.703125, 1259.195435],
+            "forward": [-2e-06, 0.0, 1.0],
+            "up": [0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_4",
+            "weapon_position": [434.453247, 285.3125, 1262.933472],
+            "forward": [1e-06, -2e-06, 1.0],
+            "up": [-0.0, -1.0, -2e-06],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_5",
+            "weapon_position": [209.842041, 285.335938, 1262.953125],
+            "forward": [1e-06, -2e-06, 1.0],
+            "up": [-0.0, -1.0, -2e-06],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_6",
+            "weapon_position": [-209.216553, 285.335938, 1263.806641],
+            "forward": [1e-06, -2e-06, 1.0],
+            "up": [-0.0, -1.0, -2e-06],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_7",
+            "weapon_position": [-433.827881, 285.382812, 1264.418091],
+            "forward": [1e-06, -2e-06, 1.0],
+            "up": [-0.0, -1.0, -2e-06],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_8",
+            "weapon_position": [-433.828247, 335.6875, -1259.189331],
+            "forward": [4e-06, 0.0, -1.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_9",
+            "weapon_position": [-433.86731, 285.375, -1264.410034],
+            "forward": [-1e-06, -0.0, -1.0],
+            "up": [0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_10",
+            "weapon_position": [-209.0979, 335.6875, -1259.189453],
+            "forward": [4e-06, 0.0, -1.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_11",
+            "weapon_position": [-209.136963, 285.375, -1264.410156],
+            "forward": [-1e-06, -0.0, -1.0],
+            "up": [0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_12",
+            "weapon_position": [209.695068, 335.6875, -1259.189453],
+            "forward": [4e-06, 0.0, -1.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_13",
+            "weapon_position": [209.656006, 285.375, -1264.410156],
+            "forward": [-1e-06, -0.0, -1.0],
+            "up": [0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_14",
+            "weapon_position": [434.398193, 335.6875, -1259.189575],
+            "forward": [4e-06, 0.0, -1.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_15",
+            "weapon_position": [434.359131, 285.375, -1264.410278],
+            "forward": [-1e-06, -0.0, -1.0],
+            "up": [0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_16",
+            "weapon_position": [1257.69519, 335.703125, -432.445435],
+            "forward": [1.0, 0.0, 1e-06],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_17",
+            "weapon_position": [1262.91394, 285.375, -432.484497],
+            "forward": [1.0, -0.0, -1e-06],
+            "up": [-0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_18",
+            "weapon_position": [1257.695312, 335.703125, -212.12915],
+            "forward": [1.0, 0.0, 1e-06],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_19",
+            "weapon_position": [1262.914062, 285.375, -212.168213],
+            "forward": [1.0, -0.0, -1e-06],
+            "up": [-0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_20",
+            "weapon_position": [1257.695312, 335.703125, 214.687256],
+            "forward": [1.0, 0.0, 1e-06],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_21",
+            "weapon_position": [1262.914062, 285.390625, 214.650146],
+            "forward": [1.0, -0.0, -1e-06],
+            "up": [-0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_22",
+            "weapon_position": [1257.695435, 335.703125, 435.554443],
+            "forward": [1.0, 0.0, 1e-06],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_23",
+            "weapon_position": [1262.914185, 285.375, 435.515381],
+            "forward": [1.0, -0.0, -1e-06],
+            "up": [-0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_24",
+            "weapon_position": [-1257.796753, 335.703125, 435.515747],
+            "forward": [-1.0, 0.0, -2e-06],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_25",
+            "weapon_position": [-1263.015503, 285.375, 435.55481],
+            "forward": [-1.0, -2e-06, -0.0],
+            "up": [2e-06, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_26",
+            "weapon_position": [-1257.796875, 335.703125, 212.644775],
+            "forward": [-1.0, 0.0, -2e-06],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_27",
+            "weapon_position": [-1263.015625, 285.390625, 212.681885],
+            "forward": [-1.0, -2e-06, -0.0],
+            "up": [2e-06, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_28",
+            "weapon_position": [-1257.796875, 335.703125, -213.507568],
+            "forward": [-1.0, 0.0, -2e-06],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_29",
+            "weapon_position": [-1263.015625, 285.375, -213.468506],
+            "forward": [-1.0, -2e-06, -0.0],
+            "up": [2e-06, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_30",
+            "weapon_position": [-1257.796997, 335.703125, -435.3396],
+            "forward": [-1.0, 0.0, -2e-06],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_autocannon",
+            "mesh_point": "child.medturret_mount_31",
+            "weapon_position": [-1263.015747, 285.390625, -435.300537],
+            "forward": [-1.0, -2e-06, -0.0],
+            "up": [2e-06, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_0",
+            "weapon_position": [661.015747, 335.875, 1259.878784],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_1",
+            "weapon_position": [-657.781067, 335.875, 1259.879028],
+            "forward": [0.0, 0.0, 1.0],
+            "up": [0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_2",
+            "weapon_position": [661.36731, 285.445312, 1263.369019],
+            "forward": [1e-06, -2e-06, 1.0],
+            "up": [0.0, -1.0, -2e-06],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_3",
+            "weapon_position": [-657.429504, 285.40625, 1265.8302],
+            "forward": [1e-06, -2e-06, 1.0],
+            "up": [0.0, -1.0, -2e-06],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_4",
+            "weapon_position": [661.367004, 335.90625, -1259.7052],
+            "forward": [1e-06, 0.0, -1.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_5",
+            "weapon_position": [661.015442, 285.25, -1263.433716],
+            "forward": [0.0, -0.0, -1.0],
+            "up": [-0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_6",
+            "weapon_position": [-658.27356, 335.90625, -1259.704956],
+            "forward": [1e-06, 0.0, -1.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_7",
+            "weapon_position": [-658.625122, 285.25, -1263.433472],
+            "forward": [0.0, -0.0, -1.0],
+            "up": [-0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_8",
+            "weapon_position": [1259.984253, 335.90625, -648.164185],
+            "forward": [1.0, 0.0, -0.0],
+            "up": [-0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_9",
+            "weapon_position": [1263.718628, 285.25, -648.515747],
+            "forward": [1.0, -0.0, 2e-06],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_10",
+            "weapon_position": [1259.984497, 335.890625, 648.538879],
+            "forward": [1.0, 0.0, -0.0],
+            "up": [-0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_11",
+            "weapon_position": [1263.718872, 285.25, 648.187317],
+            "forward": [1.0, -0.0, 2e-06],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_12",
+            "weapon_position": [-1258.749878, 335.890625, 648.187622],
+            "forward": [-1.0, 0.0, -0.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_13",
+            "weapon_position": [-1262.47644, 285.25, 648.539185],
+            "forward": [-1.0, -2e-06, -1e-06],
+            "up": [2e-06, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_14",
+            "weapon_position": [-1258.750122, 335.90625, -647.554504],
+            "forward": [-1.0, 0.0, -0.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_light_autocannon",
+            "mesh_point": "child.turret_mount_15",
+            "weapon_position": [-1262.476685, 285.25, -647.202942],
+            "forward": [-1.0, -2e-06, -1e-06],
+            "up": [2e-06, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -55.0,
+                "max_angle": 55.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_0",
+            "weapon_position": [502.25, 755.171875, 460.015533],
+            "forward": [0.707107, -1e-06, 0.707107],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -20.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_1",
+            "weapon_position": [461.98053, 755.171875, 501.929626],
+            "forward": [0.707107, -1e-06, 0.707107],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 20.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_2",
+            "weapon_position": [-456.230377, 755.171875, 501.101562],
+            "forward": [-0.707107, -0.0, 0.707107],
+            "up": [-0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -20.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_3",
+            "weapon_position": [-498.140564, 755.171875, 460.828186],
+            "forward": [-0.707107, -0.0, 0.707107],
+            "up": [-0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 20.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_4",
+            "weapon_position": [-501.042969, 755.1875, -456.382721],
+            "forward": [-0.707106, 0.0, -0.707107],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -20.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_5",
+            "weapon_position": [-460.773499, 755.1875, -498.296814],
+            "forward": [-0.707106, 0.0, -0.707107],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 20.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_6",
+            "weapon_position": [458.972565, 755.1875, -501.0],
+            "forward": [0.707108, 0.0, -0.707106],
+            "up": [-0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -20.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_7",
+            "weapon_position": [500.882751, 755.1875, -460.726624],
+            "forward": [0.707108, 0.0, -0.707106],
+            "up": [-0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 20.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_8",
+            "weapon_position": [489.367096, -334.0625, -535.117188],
+            "forward": [0.707108, 0.0, -0.707106],
+            "up": [-0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -35.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_9",
+            "weapon_position": [531.945251, -334.0625, -492.214844],
+            "forward": [0.707108, 0.0, -0.707106],
+            "up": [-0.0, 1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -35.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_10",
+            "weapon_position": [534.375061, -334.0625, 488.828033],
+            "forward": [0.707106, -1e-06, 0.707107],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -35.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_11",
+            "weapon_position": [491.472717, -334.0625, 531.406189],
+            "forward": [0.707106, -1e-06, 0.707107],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -35.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_12",
+            "weapon_position": [-489.910065, -334.125, 533.296936],
+            "forward": [-0.707107, -0.0, 0.707107],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -35.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_13",
+            "weapon_position": [-532.48822, -334.125, 490.390686],
+            "forward": [-0.707107, -0.0, 0.707107],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -35.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_14",
+            "weapon_position": [-534.66803, -334.125, -488.285065],
+            "forward": [-0.707106, -0.0, -0.707108],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -35.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_point_defense_autocannon",
+            "mesh_point": "child.pdturret_mount_15",
+            "weapon_position": [-491.76178, -334.125, -530.867126],
+            "forward": [-0.707106, -0.0, -0.707108],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -35.0,
+                "max_angle": 10.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_beam",
+            "required_unit_item": "trader_starbase_unlock_beam_weapon",
+            "mesh_point": "child.beamturret_mount_0",
+            "weapon_position": [-1134.532104, 309.629333, -1133.635376],
+            "forward": [1e-06, -1.0, 0.0],
+            "up": [-0.707107, -1e-06, -0.707107],
+            "yaw_arc":
+            {
+                "min_angle": -180.0,
+                "max_angle": 180.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -180.0,
+                "max_angle": 0.0,
+                "initial_angle": -90.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_beam",
+            "required_unit_item": "trader_starbase_unlock_beam_weapon",
+            "mesh_point": "child.beamturret_mount_1",
+            "weapon_position": [-1134.531738, 309.629333, 1135.126221],
+            "forward": [-1e-06, -1.0, 0.0],
+            "up": [-0.707106, 1e-06, 0.707107],
+            "yaw_arc":
+            {
+                "min_angle": -180.0,
+                "max_angle": 180.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -180.0,
+                "max_angle": 0.0,
+                "initial_angle": -90.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_beam",
+            "required_unit_item": "trader_starbase_unlock_beam_weapon",
+            "mesh_point": "child.beamturret_mount_2",
+            "weapon_position": [1134.185425, 309.629333, 1135.125854],
+            "forward": [-1e-06, -1.0, -1e-06],
+            "up": [0.707107, -2e-06, 0.707106],
+            "yaw_arc":
+            {
+                "min_angle": -180.0,
+                "max_angle": 180.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -180.0,
+                "max_angle": 0.0,
+                "initial_angle": -90.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_beam",
+            "required_unit_item": "trader_starbase_unlock_beam_weapon",
+            "mesh_point": "child.beamturret_mount_3",
+            "weapon_position": [1134.185059, 309.629333, -1133.635742],
+            "forward": [1e-06, -1.0, -1e-06],
+            "up": [0.707106, 1e-06, -0.707107],
+            "yaw_arc":
+            {
+                "min_angle": -180.0,
+                "max_angle": 180.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -180.0,
+                "max_angle": 0.0,
+                "initial_angle": -90.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_missile",
+            "required_unit_item": "trader_starbase_unlock_torpedo_weapon",
+            "mesh_point": "weapon.0",
+            "weapon_position": [859.005432, 513.490417, 865.272278],
+            "non_turret_muzzle_positions": [
+                [701.983398, 602.856628, 750.326782],
+                [743.744507, 602.856628, 708.56543],
+                [807.083801, 574.361328, 733.45343],
+                [767.344055, 574.361267, 773.191711],
+                [727.095703, 574.361267, 813.441772],
+                [791.359863, 543.228271, 839.88147],
+                [833.601318, 543.228271, 797.640015],
+                [896.883606, 514.248108, 823.253235],
+                [857.143677, 514.248047, 862.992432],
+                [816.895386, 514.248047, 903.241455],
+                [885.513184, 481.706848, 934.035522],
+                [927.754517, 481.706787, 891.794189],
+                [991.185913, 454.187012, 917.555359],
+                [951.446716, 454.187012, 957.295166],
+                [911.198181, 454.187073, 997.54425],
+                [975.30896, 422.681763, 1023.830139],
+                [1017.550903, 422.681763, 981.58783]
+            ],
+            "forward": [0.298837, 0.906308, 0.298836],
+            "up": [-0.640856, 0.422619, -0.640856],
+            "yaw_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 120.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_missile",
+            "required_unit_item": "trader_starbase_unlock_torpedo_weapon",
+            "mesh_point": "weapon.1",
+            "weapon_position": [-865.343506, 513.491211, 858.691833],
+            "non_turret_muzzle_positions": [
+                [-750.398193, 602.857239, 701.669556],
+                [-708.63623, 602.8573, 743.430298],
+                [-733.524658, 574.362, 806.770386],
+                [-773.263916, 574.362, 767.030884],
+                [-813.513184, 574.362061, 726.78186],
+                [-839.952881, 543.229065, 791.046509],
+                [-797.711182, 543.229004, 833.288208],
+                [-823.32373, 514.248901, 896.569702],
+                [-863.0625, 514.248901, 856.829468],
+                [-903.312744, 514.248901, 816.581665],
+                [-934.106934, 481.707642, 885.200073],
+                [-891.864746, 481.707642, 927.440796],
+                [-917.627136, 454.187927, 990.871948],
+                [-957.36554, 454.187927, 951.132446],
+                [-997.615356, 454.187927, 910.884644],
+                [-1023.901184, 422.682739, 974.994995],
+                [-981.658997, 422.682678, 1017.237671]
+            ],
+            "forward": [-0.298836, 0.906308, 0.298837],
+            "up": [0.640856, 0.422618, -0.640856],
+            "yaw_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 120.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_missile",
+            "required_unit_item": "trader_starbase_unlock_torpedo_weapon",
+            "mesh_point": "weapon.2",
+            "weapon_position": [-858.762756, 513.49115, -865.657166],
+            "non_turret_muzzle_positions": [
+                [-701.741516, 602.8573, -750.711243],
+                [-743.501343, 602.857239, -708.950439],
+                [-806.841431, 574.361938, -733.838379],
+                [-767.100952, 574.361938, -773.576416],
+                [-726.852783, 574.362, -813.827026],
+                [-791.11731, 543.229004, -840.266846],
+                [-833.358643, 543.229004, -798.02478],
+                [-896.64093, 514.24884, -823.638],
+                [-856.900391, 514.24884, -863.376343],
+                [-816.652405, 514.248901, -903.626282],
+                [-885.270325, 481.707642, -934.420227],
+                [-927.511475, 481.707642, -892.179077],
+                [-990.942993, 454.187927, -917.940613],
+                [-951.203369, 454.187927, -957.679626],
+                [-910.95575, 454.187927, -997.929016],
+                [-975.065796, 422.682678, -1024.21521],
+                [-1017.308228, 422.682739, -981.973328]
+            ],
+            "forward": [-0.298835, 0.906308, -0.298837],
+            "up": [0.640856, 0.422618, 0.640857],
+            "yaw_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 120.0
+            }
+        },
+        {
+            "weapon": "trader_starbase_medium_missile",
+            "required_unit_item": "trader_starbase_unlock_torpedo_weapon",
+            "mesh_point": "weapon.3",
+            "weapon_position": [865.585876, 513.490356, -859.076599],
+            "non_turret_muzzle_positions": [
+                [981.90155, 422.681763, -1017.62207],
+                [1024.143555, 422.681763, -975.379639],
+                [997.857666, 454.187012, -911.269287],
+                [957.608093, 454.187012, -951.51709],
+                [917.869324, 454.187073, -991.256714],
+                [892.107422, 481.706848, -927.825562],
+                [934.348877, 481.706787, -885.584595],
+                [903.555176, 514.248047, -816.966431],
+                [863.30542, 514.248047, -857.214233],
+                [823.56665, 514.248047, -896.954468],
+                [797.953857, 543.228271, -833.672729],
+                [840.195312, 543.22821, -791.431274],
+                [813.755371, 574.361206, -727.166626],
+                [773.505615, 574.361267, -767.415405],
+                [733.767334, 574.361267, -807.155151],
+                [708.878906, 602.856567, -743.815063],
+                [750.639893, 602.856567, -702.05481]
+            ],
+            "forward": [0.298837, 0.906307, -0.298837],
+            "up": [-0.640856, 0.422619, 0.640856],
+            "yaw_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 120.0
+            }
+        }],
+        "max_range_weapon_index": 8
+    },
+    "formation":
+    {
+        "leader_priority": 3,
+        "offsets_per_formation_type":
+        {
+            "ships_and_structures":
+            {
+                "rank": 5,
+                "group": 5
+            }
+        }
+    },
+    "spawn_debris":
+    {
+        "spawn_debris_time": 6.5,
+        "generic_group_name": "trader",
+        "generic_counts":
+        {
+            "small_debris": [20, 24],
+            "large_debris": [10, 12]
+        },
+        "custom_debris": [
+        {
+            "unit": "trader_starbase_debris_front",
+            "basis":
+            {
+                "position": [-450.0, -380.0, -488.285004],
+                "rotation": [-0.0, 0.0, 1.0, 0.0, 1.0, 0.0, -1.0, 0.0, -0.0]
+            }
+        },
+        {
+            "unit": "trader_starbase_debris_mid",
+            "basis":
+            {
+                "position": [-100.0, 600.171997, 460.828003],
+                "rotation": [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+            }
+        },
+        {
+            "unit": "trader_starbase_debris_back",
+            "basis":
+            {
+                "position": [800.0, 400.0, -950.0],
+                "rotation": [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+            }
+        }],
+        "spawn_loot":
+        {
+            "loot_unit": "ship_loot_trader",
+            "loot_name": "trader_starbase_loot_name",
+            "loot_level": 1,
+            "experience_given": 500.0,
+            "exotics": [
+            {
+                "bundles": [
+                {
+                    "types": [
+                        "defense"
+                    ],
+                    "counts": [1, 1]
+                }],
+                "weight": 1.0
+            }],
+            "assets":
+            {
+                "metal": [200, 400],
+                "crystal": [200, 400]
+            }
+        }
+    },
+    "health":
+    {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 6.0,
+        "durability": 1000.0,
+        "levels": [
+        {
+            "max_hull_points": 7500.0,
+            "hull_point_restore_rate": 9.0,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "hull_crippled_percentage": 1.0,
+            "max_armor_points": 4000.0,
+            "armor_point_restore_rate": 12.0,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 130.0,
+            "max_shield_points": 4000.0,
+            "shield_point_restore_rate": 15.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "shield_burst_restore":
+            {
+                "cooldown_duration": 120.0,
+                "restore_percentage": 0.5
+            },
+            "experience_given_on_death": 2000.0
+        }]
+    },
+    "corruption":
+    {
+        "max_corruption": 10000.0,
+        "corruption_decay_rate": 50.0,
+        "corruption_decay_delay_duration_after_gain": 60.0,
+        "corruption_thresholds": [0.1, 0.5, 0.9],
+        "show_main_view_icon_alert_fill": true
+    },
+    "unit_factory":
+    {
+        "build_kinds": [
+            "corvette",
+            "frigate",
+            "cruiser"
+        ],
+        "default_rally_point_offset": [0.0, 0.0, 2500.0],
+        "required_mutation": "mobile_unit_factory_enabled",
+        "base_build_point":
+        {
+            "position": [-0.0, 928.014893, -3.8e-05],
+            "rotation": [1.0, 0.0, 0.0, 0.0, 1.0, -0.0, 0.0, 0.0, 1.0]
+        }
+    },
+    "build":
+    {
+        "build_time": 180.0,
+        "price":
+        {
+            "credits": 2000.0,
+            "metal": 585.0,
+            "crystal": 415.0
+        },
+        "exotic_price": [
+        {
+            "exotic_type": "defense",
+            "count": 2
+        }],
+        "build_kind": "starbase",
+        "build_radius": 1831.618164,
+        "self_build_time_gravity_well_scalars":
+        {
+            "enemy": [
+            {
+                "value": 2.5
+            }],
+            "neutral": [
+            {
+                "value": 1.0
+            }]
+        },
+        "can_update_build_progress_by_default": true,
+        "build_group_id": "starbase"
+    },
+    "carrier":
+    {
+        "base_max_squadron_capacity": 0,
+        "strikecraft_kinds": [
+            "interceptor",
+            "bomber"
+        ],
+        "launch_destination_formation": "trader_starbase_strikecraft",
+        "launch_destination_formation_offset":
+        {
+            "rank": 2,
+            "group": 0
+        },
+        "hangar_data": [
+        {
+            "hangar_basis":
+            {
+                "position": [0.0, 265.086182, -1274.008545],
+                "rotation": [-1.0, 1e-06, 0.0, 1e-06, 1.0, -0.0, -0.0, -0.0, -1.0]
+            }
+        },
+        {
+            "hangar_basis":
+            {
+                "position": [0.000366, 265.086182, 1271.257446],
+                "rotation": [1.0, -1e-06, -0.0, 1e-06, 1.0, 0.0, 0.0, -0.0, 1.0]
+            }
+        },
+        {
+            "hangar_basis":
+            {
+                "position": [-1271.38855, 265.087402, 0.286619],
+                "rotation": [1e-06, -0.0, 1.0, 1e-06, 1.0, -0.0, -1.0, 1e-06, 1e-06]
+            }
+        },
+        {
+            "hangar_basis":
+            {
+                "position": [1272.788574, 265.085022, 0.286253],
+                "rotation": [-0.0, 0.0, -1.0, 0.0, 1.0, 0.0, 1.0, -0.0, -0.0]
+            }
+        }]
+    },
+    "items":
+    {
+        "levels": [
+        {
+            "max_ship_component_count": 8
+        }],
+        "requires_ship_component_shop_to_purchase_items": false
+    },
+    "trade_port":
+    {
+        "max_trade_ship_count": 4,
+        "trade_ship_construction_time": 60.0,
+        "trade_ship": "trader_trade_ship",
+        "special_operation_unit_kind": "trade_ship",
+        "create_trade_ship_offset": [0.0, 0.0, 1500.0]
+    },
+    "unit_modifiers": [
+    {
+        "modifier_type": "min_detection_level",
+        "value_behavior": "additive",
+        "value": 1.0
+    }],
+    "target_filter_unit_type": "starbase",
+    "tags": [
+        "starbase"
+    ],
+    "item_access_tags": [
+        "titanpool_trader_starbase_components"
+    ],
+    "abilities": [
+    {
+        "abilities": [
+            "trader_starbase_phase_jamming"
+        ]
+    }],
+    "virtual_supply_cost": 200,
+    "skin_groups": [
+    {
+        "skins": [
+            "trader_starbase"]
+    }],
+    "child_meshes": [
+    {
+        "mesh_alias_name": "trader_starbase_component_hangar",
+        "mesh_point": "child.starbase_component_hangar",
+        "is_weapon_effects_destination": true,
+        "required_unit_item": "trader_starbase_hangar_0"
+    },
+    {
+        "mesh_alias_name": "trader_starbase_component_shield",
+        "mesh_point": "child.starbase_component_shield",
+        "is_weapon_effects_destination": true,
+        "required_unit_item": "trader_starbase_planetary_shield_array"
+    },
+    {
+        "mesh_alias_name": "trader_starbase_component_structural",
+        "mesh_point": "child.starbase_component_structural",
+        "is_weapon_effects_destination": true,
+        "required_unit_item": "trader_starbase_structural_integrity_0"
+    },
+    {
+        "mesh_alias_name": "trader_starbase_component_trade",
+        "mesh_point": "child.starbase_component_trade",
+        "is_weapon_effects_destination": true,
+        "required_unit_item": "trader_starbase_trade_port"
+    },
+    {
+        "mesh_alias_name": "trader_starbase_component_docking",
+        "mesh_point": "child.starbase_component_docking",
+        "is_weapon_effects_destination": true,
+        "required_unit_item": "trader_starbase_docking_booms"
+    },
+    {
+        "mesh_alias_name": "trader_starbase_component_construction",
+        "mesh_point": "child.starbase_component_missile",
+        "is_weapon_effects_destination": true,
+        "required_unit_item": "trader_starbase_unit_factory"
+    },
+    {
+        "mesh_alias_name": "trader_starbase_component_beam",
+        "mesh_point": "child.starbase_component_beam",
+        "is_weapon_effects_destination": true,
+        "required_unit_item": "trader_starbase_unlock_beam_weapon"
+    },
+    {
+        "mesh_alias_name": "trader_starbase_component_missile",
+        "mesh_point": "child.starbase_component_construction",
+        "is_weapon_effects_destination": false,
+        "required_unit_item": "trader_starbase_unlock_torpedo_weapon"
+    }],
+    "action_effect_size": "large_unit"
+}

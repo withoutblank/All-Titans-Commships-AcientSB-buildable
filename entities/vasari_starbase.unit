@@ -2531,11 +2531,6 @@
                 "count": 1
             }
         ],
-        "prerequisites": [
-            [
-                "vasari_unlock_starbase"
-            ]
-        ],
         "build_kind": "structure",
         "build_radius": 3747.211426,
         "self_build_time_gravity_well_scalars": {
@@ -2654,7 +2649,11 @@
     "passive_income": {},
     "target_filter_unit_type": "starbase",
     "tags": [
-        "starbase"
+        "starbase",
+        "vasari_starbase"
+    ],
+    "item_access_tags": [
+        "titanpool_vasari_starbase_components"
     ],
     "abilities": [
         {

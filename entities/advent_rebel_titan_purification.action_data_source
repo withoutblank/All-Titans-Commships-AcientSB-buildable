@@ -1,0 +1,199 @@
+{
+    "version": 0,
+    "level_count": 3,
+    "target_filters": [
+    {
+        "target_filter_id": "purification_auto_cast_target_filter",
+        "target_filter":
+        {
+            "unit_types": [
+                "corvette",
+                "cruiser",
+                "frigate"
+            ],
+            "ownerships": [
+                "self"
+            ],
+            "constraints": [
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_trader_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_trader_rebel_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_advent_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_advent_rebel_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_vasari_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_vasari_rebel_titan"
+                }
+            }]
+        }
+    },
+    {
+        "target_filter_id": "purification_target_filter",
+        "target_filter":
+        {
+            "unit_types": [
+                "corvette",
+                "cruiser",
+                "frigate"
+            ],
+            "ownerships": [
+                "self"
+            ],
+            "constraints": [
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_trader_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_trader_rebel_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_advent_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_advent_rebel_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_vasari_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_vasari_rebel_titan"
+                }
+            }]
+        }
+    }],
+    "action_values": [
+    {
+        "action_value_id": "purification_antimatter_cost_value",
+        "action_value":
+        {
+            "values": [80.0, 80.0, 80.0]
+        }
+    },
+    {
+        "action_value_id": "purification_antimatter_restore_value",
+        "action_value":
+        {
+            "transform_type": "per_current_antimatter",
+            "transform_unit":
+            {
+                "unit_type": "target"
+            },
+            "values": [0.4, 0.8, 1.2]
+        }
+    },
+    {
+        "action_value_id": "purification_cooldown_time_value",
+        "action_value":
+        {
+            "values": [60.0, 45.0, 30.0]
+        }
+    },
+    {
+        "action_value_id": "purification_hull_restore_value",
+        "action_value":
+        {
+            "transform_type": "per_current_hull_points",
+            "transform_unit":
+            {
+                "unit_type": "target"
+            },
+            "values": [0.75, 1.5, 2.25],
+            "ratio":
+            {
+                "ratio_type": "per_spell_power",
+                "ratio_values": [0.002, 0.002, 0.002]
+            }
+        }
+    },
+    {
+        "action_value_id": "purification_range_value",
+        "action_value":
+        {
+            "values": [4000.0, 5000.0, 6000.0]
+        }
+    },
+    {
+        "action_value_id": "purification_shield_restore_value",
+        "action_value":
+        {
+            "transform_type": "per_current_shield_points",
+            "transform_unit":
+            {
+                "unit_type": "target"
+            },
+            "values": [0.75, 1.5, 2.25],
+            "ratio":
+            {
+                "ratio_type": "per_spell_power",
+                "ratio_values": [0.002, 0.002, 0.002]
+            }
+        }
+    }]
+}

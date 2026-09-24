@@ -31,9 +31,6 @@
     ],
     "consumable_stack_count": [1],
     "max_count_on_unit": 1,
-    "build_prerequisites": [
-        ["vasari_unlock_ancient_starbase"]
-    ],
     "build_group_id": "consumable",
     "ability": "vasari_deploy_ancient_starbase"
 }

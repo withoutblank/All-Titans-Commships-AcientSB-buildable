@@ -1,14 +1,14 @@
 {
     "compatibility_version": 2,
-    "display_version": "18.1.2",
-    "display_name": "UNLOCK ALL Titans & Command Ships & Ancient Starbase",
-    "short_description": "All Titans and Command Ships remain player-buildable. AI factions build multiple Titans normally, while Ancient Starbases support both planet-defense construction and consumable ship deployment.",
-    "long_description": "Human and AI players can construct multiple faction Titans through the normal game construction systems. Each AI faction retains its own canonical Titan as its native Titan. Ancient Starbases remain directly constructible from the planet-defense build list and may also be deployed from a consumable component fitted to a Capital Ship, Command Ship, or Titan.",
+    "display_version": "2.1.3",
+    "display_name": "All Titans & Command Ships + Ancient Starbases",
+    "short_description": "Build all seven Titans and all six Command Ships without Titan technology requirements, with expanded Herald, Ancient Starbase, resource, component, and starbase-range support.",
+    "long_description": "Every playable faction can construct all seven Titans, while Titan construction and Titan component technology requirements are removed. All six Command Ships are available across factions; Herald produces them only from the Main Portal. Herald ships retain faction-correct component access, Herald resource quantities align with Vasari values, Herald standard starbases can be built up to three times, and Ancient Starbases up to two times. Ancient Starbases are available through planetary construction and ship-component deployment. All supported starbase weapons gain 5000 range.",
     "logos": {
         "small_logo": "mod_small_logo.png",
         "large_logo": "mod_large_logo.png"
     },
-    "target_major_game_version": 1,
-    "target_minor_game_version": 61,
-    "target_patch_game_version": 4
+    "target_major_game_version": 2,
+    "target_minor_game_version": 0,
+    "target_patch_game_version": 3
 }

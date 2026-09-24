@@ -1,0 +1,1906 @@
+{
+    "version": 0,
+    "spatial":
+    {
+        "radius": 1739.403564,
+        "box":
+        {
+            "center": [0.0, -173.828308, -2.235535],
+            "extents": [1396.386719, 1548.432373, 1425.185059]
+        },
+        "can_be_displaced_on_collision": false,
+        "missile_aim_zones": [
+            { "center": [0.0, -100.0, 1000.0], "radius": 350.0 },
+            { "center": [0.0, -100.0, -1000.0], "radius": 350.0 },
+            { "center": [1000.0, -100.0, 0.0], "radius": 350.0 },
+            { "center": [-1000.0, -100.0, 0.0], "radius": 350.0 },
+            { "center": [-700.0, -100.0, 700.0], "radius": 350.0 },
+            { "center": [-700.0, -100.0, -700.0], "radius": 350.0 },
+            { "center": [700.0, -100.0, 700.0], "radius": 350.0 },
+            { "center": [700.0, -100.0, -700.0], "radius": 350.0 },
+            { "center": [0.0, 400.0, -900.0], "radius": 500.0 },
+            { "center": [0.0, -600.0, -900.0], "radius": 500.0 },
+            { "center": [0.0, 1000.0, -600.0], "radius": 400.0 },
+            { "center": [0.0, -1400.0, -500.0], "radius": 400.0 }
+        ]
+    },
+    "physics":
+    {
+        "can_move_angular": true,
+        "max_angular_speed": 0.5,
+        "death_angular_speed_range": [1.5, 1.5]
+    },
+    "attack":
+    {
+        "attack_pattern":
+        {
+            "type": "immobile",
+            "rotate_only_on_plane": true
+        }
+    },
+    "ai":
+    {
+        "attack_target_type_groups": [
+            "heavy_capital",
+            "defense"
+        ],
+        "attack_target_type_groups_to_ignore": [
+            "torpedo_strikecraft"
+        ],
+        "attack_target_type_groups_matching_weapon": "advent_starbase_plasma",
+        "auto_follow_target_priority": 2.0
+    },
+    "ai_attack_target":
+    {
+        "attack_priority": 50.0,
+        "is_always_a_threat": true,
+        "attack_target_type": "starbase"
+    },
+    "user_interface":
+    {
+        "can_be_controlled_by_selected_planet": true,
+        "pip_type": "starbase",
+        "can_ever_be_selected": true,
+        "selection_priority": 600,
+        "selection_group_unit_type": "combat_ship",
+        "can_rotate": true,
+        "can_attack": true,
+        "can_show_max_weapon_range_in_tactical_view": true,
+        "can_show_distance_to_plane_line": true
+    },
+    "structure":
+    {
+        "virtual_slot_type": "military",
+        "build_group_id": "military"
+    },
+    "weapons":
+    {
+        "weapons": [
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_0",
+            "weapon_position": [-583.887329, 127.206825, 132.240128],
+            "forward": [-0.99926, 0.008748, -0.03747],
+            "up": [0.008873, 0.999956, -0.003177],
+            "yaw_arc":
+            {
+                "min_angle": -60.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_1",
+            "weapon_position": [-575.381165, 127.890343, 218.289062],
+            "forward": [-0.991291, 0.008748, 0.131396],
+            "up": [0.008211, 0.999956, -0.004626],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_2",
+            "weapon_position": [-535.280762, 126.143532, 323.552795],
+            "forward": [-0.847653, 0.008748, 0.530479],
+            "up": [0.005555, 0.999956, -0.007614],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_3",
+            "weapon_position": [-473.307251, 122.953728, 415.753571],
+            "forward": [-0.847653, 0.008748, 0.530479],
+            "up": [0.005555, 0.999956, -0.007614],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_4",
+            "weapon_position": [-395.688538, 123.86512, 495.650787],
+            "forward": [-0.655241, 0.008748, 0.755369],
+            "up": [0.003083, 0.999956, -0.008906],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_5",
+            "weapon_position": [-304.095367, 121.966408, 560.358398],
+            "forward": [-0.491799, 0.008748, 0.870665],
+            "up": [0.001249, 0.999956, -0.009342],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_6",
+            "weapon_position": [-202.477066, 121.206932, 606.230957],
+            "forward": [-0.250211, 0.008748, 0.968152],
+            "up": [-0.001207, 0.999956, -0.009347],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_7",
+            "weapon_position": [-93.339981, 119.839882, 632.9646],
+            "forward": [-0.129573, 0.008748, 0.991531],
+            "up": [-0.002344, 0.999956, -0.009128],
+            "yaw_arc":
+            {
+                "min_angle": -60.0,
+                "max_angle": 60.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -45.0,
+                "max_angle": 45.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_8",
+            "weapon_position": [94.137367, 119.839882, 632.9646],
+            "forward": [-0.129573, 0.008748, 0.991531],
+            "up": [-0.002344, 0.999956, -0.009128],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 95.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_9",
+            "weapon_position": [202.32515, 121.206932, 606.230957],
+            "forward": [0.330593, 0.008748, 0.943733],
+            "up": [-0.006202, 0.999956, -0.007096],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_10",
+            "weapon_position": [305.614258, 121.966408, 559.750854],
+            "forward": [0.50755, 0.008748, 0.861578],
+            "up": [-0.007462, 0.999956, -0.005757],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_11",
+            "weapon_position": [396.75174, 123.86512, 495.650848],
+            "forward": [0.654093, 0.008748, 0.756364],
+            "up": [-0.008375, 0.999956, -0.004323],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_12",
+            "weapon_position": [475.433655, 122.953728, 416.057465],
+            "forward": [0.757971, 0.008748, 0.652229],
+            "up": [-0.008918, 0.999956, -0.003047],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_13",
+            "weapon_position": [537.710999, 126.143532, 322.945374],
+            "forward": [0.866312, 0.008748, 0.499426],
+            "up": [-0.00933, 0.999956, -0.00133],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_14",
+            "weapon_position": [575.684937, 127.890343, 218.289124],
+            "forward": [0.98723, 0.008748, 0.15906],
+            "up": [-0.009194, 0.999956, 0.002071],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_15",
+            "weapon_position": [585.406311, 127.206825, 132.240189],
+            "forward": [0.998017, 0.008748, 0.06234],
+            "up": [-0.008949, 0.999956, 0.002955],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 60.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_16",
+            "weapon_position": [-575.381165, -374.580841, 218.289062],
+            "forward": [-0.999048, -0.008748, 0.042738],
+            "up": [0.00889, -0.999956, 0.00313],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 60.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_17",
+            "weapon_position": [-535.280762, -372.758087, 322.033813],
+            "forward": [-0.883234, -0.008748, 0.46885],
+            "up": [0.009371, -0.999956, -0.001004],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_18",
+            "weapon_position": [-473.307251, -369.720184, 415.753571],
+            "forward": [-0.788401, -0.008748, 0.6151],
+            "up": [0.009055, -0.999956, -0.002616],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_19",
+            "weapon_position": [-395.688538, -370.327759, 495.650787],
+            "forward": [-0.695387, -0.008748, 0.718583],
+            "up": [0.008603, -0.999956, -0.003847],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_20",
+            "weapon_position": [-304.095367, -368.505005, 560.358398],
+            "forward": [-0.581247, -0.008748, 0.81368],
+            "up": [0.007939, -0.999956, -0.005079],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_21",
+            "weapon_position": [-202.477066, -367.745544, 606.230957],
+            "forward": [-0.350348, -0.008748, 0.936579],
+            "up": [0.00635, -0.999956, -0.006965],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_22",
+            "weapon_position": [-93.339981, -366.378479, 632.9646],
+            "forward": [-0.217365, -0.008748, 0.976051],
+            "up": [0.005325, -0.999956, -0.007776],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_23",
+            "weapon_position": [-583.887329, -373.669464, 132.240128],
+            "forward": [-0.99926, -0.008748, 0.037469],
+            "up": [0.008873, -0.999956, 0.003177],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 60.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_24",
+            "weapon_position": [94.669006, -366.378479, 632.9646],
+            "forward": [0.129573, -0.008748, 0.991531],
+            "up": [0.002344, -0.999956, -0.009129],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_25",
+            "weapon_position": [202.628937, -367.745544, 606.230957],
+            "forward": [0.333639, -0.008748, 0.94266],
+            "up": [0.000388, -0.999956, -0.009417],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_26",
+            "weapon_position": [305.158569, -368.505005, 559.750854],
+            "forward": [0.565811, -0.008748, 0.824489],
+            "up": [-0.002058, -0.999956, -0.009197],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_27",
+            "weapon_position": [397.814972, -370.327759, 495.347015],
+            "forward": [0.586913, -0.008748, 0.809603],
+            "up": [-0.002295, -0.999956, -0.009141],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_28",
+            "weapon_position": [475.737518, -369.720184, 415.601746],
+            "forward": [0.74266, -0.008748, 0.669612],
+            "up": [-0.004149, -0.999956, -0.008463],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_29",
+            "weapon_position": [537.103394, -372.758087, 322.185883],
+            "forward": [0.890662, -0.008748, 0.454581],
+            "up": [-0.006197, -0.999956, -0.007101],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_30",
+            "weapon_position": [577.50769, -374.580841, 218.289124],
+            "forward": [0.976067, -0.008748, 0.217293],
+            "up": [-0.007777, -0.999956, -0.005324],
+            "yaw_arc":
+            {
+                "min_angle": -60.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_31",
+            "weapon_position": [584.798645, -373.669464, 132.240189],
+            "forward": [0.998723, -0.008748, 0.049765],
+            "up": [-0.008562, -0.999956, -0.003938],
+            "yaw_arc":
+            {
+                "min_angle": -60.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_32",
+            "weapon_position": [-613.658752, -36.745674, -1028.471436],
+            "forward": [-0.498159, -0.108448, -0.860277],
+            "up": [-0.063012, 0.994052, -0.088823],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_33",
+            "weapon_position": [-520.091003, -36.783653, -1080.723389],
+            "forward": [-0.499608, -0.101564, -0.860277],
+            "up": [-0.04929, 0.994827, -0.088823],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_34",
+            "weapon_position": [-423.485321, -36.783653, -1122.039185],
+            "forward": [-0.500941, -0.09477, -0.860277],
+            "up": [-0.035775, 0.995405, -0.088824],
+            "yaw_arc":
+            {
+                "min_angle": -70.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_35",
+            "weapon_position": [-613.658752, -210.077728, -1028.471436],
+            "forward": [-0.60821, 0.11748, -0.785035],
+            "up": [-0.075959, -0.993063, -0.089761],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_36",
+            "weapon_position": [-520.091003, -210.077728, -1078.900635],
+            "forward": [-0.351657, 0.11748, -0.928728],
+            "up": [-0.046343, -0.993063, -0.10807],
+            "yaw_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 70.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_37",
+            "weapon_position": [-422.573975, -210.077728, -1120.216553],
+            "forward": [-0.351657, 0.11748, -0.928728],
+            "up": [-0.046343, -0.993063, -0.10807],
+            "yaw_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 60.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_38",
+            "weapon_position": [422.574127, -210.077728, -1120.216553],
+            "forward": [0.5361, 0.11748, -0.83594],
+            "up": [0.05915, -0.993063, -0.101627],
+            "yaw_arc":
+            {
+                "min_angle": -70.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_39",
+            "weapon_position": [518.876038, -210.229614, -1078.293213],
+            "forward": [0.477278, 0.117479, -0.870864],
+            "up": [0.052013, -0.993063, -0.105458],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_40",
+            "weapon_position": [610.317322, -210.229614, -1029.078979],
+            "forward": [0.550229, 0.11748, -0.826708],
+            "up": [0.060869, -0.993063, -0.100607],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_41",
+            "weapon_position": [424.700653, -36.783653, -1122.039307],
+            "forward": [0.245852, -0.095759, -0.964566],
+            "up": [0.036756, 0.995313, -0.089443],
+            "yaw_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 60.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_42",
+            "weapon_position": [521.91394, -36.954529, -1080.116089],
+            "forward": [0.459841, -0.09722, -0.882663],
+            "up": [0.040934, 0.995253, -0.088295],
+            "yaw_arc":
+            {
+                "min_angle": -80.0,
+                "max_angle": 80.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_laser",
+            "mesh_point": "child.advent_asset_medlaser_mount_43",
+            "weapon_position": [613.355286, -36.745674, -1029.078979],
+            "forward": [0.369882, -0.105077, -0.923118],
+            "up": [0.046036, 0.994436, -0.094749],
+            "yaw_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 70.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_0",
+            "weapon_position": [-1299.619995, -78.232208, 168.770996],
+            "forward": [-1.0, 0.0, -0.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_1",
+            "weapon_position": [-1299.619995, -78.232208, -112.236198],
+            "forward": [-1.0, 0.0, -0.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_2",
+            "weapon_position": [-1299.619995, -168.458298, 168.770996],
+            "forward": [-1.0, 0.0, -0.0],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_3",
+            "weapon_position": [-1299.619995, -168.458298, -113.527298],
+            "forward": [-1.0, 0.0, -0.0],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_4",
+            "weapon_position": [140.503494, -79.33345, 1327.128052],
+            "forward": [-0.0, 0.0, 1.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_5",
+            "weapon_position": [-139.744202, -79.33345, 1327.128052],
+            "forward": [-0.0, 0.0, 1.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_6",
+            "weapon_position": [140.503494, -167.319107, 1327.128052],
+            "forward": [-0.0, 0.0, 1.0],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_7",
+            "weapon_position": [-138.453094, -167.319107, 1327.128052],
+            "forward": [-0.0, 0.0, 1.0],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_8",
+            "weapon_position": [1299.012939, -78.498032, 167.783905],
+            "forward": [1.0, -0.0, -0.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_9",
+            "weapon_position": [1300.834961, -78.232208, -112.160004],
+            "forward": [1.0, -0.0, -0.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_10",
+            "weapon_position": [1300.834961, -168.458298, -112.160004],
+            "forward": [1.0, 0.0, -0.0],
+            "up": [-0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_11",
+            "weapon_position": [1300.834961, -168.458298, 167.328201],
+            "forward": [1.0, 0.0, -0.0],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_12",
+            "weapon_position": [-259.709412, -86.130791, -1275.758057],
+            "forward": [0.0, 0.0, -1.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -45.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_13",
+            "weapon_position": [260.045685, -86.130791, -1275.758057],
+            "forward": [0.0, 0.0, -1.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 45.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_14",
+            "weapon_position": [-259.700012, -160.407806, -1275.758057],
+            "forward": [0.0, 0.0, -1.0],
+            "up": [0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 45.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_plasma",
+            "required_unit_item": "advent_starbase_unlock_plasma_weapon",
+            "mesh_point": "child.advent_asset_hvyplasma_mount_15",
+            "weapon_position": [261.8685, -160.407806, -1275.758057],
+            "forward": [0.0, 0.0, -1.0],
+            "up": [0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -45.0,
+                "max_angle": 65.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -65.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_0",
+            "weapon_position": [-1342.759033, -109.142998, 294.844391],
+            "forward": [-1.0, 0.0, -0.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_1",
+            "weapon_position": [-1342.759033, -109.142998, -238.765396],
+            "forward": [-1.0, 0.0, -0.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_2",
+            "weapon_position": [-1342.759033, -137.319702, 294.844391],
+            "forward": [-1.0, 0.0, -0.0],
+            "up": [-0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_3",
+            "weapon_position": [-1342.759033, -137.319702, -238.765396],
+            "forward": [-1.0, 0.0, -0.0],
+            "up": [-0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_4",
+            "weapon_position": [-266.273407, -110.282204, 1372.088989],
+            "forward": [-0.0, 0.0, 1.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_5",
+            "weapon_position": [266.273193, -110.282204, 1372.088989],
+            "forward": [-0.0, 0.0, 1.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_6",
+            "weapon_position": [266.273193, -136.484207, 1372.088989],
+            "forward": [-0.0, 0.0, 1.0],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_7",
+            "weapon_position": [-265.817688, -136.484207, 1372.088989],
+            "forward": [-0.0, 0.0, 1.0],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_8",
+            "weapon_position": [1343.365967, -109.218903, 294.540894],
+            "forward": [1.0, -0.0, -0.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_9",
+            "weapon_position": [1343.365967, -109.218903, -239.524597],
+            "forward": [1.0, -0.0, -0.0],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_10",
+            "weapon_position": [1343.365967, -137.395599, -239.220795],
+            "forward": [1.0, 0.0, -0.0],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_11",
+            "weapon_position": [1343.365967, -137.395599, 294.69281],
+            "forward": [1.0, 0.0, -0.0],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_12",
+            "weapon_position": [-312.753204, -111.725197, -1306.744019],
+            "forward": [0.0, 0.0, -1.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -45.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_13",
+            "weapon_position": [311.234589, -111.725197, -1306.744019],
+            "forward": [0.0, 0.0, -1.0],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 45.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_14",
+            "weapon_position": [-312.753204, -134.965302, -1305.529053],
+            "forward": [0.0, 0.0, -1.0],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -75.0,
+                "max_angle": 45.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_point_defense_laser",
+            "mesh_point": "child.advent_asset_pdlaser_mount_15",
+            "weapon_position": [312.145905, -135.117203, -1306.744019],
+            "forward": [0.0, 0.0, -1.0],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -45.0,
+                "max_angle": 75.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -85.0,
+                "max_angle": 5.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_missile",
+            "required_unit_item": "advent_starbase_unlock_missile_weapon",
+            "mesh_point": "weapon.0_topleft",
+            "weapon_position": [-158.963211, 957.665161, -736.285095],
+            "non_turret_muzzle_positions": [
+                [-140.177139, 1059.402344, -645.530579],
+                [-140.177124, 1046.705566, -680.842957],
+                [-183.235092, 862.529541, -793.661133],
+                [-183.235077, 860.445801, -824.858276],
+                [-144.370056, 1018.186462, -676.361511],
+                [-144.370056, 1015.312927, -708.467834],
+                [-153.543747, 983.453552, -704.817383],
+                [-155.314407, 970.261658, -738.760376],
+                [-162.47496, 941.193909, -732.180542],
+                [-162.474976, 938.786072, -764.568115],
+                [-169.092865, 904.216003, -766.366028],
+                [-169.092865, 891.487, -799.005432]
+            ],
+            "forward": [-0.951543, 0.0, 0.307515],
+            "up": [-0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -120.0,
+                "max_angle": 90.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_missile",
+            "required_unit_item": "advent_starbase_unlock_missile_weapon",
+            "mesh_point": "weapon.0_topmiddleleft",
+            "weapon_position": [-303.387878, 532.29187, -749.566528],
+            "non_turret_muzzle_positions": [
+                [-259.290894, 634.555847, -823.535706],
+                [-259.290894, 627.930298, -792.321106],
+                [-345.873566, 443.755402, -706.053162],
+                [-351.406464, 427.757355, -676.866089],
+                [-272.384491, 599.38916, -801.6651],
+                [-277.133545, 583.236023, -773.195374],
+                [-292.40213, 554.33313, -774.117798],
+                [-293.213684, 546.538757, -744.651428],
+                [-310.602051, 521.242981, -753.497253],
+                [-314.999207, 503.942963, -721.770752],
+                [-332.028687, 476.339142, -728.484558],
+                [-332.028687, 468.481049, -698.640442]
+            ],
+            "forward": [-0.771146, 0.194212, 0.606313],
+            "up": [0.244223, 0.969719, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -140.0,
+                "max_angle": 70.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_missile",
+            "required_unit_item": "advent_starbase_unlock_missile_weapon",
+            "mesh_point": "weapon.0_topright",
+            "weapon_position": [158.078705, 957.647095, -736.491638],
+            "non_turret_muzzle_positions": [
+                [137.249527, 1058.993164, -648.171814],
+                [137.249542, 1045.711792, -680.672241],
+                [182.296677, 862.058838, -794.349426],
+                [182.296692, 862.058838, -824.810242],
+                [145.785385, 1018.415466, -676.576843],
+                [145.78537, 1015.333923, -708.035461],
+                [152.543518, 983.876282, -705.090332],
+                [152.543518, 970.712463, -737.915222],
+                [160.50029, 939.020325, -733.459717],
+                [160.500275, 939.020325, -764.52478],
+                [168.033707, 903.453674, -765.528992],
+                [172.159866, 893.108398, -798.764343]
+            ],
+            "forward": [0.729033, -0.0, 0.684479],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -70.0,
+                "max_angle": 140.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_missile",
+            "required_unit_item": "advent_starbase_unlock_missile_weapon",
+            "mesh_point": "weapon.0_topmiddleright",
+            "weapon_position": [306.070923, 532.106079, -749.739746],
+            "non_turret_muzzle_positions": [
+                [258.463684, 633.911377, -823.583496],
+                [261.03418, 626.658936, -791.866699],
+                [350.571899, 442.447174, -705.923889],
+                [355.71463, 428.384003, -677.887146],
+                [275.252563, 601.17804, -801.431702],
+                [280.603973, 583.941406, -773.437622],
+                [296.538147, 552.815613, -774.004456],
+                [296.538147, 547.079773, -744.294861],
+                [313.447906, 520.545044, -752.784851],
+                [318.443756, 503.751251, -722.888489],
+                [333.12088, 475.336884, -729.831055],
+                [333.12088, 469.22348, -698.943848]
+            ],
+            "forward": [0.729033, -0.0, 0.684479],
+            "up": [0.0, 1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -70.0,
+                "max_angle": 140.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_missile",
+            "required_unit_item": "advent_starbase_unlock_missile_weapon",
+            "mesh_point": "weapon.0_bottomleft",
+            "weapon_position": [-162.933701, -1209.895386, -724.02771],
+            "non_turret_muzzle_positions": [
+                [-182.341766, -1104.234619, -827.168518],
+                [-182.341782, -1104.234619, -792.142639],
+                [-146.403046, -1307.502319, -657.230896],
+                [-144.056732, -1320.772583, -620.896301],
+                [-173.699493, -1138.647461, -796.896606],
+                [-173.699493, -1150.644775, -759.379456],
+                [-166.4702, -1189.585571, -756.191772],
+                [-166.470169, -1189.585571, -721.810425],
+                [-159.533325, -1225.620605, -725.093689],
+                [-157.758057, -1238.265137, -687.360046],
+                [-151.215149, -1274.825195, -688.971497],
+                [-151.215149, -1274.825195, -655.189575]
+            ],
+            "forward": [-0.715612, 0.0, 0.698498],
+            "up": [-0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -60.0,
+                "max_angle": 150.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_missile",
+            "required_unit_item": "advent_starbase_unlock_missile_weapon",
+            "mesh_point": "weapon.0_bottommiddleleft",
+            "weapon_position": [-304.133698, -785.337769, -755.432739],
+            "non_turret_muzzle_positions": [
+                [-352.52951, -681.22821, -682.466919],
+                [-347.871826, -696.723206, -711.816406],
+                [-259.630219, -881.568604, -797.771362],
+                [-258.377258, -887.855652, -828.342651],
+                [-332.01532, -721.029114, -705.030823],
+                [-332.01532, -728.67395, -735.039856],
+                [-315.884674, -756.423401, -728.103577],
+                [-310.784973, -773.842285, -758.811096],
+                [-295.550293, -799.378296, -750.119995],
+                [-293.688324, -806.666443, -780.937683],
+                [-278.457855, -837.165649, -779.618896],
+                [-272.798676, -853.497986, -807.132996]
+            ],
+            "forward": [-0.715612, 0.0, 0.698498],
+            "up": [-0.0, -1.0, 0.0],
+            "yaw_arc":
+            {
+                "min_angle": -60.0,
+                "max_angle": 150.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_missile",
+            "required_unit_item": "advent_starbase_unlock_missile_weapon",
+            "mesh_point": "weapon.0_bottomright",
+            "weapon_position": [163.508041, -1209.724365, -724.234985],
+            "non_turret_muzzle_positions": [
+                [185.353149, -1104.121704, -827.624573],
+                [185.353134, -1104.121704, -793.610596],
+                [143.848358, -1308.352417, -657.140381],
+                [143.848343, -1320.966919, -621.080322],
+                [175.706284, -1139.209595, -795.524109],
+                [175.706284, -1149.944092, -759.327454],
+                [168.102707, -1189.819702, -756.266296],
+                [168.102707, -1189.819702, -721.751282],
+                [160.252701, -1224.564819, -725.563599],
+                [156.393738, -1237.518555, -688.426575],
+                [149.714508, -1274.127319, -689.790588],
+                [149.714523, -1274.127319, -654.713501]
+            ],
+            "forward": [0.820935, 0.0, 0.571022],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -140.0,
+                "max_angle": 70.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        },
+        {
+            "weapon": "advent_starbase_missile",
+            "required_unit_item": "advent_starbase_unlock_missile_weapon",
+            "mesh_point": "weapon.0_bottommiddleright",
+            "weapon_position": [303.721069, -785.491394, -755.680115],
+            "non_turret_muzzle_positions": [
+                [354.284332, -681.189453, -682.916626],
+                [347.139557, -696.002625, -711.98938],
+                [259.421997, -881.249695, -799.293518],
+                [256.343811, -888.167297, -828.552429],
+                [334.335876, -721.281738, -704.83429],
+                [330.138763, -728.335388, -734.35614],
+                [316.374359, -756.952515, -728.697998],
+                [310.20755, -774.434753, -759.846497],
+                [293.577637, -800.279724, -750.722351],
+                [293.139954, -806.416992, -780.18866],
+                [277.934174, -837.767578, -780.188721],
+                [271.75473, -853.818054, -806.573975]
+            ],
+            "forward": [0.820935, 0.0, 0.571022],
+            "up": [-0.0, -1.0, -0.0],
+            "yaw_arc":
+            {
+                "min_angle": -140.0,
+                "max_angle": 70.0
+            },
+            "pitch_arc":
+            {
+                "min_angle": -90.0,
+                "max_angle": 90.0
+            }
+        }],
+        "max_range_weapon_index": 0
+    },
+    "formation":
+    {
+        "leader_priority": 3,
+        "offsets_per_formation_type":
+        {
+            "ships_and_structures":
+            {
+                "rank": 5,
+                "group": 5
+            }
+        }
+    },
+    "spawn_debris":
+    {
+        "spawn_debris_time": 8.1,
+        "generic_group_name": "advent",
+        "generic_counts":
+        {
+            "small_debris": [20, 24],
+            "large_debris": [10, 12]
+        },
+        "custom_debris": [
+        {
+            "unit": "advent_starbase_debris_back",
+            "basis":
+            {
+                "position": [100.0, 600.0, -900.0],
+                "rotation": [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+            }
+        },
+        {
+            "unit": "advent_starbase_debris_front",
+            "basis":
+            {
+                "position": [300.0, -100.0, 1400.0],
+                "rotation": [1.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, 0.0, 1.0]
+            }
+        },
+        {
+            "unit": "advent_starbase_debris_mid",
+            "basis":
+            {
+                "position": [700.0, -200.0, -300.0],
+                "rotation": [1.0, -0.0, 0.0, 0.0, 1.0, -0.0, 0.0, 0.0, 1.0]
+            }
+        }],
+        "spawn_loot":
+        {
+            "loot_unit": "ship_loot_advent",
+            "loot_name": "advent_starbase_loot_name",
+            "loot_level": 1,
+            "experience_given": 500.0,
+            "exotics": [
+            {
+                "bundles": [
+                {
+                    "types": [
+                        "defense"
+                    ],
+                    "counts": [1, 1]
+                }],
+                "weight": 1.0
+            }],
+            "assets":
+            {
+                "metal": [200, 400],
+                "crystal": [200, 400]
+            }
+        }
+    },
+    "health":
+    {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 6.0,
+        "durability": 1000.0,
+        "levels": [
+        {
+            "max_hull_points": 7500.0,
+            "hull_point_restore_rate": 9.0,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "hull_crippled_percentage": 1.0,
+            "max_armor_points": 2500.0,
+            "armor_point_restore_rate": 12.0,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 100.0,
+            "max_shield_points": 7500.0,
+            "shield_point_restore_rate": 15.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "shield_burst_restore":
+            {
+                "cooldown_duration": 120.0,
+                "restore_percentage": 0.5
+            },
+            "experience_given_on_death": 2000.0
+        }]
+    },
+    "corruption":
+    {
+        "max_corruption": 10000.0,
+        "corruption_decay_rate": 50.0,
+        "corruption_decay_delay_duration_after_gain": 60.0,
+        "corruption_thresholds": [0.1, 0.5, 0.9],
+        "show_main_view_icon_alert_fill": true
+    },
+    "build":
+    {
+        "build_time": 180.0,
+        "price":
+        {
+            "credits": 2000.0,
+            "metal": 450.0,
+            "crystal": 550.0
+        },
+        "exotic_price": [
+        {
+            "exotic_type": "defense",
+            "count": 1
+        },
+        {
+            "exotic_type": "utility",
+            "count": 1
+        }],
+        "build_kind": "starbase",
+        "build_radius": 1995.25647,
+        "self_build_time_gravity_well_scalars":
+        {
+            "enemy": [
+            {
+                "value": 2.5
+            }],
+            "neutral": [
+            {
+                "value": 1.0
+            }]
+        },
+        "can_update_build_progress_by_default": true,
+        "build_group_id": "starbase"
+    },
+    "carrier":
+    {
+        "base_max_squadron_capacity": 2,
+        "strikecraft_kinds": [
+            "interceptor",
+            "bomber"
+        ],
+        "launch_destination_formation": "advent_starbase_strikecraft",
+        "launch_destination_formation_offset":
+        {
+            "rank": 3,
+            "group": 2
+        },
+        "hangar_data": [
+        {
+            "launch_basis":
+            {
+                "position": [1.247278, -121.69973, 1413.392212],
+                "rotation": [1.0, 0.0, -0.0, -0.0, 1.0, -0.0, 0.0, 0.0, 1.0]
+            },
+            "land_basis":
+            {
+                "position": [1.247278, -121.69973, 1413.392212],
+                "rotation": [1.0, 0.0, -0.0, -0.0, 1.0, -0.0, 0.0, 0.0, 1.0]
+            }
+        },
+        {
+            "launch_basis":
+            {
+                "position": [1390.710571, -121.69973, 26.782059],
+                "rotation": [-0.0, 0.0, -1.0, -0.0, 1.0, 0.0, 1.0, 0.0, -0.0]
+            },
+            "land_basis":
+            {
+                "position": [1390.710571, -121.69973, 26.782059],
+                "rotation": [-0.0, 0.0, -1.0, -0.0, 1.0, 0.0, 1.0, 0.0, -0.0]
+            },
+            "required_unit_item": "advent_starbase_hangar_0"
+        },
+        {
+            "launch_basis":
+            {
+                "position": [-1394.276611, -121.69973, 26.782059],
+                "rotation": [0.0, 0.0, 1.0, 0.0, 1.0, 0.0, -1.0, 0.0, 0.0]
+            },
+            "land_basis":
+            {
+                "position": [-1394.276611, -121.69973, 26.782059],
+                "rotation": [0.0, 0.0, 1.0, 0.0, 1.0, 0.0, -1.0, 0.0, 0.0]
+            },
+            "required_unit_item": "advent_starbase_hangar_0"
+        }]
+    },
+    "items":
+    {
+        "levels": [
+        {
+            "max_ship_component_count": 8
+        }],
+        "requires_ship_component_shop_to_purchase_items": false
+    },
+    "culture_provider":
+    {},
+    "unit_modifiers": [
+    {
+        "modifier_type": "min_detection_level",
+        "value_behavior": "additive",
+        "value": 1.0
+    }],
+    "target_filter_unit_type": "starbase",
+    "tags": [
+        "starbase"
+    ],
+    "item_access_tags": [
+        "titanpool_advent_starbase_components"
+    ],
+    "abilities": [
+    {
+        "abilities": [
+            "advent_starbase_phase_jamming"
+        ]
+    }],
+    "virtual_supply_cost": 200,
+    "skin_groups": [
+    {
+        "skins": [
+            "advent_starbase"]
+    }],
+    "child_meshes": [
+    {
+        "mesh_alias_name": "advent_starbase_component_armor",
+        "mesh_point": "child.advent_starbase_component_armor",
+        "is_weapon_effects_destination": true,
+        "required_unit_item": "advent_starbase_structural_integrity_0"
+    },
+    {
+        "mesh_alias_name": "advent_starbase_component_evangelization_node",
+        "mesh_point": "child.advent_starbase_component_evangelization_node",
+        "is_weapon_effects_destination": true,
+        "required_unit_item": "advent_starbase_culture"
+    },
+    {
+        "mesh_alias_name": "advent_starbase_component_hangar",
+        "mesh_point": "child.advent_starbase_component_hangar",
+        "is_weapon_effects_destination": true,
+        "hidden_by_unit_item": "advent_starbase_hangar_0"
+    },
+    {
+        "mesh_alias_name": "advent_starbase_component_missile",
+        "mesh_point": "child.advent_starbase_component_missile",
+        "is_weapon_effects_destination": true,
+        "required_unit_item": "advent_starbase_unlock_missile_weapon"
+    },
+    {
+        "mesh_alias_name": "advent_starbase_component_shield",
+        "mesh_point": "child.advent_starbase_component_shield",
+        "is_weapon_effects_destination": true,
+        "required_unit_item": "advent_starbase_shield_booster"
+    }],
+    "action_effect_size": "large_unit"
+}

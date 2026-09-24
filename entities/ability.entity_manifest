@@ -16,6 +16,7 @@
         "advent_deploy_ancient_starbase",
         "vasari_deploy_ancient_starbase",
         "dlc3_herald_deploy_ancient_starbase",
-        "titanpool_h_dlc3_herald_immolation_beam"
+        "titanpool_h_dlc3_herald_immolation_beam",
+        "titanpool_vasari_deploy_phase_gate"
     ]
 }

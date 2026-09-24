@@ -1,0 +1,369 @@
+{
+    "version": 0,
+    "level_count": 3,
+    "target_filters": [
+    {
+        "target_filter_id": "the_maw_attract_target_filter",
+        "target_filter":
+        {
+            "unit_types": [
+                "corvette",
+                "cruiser",
+                "frigate"
+            ],
+            "ownerships": [
+                "enemy"
+            ],
+            "constraints": [
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_trader_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_trader_rebel_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_advent_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_advent_rebel_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_vasari_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_vasari_rebel_titan"
+                }
+            }]
+        }
+    },
+    {
+        "target_filter_id": "the_maw_auto_cast_target_filter",
+        "target_filter":
+        {
+            "unit_types": [
+                "corvette",
+                "cruiser",
+                "frigate"
+            ],
+            "ownerships": [
+                "enemy"
+            ],
+            "constraints": [
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_trader_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_trader_rebel_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_advent_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_advent_rebel_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_vasari_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_vasari_rebel_titan"
+                }
+            }]
+        }
+    },
+    {
+        "target_filter_id": "the_maw_consume_target_filter",
+        "target_filter":
+        {
+            "unit_types": [
+                "corvette",
+                "cruiser",
+                "frigate"
+            ],
+            "ownerships": [
+                "enemy"
+            ],
+            "constraints": [
+            {
+                "constraint_type": "has_buff",
+                "buff": "vasari_loyalist_titan_the_maw_on_target"
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_trader_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_trader_rebel_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_advent_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_advent_rebel_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_vasari_loyalist_titan"
+                }
+            },
+            {
+                "constraint_type": "composite_not",
+                "constraint":
+                {
+                    "constraint_type": "has_definition",
+                    "unit_definition": "native_vasari_rebel_titan"
+                }
+            }]
+        }
+    }],
+    "per_buff_memory_declaration":
+    {
+        "float_variable_ids": [
+            "available_supply",
+            "stack_count"]
+    },
+    "action_values": [
+    {
+        "action_value_id": "the_maw_antimatter_cost_value",
+        "action_value":
+        {
+            "values": [90.0, 90.0, 90.0]
+        }
+    },
+    {
+        "action_value_id": "the_maw_cooldown_time_value",
+        "action_value":
+        {
+            "values": [90.0, 90.0, 90.0]
+        }
+    },
+    {
+        "action_value_id": "the_maw_arc_angle_value",
+        "action_value":
+        {
+            "values": [60.0, 60.0, 60.0]
+        }
+    },
+    {
+        "action_value_id": "the_maw_arc_half_angle_value",
+        "action_value":
+        {
+            "values": [60.0, 60.0, 60.0]
+        }
+    },
+    {
+        "action_value_id": "the_maw_attraction_max_linear_speed_value",
+        "action_value":
+        {
+            "values": [650.0, 650.0, 650.0]
+        }
+    },
+    {
+        "action_value_id": "the_maw_attraction_radius_value",
+        "action_value":
+        {
+            "values": [4200.0, 4200.0, 4200.0]
+        }
+    },
+    {
+        "action_value_id": "the_maw_attraction_time_to_max_linear_speed_value",
+        "action_value":
+        {
+            "values": [2.5, 2.5, 2.5]
+        }
+    },
+    {
+        "action_value_id": "the_maw_attract_duration_value",
+        "action_value":
+        {
+            "values": [20.0, 20.0, 20.0]
+        }
+    },
+    {
+        "action_value_id": "the_maw_consume_target_radius_value",
+        "action_value":
+        {
+            "values": [50.0, 50.0, 50.0]
+        }
+    },
+    {
+        "action_value_id": "the_maw_consume_execution_interval_value",
+        "action_value":
+        {
+            "values": [0.5, 0.5, 0.5]
+        }
+    },
+    {
+        "action_value_id": "the_maw_max_supply_consumed_value",
+        "action_value":
+        {
+            "values": [120.0, 240.0, 360.0]
+        }
+    },
+    {
+        "action_value_id": "the_maw_available_supply_value",
+        "action_value":
+        {
+            "transform_type": "current_buff_memory_value",
+            "memory_float_variable_id": "available_supply",
+            "values": [1.0, 1.0, 1.0]
+        }
+    },
+    {
+        "action_value_id": "the_maw_supply_consumed_increment_value",
+        "action_value":
+        {
+            "transform_type": "per_build_or_virtual_supply",
+            "transform_unit":
+            {
+                "unit_type": "operand_destination"
+            },
+            "values": [1.0, 1.0, 1.0]
+        }
+    },
+    {
+        "action_value_id": "the_maw_crystal_value",
+        "action_value":
+        {
+            "transform_type": "per_crystal_price",
+            "transform_unit":
+            {
+                "unit_type": "operand_destination"
+            },
+            "values": [0.24, 0.48, 0.72]
+        }
+    },
+    {
+        "action_value_id": "the_maw_metal_value",
+        "action_value":
+        {
+            "transform_type": "per_metal_price",
+            "transform_unit":
+            {
+                "unit_type": "operand_destination"
+            },
+            "values": [0.24, 0.48, 0.72]
+        }
+    },
+    {
+        "action_value_id": "the_maw_damage_bonus_duration_value",
+        "action_value":
+        {
+            "values": [30.0, 30.0, 30.0]
+        }
+    },
+    {
+        "action_value_id": "the_maw_weapon_damage_bonus_value",
+        "action_value":
+        {
+            "transform_type": "current_buff_memory_value",
+            "memory_float_variable_id": "stack_count",
+            "values": [0.006, 0.012, 0.018]
+        }
+    },
+    {
+        "action_value_id": "the_maw_max_stack_count_value",
+        "action_value":
+        {
+            "values": [20.0, 20.0, 20.0]
+        }
+    },
+    {
+        "action_value_id": "the_maw_current_stack_count_value",
+        "action_value":
+        {
+            "transform_type": "current_buff_memory_value",
+            "memory_float_variable_id": "stack_count",
+            "values": [1.0, 1.0, 1.0]
+        }
+    }],
+    "buff_weapon_modifiers": [
+    {
+        "buff_weapon_modifier_id": "the_maw_weapon_damage_modifier",
+        "buff_weapon_modifier":
+        {
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "value_id": "the_maw_weapon_damage_bonus_value"
+        }
+    }]
+}

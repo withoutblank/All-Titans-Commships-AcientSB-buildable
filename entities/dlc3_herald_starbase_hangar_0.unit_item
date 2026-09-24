@@ -1,0 +1,31 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "dlc3_herald_starbase_hangar_0_unit_item_hud_icon",
+    "tooltip_picture": "dlc3_herald_starbase_hangar_0_unit_item_tooltip_picture",
+    "name": "dlc3_herald_starbase_hangar_0_unit_item_name",
+    "description": "dlc3_herald_starbase_hangar_0_unit_item_description",
+    "build_time": 60,
+    "price": {
+        "credits": 900,
+        "metal": 320,
+        "crystal": 100
+    },
+    "required_unit_tags": [
+        "starbase"
+    ],
+    "required_item_access_tags": [
+        "titanpool_herald_starbase_components"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "unit_modifiers": [
+        {
+            "modifier_type": "max_squadron_capacity",
+            "value_behavior": "additive",
+            "values": [
+                6
+            ]
+        }
+    ]
+}

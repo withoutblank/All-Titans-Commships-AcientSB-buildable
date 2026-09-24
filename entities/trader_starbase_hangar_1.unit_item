@@ -1,0 +1,37 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "trader_starbase_hangar_1_unit_item_hud_icon",
+    "tooltip_icon": "trader_starbase_hangar_1_unit_item_hud_icon",
+    "tooltip_picture": "trader_starbase_hangar_1_unit_item_tooltip_picture",
+    "name": "trader_starbase_hangar_1_unit_item_name",
+    "description": "trader_starbase_hangar_1_unit_item_description",
+    "build_time": 90,
+    "price": {
+        "credits": 1200,
+        "metal": 480,
+        "crystal": 150
+    },
+    "required_unit_tags": [
+        "starbase"
+    ],
+    "required_item_access_tags": [
+        "titanpool_trader_starbase_components"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "offense",
+    "other_item_requirements": {
+        "needed_items": [
+            "trader_starbase_hangar_0"
+        ]
+    },
+    "unit_modifiers": [
+        {
+            "modifier_type": "max_squadron_capacity",
+            "value_behavior": "additive",
+            "values": [
+                4
+            ]
+        }
+    ]
+}

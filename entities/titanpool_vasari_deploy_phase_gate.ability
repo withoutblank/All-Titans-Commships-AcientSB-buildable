@@ -1,0 +1,60 @@
+{
+    "version": 0,
+    "action_data_source": "vasari_deploy_phase_gate",
+    "level_source": "unit_item",
+    "active_actions":
+    {
+        "actions":
+        {
+            "actions": [
+            {
+                "action_type": "use_position_operators_on_single_position",
+                "position":
+                {
+                    "position_type": "target_position"
+                },
+                "position_operators": [
+                {
+                    "operator_type": "create_unit",
+                    "unit_to_create": "titanpool_vasari_phase_gate_structure",
+                    "unit_forward":
+                    {
+                        "direction_type": "unit_forward",
+                        "unit":
+                        {
+                            "unit_type": "current_spawner"
+                        }
+                    },
+                    "is_self_building": true
+                }]
+            }]
+        },
+        "targeting_type": "position_targeted",
+        "range": "range_value",
+        "spawned_unit":
+        {
+            "unit": "titanpool_vasari_phase_gate_structure"
+        },
+        "move_alignment":
+        {
+            "type": "yaw",
+            "angle": 0.0,
+            "allow_opposite_angle": false
+        },
+        "firing_angle": 10.0
+    },
+    "gui":
+    {
+        "hud_icon": "vasari_deploy_phase_gate_unit_item_hud_icon",
+        "name": "vasari_deploy_phase_gate_unit_item_name",
+        "description": "vasari_deploy_phase_gate_unit_item_description",
+        "targeting":
+        {
+            "targeting_type": "range_and_radius",
+            "values":
+            {
+                "range": "range_value"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "version": 0,
+    "item_type": "ship_component",
+    "hud_icon": "trader_starbase_command_center_unit_item_hud_icon",
+    "tooltip_picture": "trader_starbase_command_center_unit_item_tooltip_picture",
+    "name": "trader_starbase_command_center_ability_name",
+    "description": "trader_starbase_command_center_ability_description",
+    "build_time": 120,
+    "price": {
+        "credits": 900,
+        "metal": 180,
+        "crystal": 180
+    },
+    "required_unit_tags": [
+        "starbase"
+    ],
+    "required_item_access_tags": [
+        "titanpool_trader_starbase_components"
+    ],
+    "max_count_on_unit": 1,
+    "build_group_id": "utility",
+    "ability": "trader_starbase_command_center"
+}

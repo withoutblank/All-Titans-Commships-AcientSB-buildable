@@ -17,8 +17,7 @@
         }
     ],
     "required_unit_tags": [
-        "vasari_loyalist_titan",
-        "vasari_loyalist_command_ship"
+        "vasari_loyalist_titan"
     ],
     "max_count_on_unit": 1,
     "build_group_id": "infrastructure",
