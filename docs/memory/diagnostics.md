@@ -25,3 +25,15 @@
 
 - `tools/validate_mod.ps1` validates JSON, tags, ownership, Titan exclusions, Ancient Starbase availability, manifests, level alignment, limits, and starting assets.
 - `tools/check_latest_log.ps1` reads only the newest game log and reports mod entity error blocks.
+
+## Sins II 2.10.10 compatibility refresh
+
+- Reviewed against installed Steam build 26460932 (2.10.10), official 2026-10-29 and 2026-11-05 notes.
+- Player overrides must retain stock planet tables (Unity range and shroud caps), corruption buffs and 10% alliance transfer tax.
+- Keep current stock research catalogs, replacing retired shroud mitigation/removal subjects. Preserve deliberate Titan and Ancient Starbase prerequisite removals.
+- Eidolon must retain its native Scion, its research and components, and the Dark Star factional victory path. The six imported command ships keep their existing primary-portal build kind.
+- Copied stock hulls retain corruption data, carrier kind capacities, detector modifiers and factory blacklists. Preserve custom host tags and the six cruiser-classified foreign Titans.
+- Preserve the mod's authored impossible difficulty edits while refreshing the stock ARES doctrine.
+- Vasari phase-resonance utility tracks use stock buffs/action data sources; preserve the mod's bonus-duration setting.
+- The new Eidolon starbase inhibitor uses the existing Herald item-access tag across all player catalogs; do not add a base ID to manifests.
+- Static validation is separate from runtime testing. This refresh has not been installed or tested in-game by the audit session.

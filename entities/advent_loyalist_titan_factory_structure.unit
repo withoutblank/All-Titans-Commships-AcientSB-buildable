@@ -156,5 +156,15 @@
             "type": "constant",
             "value": 1
         }
+    },
+    "corruption": {
+        "max_corruption": 3000.0,
+        "corruption_decay_rate": 25.0,
+        "corruption_decay_delay_duration_after_gain": 60.0,
+        "corruption_thresholds": [
+            0.1,
+            0.5,
+            0.9
+        ]
     }
 }

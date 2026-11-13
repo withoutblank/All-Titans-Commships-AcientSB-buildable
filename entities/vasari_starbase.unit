@@ -2744,5 +2744,23 @@
             "required_unit_item": "vasari_mobile_exotic_factory"
         }
     ],
-    "action_effect_size": "large_unit"
+    "action_effect_size": "large_unit",
+    "corruption": {
+        "max_corruption": 10000.0,
+        "corruption_decay_rate": 50.0,
+        "corruption_decay_delay_duration_after_gain": 60.0,
+        "corruption_thresholds": [
+            0.1,
+            0.5,
+            0.9
+        ],
+        "show_main_view_icon_alert_fill": true
+    },
+    "unit_modifiers": [
+        {
+            "modifier_type": "min_detection_level",
+            "value_behavior": "additive",
+            "value": 1.0
+        }
+    ]
 }

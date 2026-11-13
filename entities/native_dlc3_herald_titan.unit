@@ -2514,11 +2514,11 @@
         ]
     },
     "build": {
-        "build_time": 400.0,
+        "build_time": 500.0,
         "price": {
-            "credits": 10000.0,
-            "metal": 3500.0,
-            "crystal": 4000.0
+            "credits": 12500.0,
+            "metal": 4500.0,
+            "crystal": 5000.0
         },
         "exotic_price": [
             {
@@ -2539,7 +2539,7 @@
             }
         ],
         "build_kind": "dlc3_herald_titan",
-        "supply_cost": 200,
+        "supply_cost": 250,
         "build_point_offset": [
             0.0,
             0.0,

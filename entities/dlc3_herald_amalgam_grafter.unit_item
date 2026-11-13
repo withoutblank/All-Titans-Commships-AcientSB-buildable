@@ -39,5 +39,8 @@
             "value_filter_key": "bomber",
             "value_name": "strikecraft_kind_name.bomber"
         }
-    ]
+    ],
+    "owner_constraint": {
+        "constraint_type": "is_carrier"
+    }
 }

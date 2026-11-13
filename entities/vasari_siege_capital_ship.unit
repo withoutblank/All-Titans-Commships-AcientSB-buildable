@@ -1032,6 +1032,16 @@
                     ]
                 }
             }
+        ],
+        "strikecraft_kind_capacities": [
+            {
+                "kind": "interceptor",
+                "max_squadron_capacity": 1
+            },
+            {
+                "kind": "bomber",
+                "max_squadron_capacity": 99
+            }
         ]
     },
     "items": {
@@ -1127,5 +1137,10 @@
         }
     ],
     "action_effect_size": "medium_unit",
-    "can_join_fleet": true
+    "can_join_fleet": true,
+    "corruption": {
+        "max_corruption": 3000.0,
+        "corruption_decay_rate": 25.0,
+        "corruption_decay_delay_duration_after_gain": 60.0
+    }
 }

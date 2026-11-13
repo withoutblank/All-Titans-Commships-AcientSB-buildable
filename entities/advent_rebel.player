@@ -933,6 +933,9 @@
             "advent_culture_phase_lane_detection_0",
             "advent_culture_phase_lane_detection_1",
             "advent_economic_exotic_build_rate",
+            "advent_focus_conversion_0",
+            "advent_focus_conversion_1",
+            "advent_focus_conversion_2",
             "advent_hyperspace_antimatter",
             "advent_improved_meteoroid_control",
             "advent_max_supply_0",
@@ -952,6 +955,7 @@
             "advent_unity_mana_2",
             "advent_unity_mana_3",
             "advent_unlock_all_culture_known",
+            "advent_unlock_antiarmor_corvette",
             "advent_unlock_atmospheric_shield_dome_unit_item",
             "advent_unlock_beam_defense_ward_ability",
             "advent_unlock_build_ultimate_exotic",
@@ -996,6 +1000,7 @@
             "advent_unlock_laser_defense_blast_ability",
             "advent_unlock_long_range_cruiser",
             "advent_unlock_magnetic_biosphere",
+            "advent_unlock_medium_cruiser",
             "advent_unlock_missile_frigate",
             "advent_unlock_neuroaugment_center_unit_item",
             "advent_unlock_oceanic_biosphere",
@@ -1120,12 +1125,10 @@
             "dlc2_advent_unlock_rebel_super_capital_ship",
             "dlc2_advent_upgrade_rebel_super_limit_0",
             "dlc2_advent_upgrade_rebel_super_limit_1",
-            "advent_unlock_population_growth_ability",
-            "advent_focus_conversion_0",
-            "advent_focus_conversion_1",
-            "advent_unlock_antiarmor_corvette",
-            "advent_unlock_medium_cruiser",
-            "dlc3_advent_rebel_shroud_removal"
+            "dlc3_advent_rebel_shroud_reduction_0",
+            "dlc3_advent_rebel_shroud_reduction_1",
+            "dlc3_advent_rebel_shroud_reduction_2",
+            "advent_unlock_population_growth_ability"
         ],
         "faction_research_subjects": [
             "advent_unlock_temple_of_purification_unit_item",
@@ -1398,7 +1401,8 @@
         "titanpool_h_dlc3_herald_retributive_capacitive_shield",
         "titanpool_h_dlc3_herald_safeguard",
         "titanpool_h_dlc3_herald_stigmata_projector",
-        "titanpool_h_dlc3_herald_cloak_detector_array"
+        "titanpool_h_dlc3_herald_cloak_detector_array",
+        "dlc3_herald_starbase_phase_jump_inhibitor"
     ],
     "ship_component_build_groups": [
         {
@@ -1583,11 +1587,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 0,
+                "focus": 1
+            }
         },
         {
             "planet_type": "ice_asteroid",
@@ -1689,11 +1708,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 0,
+                "focus": 1
+            }
         },
         {
             "planet_type": "hive_asteroid",
@@ -1825,7 +1859,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "barren",
@@ -1996,7 +2038,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -2009,7 +2058,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -2022,7 +2078,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.6,
                         "max_unity_provider_count": 3,
-                        "max_health_points": 750
+                        "max_health_points": 750,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 15.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -2035,11 +2098,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.8,
                         "max_unity_provider_count": 4,
-                        "max_health_points": 1000
+                        "max_health_points": 1000,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 20.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "city",
@@ -2236,7 +2314,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -2249,11 +2334,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "crystalline",
@@ -2416,7 +2516,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -2429,7 +2536,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -2442,7 +2556,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.8,
                         "max_unity_provider_count": 3,
-                        "max_health_points": 750
+                        "max_health_points": 750,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 15.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -2455,11 +2576,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 1.0,
                         "max_unity_provider_count": 4,
-                        "max_health_points": 1000
+                        "max_health_points": 1000,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 20.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "desert",
@@ -2634,7 +2770,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -2647,7 +2790,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -2660,7 +2810,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.6,
                         "max_unity_provider_count": 3,
-                        "max_health_points": 750
+                        "max_health_points": 750,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 15.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -2673,7 +2830,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.8,
                         "max_unity_provider_count": 4,
-                        "max_health_points": 1000
+                        "max_health_points": 1000,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 20.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -2686,11 +2850,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 1.0,
                         "max_unity_provider_count": 5,
-                        "max_health_points": 1250
+                        "max_health_points": 1250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 25.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "ferrous",
@@ -2860,7 +3039,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -2873,7 +3059,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -2886,11 +3079,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.6,
                         "max_unity_provider_count": 3,
-                        "max_health_points": 750
+                        "max_health_points": 750,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 15.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "gas_giant",
@@ -3068,7 +3276,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3081,7 +3296,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3094,7 +3316,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.6,
                         "max_unity_provider_count": 3,
-                        "max_health_points": 750
+                        "max_health_points": 750,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 15.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3107,7 +3336,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.8,
                         "max_unity_provider_count": 4,
-                        "max_health_points": 1000
+                        "max_health_points": 1000,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 20.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3120,11 +3356,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 1.0,
                         "max_unity_provider_count": 5,
-                        "max_health_points": 1250
+                        "max_health_points": 1250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 25.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 0,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "ice",
@@ -3286,7 +3537,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3299,7 +3557,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3312,11 +3577,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.6,
                         "max_unity_provider_count": 3,
-                        "max_health_points": 750
+                        "max_health_points": 750,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 15.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "irradiated",
@@ -3506,7 +3786,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3519,7 +3806,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3532,7 +3826,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.6,
                         "max_unity_provider_count": 3,
-                        "max_health_points": 750
+                        "max_health_points": 750,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 15.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3545,7 +3846,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.8,
                         "max_unity_provider_count": 4,
-                        "max_health_points": 1000
+                        "max_health_points": 1000,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 20.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3558,11 +3866,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 1.0,
                         "max_unity_provider_count": 5,
-                        "max_health_points": 1250
+                        "max_health_points": 1250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 25.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "magnetic",
@@ -3777,7 +4100,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3790,7 +4120,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3803,7 +4140,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.6,
                         "max_unity_provider_count": 3,
-                        "max_health_points": 750
+                        "max_health_points": 750,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 15.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3816,7 +4160,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.8,
                         "max_unity_provider_count": 4,
-                        "max_health_points": 1000
+                        "max_health_points": 1000,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 20.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3829,11 +4180,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 1.0,
                         "max_unity_provider_count": 5,
-                        "max_health_points": 1250
+                        "max_health_points": 1250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 25.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "moon",
@@ -3980,7 +4346,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -3993,7 +4366,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -4006,7 +4386,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.6,
                         "max_unity_provider_count": 3,
-                        "max_health_points": 750
+                        "max_health_points": 750,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 15.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -4019,11 +4406,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.8,
                         "max_unity_provider_count": 4,
-                        "max_health_points": 1000
+                        "max_health_points": 1000,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 20.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "ice_moon",
@@ -4163,7 +4565,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -4176,7 +4585,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -4189,11 +4605,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.6,
                         "max_unity_provider_count": 3,
-                        "max_health_points": 750
+                        "max_health_points": 750,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 15.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "volcanic_moon",
@@ -4328,7 +4759,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -4341,7 +4779,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -4354,11 +4799,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.6,
                         "max_unity_provider_count": 3,
-                        "max_health_points": 750
+                        "max_health_points": 750,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 15.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "oceanic",
@@ -4541,7 +5001,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -4554,11 +5021,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "swamp",
@@ -4743,7 +5225,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -4756,11 +5245,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "terran",
@@ -4938,7 +5442,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -4951,11 +5462,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "volcanic",
@@ -5112,7 +5638,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -5125,7 +5658,14 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.4,
                         "max_unity_provider_count": 2,
-                        "max_health_points": 500
+                        "max_health_points": 500,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 10.0
+                            }
+                        ]
                     },
                     {
                         "prerequisites": [
@@ -5138,11 +5678,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.6,
                         "max_unity_provider_count": 3,
-                        "max_health_points": 750
+                        "max_health_points": 750,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 15.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         },
         {
             "planet_type": "pirate_base",
@@ -5256,11 +5811,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 0,
+                "focus": 1
+            }
         },
         {
             "planet_type": "ship_graveyard",
@@ -5377,11 +5947,26 @@
                         "bonus_max_mana": 0,
                         "bonus_max_mana_per_population": 0.2,
                         "max_unity_provider_count": 1,
-                        "max_health_points": 250
+                        "max_health_points": 250,
+                        "planet_modifiers": [
+                            {
+                                "modifier_type": "unity_range_origin",
+                                "value_behavior": "additive",
+                                "value": 5.0
+                            }
+                        ]
                     }
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 1
+            }
         }
     ],
     "default_starting_assets": {
@@ -6483,5 +7068,21 @@
             "exotic_type": "ultimate",
             "count": 3
         }
+    ],
+    "alliance_offer_asset_transfer_tax_rate": 0.1,
+    "corruption_thresholds": [
+        0.1,
+        0.5,
+        0.9
+    ],
+    "negative_corruption_buffs": [
+        "advent_ship_corruption_penalty_mild",
+        "advent_ship_corruption_penalty_moderate",
+        "advent_ship_corruption_penalty_extreme"
+    ],
+    "default_positive_corruption_buffs": [
+        "advent_ship_corruption_benefit_mild",
+        "advent_ship_corruption_benefit_moderate",
+        "advent_ship_corruption_benefit_extreme"
     ]
 }

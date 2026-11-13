@@ -931,6 +931,9 @@
             "dlc2_trader_unlock_rebel_super_capital_ship",
             "dlc2_trader_upgrade_rebel_super_limit_0",
             "dlc2_trader_upgrade_rebel_super_limit_1",
+            "dlc3_trader_shroud_reduction_0",
+            "dlc3_trader_shroud_reduction_1",
+            "dlc3_trader_shroud_reduction_2",
             "trader_antimatter_0",
             "trader_antimatter_1",
             "trader_asteroid_planet_credit_rate",
@@ -1141,8 +1144,7 @@
             "trader_upgrade_volcanic_biosphere_credit_rate",
             "trader_wormhole_travel",
             "trader_unlock_commodity_exchange_unit_item",
-            "trader_unlock_population_growth_ability",
-            "dlc3_trader_shroud_mitigation"
+            "trader_unlock_population_growth_ability"
         ],
         "faction_research_subjects": [
             "trader_enemy_culture_suppression",
@@ -1422,7 +1424,8 @@
         "titanpool_h_dlc3_herald_retributive_capacitive_shield",
         "titanpool_h_dlc3_herald_safeguard",
         "titanpool_h_dlc3_herald_stigmata_projector",
-        "titanpool_h_dlc3_herald_cloak_detector_array"
+        "titanpool_h_dlc3_herald_cloak_detector_array",
+        "dlc3_herald_starbase_phase_jump_inhibitor"
     ],
     "ship_component_build_groups": [
         {
@@ -1610,7 +1613,15 @@
                         "metal": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 0,
+                "focus": 0
+            }
         },
         {
             "planet_type": "ice_asteroid",
@@ -1711,7 +1722,15 @@
                         "crystal": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 0,
+                "focus": 0
+            }
         },
         {
             "planet_type": "hive_asteroid",
@@ -1859,7 +1878,15 @@
                         "crystal": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "barren",
@@ -2062,7 +2089,15 @@
                         "crystal": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "city",
@@ -2272,7 +2307,15 @@
                         "credits": 5
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "crystalline",
@@ -2469,7 +2512,15 @@
                         "crystal": 2
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "desert",
@@ -2681,7 +2732,15 @@
                         "crystal": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "ferrous",
@@ -2890,7 +2949,15 @@
                         "metal": 2
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "gas_giant",
@@ -3121,7 +3188,15 @@
                         "credits": 5
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 0,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "ice",
@@ -3305,7 +3380,15 @@
                         "crystal": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "irradiated",
@@ -3527,7 +3610,15 @@
                         "crystal": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "magnetic",
@@ -3774,7 +3865,15 @@
                         "crystal": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "moon",
@@ -3960,7 +4059,15 @@
                         "crystal": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "ice_moon",
@@ -4122,7 +4229,15 @@
                         "crystal": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "volcanic_moon",
@@ -4284,7 +4399,15 @@
                         "metal": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "oceanic",
@@ -4494,7 +4617,15 @@
                         "credits": 4
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "swamp",
@@ -4695,7 +4826,15 @@
                         "credits": 3
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "terran",
@@ -4888,7 +5027,15 @@
                         "crystal": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "volcanic",
@@ -5072,7 +5219,15 @@
                         "metal": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "pirate_base",
@@ -5190,7 +5345,15 @@
                         "credits": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 0,
+                "focus": 0
+            }
         },
         {
             "planet_type": "ship_graveyard",
@@ -5319,7 +5482,15 @@
                         "metal": 1
                     }
                 }
-            ]
+            ],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 1,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         }
     ],
     "default_starting_assets": {
@@ -6573,5 +6744,16 @@
             "exotic_type": "ultimate",
             "count": 3
         }
+    ],
+    "alliance_offer_asset_transfer_tax_rate": 0.1,
+    "corruption_thresholds": [
+        0.1,
+        0.5,
+        0.9
+    ],
+    "negative_corruption_buffs": [
+        "trader_ship_corruption_penalty_mild",
+        "trader_ship_corruption_penalty_moderate",
+        "trader_ship_corruption_penalty_extreme"
     ]
 }

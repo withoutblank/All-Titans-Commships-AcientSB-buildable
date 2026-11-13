@@ -441,7 +441,8 @@
         "dlc3_herald_colony_capital_ship",
         "dlc3_herald_carrier_capital_ship",
         "dlc3_herald_siege_capital_ship",
-        "dlc3_herald_support_capital_ship"
+        "dlc3_herald_support_capital_ship",
+        "dlc3_herald_super_capital_ship"
     ],
     "faction_buildable_units": [
         "dlc3_herald_titan",
@@ -450,7 +451,8 @@
         "herald_dlc2_advent_loyalist_super_capital_ship",
         "herald_dlc2_advent_rebel_super_capital_ship",
         "herald_dlc2_vasari_loyalist_super_capital_ship",
-        "herald_dlc2_vasari_rebel_super_capital_ship"
+        "herald_dlc2_vasari_rebel_super_capital_ship",
+        "dlc3_herald_super_capital_ship"
     ],
     "buildable_strikecraft": [
         "dlc3_herald_interceptor_strikecraft",
@@ -990,9 +992,12 @@
             "dlc3_herald_unlock_starbase",
             "dlc3_herald_unlock_starbase_consumption_matrix_item",
             "dlc3_herald_unlock_starbase_corruption_item",
+            "dlc3_herald_unlock_starbase_phase_jump_inhibitor_item",
             "dlc3_herald_unlock_starbase_planetary_shield_item",
             "dlc3_herald_unlock_starbase_teleporter_item",
             "dlc3_herald_unlock_stigmata_projector_item",
+            "dlc3_herald_unlock_super_capital_ship",
+            "dlc3_herald_unlock_super_capital_ship_back_cloak_unit_item",
             "dlc3_herald_unlock_support_defense_structure",
             "dlc3_herald_unlock_support_defense_structure_hangar",
             "dlc3_herald_unlock_swamp_biosphere",
@@ -1078,6 +1083,8 @@
             "dlc3_herald_upgrade_shock_cannon_weapon_damage_2",
             "dlc3_herald_upgrade_structure_defense_0",
             "dlc3_herald_upgrade_structure_defense_1",
+            "dlc3_herald_upgrade_super_limit_0",
+            "dlc3_herald_upgrade_super_limit_1",
             "dlc3_herald_upgrade_survey_0",
             "dlc3_herald_upgrade_ultimate_exotic_0",
             "dlc3_herald_upgrade_variable_planets_0",
@@ -1085,7 +1092,8 @@
             "dlc3_herald_upgrade_void_missile_weapon_damage_0",
             "dlc3_herald_upgrade_void_missile_weapon_damage_1",
             "dlc3_herald_upgrade_void_missile_weapon_damage_2",
-            "dlc3_herald_upgrade_void_missile_weapon_targeting"
+            "dlc3_herald_upgrade_void_missile_weapon_targeting",
+            "dlc3_herald_unlock_faction_victory_item"
         ],
         "faction_research_subjects": [
             "dlc3_herald_unlock_afterimage",
@@ -1352,7 +1360,17 @@
         "dlc2_advent_rebel_super_capital_ship_savior_locus",
         "dlc2_vasari_rebel_super_capital_ship_phase_gate",
         "dlc2_vasari_rebel_super_capital_ship_phasic_comms_net",
-        "dlc2_vasari_rebel_super_capital_ship_mobile_embassy"
+        "dlc2_vasari_rebel_super_capital_ship_mobile_embassy",
+        "dlc3_herald_starbase_phase_jump_inhibitor",
+        "dlc3_herald_super_capital_ship_armor_0",
+        "dlc3_herald_super_capital_ship_back_cloak",
+        "dlc3_herald_super_capital_ship_back_temporal_echoes",
+        "dlc3_herald_super_capital_ship_chin_detector",
+        "dlc3_herald_super_capital_ship_tail_engine",
+        "dlc3_herald_super_capital_ship_tail_hangar",
+        "dlc3_herald_super_capital_ship_tail_shield",
+        "dlc3_herald_super_capital_ship_unlock_missile_0",
+        "dlc3_herald_stellar_shrouding_beam"
     ],
     "ship_component_build_groups": [
         {
@@ -2505,7 +2523,7 @@
                         "metal_income_rate_per_population": 0.0015,
                         "crystal_income_rate_per_population": 0.0015,
                         "max_population_points": 250.0,
-                        "population_growth_rate": 0.025,
+                        "population_growth_rate": 0.03,
                         "max_health_points": 1250
                     }
                 ],
@@ -3491,14 +3509,14 @@
                         "credits_income_rate_per_population": 0.04,
                         "metal_income_rate_per_population": 0.006,
                         "max_population_points": 50.0,
-                        "population_growth_rate": 0.01,
+                        "population_growth_rate": 0.015,
                         "max_health_points": 500
                     },
                     {
                         "credits_income_rate_per_population": 0.04,
                         "metal_income_rate_per_population": 0.006,
                         "max_population_points": 90.0,
-                        "population_growth_rate": 0.01,
+                        "population_growth_rate": 0.02,
                         "max_health_points": 750
                     }
                 ],
@@ -4211,7 +4229,7 @@
                         ]
                     },
                     {
-                        "max_health_points": 500,
+                        "max_health_points": 750,
                         "planet_modifiers": [
                             {
                                 "modifier_type": "max_influence_points",
@@ -5480,7 +5498,7 @@
                         "credits_income_rate_per_population": 0.025,
                         "metal_income_rate_per_population": 0.0048,
                         "max_population_points": 70.0,
-                        "population_growth_rate": 0.01,
+                        "population_growth_rate": 0.015,
                         "max_health_points": 500
                     }
                 ],
@@ -5886,7 +5904,7 @@
                         ]
                     },
                     {
-                        "max_health_points": 500,
+                        "max_health_points": 750,
                         "planet_modifiers": [
                             {
                                 "modifier_type": "max_influence_points",
@@ -6717,7 +6735,7 @@
                         "credits_income_rate_per_population": 0.025,
                         "metal_income_rate_per_population": 0.0048,
                         "max_population_points": 70.0,
-                        "population_growth_rate": 0.01,
+                        "population_growth_rate": 0.015,
                         "max_health_points": 500
                     }
                 ],
@@ -7189,7 +7207,7 @@
                     },
                     {
                         "credits_income_rate_per_population": 0.025,
-                        "metal_income_rate_per_population": 0.0038,
+                        "metal_income_rate_per_population": 0.0048,
                         "crystal_income_rate_per_population": 0.0036,
                         "max_population_points": 20.0,
                         "population_growth_rate": 0.01,
@@ -7197,7 +7215,7 @@
                     },
                     {
                         "credits_income_rate_per_population": 0.025,
-                        "metal_income_rate_per_population": 0.0038,
+                        "metal_income_rate_per_population": 0.0048,
                         "crystal_income_rate_per_population": 0.0036,
                         "max_population_points": 50.0,
                         "population_growth_rate": 0.015,
@@ -7744,13 +7762,13 @@
                 "won_texts": [
                     {
                         "status": "player_victory.status.factional.won",
-                        "phrase": "player_victory.phrase.factional.won.trader_loyalist"
+                        "phrase": "player_victory.phrase.factional.won.herald"
                     }
                 ],
                 "lost_texts": [
                     {
                         "status": "player_victory.status.factional.lost",
-                        "phrase": "player_victory.phrase.factional.lost.trader_loyalist"
+                        "phrase": "player_victory.phrase.factional.lost.herald"
                     }
                 ]
             }
@@ -8491,5 +8509,18 @@
         "dlc3_herald_starbase",
         "dlc3_herald_titan"
     ],
-    "theme_picker_skybox": "skybox_cloud_16"
+    "theme_picker_skybox": "skybox_cloud_16",
+    "alliance_offer_asset_transfer_tax_rate": 0.1,
+    "factional_victory": {
+        "objectives_required": 1,
+        "victory_countdown_in_seconds": 300,
+        "objective_unit_item": "dlc3_herald_stellar_shrouding_beam",
+        "objective_item_buildable_unit": "dlc3_herald_super_capital_ship",
+        "hyperspace_on_victory": false,
+        "gui_definition": {
+            "item_prefix": "tooltip.herald_factional_victory_lead",
+            "optional_tooltip_line": "tooltip.herald_optional_tooltip_line",
+            "countdown_line": "tooltip.herald_countdown_line"
+        }
+    }
 }

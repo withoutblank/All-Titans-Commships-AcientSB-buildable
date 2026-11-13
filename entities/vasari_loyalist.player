@@ -940,6 +940,7 @@
             "vasari_unlock_fabricator_cruiser",
             "vasari_unlock_fabricator_cruiser_debris_reclamation_ability",
             "vasari_unlock_fabricator_cruiser_ship_component_shop",
+            "vasari_unlock_fighter_clone_bay_unit_item",
             "vasari_unlock_gas_giant_biosphere",
             "vasari_unlock_gas_harvester_unit_item",
             "vasari_unlock_heavy_cruiser",
@@ -1359,7 +1360,8 @@
         "titanpool_h_dlc3_herald_retributive_capacitive_shield",
         "titanpool_h_dlc3_herald_safeguard",
         "titanpool_h_dlc3_herald_stigmata_projector",
-        "titanpool_h_dlc3_herald_cloak_detector_array"
+        "titanpool_h_dlc3_herald_cloak_detector_array",
+        "dlc3_herald_starbase_phase_jump_inhibitor"
     ],
     "ship_component_build_groups": [
         {
@@ -1526,7 +1528,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 0,
+                "focus": 0
+            }
         },
         {
             "planet_type": "ice_asteroid",
@@ -1609,7 +1619,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 0,
+                "focus": 0
+            }
         },
         {
             "planet_type": "hive_asteroid",
@@ -1736,7 +1754,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "barren",
@@ -1878,7 +1904,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "city",
@@ -2036,7 +2070,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "crystalline",
@@ -2180,7 +2222,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "desert",
@@ -2331,7 +2381,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "ferrous",
@@ -2487,7 +2545,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "gas_giant",
@@ -2686,7 +2752,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "ice",
@@ -2819,7 +2893,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "irradiated",
@@ -3000,7 +3082,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "magnetic",
@@ -3186,7 +3276,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "moon",
@@ -3311,7 +3409,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "ice_moon",
@@ -3422,7 +3528,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "volcanic_moon",
@@ -3538,7 +3652,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "oceanic",
@@ -3682,7 +3804,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "swamp",
@@ -3818,7 +3948,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "terran",
@@ -3962,7 +4100,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "volcanic",
@@ -4100,7 +4246,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         },
         {
             "planet_type": "pirate_base",
@@ -4202,7 +4356,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 0,
+                "focus": 0
+            }
         },
         {
             "planet_type": "ship_graveyard",
@@ -4300,7 +4462,15 @@
                     {}
                 ]
             },
-            "maintenance_cost_rates": []
+            "maintenance_cost_rates": [],
+            "shroud_restricted_max_track_levels": {
+                "defense": 1,
+                "logistics": 1,
+                "commerce": 0,
+                "mining": 1,
+                "research": 1,
+                "focus": 0
+            }
         }
     ],
     "default_starting_assets": {
@@ -4538,13 +4708,9 @@
                         ]
                     },
                     "utility": {
-                        "unit_modifiers": [
-                            {
-                                "modifier_type": "ability_antimatter_cost",
-                                "value_behavior": "scalar",
-                                "value": -0.12
-                            }
-                        ]
+                        "unit_modifiers": [],
+                        "action_data_source": "phase_resonance_utility_0",
+                        "buff": "phase_resonance_utility_0"
                     }
                 }
             },
@@ -4573,13 +4739,9 @@
                         ]
                     },
                     "utility": {
-                        "unit_modifiers": [
-                            {
-                                "modifier_type": "ability_antimatter_cost",
-                                "value_behavior": "scalar",
-                                "value": -0.18
-                            }
-                        ]
+                        "unit_modifiers": [],
+                        "action_data_source": "phase_resonance_utility_1",
+                        "buff": "phase_resonance_utility_0"
                     }
                 }
             },
@@ -4621,18 +4783,9 @@
                         ]
                     },
                     "utility": {
-                        "unit_modifiers": [
-                            {
-                                "modifier_type": "ability_antimatter_cost",
-                                "value_behavior": "scalar",
-                                "value": -0.24
-                            },
-                            {
-                                "modifier_type": "ability_cooldown_duration",
-                                "value_behavior": "scalar",
-                                "value": -0.12
-                            }
-                        ]
+                        "unit_modifiers": [],
+                        "action_data_source": "phase_resonance_utility_2",
+                        "buff": "phase_resonance_utility_1"
                     }
                 }
             },
@@ -4674,18 +4827,9 @@
                         ]
                     },
                     "utility": {
-                        "unit_modifiers": [
-                            {
-                                "modifier_type": "ability_antimatter_cost",
-                                "value_behavior": "scalar",
-                                "value": -0.3
-                            },
-                            {
-                                "modifier_type": "ability_cooldown_duration",
-                                "value_behavior": "scalar",
-                                "value": -0.24
-                            }
-                        ]
+                        "unit_modifiers": [],
+                        "action_data_source": "phase_resonance_utility_3",
+                        "buff": "phase_resonance_utility_1"
                     }
                 }
             },
@@ -4740,23 +4884,9 @@
                         ]
                     },
                     "utility": {
-                        "unit_modifiers": [
-                            {
-                                "modifier_type": "ability_antimatter_cost",
-                                "value_behavior": "scalar",
-                                "value": -0.36
-                            },
-                            {
-                                "modifier_type": "ability_cooldown_duration",
-                                "value_behavior": "scalar",
-                                "value": -0.36
-                            },
-                            {
-                                "modifier_type": "antimatter_restore_rate",
-                                "value_behavior": "scalar",
-                                "value": 0.18
-                            }
-                        ]
+                        "unit_modifiers": [],
+                        "action_data_source": "phase_resonance_utility_4",
+                        "buff": "phase_resonance_utility_2"
                     }
                 }
             }
@@ -5693,5 +5823,16 @@
             "optional_tooltip_line": "tooltip.vasari_optional_tooltip_line",
             "countdown_line": "tooltip.vasari_countdown_line"
         }
-    }
+    },
+    "alliance_offer_asset_transfer_tax_rate": 0.1,
+    "corruption_thresholds": [
+        0.1,
+        0.5,
+        0.9
+    ],
+    "negative_corruption_buffs": [
+        "vasari_ship_corruption_penalty_mild",
+        "vasari_ship_corruption_penalty_moderate",
+        "vasari_ship_corruption_penalty_extreme"
+    ]
 }

@@ -1,14 +1,14 @@
 {
     "compatibility_version": 2,
-    "display_version": "2.1.3",
+    "display_version": "2.2.0",
     "display_name": "All Titans & Command Ships + Ancient Starbases",
     "short_description": "Build all seven Titans and all six Command Ships without Titan technology requirements, with expanded Herald, Ancient Starbase, resource, component, and starbase-range support.",
-    "long_description": "Every playable faction can construct all seven Titans, while Titan construction and Titan component technology requirements are removed. All six Command Ships are available across factions; Herald produces them only from the Main Portal. Herald ships retain faction-correct component access, Herald resource quantities align with Vasari values, Herald standard starbases can be built up to three times, and Ancient Starbases up to two times. Ancient Starbases are available through planetary construction and ship-component deployment. All supported starbase weapons gain 5000 range.",
+    "long_description": "Every playable faction can construct all seven Titans, while Titan construction and Titan component technology requirements are removed. All six Command Ships are available across factions; Herald produces them only from the Main Portal. Herald ships retain faction-correct component access, Herald resource quantities align with Vasari values, Herald standard starbases can be built up to three times, and Ancient Starbases up to two times. Ancient Starbases are available through planetary construction and ship-component deployment. All supported starbase weapons gain 5000 range. Compatibility refresh for Sins II 2.10.10: restores current Unity range, corruption, research, alliance transfers, and the native Eidolon Scion with its Dark Star victory path.",
     "logos": {
         "small_logo": "mod_small_logo.png",
         "large_logo": "mod_large_logo.png"
     },
     "target_major_game_version": 2,
-    "target_minor_game_version": 0,
-    "target_patch_game_version": 3
+    "target_minor_game_version": 10,
+    "target_patch_game_version": 10
 }

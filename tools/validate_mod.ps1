@@ -184,6 +184,7 @@ $vasariStarbaseItems = @(
 )
 $heraldStarbaseItems = @(
     "dlc3_herald_starbase_consumption_matrix", "dlc3_herald_starbase_corruption",
+    "dlc3_herald_starbase_phase_jump_inhibitor",
     "dlc3_herald_starbase_hangar_0", "dlc3_herald_starbase_hangar_1", "dlc3_herald_starbase_hangar_2",
     "dlc3_herald_starbase_planetary_shield_array", "dlc3_herald_starbase_structural_integrity_0",
     "dlc3_herald_starbase_structural_integrity_1", "dlc3_herald_starbase_structural_integrity_2",
@@ -340,6 +341,110 @@ foreach ($file in Get-ChildItem -LiteralPath (Join-Path $ModRoot "entities") -Fi
     $heraldExotics = $herald.starting_exotics | ConvertTo-Json -Compress -Depth 8
     Assert-True ($heraldExotics -eq $vasariExotics) "$($file.Name): Harbinger starting exotics must match Vasari"
 }
+
+# Compatibility regressions found by comparing this mod with stock 2.10.10.
+# Keep these separate from JSON syntax checks: valid JSON can freeze old mechanics.
+if ($GameRoot) {
+    function Get-JsonProperty {
+        param([object]$Object, [string]$Name)
+        if ($null -eq $Object) { return $null }
+        $property = $Object.PSObject.Properties[$Name]
+        if ($null -eq $property) { return $null }
+        return ,$property.Value
+    }
+    function ConvertTo-ComparableJsonValue {
+        param([AllowNull()][object]$Value)
+        if ($null -eq $Value) { return $null }
+        if ($Value -is [System.Array]) {
+            $items = @($Value | ForEach-Object { ConvertTo-ComparableJsonValue $_ })
+            return ,$items
+        }
+        if ($Value -is [pscustomobject]) {
+            $object = [ordered]@{}
+            foreach ($property in ($Value.PSObject.Properties | Sort-Object Name)) {
+                $object[$property.Name] = ConvertTo-ComparableJsonValue $property.Value
+            }
+            return $object
+        }
+        if ($Value -is [ValueType] -and $Value -isnot [bool]) { return [double]$Value }
+        return $Value
+    }
+    function Assert-JsonEqual {
+        param([object]$Actual, [object]$Expected, [string]$Message)
+        $actualJson = ConvertTo-Json -InputObject (ConvertTo-ComparableJsonValue $Actual) -Depth 100 -Compress
+        $expectedJson = ConvertTo-Json -InputObject (ConvertTo-ComparableJsonValue $Expected) -Depth 100 -Compress
+        Assert-True ($actualJson -eq $expectedJson) $Message
+    }
+
+    foreach ($player in $players) {
+        $definition = $playerObjects[$player]
+        $basePlayer = Read-JsonFile (Join-Path $GameRoot "entities\$player.player")
+        foreach ($key in @("alliance_offer_asset_transfer_tax_rate", "corruption_thresholds", "negative_corruption_buffs", "default_positive_corruption_buffs")) {
+            $expected = Get-OptionalProperty $basePlayer $key
+            if ($null -ne $expected) {
+                Assert-JsonEqual (Get-JsonProperty $definition $key) (Get-JsonProperty $basePlayer $key) "$player lost stock $key"
+            }
+        }
+        Assert-JsonEqual $definition.planet_types $basePlayer.planet_types "$player froze obsolete planet tracks, Unity range or shroud limits"
+        foreach ($subject in @($basePlayer.research.research_subjects)) {
+            Assert-True (@($definition.research.research_subjects) -contains $subject) "$player missing stock research $subject"
+        }
+        foreach ($retired in @("dlc3_advent_loyalist_shroud_mitigation", "dlc3_advent_rebel_shroud_removal", "dlc3_trader_shroud_mitigation", "dlc3_vasari_shroud_removal")) {
+            Assert-True (-not (@($definition.research.research_subjects) -contains $retired)) "$player retained superseded shroud subject $retired"
+        }
+        $baseResonance = Get-OptionalProperty $basePlayer "phase_resonance"
+        if ($null -ne $baseResonance) {
+            for ($level = 0; $level -lt @($baseResonance.levels).Count; $level++) {
+                Assert-JsonEqual $definition.phase_resonance.levels[$level].tracks.utility $baseResonance.levels[$level].tracks.utility "$player utility phase resonance must use current stock buffs"
+            }
+        }
+    }
+    $baseHerald = Read-JsonFile (Join-Path $GameRoot "entities\dlc3_herald.player")
+    Assert-JsonEqual $heraldPlayer.factional_victory $baseHerald.factional_victory "Eidolon Dark Star victory path is missing"
+    Assert-JsonEqual $heraldPlayer.victory_gui $baseHerald.victory_gui "Eidolon victory GUI references the wrong faction"
+    foreach ($catalog in @("buildable_units", "faction_buildable_units")) {
+        Assert-True (Has-ExactlyOnce @(Get-OptionalProperty $heraldPlayer $catalog) "dlc3_herald_super_capital_ship") "Eidolon Scion missing from $catalog"
+    }
+    foreach ($item in @($baseHerald.ship_components)) {
+        Assert-True (@($heraldPlayer.ship_components) -contains $item) "Eidolon missing stock component $item"
+    }
+
+    foreach ($file in Get-ChildItem -LiteralPath (Join-Path $ModRoot "entities") -Filter "*.unit") {
+        $baseName = $file.Name -replace '^(native_|herald_)', ''
+        $basePath = Join-Path $GameRoot "entities\$baseName"
+        if (-not (Test-Path -LiteralPath $basePath)) { continue }
+        $unit = Read-JsonFile $file.FullName
+        $baseUnit = Read-JsonFile $basePath
+        foreach ($key in @("corruption", "unit_modifiers")) {
+            $expected = Get-OptionalProperty $baseUnit $key
+            if ($null -ne $expected) {
+                Assert-JsonEqual (Get-JsonProperty $unit $key) (Get-JsonProperty $baseUnit $key) "$($file.Name) lost stock $key"
+            }
+        }
+        $baseCarrier = Get-OptionalProperty $baseUnit "carrier"
+        $capacities = Get-OptionalProperty $baseCarrier "strikecraft_kind_capacities"
+        if ($null -ne $capacities) {
+            Assert-JsonEqual (Get-OptionalProperty (Get-OptionalProperty $unit "carrier") "strikecraft_kind_capacities") $capacities "$($file.Name) lost carrier kind limits"
+        }
+        $blacklist = Get-OptionalProperty (Get-OptionalProperty $baseUnit "unit_factory") "blacklist"
+        if ($null -ne $blacklist) {
+            Assert-JsonEqual (Get-OptionalProperty $unit.unit_factory "blacklist") $blacklist "$($file.Name) lost factory blacklist"
+        }
+    }
+    $grafter = Read-Entity "dlc3_herald_amalgam_grafter.unit_item"
+    Assert-True ((Get-OptionalProperty $grafter "owner_constraint").constraint_type -eq "is_carrier") "Amalgam Grafter must remain carrier-only"
+    $inhibitorManifest = Read-Entity "unit_item.entity_manifest"
+    Assert-True (-not (@($inhibitorManifest.ids) -contains "dlc3_herald_starbase_phase_jump_inhibitor")) "A stock item override must not be added to the custom manifest"
+
+    $baseAi = Read-JsonFile (Join-Path $GameRoot "uniforms\player_ai.uniforms")
+    $modAi = Read-JsonFile (Join-Path $ModRoot "uniforms\player_ai.uniforms")
+    foreach ($property in $baseAi.PSObject.Properties) {
+        if ($property.Name -notin @("difficulties", "ship_factory_build_kinds")) {
+            Assert-JsonEqual (Get-JsonProperty $modAi $property.Name) $property.Value "AI stock doctrine changed: $($property.Name)"
+        }
+    }
+}
+
 
 if (Get-Command git -ErrorAction SilentlyContinue) {
     & git -C $ModRoot diff --check 2>&1 |

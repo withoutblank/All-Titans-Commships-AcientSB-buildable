@@ -1,6 +1,6 @@
 {
     "version": 0,
-    "name": "weapon_name.super_heavy_null_cannon",
+    "name": "weapon_name.super_heavy_null_beam",
     "pitch_speed": 10.0,
     "yaw_speed": 10.0,
     "pitch_firing_tolerance": 1.0,

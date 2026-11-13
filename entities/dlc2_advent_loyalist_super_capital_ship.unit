@@ -1665,5 +1665,11 @@
         }
     ],
     "action_effect_size": "large_unit",
-    "can_join_fleet": true
+    "can_join_fleet": true,
+    "corruption": {
+        "max_corruption": 10000.0,
+        "corruption_decay_rate": 50.0,
+        "corruption_decay_delay_duration_after_gain": 60.0,
+        "show_main_view_icon_alert_fill": true
+    }
 }
